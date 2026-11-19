@@ -1,0 +1,199 @@
+{
+  "lessonNumber": 20,
+  "titleJp": "これ、たべる？",
+  "titleVi": "Bài 20: Thể Thông thường (Casual Speech)",
+  "vocabulary": [
+    {
+      "id": "l20_v01",
+      "kana": "いります",
+      "kanji": "要ります",
+      "meaning": "Cần [thị thực/visa: ビザが～]",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l20_v02",
+      "kana": "しらべます",
+      "kanji": "調べます",
+      "meaning": "Tìm hiểu, tra cứu, kiểm tra",
+      "type": "Động từ nhóm 2"
+    },
+    {
+      "id": "l20_v03",
+      "kana": "しゅうりします",
+      "kanji": "修理します",
+      "meaning": "Sửa chữa, tu bổ",
+      "type": "Động từ nhóm 3"
+    },
+    {
+      "id": "l20_v04",
+      "kana": "ぼく",
+      "kanji": "僕",
+      "meaning": "Tôi, tớ (nam giới xưng hô thân mật)",
+      "type": "Đại từ"
+    },
+    {
+      "id": "l20_v05",
+      "kana": "きみ",
+      "kanji": "君",
+      "meaning": "Cậu, bạn (gọi người thân thiết, ngang/dưới hàng)",
+      "type": "Đại từ"
+    },
+    {
+      "id": "l20_v06",
+      "kana": "～くん",
+      "kanji": "～君",
+      "meaning": "Anh ～, cậu ～ (gọi thân mật, thường cho bé trai)",
+      "type": "Hậu tố"
+    },
+    {
+      "id": "l20_v07",
+      "kana": "うん",
+      "meaning": "Ừ (cách nói thân mật của はい)",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l20_v08",
+      "kana": "ううん",
+      "meaning": "Không (cách nói thân mật của いいえ)",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l20_v09",
+      "kana": "ことば",
+      "meaning": "Từ ngữ, tiếng, ngôn ngữ",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l20_v10",
+      "kana": "きもの",
+      "kanji": "着物",
+      "meaning": "Áo Kimono truyền thống",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l20_v11",
+      "kana": "ビザ",
+      "meaning": "Thị thực, visa nhập cảnh",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l20_v12",
+      "kana": "はじめ",
+      "kanji": "初め",
+      "meaning": "Lúc đầu, ban đầu",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l20_v13",
+      "kana": "おわり",
+      "kanji": "終わり",
+      "meaning": "Kết thúc, hết",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l20_v14",
+      "kana": "こっち",
+      "meaning": "Phía này, chỗ này (thân mật của こちら)",
+      "type": "Đại từ"
+    },
+    {
+      "id": "l20_v15",
+      "kana": "そっち",
+      "meaning": "Phía đó, chỗ đó (thân mật của そちら)",
+      "type": "Đại từ"
+    },
+    {
+      "id": "l20_v16",
+      "kana": "あっち",
+      "meaning": "Phía kia, chỗ kia (thân mật của あちら)",
+      "type": "Đại từ"
+    },
+    {
+      "id": "l20_v17",
+      "kana": "どっち",
+      "meaning": "Cái nào, phía nào (thân mật của どちら)",
+      "type": "Từ để hỏi"
+    },
+    {
+      "id": "l20_v18",
+      "kana": "みんなで",
+      "meaning": "Tất cả mọi người cùng làm",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l20_v19",
+      "kana": "～けど",
+      "meaning": "～, nhưng mà (cách nói thân mật của が)",
+      "type": "Liên từ"
+    },
+    {
+      "id": "l20_v20",
+      "kana": "おなかが いっぱいです",
+      "meaning": "(Tôi) no căng bụng rồi",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l20_v21",
+      "kana": "よかったら",
+      "meaning": "Nếu anh/chị thích thì...",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l20_v22",
+      "kana": "いろいろ",
+      "meaning": "Nhiều thứ",
+      "type": "Phó từ"
+    }
+  ],
+  "kanji": [],
+  "grammar": [
+    {
+      "id": "l20_g01",
+      "pattern": "1. Thể lịch sự (丁寧形 Teineikei) và Thể thông thường (普通形 Futsukei)",
+      "explanation": "Câu văn tiếng Nhật phân chia rõ 2 phong cách:\n• Thể lịch sự (丁寧形): Dùng đuôi です, ます.\n• Thể thông thường (普通形): Dùng dạng ngắn không có です, ます.\n  - Động từ: 行く (khẳng định) | 行かない (phủ định) | 行った (quá khứ) | 行かなかった (phủ định quá khứ).\n  - Tính từ đuôi い: おいしい | おいしくない | おいしかった | おいしくなかった.\n  - Tính từ đuôi な / Danh từ: だ (khẳng định) | じゃない (phủ định) | だった (quá khứ) | じゃなかった (phủ định quá khứ).",
+      "note": "Cần phân biệt chuẩn thể thông thường để dùng làm mệnh đề bổ ngữ cho các bài 21-25.",
+      "examples": [
+        {
+          "jp": "あした とうきょうへ いく？（＝いきますか）",
+          "vi": "Mai đi Tokyo không? (= Mai anh đi Tokyo à?)"
+        },
+        {
+          "jp": "毎日 いそがしい。（＝いそがしいです）",
+          "vi": "Hằng ngày bận rộn. (= Tôi bận.)"
+        },
+        {
+          "jp": "すもうが すきだ。（＝すきです）",
+          "vi": "Tôi thích sumo."
+        }
+      ]
+    },
+    {
+      "id": "l20_g02",
+      "pattern": "2. Phân biệt đối tượng sử dụng thể lịch sự và thể thông thường",
+      "explanation": "• Thể lịch sự: Dùng khi nói chuyện với người mới gặp lần đầu, cấp trên, người lớn tuổi hơn, hoặc đồng nghiệp chưa quá thân thiết.\n• Thể thông thường: Dùng trong gia đình, người thân, bạn bè thân thiết hoặc cấp trên nói với cấp dưới thân mật.\n• Khi viết: Bài báo, nhật ký, báo cáo, luận văn khoa học luôn dùng thể thông thường.",
+      "note": "Tuyệt đối không dùng thể thông thường với cấp trên hoặc khách hàng để tránh thất lễ.",
+      "examples": [
+        {
+          "jp": "こんばん ひま？……うん、ひまだよ。",
+          "vi": "Tối nay rảnh không? ……Ừ, rảnh chứ."
+        }
+      ]
+    },
+    {
+      "id": "l20_g03",
+      "pattern": "3. Đặc trưng hội thoại thể thông thường (Casual Speech)",
+      "explanation": "Trong giao tiếp hội thoại thân mật hàng ngày:\n1) Bỏ trợ từ nghi vấn か ở cuối câu, thay bằng cách lên giọng ở từ cuối câu (飲む？ ↗).\n2) Câu danh từ hoặc tính từ đuôi な khi hỏi thì bỏ cả だ (今晩 暇？ ↗).\n3) Trả lời thân mật: Dùng うん (thay cho はい), ううん (thay cho いいえ).\n4) Lược bỏ trợ từ: は, を, が thường được lược bỏ nếu ngữ cảnh đã rõ (ごはん食べた？).\n5) Rút gọn ている: Bỏ chữ い chỉ còn てる (辞書持ってる？).\n6) Dùng けど thay cho が để nối câu mềm mại hơn.",
+      "note": "Nam giới khẳng định thường thêm だよ, nữ giới thêm よ hoặc nói nhẹ nhàng.",
+      "examples": [
+        {
+          "jp": "コーヒーを 飲む？ ↗ ……うん、飲む。 ↘",
+          "vi": "Uống cà phê không? ……Ừ, uống chứ."
+        },
+        {
+          "jp": "その カレー、おいしい？……うん、からいけど おいしい。",
+          "vi": "Cơm cà-ri đó ngon không? ……Ừ, hơi cay nhưng ngon."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,528 @@
+{
+  "lessonNumber": 3,
+  "titleJp": "ここは きょうしつです",
+  "titleVi": "Bài 3: Địa điểm & Phương hướng",
+  "vocabulary": [
+    {
+      "id": "l03_v01",
+      "kana": "ここ",
+      "meaning": "Chỗ này, đằng này, đây (gần người nói)",
+      "type": "Chỉ từ"
+    },
+    {
+      "id": "l03_v02",
+      "kana": "そこ",
+      "meaning": "Chỗ đó, đằng đó, đó (gần người nghe)",
+      "type": "Chỉ từ"
+    },
+    {
+      "id": "l03_v03",
+      "kana": "あそこ",
+      "meaning": "Chỗ kia, đằng kia, kia (xa cả hai người)",
+      "type": "Chỉ từ"
+    },
+    {
+      "id": "l03_v04",
+      "kana": "どこ",
+      "meaning": "Chỗ nào, đâu (từ nghi vấn địa điểm)",
+      "type": "Từ để hỏi"
+    },
+    {
+      "id": "l03_v05",
+      "kana": "こちら",
+      "meaning": "Phía này, đằng này, đây (lịch sự của ここ)",
+      "type": "Chỉ từ"
+    },
+    {
+      "id": "l03_v06",
+      "kana": "そちら",
+      "meaning": "Phía đó, đằng đó, đó (lịch sự của そこ)",
+      "type": "Chỉ từ"
+    },
+    {
+      "id": "l03_v07",
+      "kana": "あちら",
+      "meaning": "Phía kia, đằng kia, kia (lịch sự của あそこ)",
+      "type": "Chỉ từ"
+    },
+    {
+      "id": "l03_v08",
+      "kana": "どちら",
+      "meaning": "Phía nào, đâu (lịch sự của どこ)",
+      "type": "Từ để hỏi"
+    },
+    {
+      "id": "l03_v09",
+      "kana": "きょうしつ",
+      "kanji": "教室",
+      "meaning": "Lớp học, phòng học",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l03_v10",
+      "kana": "しょくどう",
+      "kanji": "食堂",
+      "meaning": "Nhà ăn, căn-tin",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l03_v11",
+      "kana": "じむしょ",
+      "kanji": "事務所",
+      "meaning": "Văn phòng",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l03_v12",
+      "kana": "かいぎしつ",
+      "kanji": "会議室",
+      "meaning": "Phòng họp",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l03_v13",
+      "kana": "うけつけ",
+      "kanji": "受付",
+      "meaning": "Quầy lễ tân, phòng thường trực",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l03_v14",
+      "kana": "ロビー",
+      "meaning": "Hành lang, đại sảnh (lobby)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l03_v15",
+      "kana": "へや",
+      "kanji": "部屋",
+      "meaning": "Căn phòng",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l03_v16",
+      "kana": "トイレ（おてあらい）",
+      "kanji": "お手洗い",
+      "meaning": "Nhà vệ sinh, phòng vệ sinh, toa-lét",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l03_v17",
+      "kana": "かいだん",
+      "kanji": "階段",
+      "meaning": "Cầu thang bộ",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l03_v18",
+      "kana": "エレベーター",
+      "meaning": "Thang máy (elevator)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l03_v19",
+      "kana": "エスカレーター",
+      "meaning": "Thang cuốn (escalator)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l03_v20",
+      "kana": "じどうはんばいき",
+      "kanji": "自動販売機",
+      "meaning": "Máy bán hàng tự động",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l03_v21",
+      "kana": "でんわ",
+      "kanji": "電話",
+      "meaning": "Điện thoại",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l03_v22",
+      "kana": "[お]くに",
+      "kanji": "[お]国",
+      "meaning": "Đất nước, quốc gia (của bạn/anh/chị)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l03_v23",
+      "kana": "かいしゃ",
+      "kanji": "会社",
+      "meaning": "Công ty",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l03_v24",
+      "kana": "うち",
+      "meaning": "Nhà (ngôi nhà của mình)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l03_v25",
+      "kana": "くつ",
+      "kanji": "靴",
+      "meaning": "Giày",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l03_v26",
+      "kana": "ネクタイ",
+      "meaning": "Cà vạt (necktie)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l03_v27",
+      "kana": "ワイン",
+      "meaning": "Rượu vang (wine)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l03_v28",
+      "kana": "うりば",
+      "kanji": "売り場",
+      "meaning": "Quầy bán hàng (trong bách hóa)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l03_v29",
+      "kana": "ちか",
+      "kanji": "地下",
+      "meaning": "Tầng hầm, dưới lòng đất",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l03_v30",
+      "kana": "〜かい（〜がい）",
+      "kanji": "〜階",
+      "meaning": "Tầng thứ 〜",
+      "type": "Hậu tố"
+    },
+    {
+      "id": "l03_v31",
+      "kana": "なんがい",
+      "kanji": "何階",
+      "meaning": "Tầng mấy",
+      "type": "Từ để hỏi"
+    },
+    {
+      "id": "l03_v32",
+      "kana": "〜えん",
+      "kanji": "〜円",
+      "meaning": "〜 Yên (tiền tệ Nhật Bản)",
+      "type": "Đơn vị tiền tệ"
+    },
+    {
+      "id": "l03_v33",
+      "kana": "いくら",
+      "meaning": "Bao nhiêu tiền",
+      "type": "Từ để hỏi"
+    },
+    {
+      "id": "l03_v34",
+      "kana": "ひゃく",
+      "kanji": "百",
+      "meaning": "Trăm (100)",
+      "type": "Số từ"
+    },
+    {
+      "id": "l03_v35",
+      "kana": "せん",
+      "kanji": "千",
+      "meaning": "Nghìn (1,000)",
+      "type": "Số từ"
+    },
+    {
+      "id": "l03_v36",
+      "kana": "まん",
+      "kanji": "万",
+      "meaning": "Mười nghìn, vạn (10,000)",
+      "type": "Số từ"
+    },
+    {
+      "id": "l03_v37",
+      "kana": "すみません",
+      "meaning": "Xin lỗi (khi làm phiền hoặc cảm ơn)",
+      "type": "Câu giao tiếp"
+    },
+    {
+      "id": "l03_v38",
+      "kana": "どうも",
+      "meaning": "Cảm ơn (cách nói ngắn gọn, thân mật)",
+      "type": "Câu giao tiếp"
+    },
+    {
+      "id": "l03_v39",
+      "kana": "いらっしゃいませ",
+      "meaning": "Xin kính chào quý khách (khi khách vào cửa hàng)",
+      "type": "Câu giao tiếp"
+    },
+    {
+      "id": "l03_v40",
+      "kana": "[〜を] 見せて ください",
+      "meaning": "Xin cho tôi xem [〜]",
+      "type": "Câu giao tiếp"
+    },
+    {
+      "id": "l03_v41",
+      "kana": "じゃ",
+      "meaning": "Thế thì / Vậy thì",
+      "type": "Từ nối"
+    },
+    {
+      "id": "l03_v42",
+      "kana": "[〜を] ください",
+      "meaning": "Cho tôi [〜] / Bán cho tôi [〜]",
+      "type": "Câu giao tiếp"
+    },
+    {
+      "id": "l03_v43",
+      "kana": "イタリア",
+      "meaning": "Nước Ý (Italy)",
+      "type": "Danh từ riêng"
+    },
+    {
+      "id": "l03_v44",
+      "kana": "スイス",
+      "meaning": "Thụy Sĩ (Switzerland)",
+      "type": "Danh từ riêng"
+    },
+    {
+      "id": "l03_v45",
+      "kana": "フランス",
+      "meaning": "Nước Pháp (France)",
+      "type": "Danh từ riêng"
+    },
+    {
+      "id": "l03_v46",
+      "kana": "ジャカルタ",
+      "meaning": "Gia-các-ta (Jakarta)",
+      "type": "Danh từ riêng"
+    },
+    {
+      "id": "l03_v47",
+      "kana": "バンコク",
+      "meaning": "Băng-cốc (Bangkok)",
+      "type": "Danh từ riêng"
+    },
+    {
+      "id": "l03_v48",
+      "kana": "ベルリン",
+      "meaning": "Béc-lin (Berlin)",
+      "type": "Danh từ riêng"
+    },
+    {
+      "id": "l03_v49",
+      "kana": "しんおおさか",
+      "kanji": "新大阪",
+      "meaning": "Ga Shin-Osaka (ở Osaka)",
+      "type": "Danh từ riêng"
+    }
+  ],
+  "kanji": [
+    {
+      "id": "l03_k01",
+      "character": "人",
+      "hanViet": "NHÂN",
+      "onyomi": ["ジン", "ニン"],
+      "kunyomi": ["ひと"],
+      "meaning": "Người, con người",
+      "examples": [
+        { "word": "日本人", "reading": "にほんじん", "meaning": "Người Nhật" },
+        { "word": "三人", "reading": "さんにん", "meaning": "Ba người" },
+        { "word": "あの人", "reading": "あのひと", "meaning": "Người kia" },
+        { "word": "大人", "reading": "おとな", "meaning": "Người lớn" }
+      ]
+    },
+    {
+      "id": "l03_k02",
+      "character": "口",
+      "hanViet": "KHẨU",
+      "onyomi": ["コウ", "ク"],
+      "kunyomi": ["くち", "ぐち"],
+      "meaning": "Miệng, cửa, lối ra vào",
+      "examples": [
+        { "word": "口", "reading": "くち", "meaning": "Cái miệng" },
+        { "word": "入口", "reading": "いりぐち", "meaning": "Cổng vào, lối vào" },
+        { "word": "出口", "reading": "でぐち", "meaning": "Cổng ra, lối ra" },
+        { "word": "改札口", "reading": "かいさつぐち", "meaning": "Cửa soát vé" }
+      ]
+    },
+    {
+      "id": "l03_k03",
+      "character": "目",
+      "hanViet": "MỤC",
+      "onyomi": ["モク", "ボク"],
+      "kunyomi": ["め", "ま"],
+      "meaning": "Mắt, cái nhìn, mục lục",
+      "examples": [
+        { "word": "目", "reading": "め", "meaning": "Con mắt" },
+        { "word": "一日目", "reading": "いちにちめ", "meaning": "Ngày thứ nhất" },
+        { "word": "目的", "reading": "もくてき", "meaning": "Mục đích" },
+        { "word": "目次", "reading": "もくじ", "meaning": "Mục lục" }
+      ]
+    },
+    {
+      "id": "l03_k04",
+      "character": "耳",
+      "hanViet": "NHĨ",
+      "onyomi": ["ジ"],
+      "kunyomi": ["みみ"],
+      "meaning": "Lỗ tai, cái tai",
+      "examples": [
+        { "word": "耳", "reading": "みみ", "meaning": "Lỗ tai" },
+        { "word": "耳鼻科", "reading": "じびか", "meaning": "Khoa tai mũi họng" },
+        { "word": "初耳", "reading": "はつみみ", "meaning": "Lần đầu nghe thấy" }
+      ]
+    },
+    {
+      "id": "l03_k05",
+      "character": "手",
+      "hanViet": "THỦ",
+      "onyomi": ["シュ", "ズ"],
+      "kunyomi": ["て", "た"],
+      "meaning": "Tay, bàn tay, kỹ năng",
+      "examples": [
+        { "word": "手", "reading": "て", "meaning": "Bàn tay" },
+        { "word": "手紙", "reading": "てがみ", "meaning": "Lá thư" },
+        { "word": "上手", "reading": "じょうず", "meaning": "Giỏi, khéo léo" },
+        { "word": "下手", "reading": "へた", "meaning": "Kém, vụng về" }
+      ]
+    },
+    {
+      "id": "l03_k06",
+      "character": "力",
+      "hanViet": "LỰC",
+      "onyomi": ["リョク", "リキ"],
+      "kunyomi": ["ちから"],
+      "meaning": "Sức lực, sức mạnh, năng lực",
+      "examples": [
+        { "word": "力", "reading": "ちから", "meaning": "Sức mạnh, sức lực" },
+        { "word": "体力", "reading": "たいりょく", "meaning": "Thể lực" },
+        { "word": "能力", "reading": "のうりょく", "meaning": "Năng lực" },
+        { "word": "水力", "reading": "すいりょく", "meaning": "Thủy lực, sức nước" }
+      ]
+    },
+    {
+      "id": "l03_k07",
+      "character": "足",
+      "hanViet": "TÚC",
+      "onyomi": ["ソク"],
+      "kunyomi": ["あし", "た(りる)"],
+      "meaning": "Chân, bàn chân, đầy đủ",
+      "examples": [
+        { "word": "足", "reading": "あし", "meaning": "Bàn chân, đôi chân" },
+        { "word": "一足", "reading": "いっそく", "meaning": "Một đôi (giày/tất)" },
+        { "word": "足りる", "reading": "たりる", "meaning": "Đầy đủ" },
+        { "word": "遠足", "reading": "えんそく", "meaning": "Chuyến dã ngoại" }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "l03_g01",
+      "pattern": "1. ここ / そこ / あそこ / こちら / そちら / あちら",
+      "explanation": "Hệ thống đại từ chỉ nơi chốn và phương hướng trong tiếng Nhật:\n• 「ここ」: Chỉ vị trí người nói đang ở (gần người nói).\n• 「そこ」: Chỉ vị trí người nghe đang ở (gần người nghe).\n• 「あそこ」: Chỉ vị trí xa cả người nói lẫn người nghe.\n• 「こちら / そちら / あちら」: Vốn là đại từ chỉ phương hướng (hướng này / hướng đó / hướng kia), đồng thời được sử dụng thay cho ここ / そこ / あそこ để chỉ địa điểm với sắc thái trang trọng, lịch sự hơn nhiều.",
+      "note": "Khi cả hai người cùng đứng chung một khu vực: dùng ここ (nơi 2 người đang đứng), そこ (hơi xa 2 người), あそこ (xa hẳn cả 2 người).",
+      "examples": [
+        {
+          "jp": "ここは きょうしつです。",
+          "vi": "Chỗ này là lớp học."
+        },
+        {
+          "jp": "あちらは じむしょです。",
+          "vi": "Phía kia là văn phòng (nói lịch sự)."
+        }
+      ]
+    },
+    {
+      "id": "l03_g02",
+      "pattern": "2. Danh từ は địa điểm です",
+      "explanation": "Mẫu câu dùng để diễn đạt người, vật hay địa điểm nào đó đang ở đâu.\nCông thức: [Chủ ngữ / Người / Vật] は [Nơi chốn / Địa điểm / Tầng] です。",
+      "note": "Địa điểm có thể là tên phòng (じむしょ), vị trí (あそこ, こちら), hoặc số tầng (2かい).",
+      "examples": [
+        {
+          "jp": "おてあらいは あそこです。",
+          "vi": "Nhà vệ sinh ở đằng kia."
+        },
+        {
+          "jp": "でんわは ２かいです。",
+          "vi": "Điện thoại ở tầng hai."
+        },
+        {
+          "jp": "やまださんは じむしょです。",
+          "vi": "Anh Yamada ở văn phòng."
+        }
+      ]
+    },
+    {
+      "id": "l03_g03",
+      "pattern": "3. どこ / どちら (Hỏi địa điểm & Tổ chức)",
+      "explanation": "• 「どこ」: Nghi vấn từ hỏi về địa điểm (Ở đâu?).\n• 「どちら」: Nghi vấn từ hỏi về phương hướng (Phía nào?), đồng thời dùng để hỏi địa điểm với sắc thái lịch sự hơn どこ.\n• Lưu ý quan trọng: Khi hỏi tên của quốc gia, trường học, công ty trực thuộc... người Nhật dùng どこ hoặc どちら, tuyệt đối KHÔNG dùng なん (gì).",
+      "note": "Hỏi công ty/trường học: 「かいしゃは どちらですか」 (Anh làm việc ở công ty nào?), không hỏi 「なんの かいしゃ」.",
+      "examples": [
+        {
+          "jp": "おてあらいは どこですか。……あそこです。",
+          "vi": "Nhà vệ sinh ở đâu vậy? ……Ở đằng kia."
+        },
+        {
+          "jp": "エレベーターは どちらですか。……あちらです。",
+          "vi": "Thang máy ở phía nào vậy ạ? ……Ở phía kia ạ."
+        },
+        {
+          "jp": "がっこうは どこですか。",
+          "vi": "Anh học ở trường nào?"
+        },
+        {
+          "jp": "かいしゃは どちらですか。",
+          "vi": "Chị làm việc ở công ty nào ạ?"
+        }
+      ]
+    },
+    {
+      "id": "l03_g04",
+      "pattern": "4. Danh từ 1 の Danh từ 2 (Xuất xứ & Nhà sản xuất)",
+      "explanation": "Trong cấu trúc [N1 の N2], trợ từ の dùng để chỉ:\n1) Nơi sản xuất / Xuất xứ: N1 là quốc gia, N2 là sản phẩm ➔ Sản phẩm của nước đó.\n2) Hãng sản xuất: N1 là công ty, N2 là sản phẩm ➔ Sản phẩm của công ty đó.\nKhi hỏi về xuất xứ hoặc nhà sản xuất, ta dùng nghi vấn từ: 「これは どこ / どちらの N ですか。」",
+      "note": "Trả lời có thể nói rõ xuất xứ nước hoặc tên công ty.",
+      "examples": [
+        {
+          "jp": "これは どこの コンピューターですか。……にほんの コンピューターです。",
+          "vi": "Đây là máy vi tính của nước nào? ……Là máy tính của Nhật Bản."
+        },
+        {
+          "jp": "これは どこの コンピューターですか。……パワーでんきの コンピューターです。",
+          "vi": "Đây là máy tính của hãng nào? ……Là máy tính của công ty điện lực Power."
+        }
+      ]
+    },
+    {
+      "id": "l03_g05",
+      "pattern": "5. Bảng hệ thống chỉ thị từ こ / そ / あ / ど",
+      "explanation": "Tổng kết hệ thống chỉ thị từ tiếng Nhật theo 4 cấp độ khoảng cách:\n• Đồ vật độc lập: これ (cái này) | それ (cái đó) | あれ (cái kia) | どれ (cái nào)\n• Đồ vật/người đi kèm N: この N (N này) | その N (N đó) | あの N (N kia) | どの N (N nào)\n• Địa điểm: ここ (chỗ này) | そこ (chỗ đó) | あそこ (chỗ kia) | どこ (chỗ nào)\n• Phương hướng / Lịch sự: こちら (phía này) | そちら (phía đó) | あちら (phía kia) | どちら (phía nào)",
+      "note": "Quy tắc khoảng cách: こ (gần người nói) ➔ そ (gần người nghe) ➔ あ (xa cả hai) ➔ ど (nghi vấn từ để hỏi).",
+      "examples": [
+        {
+          "jp": "ワインうりばは どこですか。……ちか１かいです。",
+          "vi": "Quầy bán rượu vang ở đâu vậy? ……Ở tầng hầm B1."
+        },
+        {
+          "jp": "この ネクタイは いくらですか。……１,５００えんです。",
+          "vi": "Cà vạt này giá bao nhiêu tiền? ……Giá 1,500 yên."
+        }
+      ]
+    },
+    {
+      "id": "l03_g06",
+      "pattern": "6. お〜 (Tiền tố tôn kính dành cho đối phương)",
+      "explanation": "Tiền tố 「お」 được thêm vào trước một từ có liên quan đến người nghe hoặc người ở ngôi thứ ba để bày tỏ sự kính trọng, lịch sự của người nói.\nVí dụ: [お]くに (đất nước của bạn), [お]てあらい (nhà vệ sinh), [お]なまえ (tên của bạn).",
+      "note": "Khi nói về chính bản thân mình thì không dùng tiền tố お (ví dụ không nói おくに của tôi).",
+      "examples": [
+        {
+          "jp": "[お]くには どちらですか。……アメリカです。",
+          "vi": "Quê hương của anh/chị là ở đâu ạ? ……Là nước Mỹ."
+        }
+      ]
+    }
+  ]
+}

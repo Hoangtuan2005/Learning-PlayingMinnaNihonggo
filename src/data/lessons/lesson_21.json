@@ -1,0 +1,377 @@
+{
+  "lessonNumber": 21,
+  "titleJp": "あした あめが ふると おもいます",
+  "titleVi": "Bài 21: Bày tỏ ý kiến & Trích dẫn",
+  "vocabulary": [
+    {
+      "id": "l21_v01",
+      "kana": "おもいます",
+      "kanji": "思います",
+      "meaning": "Nghĩ, suy nghĩ",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l21_v02",
+      "kana": "いいます",
+      "kanji": "言います",
+      "meaning": "Nói",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l21_v03",
+      "kana": "かちます",
+      "kanji": "勝ちます",
+      "meaning": "Thắng, chiến thắng",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l21_v04",
+      "kana": "まけます",
+      "kanji": "負けます",
+      "meaning": "Thua, thất bại",
+      "type": "Động từ nhóm 2"
+    },
+    {
+      "id": "l21_v05",
+      "kana": "あります",
+      "meaning": "Được tổ chức, diễn ra [lễ hội: おまつりが～]",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l21_v06",
+      "kana": "やくにたちます",
+      "kanji": "役に立ちます",
+      "meaning": "Hữu ích, có ích, giúp ích",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l21_v07",
+      "kana": "うごきます",
+      "kanji": "動きます",
+      "meaning": "Chuyển động, chạy (máy móc)",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l21_v08",
+      "kana": "やめます",
+      "meaning": "Bỏ, thôi việc [công ty: かいしゃを～]",
+      "type": "Động từ nhóm 2"
+    },
+    {
+      "id": "l21_v09",
+      "kana": "きをつけます",
+      "kanji": "気をつけます",
+      "meaning": "Chú ý, cẩn thận, bảo trọng",
+      "type": "Động từ nhóm 2"
+    },
+    {
+      "id": "l21_v10",
+      "kana": "りゅうがくします",
+      "kanji": "留学します",
+      "meaning": "Du học",
+      "type": "Động từ nhóm 3"
+    },
+    {
+      "id": "l21_v11",
+      "kana": "むだ [な]",
+      "meaning": "Lãng phí, vô ích",
+      "type": "Tính từ đuôi な"
+    },
+    {
+      "id": "l21_v12",
+      "kana": "ふべん [な]",
+      "kanji": "不便 [な]",
+      "meaning": "Bất tiện",
+      "type": "Tính từ đuôi な"
+    },
+    {
+      "id": "l21_v13",
+      "kana": "すごい",
+      "meaning": "Ghê quá, giỏi quá (biểu thị thán phục)",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l21_v14",
+      "kana": "ほんとう",
+      "kanji": "本当",
+      "meaning": "Sự thật",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l21_v15",
+      "kana": "うそ",
+      "meaning": "Lời nói dối, sự giả dối",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l21_v16",
+      "kana": "じどうしゃ",
+      "kanji": "自動車",
+      "meaning": "Ô tô, xe hơi",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l21_v17",
+      "kana": "こうつう",
+      "kanji": "交通",
+      "meaning": "Giao thông, đi lại",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l21_v18",
+      "kana": "ぶっか",
+      "kanji": "物価",
+      "meaning": "Giá cả, vật giá",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l21_v19",
+      "kana": "ほうそう",
+      "kanji": "放送",
+      "meaning": "Phát thanh, truyền hình",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l21_v20",
+      "kana": "ニュース",
+      "meaning": "Bản tin, thời sự (news)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l21_v21",
+      "kana": "アニメ",
+      "meaning": "Phim hoạt hình Nhật Bản (Anime)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l21_v22",
+      "kana": "マンガ",
+      "meaning": "Truyện tranh Manga",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l21_v23",
+      "kana": "デザイン",
+      "meaning": "Thiết kế, mẫu mã (design)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l21_v24",
+      "kana": "ゆめ",
+      "kanji": "夢",
+      "meaning": "Giấc mơ, ước mơ",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l21_v25",
+      "kana": "てんさい",
+      "kanji": "天才",
+      "meaning": "Thiên tài",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l21_v26",
+      "kana": "しあい",
+      "kanji": "試合",
+      "meaning": "Trận đấu (~を します: thi đấu)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l21_v27",
+      "kana": "いけん",
+      "kanji": "意見",
+      "meaning": "Ý kiến, quan điểm",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l21_v28",
+      "kana": "はなし",
+      "kanji": "話",
+      "meaning": "Câu chuyện, bài nói chuyện",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l21_v29",
+      "kana": "ちきゅう",
+      "kanji": "地球",
+      "meaning": "Trái đất",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l21_v30",
+      "kana": "つき",
+      "kanji": "月",
+      "meaning": "Mặt trăng",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l21_v31",
+      "kana": "さいきん",
+      "kanji": "最近",
+      "meaning": "Gần đây, dạo này",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l21_v32",
+      "kana": "たぶん",
+      "meaning": "Chắc là, có lẽ",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l21_v33",
+      "kana": "きっと",
+      "meaning": "Chắc chắn, nhất định",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l21_v34",
+      "kana": "ほんとうに",
+      "meaning": "Thực sự, quả thật",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l21_v35",
+      "kana": "そんなに",
+      "meaning": "(Không) ~ đến mức như thế (đi với phủ định)",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l21_v36",
+      "kana": "～について",
+      "meaning": "Về ～ (nói về chủ đề)",
+      "type": "Cụm từ"
+    },
+    {
+      "id": "l21_v37",
+      "kana": "ひさしぶりですね",
+      "kanji": "久しぶりですね",
+      "meaning": "Đã lâu không gặp anh/chị nhỉ!",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l21_v38",
+      "kana": "～でも のみませんか",
+      "meaning": "Anh/Chị uống [chút ~ hay gì đó] nhé?",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l21_v39",
+      "kana": "もちろん",
+      "meaning": "Tất nhiên, dĩ nhiên rồi",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l21_v40",
+      "kana": "もう かえらないと……",
+      "meaning": "Tôi phải về bây giờ rồi không thì...",
+      "type": "Cụm từ giao tiếp"
+    }
+  ],
+  "kanji": [],
+  "grammar": [
+    {
+      "id": "l21_g01",
+      "pattern": "1. Thể thông thường + と 思います (Tôi nghĩ rằng ~)",
+      "explanation": "Trợ từ と dùng để liên kết nội dung suy nghĩ, nhận định với động từ 思います (nghĩ):\n1) Biểu thị sự phỏng đoán: Đưa ra nhận định cá nhân về sự việc (あした 雨が ふると 思います - Tôi nghĩ ngày mai trời sẽ mưa).\n2) Bày tỏ ý kiến cá nhân: Nhận xét về một chủ đề (にほんは ぶっかが たかいと おもいます - Tôi thấy giá cả ở Nhật đắt đỏ).\n• Hỏi ý kiến: [N について どう 思いますか] (Anh nghĩ thế nào về N?). Tuyệt đối không dùng trợ từ と sau どう.",
+      "note": "Khi phỏng đoán mang tính phủ định, chuyển mệnh đề trước と sang thể phủ định.",
+      "examples": [
+        {
+          "jp": "あした あめが ふると おもいます。",
+          "vi": "Tôi nghĩ ngày mai trời sẽ mưa."
+        },
+        {
+          "jp": "にほんは ぶっかが たかいと おもいます。",
+          "vi": "Tôi nghĩ giá cả ở Nhật đắt đỏ."
+        },
+        {
+          "jp": "あたらしい くうこうについて どう おもいますか。……きれいですが、ちょっと ふべんだと おもいます。",
+          "vi": "Anh nghĩ thế nào về sân bay mới? ……Tôi nghĩ là nó đẹp nhưng hơi bất tiện."
+        }
+      ]
+    },
+    {
+      "id": "l21_g02",
+      "pattern": "2. \"Câu nói\" / Thể thông thường + と 言いました (Nói rằng ~ / Trích dẫn)",
+      "explanation": "Trợ từ と dùng để trích dẫn lời phát ngôn:\n1) Trích dẫn trực tiếp: Giữ nguyên văn câu nói và đặt trong ngoặc vuông 「 」.\n   Ví dụ: ミラーさんは「らいしゅう とうきょうへ しゅっちょうします」と いいました.\n2) Trích dẫn gián tiếp: Biến đổi câu phát ngôn về thể thông thường đứng trước と.\n   Ví dụ: ミラーさんは らいしゅう とうきょうへ しゅっちょうすると いいました.",
+      "note": "Người nghe câu nói được biểu thị bằng trợ từ に (父に 留学したいと 言いました).",
+      "examples": [
+        {
+          "jp": "ねる まえに、「おやすみなさい」と いいます。",
+          "vi": "Trước khi đi ngủ chúng ta nói \"Oyasuminasai\"."
+        },
+        {
+          "jp": "ミラーさんは とうきょうへ しゅっちょうすると いいました。",
+          "vi": "Anh Miller đã nói rằng anh ấy sẽ đi công tác ở Tokyo."
+        },
+        {
+          "jp": "ちちに りゅうがくしたいと いいました。",
+          "vi": "Tôi đã nói với bố là tôi muốn đi du học."
+        }
+      ]
+    },
+    {
+      "id": "l21_g03",
+      "pattern": "3. Thể thông thường + でしょう？ (~ phải không?)",
+      "explanation": "Dùng để tìm kiếm sự đồng tình hoặc xác nhận lại thông tin từ người nghe với ngữ điệu lên giọng ở cuối câu.\n• Đứng trước でしょう là Thể thông thường (riêng Tính từ đuôi な và Danh từ thì bỏ だ).",
+      "note": "Tính từ đuôi な / Danh từ: 暇でしょう (bỏ だ), 日曜日でしょう (bỏ だ).",
+      "examples": [
+        {
+          "jp": "あした パーティーに 行くでしょう？……ええ、行きます。",
+          "vi": "Ngày mai chắc anh sẽ đi dự tiệc phải không? ……Vâng, tôi sẽ đi."
+        },
+        {
+          "jp": "ほっかいどうは さむかったでしょう？……いいえ、そんなに さむくなかったです。",
+          "vi": "Ở Hokkaido chắc là lạnh lắm phải không? ……Không, không lạnh đến mức thế đâu."
+        }
+      ]
+    },
+    {
+      "id": "l21_g04",
+      "pattern": "4. Danh từ 1 (địa điểm) で Danh từ 2 が あります (Sự kiện diễn ra)",
+      "explanation": "Khi Danh từ 2 là các danh từ chỉ sự kiện, buổi tiệc, buổi hòa nhạc, trận đấu, thiên tai... thì あります mang nghĩa là \"được tổ chức\", \"diễn ra\" tại địa điểm đó (đi kèm trợ từ で).",
+      "note": "Khác với あります tồn tại đồ vật thông thường (dùng に).",
+      "examples": [
+        {
+          "jp": "とうきょうで にほんと ブラジルの サッカーの しあいが あります。",
+          "vi": "Trận bóng đá giữa Nhật Bản và Braxin được tổ chức ở Tokyo."
+        }
+      ]
+    },
+    {
+      "id": "l21_g05",
+      "pattern": "5. Danh từ (tình huống) で (Trong hoàn cảnh/tình huống)",
+      "explanation": "Trợ từ で dùng để biểu thị bối cảnh, hoàn cảnh hoặc tình huống diễn ra một hành động.",
+      "note": "Ví dụ: かいぎで (trong cuộc họp).",
+      "examples": [
+        {
+          "jp": "かいぎで 何か いけんを いいましたか。",
+          "vi": "Trong cuộc họp anh có phát biểu ý kiến gì không?"
+        }
+      ]
+    },
+    {
+      "id": "l21_g06",
+      "pattern": "6. Danh từ でも Động từ (Đưa ra gợi ý)",
+      "explanation": "Trợ từ でも dùng sau một danh từ cụ thể để đưa ra gợi ý tiêu biểu tượng trưng cho người nghe (với hàm ý \"dùng chút bia hay gì đó nhé\"), không giới hạn chỉ riêng danh từ đó.",
+      "note": "Thường dùng trong lời mời mọc thân mật.",
+      "examples": [
+        {
+          "jp": "ちょっと ビールでも のみませんか。",
+          "vi": "Anh/Chị dùng một chút bia (hay gì đó) không?"
+        }
+      ]
+    },
+    {
+      "id": "l21_g07",
+      "pattern": "7. Động từ (thể ない) ないと…… (Phải làm gì)",
+      "explanation": "Đây là cách nói rút gọn trong văn nói thân mật của cấu trúc [V ないと いけません] (phải làm gì), tỉnh lược phần いけません ở đuôi câu.",
+      "note": "Tương đương tiếng Việt: \"Tôi phải... rồi\".",
+      "examples": [
+        {
+          "jp": "もう かえらないと……。",
+          "vi": "Tôi phải về rồi không thì trễ..."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,695 @@
+{
+  "lessonNumber": 9,
+  "titleJp": "にほんごが わかります",
+  "titleVi": "Bài 9: Sở thích, Khả năng & Lý do",
+  "vocabulary": [
+    {
+      "id": "l09_v01",
+      "kana": "わかります",
+      "meaning": "Hiểu, nắm được",
+      "type": "Động từ"
+    },
+    {
+      "id": "l09_v02",
+      "kana": "あります",
+      "meaning": "Có (sở hữu đồ vật, thời gian, cuộc hẹn...)",
+      "type": "Động từ"
+    },
+    {
+      "id": "l09_v03",
+      "kana": "すき [な]",
+      "kanji": "好き [な]",
+      "meaning": "Thích",
+      "type": "Tính từ đuôi な"
+    },
+    {
+      "id": "l09_v04",
+      "kana": "きらい [な]",
+      "kanji": "嫌い [な]",
+      "meaning": "Ghét, không thích",
+      "type": "Tính từ đuôi な"
+    },
+    {
+      "id": "l09_v05",
+      "kana": "じょうず [な]",
+      "kanji": "上手 [な]",
+      "meaning": "Giỏi, khéo",
+      "type": "Tính từ đuôi な"
+    },
+    {
+      "id": "l09_v06",
+      "kana": "へた [な]",
+      "kanji": "下手 [な]",
+      "meaning": "Kém, vụng",
+      "type": "Tính từ đuôi な"
+    },
+    {
+      "id": "l09_v07",
+      "kana": "のみもの",
+      "kanji": "飲み物",
+      "meaning": "Đồ uống, thức uống",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l09_v08",
+      "kana": "りょうり",
+      "kanji": "料理",
+      "meaning": "Món ăn, nấu ăn (~を します: nấu ăn)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l09_v09",
+      "kana": "スポーツ",
+      "meaning": "Thể thao (~を します: chơi thể thao)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l09_v10",
+      "kana": "やきゅう",
+      "kanji": "野球",
+      "meaning": "Bóng chày (~を します: chơi bóng chày)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l09_v11",
+      "kana": "ダンス",
+      "meaning": "Nhảy múa, khiêu vũ (~を します: khiêu vũ)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l09_v12",
+      "kana": "りょこう",
+      "kanji": "旅行",
+      "meaning": "Du lịch, chuyến đi du lịch",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l09_v13",
+      "kana": "おんがく",
+      "kanji": "音楽",
+      "meaning": "Âm nhạc",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l09_v14",
+      "kana": "うた",
+      "kanji": "歌",
+      "meaning": "Bài hát",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l09_v15",
+      "kana": "クラシック",
+      "meaning": "Nhạc cổ điển",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l09_v16",
+      "kana": "ジャズ",
+      "meaning": "Nhạc jazz",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l09_v17",
+      "kana": "コンサート",
+      "meaning": "Buổi hòa nhạc",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l09_v18",
+      "kana": "カラオケ",
+      "meaning": "Karaoke",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l09_v19",
+      "kana": "かぶき",
+      "kanji": "歌舞伎",
+      "meaning": "Kịch Kabuki (ca kịch truyền thống Nhật Bản)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l09_v20",
+      "kana": "え",
+      "kanji": "絵",
+      "meaning": "Tranh, bức tranh",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l09_v21",
+      "kana": "じ",
+      "kanji": "字",
+      "meaning": "Chữ, mặt chữ",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l09_v22",
+      "kana": "かんじ",
+      "kanji": "漢字",
+      "meaning": "Chữ Hán",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l09_v23",
+      "kana": "ひらがな",
+      "meaning": "Chữ Hiragana",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l09_v24",
+      "kana": "かたかな",
+      "meaning": "Chữ Katakana",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l09_v25",
+      "kana": "ローマじ",
+      "kanji": "ローマ字",
+      "meaning": "Chữ La Mã (Romaji)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l09_v26",
+      "kana": "こまかい おかね",
+      "kanji": "細かい お金",
+      "meaning": "Tiền lẻ",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l09_v27",
+      "kana": "チケット",
+      "meaning": "Vé (vé xem phim, hòa nhạc)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l09_v28",
+      "kana": "じかん",
+      "kanji": "時間",
+      "meaning": "Thời gian",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l09_v29",
+      "kana": "ようじ",
+      "kanji": "用事",
+      "meaning": "Việc bận, công chuyện",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l09_v30",
+      "kana": "やくそく",
+      "kanji": "約束",
+      "meaning": "Cuộc hẹn, lời hứa",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l09_v31",
+      "kana": "アルバイト",
+      "meaning": "Việc làm thêm, làm part-time",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l09_v32",
+      "kana": "ごしゅじん",
+      "kanji": "ご主人",
+      "meaning": "Chồng (của người khác)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l09_v33",
+      "kana": "おっと / しゅじん",
+      "kanji": "夫 / 主人",
+      "meaning": "Chồng (của mình)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l09_v34",
+      "kana": "おくさん",
+      "kanji": "奥さん",
+      "meaning": "Vợ (của người khác)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l09_v35",
+      "kana": "つま / かない",
+      "kanji": "妻 / 家内",
+      "meaning": "Vợ (của mình)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l09_v36",
+      "kana": "こども",
+      "kanji": "子ども",
+      "meaning": "Con cái, đứa trẻ",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l09_v37",
+      "kana": "よく",
+      "meaning": "Tốt, rõ (phó từ mức độ)",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l09_v38",
+      "kana": "だいたい",
+      "meaning": "Đại khái, phần lớn",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l09_v39",
+      "kana": "たくさん",
+      "meaning": "Nhiều (số lượng)",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l09_v40",
+      "kana": "すこし",
+      "kanji": "少し",
+      "meaning": "Ít, một chút",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l09_v41",
+      "kana": "ぜんぜん",
+      "kanji": "全然",
+      "meaning": "Hoàn toàn không ~ (đi với thể phủ định)",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l09_v42",
+      "kana": "はやく",
+      "kanji": "早く / 速く",
+      "meaning": "Sớm / Nhanh",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l09_v43",
+      "kana": "～から",
+      "meaning": "Vì ～ (chỉ lý do, nguyên nhân)",
+      "type": "Liên từ"
+    },
+    {
+      "id": "l09_v44",
+      "kana": "どうして",
+      "meaning": "Tại sao, vì sao",
+      "type": "Từ để hỏi"
+    },
+    {
+      "id": "l09_v45",
+      "kana": "かしてください",
+      "kanji": "貸してください",
+      "meaning": "Hãy cho tôi mượn (nó)",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l09_v46",
+      "kana": "いいですよ",
+      "meaning": "Được chứ / Được ạ",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l09_v47",
+      "kana": "ざんねんです [が]",
+      "kanji": "残念です [が]",
+      "meaning": "Đáng tiếc thật [nhưng...]",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l09_v48",
+      "kana": "ああ",
+      "meaning": "A! / Ôi!",
+      "type": "Thán từ"
+    },
+    {
+      "id": "l09_v49",
+      "kana": "いっしょに いかがですか",
+      "meaning": "Cùng làm ~ với chúng tôi nhé?",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l09_v50",
+      "kana": "[～は] ちょっと……",
+      "meaning": "[～ thì] có lẽ không được rồi (từ chối khéo)",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l09_v51",
+      "kana": "だめですか",
+      "meaning": "Không được sao?",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l09_v52",
+      "kana": "また こんど おねがいします",
+      "kanji": "また 今度 お願いします",
+      "meaning": "Hẹn anh/chị dịp khác vậy nhé (từ chối tế nhị)",
+      "type": "Cụm từ giao tiếp"
+    }
+  ],
+  "kanji": [
+    {
+      "id": "l09_k01",
+      "character": "立",
+      "hanViet": "LẬP",
+      "onyomi": [
+        "リツ",
+        "リュウ"
+      ],
+      "kunyomi": [
+        "た(つ)",
+        "た(てる)"
+      ],
+      "meaning": "Đứng, thành lập, dựng lên",
+      "examples": [
+        {
+          "word": "立つ",
+          "reading": "たつ",
+          "meaning": "Đứng, đứng lên"
+        },
+        {
+          "word": "国立",
+          "reading": "こくりつ",
+          "meaning": "Quốc lập, do nhà nước lập"
+        },
+        {
+          "word": "立てる",
+          "reading": "たてる",
+          "meaning": "Dựng lên, lập nên"
+        },
+        {
+          "word": "起立",
+          "reading": "きりつ",
+          "meaning": "Đứng dậy (chào cờ / vào lớp)"
+        }
+      ]
+    },
+    {
+      "id": "l09_k02",
+      "character": "休",
+      "hanViet": "HƯU",
+      "onyomi": [
+        "キュウ"
+      ],
+      "kunyomi": [
+        "やす(む)",
+        "やす(まる)",
+        "やす(める)"
+      ],
+      "meaning": "Nghỉ ngơi, vắng mặt",
+      "examples": [
+        {
+          "word": "休む",
+          "reading": "やすむ",
+          "meaning": "Nghỉ, nghỉ ngơi"
+        },
+        {
+          "word": "休み",
+          "reading": "やすみ",
+          "meaning": "Ngày nghỉ, giờ giải lao"
+        },
+        {
+          "word": "休日",
+          "reading": "きゅうじつ",
+          "meaning": "Ngày nghỉ lễ"
+        },
+        {
+          "word": "夏休み",
+          "reading": "なつやすみ",
+          "meaning": "Kỳ nghỉ hè"
+        }
+      ]
+    },
+    {
+      "id": "l09_k03",
+      "character": "見",
+      "hanViet": "KIẾN",
+      "onyomi": [
+        "ケン"
+      ],
+      "kunyomi": [
+        "み(る)",
+        "み(える)",
+        "み(せる)"
+      ],
+      "meaning": "Nhìn, xem, trông thấy",
+      "examples": [
+        {
+          "word": "見る",
+          "reading": "みる",
+          "meaning": "Xem, nhìn, ngắm"
+        },
+        {
+          "word": "見える",
+          "reading": "みえる",
+          "meaning": "Nhìn thấy, có thể thấy"
+        },
+        {
+          "word": "見せる",
+          "reading": "みせる",
+          "meaning": "Cho xem, cho thấy"
+        },
+        {
+          "word": "意見",
+          "reading": "いけん",
+          "meaning": "Ý kiến, quan điểm"
+        }
+      ]
+    },
+    {
+      "id": "l09_k04",
+      "character": "聞",
+      "hanViet": "VĂN",
+      "onyomi": [
+        "ブン",
+        "モン"
+      ],
+      "kunyomi": [
+        "き(く)",
+        "き(こえる)"
+      ],
+      "meaning": "Nghe, hỏi",
+      "examples": [
+        {
+          "word": "聞く",
+          "reading": "きく",
+          "meaning": "Nghe, lắng nghe, hỏi"
+        },
+        {
+          "word": "聞こえる",
+          "reading": "きこえる",
+          "meaning": "Nghe thấy"
+        },
+        {
+          "word": "新聞",
+          "reading": "しんぶん",
+          "meaning": "Tờ báo, báo chí"
+        },
+        {
+          "word": "前代未聞",
+          "reading": "ぜんだいみもん",
+          "meaning": "Chưa từng nghe thấy bao giờ"
+        }
+      ]
+    },
+    {
+      "id": "l09_k05",
+      "character": "行",
+      "hanViet": "HÀNH",
+      "onyomi": [
+        "コウ",
+        "ギョウ",
+        "アン"
+      ],
+      "kunyomi": [
+        "い(く)",
+        "ゆ(く)",
+        "おこな(う)"
+      ],
+      "meaning": "Đi, thực hiện, tiến hành",
+      "examples": [
+        {
+          "word": "行く",
+          "reading": "いく",
+          "meaning": "Đi"
+        },
+        {
+          "word": "銀行",
+          "reading": "ぎんこう",
+          "meaning": "Ngân hàng"
+        },
+        {
+          "word": "旅行",
+          "reading": "りょこう",
+          "meaning": "Du lịch"
+        },
+        {
+          "word": "行う",
+          "reading": "おこなう",
+          "meaning": "Tiến hành, tổ chức"
+        }
+      ]
+    },
+    {
+      "id": "l09_k06",
+      "character": "来",
+      "hanViet": "LAI",
+      "onyomi": [
+        "ライ",
+        "タイ"
+      ],
+      "kunyomi": [
+        "く(る)",
+        "きた(る)",
+        "きた(す)"
+      ],
+      "meaning": "Đến, tới, tương lai",
+      "examples": [
+        {
+          "word": "来る",
+          "reading": "くる",
+          "meaning": "Đến, tới"
+        },
+        {
+          "word": "来年",
+          "reading": "らいねん",
+          "meaning": "Năm sau, sang năm"
+        },
+        {
+          "word": "来月",
+          "reading": "らいげつ",
+          "meaning": "Tháng sau"
+        },
+        {
+          "word": "将来",
+          "reading": "しょうらい",
+          "meaning": "Tương lai"
+        }
+      ]
+    },
+    {
+      "id": "l09_k07",
+      "character": "帰",
+      "hanViet": "QUY",
+      "onyomi": [
+        "キ"
+      ],
+      "kunyomi": [
+        "かえ(る)",
+        "かえ(す)"
+      ],
+      "meaning": "Về, trở về",
+      "examples": [
+        {
+          "word": "帰る",
+          "reading": "かえる",
+          "meaning": "Về, trở về nhà"
+        },
+        {
+          "word": "帰国",
+          "reading": "きこく",
+          "meaning": "Về nước"
+        },
+        {
+          "word": "帰り",
+          "reading": "かえり",
+          "meaning": "Chiều về, trên đường về"
+        },
+        {
+          "word": "日帰り",
+          "reading": "ひがえり",
+          "meaning": "Đi về trong ngày"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "l09_g01",
+      "pattern": "1. Danh từ が あります / わかります / 好きです / 嫌いです / 上手です / 下手です",
+      "explanation": "Trong tiếng Nhật, đối tượng của các động từ và tính từ chỉ sở hữu, tri giác, năng lực và cảm xúc không đi với を mà đi với trợ từ が:\n• Sở hữu: くるまが あります (có xe ô tô), おかねが あります (có tiền).\n• Năng lực / Tri giác: にほんごが わかります (hiểu tiếng Nhật), えいごが できます (biết tiếng Anh).\n• Sở thích / Cảm xúc: イタリアりょうりが すきです (thích món Ý), すぽーつが きらいです (ghét thể thao).\n• Năng khiếu: うたが じょうずです (hát giỏi), えが へたです (vẽ kém).",
+      "note": "Tuyệt đối không dùng じょうず khi tự khen bản thân mình.",
+      "examples": [
+        {
+          "jp": "わたしは イタリアりょうりが すきです。",
+          "vi": "Tôi thích món ăn Ý."
+        },
+        {
+          "jp": "わたしは にほんごが わかります。",
+          "vi": "Tôi hiểu tiếng Nhật."
+        },
+        {
+          "jp": "わたしは くるまが あります。",
+          "vi": "Tôi có xe ô-tô."
+        }
+      ]
+    },
+    {
+      "id": "l09_g02",
+      "pattern": "2. どんな Danh từ が すきですか (Hỏi thể loại yêu thích)",
+      "explanation": "Dùng どんな đi trước danh từ để hỏi rõ thể loại cụ thể mà đối phương yêu thích hoặc giỏi.",
+      "note": "Trả lời: [Danh từ cụ thể] が すきです.",
+      "examples": [
+        {
+          "jp": "どんな スポーツが すきですか。……サッカーが すきです。",
+          "vi": "Anh/Chị thích môn thể thao nào? ……Tôi thích môn bóng đá."
+        }
+      ]
+    },
+    {
+      "id": "l09_g03",
+      "pattern": "3. Phó từ chỉ mức độ và số lượng",
+      "explanation": "Các phó từ đứng trước động từ/tính từ để bổ nghĩa:\n• Đi với câu khẳng định: よく (rất rõ/thường xuyên), だいたい (đại khái), たくさん (nhiều), すこし (một chút).\n• Đi với câu phủ định: あまり (không ~ lắm), ぜんぜん (hoàn toàn không ~).",
+      "note": "ぜんぜん luôn đi với đuôi phủ định (V ません / A くないです).",
+      "examples": [
+        {
+          "jp": "えいごが よく わかります。",
+          "vi": "Tôi hiểu tiếng Anh rất rõ."
+        },
+        {
+          "jp": "えいごが すこし わかります。",
+          "vi": "Tôi hiểu tiếng Anh một chút."
+        },
+        {
+          "jp": "えいごが あまり わかりません。",
+          "vi": "Tôi không hiểu tiếng Anh lắm."
+        },
+        {
+          "jp": "おかねが ぜんぜん ありません。",
+          "vi": "Tôi hoàn toàn không có đồng nào cả."
+        }
+      ]
+    },
+    {
+      "id": "l09_g04",
+      "pattern": "4. Mệnh đề 1 から、Mệnh đề 2 (Mệnh đề chỉ lý do)",
+      "explanation": "Trợ từ から đứng sau mệnh đề 1 biểu thị nguyên nhân, lý do dẫn tới kết quả ở mệnh đề 2. Dịch là: \"Vì... nên...\".\n• Cũng có thể dùng để trả lời câu hỏi lý do: [Mệnh đề からです].",
+      "note": "Mệnh đề nguyên nhân đứng trước から, mệnh đề kết quả đứng sau.",
+      "examples": [
+        {
+          "jp": "じかんが ありませんから、しんぶんを よみません。",
+          "vi": "Vì không có thời gian nên tôi không đọc báo."
+        },
+        {
+          "jp": "まいあさ しんぶんを よみますか。……いいえ、よみません。じかんが ありませんから。",
+          "vi": "Mỗi sáng anh có đọc báo không? ……Không, tôi không đọc. Vì tôi không có thời gian."
+        }
+      ]
+    },
+    {
+      "id": "l09_g05",
+      "pattern": "5. どうして (Tại sao)",
+      "explanation": "Nghi vấn từ どうして dùng để hỏi nguyên nhân, lý do. Câu trả lời kết thúc bằng から (hoặc からです).",
+      "note": "Khi hỏi lại đối phương về lý do của câu vừa nói, có thể dùng cụm ngắn gọn: どうしてですか (Tại sao thế?).",
+      "examples": [
+        {
+          "jp": "どうして あさ しんぶんを よみませんか。……じかんが ありませんから。",
+          "vi": "Tại sao buổi sáng anh không đọc báo? ……Vì tôi không có thời gian."
+        },
+        {
+          "jp": "きょうは はやく かえります。……どうしてですか。こどもの たんじょうびですから。",
+          "vi": "Hôm nay tôi sẽ về sớm. ……Tại sao thế? ……Vì hôm nay là sinh nhật của con tôi."
+        }
+      ]
+    }
+  ]
+}

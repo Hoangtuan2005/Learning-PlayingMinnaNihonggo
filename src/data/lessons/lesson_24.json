@@ -1,0 +1,179 @@
+{
+  "lessonNumber": 24,
+  "titleJp": "ともだちが かさを くれました",
+  "titleVi": "Bài 24: Cho và nhận hành động (Te-form)",
+  "vocabulary": [
+    {
+      "id": "l24_v01",
+      "kana": "くれます",
+      "meaning": "Cho, tặng (tôi hoặc người nhà của tôi)",
+      "type": "Động từ nhóm 2"
+    },
+    {
+      "id": "l24_v02",
+      "kana": "なおします",
+      "kanji": "直します",
+      "meaning": "Chữa, sửa chữa",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l24_v03",
+      "kana": "つれていきます",
+      "kanji": "連れて行きます",
+      "meaning": "Dẫn (ai đó) đi cùng",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l24_v04",
+      "kana": "つれてきます",
+      "kanji": "連れて来ます",
+      "meaning": "Dẫn (ai đó) đến",
+      "type": "Động từ nhóm 3"
+    },
+    {
+      "id": "l24_v05",
+      "kana": "おくります",
+      "kanji": "送ります",
+      "meaning": "Tiễn [ai đó: ひとを～]",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l24_v06",
+      "kana": "しょうかいします",
+      "kanji": "紹介します",
+      "meaning": "Giới thiệu",
+      "type": "Động từ nhóm 3"
+    },
+    {
+      "id": "l24_v07",
+      "kana": "あんないします",
+      "kanji": "案内します",
+      "meaning": "Hướng dẫn, dẫn đường",
+      "type": "Động từ nhóm 3"
+    },
+    {
+      "id": "l24_v08",
+      "kana": "せつめいします",
+      "kanji": "説明します",
+      "meaning": "Giải thích, thuyết minh",
+      "type": "Động từ nhóm 3"
+    },
+    {
+      "id": "l24_v09",
+      "kana": "おじいさん / おじいちゃん",
+      "meaning": "Ông nội, ông ngoại, ông lão",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l24_v10",
+      "kana": "おばあさん / おばあちゃん",
+      "meaning": "Bà nội, bà ngoại, bà lão",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l24_v11",
+      "kana": "じゅんび",
+      "kanji": "準備",
+      "meaning": "Sự chuẩn bị (~を します: chuẩn bị)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l24_v12",
+      "kana": "ひっこし",
+      "kanji": "引っ越し",
+      "meaning": "Sự chuyển nhà (~を します: chuyển nhà)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l24_v13",
+      "kana": "[お]かし",
+      "kanji": "[お]菓子",
+      "meaning": "Bánh kẹo",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l24_v14",
+      "kana": "ホームステイ",
+      "meaning": "Homestay (ở cùng nhà người bản xứ)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l24_v15",
+      "kana": "ぜんぶ",
+      "kanji": "全部",
+      "meaning": "Toàn bộ, tất cả",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l24_v16",
+      "kana": "じぶんで",
+      "kanji": "自分で",
+      "meaning": "Tự (mình)",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l24_v17",
+      "kana": "ほかに",
+      "meaning": "Ngoài ra, bên cạnh đó",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l24_v18",
+      "kana": "ははのひ",
+      "kanji": "母の日",
+      "meaning": "Ngày của Mẹ",
+      "type": "Danh từ"
+    }
+  ],
+  "kanji": [],
+  "grammar": [
+    {
+      "id": "l24_g01",
+      "pattern": "1. くれます (Cho / Tặng tôi)",
+      "explanation": "Động từ あげます (học ở Bài 7) không thể dùng khi người khác cho/tặng đồ cho người nói (tôi) hoặc người trong gia đình tôi. Trong trường hợp này bắt buộc phải dùng động từ くれます.\n• Cấu trúc: [Người cho] は [わたし/người nhà tôi] に [Vật] を くれます.",
+      "note": "Tuyệt đối không dùng 「佐藤さんは 私に チョコレートを あげました」. Phải nói là 「くれました」.",
+      "examples": [
+        {
+          "jp": "さとうさんは わたしに クリスマスカードを くれました。",
+          "vi": "Chị Sato đã tặng tôi một tấm thiệp Giáng sinh."
+        },
+        {
+          "jp": "さとうさんは いもうとに おかしを くれました。",
+          "vi": "Chị Sato đã cho em gái tôi bánh kẹo."
+        }
+      ]
+    },
+    {
+      "id": "l24_g02",
+      "pattern": "2. Động từ thể て あげます / もらいます / くれます (Cho và nhận hành vi)",
+      "explanation": "Diễn đạt việc thực hiện một hành động mang lại ơn huệ, lợi ích cho người khác hoặc được người khác giúp đỡ:\n1) [V て あげます]: Làm việc gì giúp người khác (Tôi làm cho ai).\n   - Lưu ý: Không dùng với người trên vì dễ gây cảm giác kẻ cả, khoe khoang.\n2) [V て もらいます]: Được ai đó làm việc gì giúp cho mình (Chủ ngữ là người nhận).\n   - Ví dụ: わたしは やまださんに レポートを なおして もらいました (Tôi được anh Yamada sửa bài giúp).\n3) [V て くれます]: Ai đó làm việc gì giúp cho mình hoặc người nhà mình (Chủ ngữ là người làm giúp).\n   - Ví dụ: やまださんは わたしに レポートを なおして くれました (Anh Yamada đã sửa bài giúp tôi).",
+      "note": "てくれます và てもらいます mang cùng nghĩa nhận ơn huệ nhưng chủ ngữ đổi vị trí.",
+      "examples": [
+        {
+          "jp": "わたしは きむらさんに ほんを かして あげました。",
+          "vi": "Tôi đã cho chị Kimura mượn sách."
+        },
+        {
+          "jp": "わたしは やまださんに としょかんの でんわばんごうを おしえて もらいました。",
+          "vi": "Tôi đã được anh Yamada chỉ cho số điện thoại của thư viện."
+        },
+        {
+          "jp": "ははは わたしに セーターを おくって くれました。",
+          "vi": "Mẹ đã đan gửi cho tôi một chiếc áo len."
+        }
+      ]
+    },
+    {
+      "id": "l24_g03",
+      "pattern": "3. Danh từ 1 は Danh từ 2 が Động từ (Chủ đề hóa đối tượng được tặng)",
+      "explanation": "Khi muốn nhấn mạnh đồ vật được nhận (Danh từ 1) làm chủ đề câu nói thì đưa ra đầu câu với trợ từ は. Người tặng (Danh từ 2) đóng vai trò chủ ngữ đi với trợ từ が.",
+      "note": "Ví dụ: この ワインは さとうさんが くれました (Chai rượu vang này là chị Sato tặng tôi đấy).",
+      "examples": [
+        {
+          "jp": "おいしい ワインですね。……ええ、[この ワインは] さとうさんが くれました。",
+          "vi": "Rượu vang ngon nhỉ. ……Vâng, [rượu vang này] là do chị Sato tặng tôi đấy."
+        }
+      ]
+    }
+  ]
+}

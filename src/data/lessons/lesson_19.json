@@ -1,0 +1,235 @@
+{
+  "lessonNumber": 19,
+  "titleJp": "ふじさんに のぼったことが あります",
+  "titleVi": "Bài 19: Thể Ta & Kinh nghiệm",
+  "vocabulary": [
+    {
+      "id": "l19_v01",
+      "kana": "のぼります",
+      "kanji": "登ります / 上ります",
+      "meaning": "Leo (núi), trèo lên",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l19_v02",
+      "kana": "とまります",
+      "kanji": "泊まります",
+      "meaning": "Trọ, ở lại [khách sạn: ホテルに～]",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l19_v03",
+      "kana": "そうじします",
+      "kanji": "掃除します",
+      "meaning": "Dọn vệ sinh (phòng ốc)",
+      "type": "Động từ nhóm 3"
+    },
+    {
+      "id": "l19_v04",
+      "kana": "せんたくします",
+      "kanji": "洗濯します",
+      "meaning": "Giặt giũ (quần áo)",
+      "type": "Động từ nhóm 3"
+    },
+    {
+      "id": "l19_v05",
+      "kana": "なります",
+      "meaning": "Trở thành, trở nên",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l19_v06",
+      "kana": "ねむい",
+      "kanji": "眠い",
+      "meaning": "Buồn ngủ",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l19_v07",
+      "kana": "つよい",
+      "kanji": "強い",
+      "meaning": "Mạnh mẽ",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l19_v08",
+      "kana": "よわい",
+      "kanji": "弱い",
+      "meaning": "Yếu ớt",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l19_v09",
+      "kana": "れんしゅう",
+      "kanji": "練習",
+      "meaning": "Sự luyện tập (~を します: luyện tập)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l19_v10",
+      "kana": "ゴルフ",
+      "meaning": "Môn đánh gôn (golf)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l19_v11",
+      "kana": "すもう",
+      "kanji": "相撲",
+      "meaning": "Môn đấu vật Sumo Nhật Bản",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l19_v12",
+      "kana": "おちゃ",
+      "kanji": "お茶",
+      "meaning": "Trà đạo (nghệ thuật thưởng trà)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l19_v13",
+      "kana": "ひ",
+      "kanji": "日",
+      "meaning": "Ngày",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l19_v14",
+      "kana": "ちょうし",
+      "kanji": "調子",
+      "meaning": "Tình trạng, phong độ, trạng thái",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l19_v15",
+      "kana": "いちど",
+      "kanji": "一度",
+      "meaning": "Một lần",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l19_v16",
+      "kana": "いちども",
+      "kanji": "一度も",
+      "meaning": "Chưa lần nào, chưa bao giờ (đi với phủ định)",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l19_v17",
+      "kana": "だんだん",
+      "meaning": "Dần dần, từ từ",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l19_v18",
+      "kana": "もうすぐ",
+      "meaning": "Sắp, sắp sửa",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l19_v19",
+      "kana": "おかげさまで",
+      "meaning": "Cảm ơn anh/chị, nhờ có ơn trời/anh chị mà tôi khỏe",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l19_v20",
+      "kana": "でも",
+      "meaning": "Nhưng mà, tuy nhiên",
+      "type": "Liên từ"
+    },
+    {
+      "id": "l19_v21",
+      "kana": "かんぱい",
+      "kanji": "乾杯",
+      "meaning": "Cạn chén! / Nâng cốc! (khi uống tiệc)",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l19_v22",
+      "kana": "ダイエット",
+      "meaning": "Việc ăn kiêng, chế độ giảm cân",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l19_v23",
+      "kana": "むり [な]",
+      "kanji": "無理 [な]",
+      "meaning": "Quá sức, không thể, vô lý",
+      "type": "Tính từ đuôi な"
+    },
+    {
+      "id": "l19_v24",
+      "kana": "からだに いい",
+      "kanji": "体に いい",
+      "meaning": "Tốt cho sức khỏe",
+      "type": "Cụm từ"
+    }
+  ],
+  "kanji": [],
+  "grammar": [
+    {
+      "id": "l19_g01",
+      "pattern": "1. Thể た (Ta-form) của động từ",
+      "explanation": "Thể た là thể quá khứ ngắn (thông thường) của động từ. Quy tắc tạo thể た hoàn toàn giống quy tắc tạo thể て của Bài 14:\n• Thay đuôi て bằng た; thay đuôi で bằng だ.\n  Ví dụ:\n  - かいて ➔ かいた\n  - のんで ➔ のんだ\n  - いって ➔ いった\n  - たべて ➔ たべた\n  - きて ➔ きた\n  - して ➔ した",
+      "note": "Cần thuần thục thể て để chia thể た chính xác 100%.",
+      "examples": [
+        {
+          "jp": "かいた、のんだ、たべた、きた、した",
+          "vi": "đã viết, đã uống, đã ăn, đã đến, đã làm"
+        }
+      ]
+    },
+    {
+      "id": "l19_g02",
+      "pattern": "2. Động từ thể た ことが あります (Đã từng ~ / Kinh nghiệm)",
+      "explanation": "Mẫu câu dùng để nói về một hành động đã từng làm trong quá khứ như là một kinh nghiệm đã trải qua trong đời.\n• Phủ định: [V た ことが ありません] (Chưa từng làm bao giờ).\n• Lưu ý: Nếu chỉ là hành động đơn thuần xảy ra vào một mốc thời gian cụ thể trong quá khứ (hôm qua, năm ngoái) thì chỉ dùng thì quá khứ ました thông thường.",
+      "note": "Hỏi kinh nghiệm: V た ことが ありますか (Anh đã từng làm ~ bao giờ chưa?).",
+      "examples": [
+        {
+          "jp": "うまに のった ことが あります。",
+          "vi": "Tôi đã từng cưỡi ngựa."
+        },
+        {
+          "jp": "ふじさんに のぼった ことが ありますか。……いいえ、一度も ありません。",
+          "vi": "Anh đã từng leo núi Phú Sĩ bao giờ chưa? ……Chưa, tôi chưa từng leo lần nào cả."
+        }
+      ]
+    },
+    {
+      "id": "l19_g03",
+      "pattern": "3. Động từ 1 thể たり、Động từ 2 thể たり します (Liệt kê hành động tiêu biểu)",
+      "explanation": "Mẫu câu dùng để liệt kê một vài hành động tiêu biểu đại diện trong số nhiều hành động khác nhau, không quan trọng thứ tự thời gian trước sau (khác với V1 て, V2 て biểu thị trình tự liên tiếp).\n• Cách tạo: V1(thể た) + り、V2(thể た) + り します.\n• Thì của câu được chia ở động từ します/しました cuối câu.",
+      "note": "Có thể kết thúc bằng します (thói quen) hoặc しました (đã diễn ra).",
+      "examples": [
+        {
+          "jp": "にちようびは テニスを したり、えいがを みたり します。",
+          "vi": "Chủ nhật tôi thường khi thì chơi tennis, khi thì xem phim."
+        },
+        {
+          "jp": "きのうは そうじしたり、せんたくしたり しました。",
+          "vi": "Hôm qua tôi lúc thì dọn dẹp, lúc thì giặt giũ."
+        }
+      ]
+    },
+    {
+      "id": "l19_g04",
+      "pattern": "4. Tính từ / Danh từ + なります (Trở nên, trở thành)",
+      "explanation": "Động từ なります biểu thị sự biến đổi, chuyển biến về trạng thái:\n• Tính từ đuôi い: [Bỏ い] + く なります (さむい ➔ さむく なります: trời trở lạnh).\n• Tính từ đuôi な: [Bỏ な] + に なります (げんき[な] ➔ げんきに なります: khỏe mạnh lên).\n• Danh từ: [Danh từ] + に なります (25さいに なります: bước sang tuổi 25).",
+      "note": "Biểu thị sự thay đổi tự nhiên hoặc theo thời gian.",
+      "examples": [
+        {
+          "jp": "さむく なります。",
+          "vi": "Trời trở nên lạnh."
+        },
+        {
+          "jp": "げんきに なります。",
+          "vi": "Tôi trở nên khỏe mạnh."
+        },
+        {
+          "jp": "もうすぐ 25さいに なります。",
+          "vi": "Tôi sắp sửa bước sang tuổi 25."
+        }
+      ]
+    }
+  ]
+}

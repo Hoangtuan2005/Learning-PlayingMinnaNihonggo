@@ -1,0 +1,272 @@
+{
+  "lessonNumber": 23,
+  "titleJp": "としょかんへ いくとき、カードが いります",
+  "titleVi": "Bài 23: Khi nào (とき) & Hễ mà (と)",
+  "vocabulary": [
+    {
+      "id": "l23_v01",
+      "kana": "ききます",
+      "kanji": "聞きます",
+      "meaning": "Hỏi [thầy giáo: せんせいに～]",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l23_v02",
+      "kana": "まわします",
+      "kanji": "回します",
+      "meaning": "Vặn, xoay",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l23_v03",
+      "kana": "ひきます",
+      "kanji": "引きます",
+      "meaning": "Kéo",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l23_v04",
+      "kana": "かえます",
+      "kanji": "変えます",
+      "meaning": "Đổi, thay đổi",
+      "type": "Động từ nhóm 2"
+    },
+    {
+      "id": "l23_v05",
+      "kana": "さわります",
+      "kanji": "触ります",
+      "meaning": "Sờ, chạm vào [cửa: ドアに～]",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l23_v06",
+      "kana": "でます",
+      "kanji": "出ます",
+      "meaning": "[Tiền thừa] ra, chạy ra [おつりが～]",
+      "type": "Động từ nhóm 2"
+    },
+    {
+      "id": "l23_v07",
+      "kana": "あるきます",
+      "kanji": "歩きます",
+      "meaning": "Đi bộ",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l23_v08",
+      "kana": "わたります",
+      "kanji": "渡ります",
+      "meaning": "Qua, đi qua [cầu: はしを～]",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l23_v09",
+      "kana": "まがります",
+      "kanji": "曲がります",
+      "meaning": "Rẽ, quẹo [về bên phải: みぎへ～]",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l23_v10",
+      "kana": "さびしい",
+      "kanji": "寂しい",
+      "meaning": "Buồn, cô đơn",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l23_v11",
+      "kana": "[お]ゆ",
+      "kanji": "[お]湯",
+      "meaning": "Nước nóng",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l23_v12",
+      "kana": "おと",
+      "kanji": "音",
+      "meaning": "Âm thanh, tiếng động",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l23_v13",
+      "kana": "サイズ",
+      "meaning": "Cỡ, kích cỡ (size)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l23_v14",
+      "kana": "こしょう",
+      "kanji": "故障",
+      "meaning": "Sự hỏng hóc, sự cố máy móc",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l23_v15",
+      "kana": "みち",
+      "kanji": "道",
+      "meaning": "Đường sá, con đường",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l23_v16",
+      "kana": "こうさてん",
+      "kanji": "交差点",
+      "meaning": "Ngã tư, điểm giao cắt",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l23_v17",
+      "kana": "しんごう",
+      "kanji": "信号",
+      "meaning": "Đèn tín hiệu giao thông",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l23_v18",
+      "kana": "かど",
+      "kanji": "角",
+      "meaning": "Góc (đường, phố)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l23_v19",
+      "kana": "はし",
+      "kanji": "橋",
+      "meaning": "Cây cầu",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l23_v20",
+      "kana": "ちゅうしゃじょう",
+      "kanji": "駐車場",
+      "meaning": "Bãi đỗ xe",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l23_v21",
+      "kana": "たてもの",
+      "kanji": "建物",
+      "meaning": "Tòa nhà, công trình kiến trúc",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l23_v22",
+      "kana": "なんかいも",
+      "kanji": "何回も",
+      "meaning": "Nhiều lần",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l23_v23",
+      "kana": "～め",
+      "kanji": "～目",
+      "meaning": "Thứ ～, số ～ (chỉ số thứ tự)",
+      "type": "Hậu tố"
+    },
+    {
+      "id": "l23_v24",
+      "kana": "しょうとくたいし",
+      "kanji": "聖徳太子",
+      "meaning": "Thái tử Shotoku (574-622)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l23_v25",
+      "kana": "ほうりゅうじ",
+      "kanji": "法隆寺",
+      "meaning": "Chùa Horyuji (ngôi chùa cổ ở Nara)",
+      "type": "Danh từ"
+    }
+  ],
+  "kanji": [],
+  "grammar": [
+    {
+      "id": "l23_g01",
+      "pattern": "1. Thể thông thường + とき、Mệnh đề chính (Khi / Lúc)",
+      "explanation": "Từ とき (時 - khi, lúc) dùng để biểu thị thời điểm diễn ra trạng thái hoặc hành động ở mệnh đề chính. Hình thức kết nối trước とき giống như bổ nghĩa cho danh từ:\n• Động từ thể từ điển / thể ない: 本を かりる とき (khi mượn sách), つかわない とき (khi không dùng).\n• Tính từ đuôi い: わかい とき (khi còn trẻ).\n• Tính từ đuôi な: ひまな とき (khi rảnh rỗi).\n• Danh từ + の: こどもの とき (khi còn là trẻ con).",
+      "note": "Thời của mệnh đề とき không phụ thuộc vào thời của mệnh đề chính.",
+      "examples": [
+        {
+          "jp": "としょかんへ ほんを かりる とき、カードが いります。",
+          "vi": "Khi mượn sách ở thư viện thì cần phải có thẻ."
+        },
+        {
+          "jp": "つかいかたが わからない とき、わたしに きいて ください。",
+          "vi": "Khi không biết cách sử dụng thì hãy hỏi tôi."
+        },
+        {
+          "jp": "からだの ちょうしが わるい とき、「げんきちゃ」を のみます。",
+          "vi": "Khi trong người cảm thấy không khỏe thì tôi uống \"trà Genki\"."
+        },
+        {
+          "jp": "ひまな とき、うちへ あそびに きませんか。",
+          "vi": "Khi rảnh rỗi, anh đến nhà tôi chơi nhé?"
+        }
+      ]
+    },
+    {
+      "id": "l23_g02",
+      "pattern": "2. Động từ (thể từ điển / thể た) + とき (Trình tự trước sau)",
+      "explanation": "Phân biệt rõ ràng giữa thì của động từ trước とき:\n• [V thể từ điển + とき]: Hành động mệnh đề chính diễn ra TRƯỚC hành động V.\n  Ví dụ: パリへ 行く とき、かばんを かいました (Trước khi đến Paris, tôi đã mua túi xách - mua trên đường đi hoặc ở nước mình).\n• [V thể た + とき]: Hành động mệnh đề chính diễn ra SAU KHI đã hoàn tất V.\n  Ví dụ: パリへ 行った とき、かばんを かいました (Sau khi đã đến Paris rồi tôi mới mua túi xách - mua tại Paris).",
+      "note": "V từ điển + とき = Chưa làm V; V た + とき = Đã làm V xong.",
+      "examples": [
+        {
+          "jp": "パリへ 行く とき、かばんを かいました。",
+          "vi": "(Trước) khi đi Paris, tôi đã mua một chiếc túi xách."
+        },
+        {
+          "jp": "パリへ 行った とき、かばんを かいました。",
+          "vi": "(Sau) khi đến Paris, tôi đã mua một chiếc túi xách."
+        }
+      ]
+    },
+    {
+      "id": "l23_g03",
+      "pattern": "3. Động từ thể từ điển + と、Mệnh đề chính (Hễ mà... thì / Cứ... là...)",
+      "explanation": "Trợ từ と dùng nối 2 mệnh đề chỉ điều kiện tự nhiên, quy luật máy móc hoặc chỉ đường: Hễ vế trước xảy ra thì vế sau tất yếu xảy ra ngay tức thì.",
+      "note": "Vế sau と không được chứa ý chí, mệnh lệnh, rủ rê hay nhờ vả của người nói.",
+      "examples": [
+        {
+          "jp": "この ボタンを おすと、おつりが でます。",
+          "vi": "Hễ ấn cái nút này thì tiền thừa sẽ chạy ra."
+        },
+        {
+          "jp": "これを まわすと、おとが おおきく なります。",
+          "vi": "Hễ vặn cái này thì âm thanh sẽ to lên."
+        },
+        {
+          "jp": "みぎへ まがると、ゆうびんきょくが あります。",
+          "vi": "Hễ rẽ phải là sẽ thấy bưu điện."
+        }
+      ]
+    },
+    {
+      "id": "l23_g04",
+      "pattern": "4. Danh từ が Tính từ (Miêu tả cảm nhận khách quan)",
+      "explanation": "Dùng trợ từ が sau danh từ để miêu tả hiện tượng hay trạng thái được cảm nhận trực tiếp bằng các giác quan (mắt thấy, tai nghe).",
+      "note": "Ví dụ: おとが ちいさいです (Âm thanh nhỏ quá).",
+      "examples": [
+        {
+          "jp": "おとが ちいさいです。",
+          "vi": "Âm thanh nhỏ quá."
+        }
+      ]
+    },
+    {
+      "id": "l23_g05",
+      "pattern": "5. Danh từ を Động từ chuyển động (Băng qua, đi qua)",
+      "explanation": "Trợ từ を đi cùng các động từ chuyển động (わたります - qua, さんぽします - dạo, あるきます - đi bộ) biểu thị nơi chốn, không gian mà người/vật chuyển động xuyên qua.",
+      "note": "Ví dụ: みちを わたります (băng qua đường), こうえんを さんぽします (đi dạo qua công viên).",
+      "examples": [
+        {
+          "jp": "みちを わたります。",
+          "vi": "Tôi băng qua đường."
+        },
+        {
+          "jp": "こうさてんを みぎへ まがります。",
+          "vi": "Tôi rẽ phải ở ngã tư."
+        }
+      ]
+    }
+  ]
+}

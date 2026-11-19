@@ -1,0 +1,220 @@
+{
+  "lessonNumber": 25,
+  "titleJp": "あめが ふったら、いきません",
+  "titleVi": "Bài 25: Điều kiện giả định (たら) & Dẫu cho (ても)",
+  "vocabulary": [
+    {
+      "id": "l25_v01",
+      "kana": "かんがえます",
+      "kanji": "考えます",
+      "meaning": "Nghĩ, suy nghĩ, cân nhắc",
+      "type": "Động từ nhóm 2"
+    },
+    {
+      "id": "l25_v02",
+      "kana": "つきます",
+      "kanji": "着きます",
+      "meaning": "Đến, tới nơi [ga: えきに～]",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l25_v03",
+      "kana": "とります",
+      "kanji": "取ります",
+      "meaning": "Thêm [tuổi: としを～]",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l25_v04",
+      "kana": "たります",
+      "kanji": "足ります",
+      "meaning": "Đủ, đầy đủ",
+      "type": "Động từ nhóm 2"
+    },
+    {
+      "id": "l25_v05",
+      "kana": "いなか",
+      "kanji": "田舎",
+      "meaning": "Quê hương, miền quê, nông thôn",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l25_v06",
+      "kana": "チャンス",
+      "meaning": "Cơ hội (chance)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l25_v07",
+      "kana": "おく",
+      "kanji": "億",
+      "meaning": "Một trăm triệu (100.000.000)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l25_v08",
+      "kana": "もし",
+      "meaning": "Nếu, giả sử [~たら]",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l25_v09",
+      "kana": "いみ",
+      "kanji": "意味",
+      "meaning": "Ý nghĩa, nghĩa",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l25_v10",
+      "kana": "もしもし",
+      "meaning": "A-lô (khi nói chuyện điện thoại)",
+      "type": "Thán từ"
+    },
+    {
+      "id": "l25_v11",
+      "kana": "てんきん",
+      "kanji": "転勤",
+      "meaning": "Chuyển địa điểm làm việc, chuyển công tác (~を します)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l25_v12",
+      "kana": "こと",
+      "meaning": "Việc, chuyện (~の こと: chuyện về ~)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l25_v13",
+      "kana": "ひま",
+      "kanji": "暇",
+      "meaning": "Thời gian rảnh rỗi",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l25_v14",
+      "kana": "[いろいろ] おせわに なりました",
+      "kanji": "[いろいろ] お世話に なりました",
+      "meaning": "Cảm ơn anh/chị đã giúp đỡ tôi rất nhiều.",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l25_v15",
+      "kana": "がんばります",
+      "kanji": "頑張ります",
+      "meaning": "Cố gắng, nỗ lực hết mình",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l25_v16",
+      "kana": "どうぞ おげんきで",
+      "kanji": "どうぞ お元気で",
+      "meaning": "Chúc anh/chị luôn mạnh khỏe, bảo trọng (chào khi chia tay lâu dài)",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l25_v17",
+      "kana": "ベトナム",
+      "meaning": "Việt Nam",
+      "type": "Danh từ"
+    }
+  ],
+  "kanji": [],
+  "grammar": [
+    {
+      "id": "l25_g01",
+      "pattern": "1. Thể thông thường (chia ở quá khứ) + ら、Mệnh đề chính (Nếu ~ thì ~)",
+      "explanation": "Thêm ら vào sau thể thông thường quá khứ của động từ, tính từ, danh từ để biểu thị điều kiện giả định:\n• Động từ: V た ➔ たら (あめが ふったら - Nếu trời mưa).\n• Phủ định động từ: V なかった ➔ なかったら (じかんが なかったら - Nếu không có thời gian).\n• Tính từ đuôi い: かった ➔ かったら (やすかったら - Nếu rẻ).\n• Tính từ đuôi な / Danh từ: だった ➔ だったら (ひまだったら - Nếu rảnh; いい てんきだったら - Nếu trời đẹp).\n• Ở mệnh đề chính có thể dùng biểu hiện ý chí, mệnh lệnh, rủ rê, nhờ vả (~たい, ~てください, ~ませんか).",
+      "note": "Khác với と (không dùng ý chí), たら có thể dùng tự do với các biểu hiện ý chí, nhờ vả.",
+      "examples": [
+        {
+          "jp": "おかねが あったら、りょこうします。",
+          "vi": "Nếu có tiền thì tôi sẽ đi du lịch."
+        },
+        {
+          "jp": "じかんが なかったら、テレビを みません。",
+          "vi": "Nếu không có thời gian thì tôi sẽ không xem tivi."
+        },
+        {
+          "jp": "やすかったら、パソコンを かいたいです。",
+          "vi": "Nếu máy tính rẻ thì tôi muốn mua."
+        },
+        {
+          "jp": "ひまだったら、てつだって ください。",
+          "vi": "Nếu anh/chị rảnh rỗi thì hãy giúp tôi nhé."
+        }
+      ]
+    },
+    {
+      "id": "l25_g02",
+      "pattern": "2. Động từ thể たら、Mệnh đề chính (Khi / Sau khi ~)",
+      "explanation": "Khi hành động ở mệnh đề trước たら là một việc chắc chắn sẽ xảy ra trong tương lai (không phải giả định), thì たら mang ý nghĩa là \"Khi / Sau khi hoàn thành hành động đó thì...\".",
+      "note": "Ví dụ: 10じに なったら (Khi đến 10 giờ); うちへ かえったら (Sau khi về đến nhà).",
+      "examples": [
+        {
+          "jp": "10じに なったら、でかけましょう。",
+          "vi": "(Khi) đến 10 giờ thì chúng ta cùng ra ngoài nhé."
+        },
+        {
+          "jp": "うちへ かえったら、すぐ シャワーを あびます。",
+          "vi": "Sau khi về đến nhà tôi sẽ đi tắm vòi sen ngay."
+        }
+      ]
+    },
+    {
+      "id": "l25_g03",
+      "pattern": "3. Động từ thể て / Tính từ / Danh từ + も、Mệnh đề chính (Cho dù ~ thì vẫn ~)",
+      "explanation": "Mẫu câu biểu thị điều kiện giả định ngược (nhượng bộ). Biểu thị một kết quả trái với dự đoán thông thường của mọi người:\n• Động từ: V て ➔ ても (ふっても - Cho dù mưa); V なくて ➔ なくても (なくても - Cho dù không có).\n• Tính từ đuôi い: [Bỏ い] + くても (たかくても - Cho dù đắt).\n• Tính từ đuôi な: [Bỏ な] + でも (べんりでも - Cho dù tiện lợi).\n• Danh từ + でも (にちようびでも - Cho dù là chủ nhật).",
+      "note": "Dịch là: \"Dẫu cho... / Cho dù... thì vẫn...\".",
+      "examples": [
+        {
+          "jp": "あめが ふっても、せんたくします。",
+          "vi": "Cho dù trời có mưa thì tôi vẫn giặt quần áo."
+        },
+        {
+          "jp": "やすくても、わたしは グループりょこうが きらいです。",
+          "vi": "Cho dù có rẻ nhưng tôi vẫn không thích đi du lịch theo đoàn."
+        },
+        {
+          "jp": "べんりでも、パソコンを つかいません。",
+          "vi": "Cho dù máy tính tiện lợi nhưng tôi cũng không dùng."
+        },
+        {
+          "jp": "にちようびでも、はたらきます。",
+          "vi": "Cho dù là chủ nhật thì tôi vẫn làm việc."
+        }
+      ]
+    },
+    {
+      "id": "l25_g04",
+      "pattern": "4. もし (Nếu như, giả sử)",
+      "explanation": "Phó từ もし đặt ở đầu câu đi cùng với 〜たら hoặc 〜ても để thông báo trước cho người nghe rằng đây là một câu điều kiện giả định, nhấn mạnh tâm lý giả thuyết của người nói.",
+      "note": "Thường đi kèm: もし 〜たら / もし 〜ても.",
+      "examples": [
+        {
+          "jp": "もし 1おくえん あったら、いろいろな くにを りょこうしたいです。",
+          "vi": "Nếu giả sử có 100 triệu yên, tôi muốn đi du lịch đến nhiều nước trên thế giới."
+        }
+      ]
+    },
+    {
+      "id": "l25_g05",
+      "pattern": "5. Chủ ngữ của mệnh đề phụ đi với trợ từ が",
+      "explanation": "Trong toàn bộ các câu phức có mệnh đề phụ (như 〜てから, 〜とき, 〜と, 〜まえに, 〜たら, 〜ても), chủ ngữ của mệnh đề phụ luôn luôn được đánh dấu bởi trợ từ が (chứ không dùng trợ từ は).",
+      "note": "Ví dụ: 友達が 来る まえに (Trước khi bạn đến); 妻が 病気の とき (Khi vợ bị ốm).",
+      "examples": [
+        {
+          "jp": "ともだちが くる まえに、へやを そうじします。",
+          "vi": "Trước khi bạn đến chơi, tôi dọn dẹp phòng."
+        },
+        {
+          "jp": "つまが びょうきの とき、かいしゃを やすみます。",
+          "vi": "Khi vợ bị ốm thì tôi xin nghỉ làm."
+        },
+        {
+          "jp": "ともだちが やくそくの じかんに こなかったら、どう しますか。",
+          "vi": "Nếu người bạn không đến đúng giờ hẹn thì anh sẽ làm thế nào?"
+        }
+      ]
+    }
+  ]
+}

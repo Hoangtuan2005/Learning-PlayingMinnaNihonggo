@@ -1,0 +1,676 @@
+{
+  "lessonNumber": 12,
+  "titleJp": "きょうとは ならより しずかです",
+  "titleVi": "Bài 12: So sánh & Quá khứ tính từ",
+  "vocabulary": [
+    {
+      "id": "l12_v01",
+      "kana": "かんたん [な]",
+      "kanji": "簡単 [な]",
+      "meaning": "Đơn giản, dễ",
+      "type": "Tính từ đuôi な"
+    },
+    {
+      "id": "l12_v02",
+      "kana": "ちかい",
+      "kanji": "近い",
+      "meaning": "Gần",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l12_v03",
+      "kana": "とおい",
+      "kanji": "遠い",
+      "meaning": "Xa",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l12_v04",
+      "kana": "はやい",
+      "kanji": "速い / 早い",
+      "meaning": "Nhanh (速い) / Sớm (早い)",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l12_v05",
+      "kana": "おそい",
+      "kanji": "遅い",
+      "meaning": "Chậm, muộn",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l12_v06",
+      "kana": "おおい",
+      "kanji": "多い",
+      "meaning": "Nhiều [người: ひとが～]",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l12_v07",
+      "kana": "すくない",
+      "kanji": "少ない",
+      "meaning": "Ít [người: ひとが～]",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l12_v08",
+      "kana": "あたたかい",
+      "kanji": "暖かい / 温かい",
+      "meaning": "Ấm áp (thời tiết / món ăn nước uống)",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l12_v09",
+      "kana": "すずしい",
+      "kanji": "涼しい",
+      "meaning": "Mát mẻ (thời tiết)",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l12_v10",
+      "kana": "あまい",
+      "kanji": "甘い",
+      "meaning": "Ngọt",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l12_v11",
+      "kana": "からい",
+      "kanji": "辛い",
+      "meaning": "Cay",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l12_v12",
+      "kana": "おもい",
+      "kanji": "重い",
+      "meaning": "Nặng",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l12_v13",
+      "kana": "かるい",
+      "kanji": "軽い",
+      "meaning": "Nhẹ",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l12_v14",
+      "kana": "いい",
+      "meaning": "Thích, chọn, dùng [cà phê: コーヒーが～]",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l12_v15",
+      "kana": "きせつ",
+      "kanji": "季節",
+      "meaning": "Mùa, các mùa trong năm",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l12_v16",
+      "kana": "はる",
+      "kanji": "春",
+      "meaning": "Mùa xuân",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l12_v17",
+      "kana": "なつ",
+      "kanji": "夏",
+      "meaning": "Mùa hè",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l12_v18",
+      "kana": "あき",
+      "kanji": "秋",
+      "meaning": "Mùa thu",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l12_v19",
+      "kana": "ふゆ",
+      "kanji": "冬",
+      "meaning": "Mùa đông",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l12_v20",
+      "kana": "てんき",
+      "kanji": "天気",
+      "meaning": "Thời tiết",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l12_v21",
+      "kana": "あめ",
+      "kanji": "雨",
+      "meaning": "Mưa, cơn mưa",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l12_v22",
+      "kana": "ゆき",
+      "kanji": "雪",
+      "meaning": "Tuyết",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l12_v23",
+      "kana": "くもり",
+      "kanji": "曇り",
+      "meaning": "Trời có mây, âm u",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l12_v24",
+      "kana": "ホテル",
+      "meaning": "Khách sạn",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l12_v25",
+      "kana": "くうこう",
+      "kanji": "空港",
+      "meaning": "Sân bay",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l12_v26",
+      "kana": "うみ",
+      "kanji": "海",
+      "meaning": "Biển, đại dương",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l12_v27",
+      "kana": "せかい",
+      "kanji": "世界",
+      "meaning": "Thế giới",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l12_v28",
+      "kana": "パーティー",
+      "meaning": "Bữa tiệc (~を します: mở tiệc)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l12_v29",
+      "kana": "[お]まつり",
+      "kanji": "[お]祭り",
+      "meaning": "Lễ hội",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l12_v30",
+      "kana": "すきやき",
+      "kanji": "すき焼き",
+      "meaning": "Món lẩu Sukiyaki (thịt bò, rau)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l12_v31",
+      "kana": "さしみ",
+      "kanji": "刺身",
+      "meaning": "Món Sashimi (gỏi cá sống)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l12_v32",
+      "kana": "[お]すし",
+      "meaning": "Món Sushi (cơm trộn giấm và cá tươi)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l12_v33",
+      "kana": "てんぷら",
+      "meaning": "Món Tempura (hải sản tẩm bột chiên)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l12_v34",
+      "kana": "ぶたにく",
+      "kanji": "豚肉",
+      "meaning": "Thịt lợn, thịt heo",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l12_v35",
+      "kana": "とりにく",
+      "kanji": "とり肉",
+      "meaning": "Thịt gà",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l12_v36",
+      "kana": "ぎゅうにく",
+      "kanji": "牛肉",
+      "meaning": "Thịt bò",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l12_v37",
+      "kana": "レモン",
+      "meaning": "Quả chanh",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l12_v38",
+      "kana": "いけばな",
+      "kanji": "生け花",
+      "meaning": "Nghệ thuật cắm hoa Ikebana",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l12_v39",
+      "kana": "もみじ",
+      "kanji": "紅葉",
+      "meaning": "Cây lá đỏ, lá phong đỏ",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l12_v40",
+      "kana": "どちら",
+      "meaning": "Cái nào (trong hai cái)",
+      "type": "Từ để hỏi"
+    },
+    {
+      "id": "l12_v41",
+      "kana": "どちらも",
+      "meaning": "Cả hai (đều)",
+      "type": "Đại từ"
+    },
+    {
+      "id": "l12_v42",
+      "kana": "いちばん",
+      "meaning": "Nhất, số 1",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l12_v43",
+      "kana": "ずっと",
+      "meaning": "(Hơn) hẳn, suốt",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l12_v44",
+      "kana": "はじめて",
+      "kanji": "初めて",
+      "meaning": "Lần đầu tiên",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l12_v45",
+      "kana": "ただいま",
+      "meaning": "Tôi đã về đây (chào khi về đến nhà)",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l12_v46",
+      "kana": "おかえりなさい",
+      "kanji": "お帰りなさい",
+      "meaning": "Anh/Chị đã về đấy à (đáp lại ただいま)",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l12_v47",
+      "kana": "わあ、すごい ひとですね",
+      "meaning": "Ôi, đông người ghê nhỉ!",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l12_v48",
+      "kana": "つかれました",
+      "kanji": "疲れました",
+      "meaning": "Tôi mệt rồi.",
+      "type": "Cụm từ giao tiếp"
+    }
+  ],
+  "kanji": [
+    {
+      "id": "l12_k01",
+      "character": "言",
+      "hanViet": "NGÔN",
+      "onyomi": [
+        "ゲン",
+        "ゴン"
+      ],
+      "kunyomi": [
+        "い(う)",
+        "こと"
+      ],
+      "meaning": "Nói, lời nói",
+      "examples": [
+        {
+          "word": "言う",
+          "reading": "いう",
+          "meaning": "Nói"
+        },
+        {
+          "word": "言葉",
+          "reading": "ことば",
+          "meaning": "Từ ngữ, tiếng nói"
+        },
+        {
+          "word": "方言",
+          "reading": "ほうげん",
+          "meaning": "Tiếng địa phương"
+        },
+        {
+          "word": "伝言",
+          "reading": "でんごん",
+          "meaning": "Lời nhắn, tin nhắn"
+        }
+      ]
+    },
+    {
+      "id": "l12_k02",
+      "character": "書",
+      "hanViet": "THƯ",
+      "onyomi": [
+        "ショ"
+      ],
+      "kunyomi": [
+        "か(く)"
+      ],
+      "meaning": "Viết, sách, tài liệu",
+      "examples": [
+        {
+          "word": "書く",
+          "reading": "かく",
+          "meaning": "Viết"
+        },
+        {
+          "word": "辞書",
+          "reading": "じしょ",
+          "meaning": "Từ điển"
+        },
+        {
+          "word": "読書",
+          "reading": "どくしょ",
+          "meaning": "Đọc sách"
+        },
+        {
+          "word": "図書館",
+          "reading": "としょかん",
+          "meaning": "Thư viện"
+        }
+      ]
+    },
+    {
+      "id": "l12_k03",
+      "character": "読",
+      "hanViet": "ĐỘC",
+      "onyomi": [
+        "ドク",
+        "トク",
+        "トウ"
+      ],
+      "kunyomi": [
+        "よ(む)"
+      ],
+      "meaning": "Đọc",
+      "examples": [
+        {
+          "word": "読む",
+          "reading": "よむ",
+          "meaning": "Đọc"
+        },
+        {
+          "word": "読書",
+          "reading": "どくしょ",
+          "meaning": "Đọc sách"
+        },
+        {
+          "word": "訓読み",
+          "reading": "くんよみ",
+          "meaning": "Âm Kun (âm thuần Nhật)"
+        },
+        {
+          "word": "音読み",
+          "reading": "おんよみ",
+          "meaning": "Âm On (âm Hán-Nhật)"
+        }
+      ]
+    },
+    {
+      "id": "l12_k04",
+      "character": "食",
+      "hanViet": "THỰC",
+      "onyomi": [
+        "ショク",
+        "ジキ"
+      ],
+      "kunyomi": [
+        "た(べる)",
+        "く(う)"
+      ],
+      "meaning": "Ăn, đồ ăn",
+      "examples": [
+        {
+          "word": "食べる",
+          "reading": "たべる",
+          "meaning": "Ăn"
+        },
+        {
+          "word": "食堂",
+          "reading": "しょくどう",
+          "meaning": "Nhà ăn, phòng ăn"
+        },
+        {
+          "word": "食事",
+          "reading": "しょくじ",
+          "meaning": "Bữa ăn, dùng bữa"
+        },
+        {
+          "word": "朝食",
+          "reading": "ちょうしょく",
+          "meaning": "Bữa sáng"
+        }
+      ]
+    },
+    {
+      "id": "l12_k05",
+      "character": "飲",
+      "hanViet": "ẨM",
+      "onyomi": [
+        "イン"
+      ],
+      "kunyomi": [
+        "の(む)"
+      ],
+      "meaning": "Uống",
+      "examples": [
+        {
+          "word": "飲む",
+          "reading": "のむ",
+          "meaning": "Uống"
+        },
+        {
+          "word": "飲み物",
+          "reading": "のみもの",
+          "meaning": "Đồ uống, thức uống"
+        },
+        {
+          "word": "飲食店",
+          "reading": "いんしょくてん",
+          "meaning": "Quán ăn uống"
+        },
+        {
+          "word": "飲み薬",
+          "reading": "のみぐすり",
+          "meaning": "Thuốc uống"
+        }
+      ]
+    },
+    {
+      "id": "l12_k06",
+      "character": "話",
+      "hanViet": "THOẠI",
+      "onyomi": [
+        "ワ"
+      ],
+      "kunyomi": [
+        "はな(す)",
+        "はなし"
+      ],
+      "meaning": "Nói chuyện, câu chuyện",
+      "examples": [
+        {
+          "word": "話す",
+          "reading": "はなす",
+          "meaning": "Nói chuyện, kể chuyện"
+        },
+        {
+          "word": "話",
+          "reading": "はなし",
+          "meaning": "Câu chuyện, lời nói"
+        },
+        {
+          "word": "電話",
+          "reading": "でんわ",
+          "meaning": "Điện thoại"
+        },
+        {
+          "word": "会話",
+          "reading": "かいわ",
+          "meaning": "Hội thoại, đàm thoại"
+        }
+      ]
+    },
+    {
+      "id": "l12_k07",
+      "character": "買",
+      "hanViet": "MÃI",
+      "onyomi": [
+        "バイ"
+      ],
+      "kunyomi": [
+        "か(う)"
+      ],
+      "meaning": "Mua",
+      "examples": [
+        {
+          "word": "買う",
+          "reading": "かう",
+          "meaning": "Mua"
+        },
+        {
+          "word": "買い物",
+          "reading": "かいもの",
+          "meaning": "Mua sắm, đồ mua"
+        },
+        {
+          "word": "売買",
+          "reading": "ばいばい",
+          "meaning": "Mua bán"
+        },
+        {
+          "word": "買い占め",
+          "reading": "かいしめ",
+          "meaning": "Mua vét, đầu cơ"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "l12_g01",
+      "pattern": "1. Thì quá khứ của câu Danh từ và câu Tính từ đuôi な",
+      "explanation": "• Khẳng định quá khứ: [Danh từ / Tính từ đuôi な (bỏ な)] + でした.\n  Ví dụ: きのうは 雨でした (Hôm qua trời mưa), しずかでした (Đã rất yên tĩnh).\n• Phủ định quá khứ: [Danh từ / Tính từ đuôi な (bỏ な)] + じゃ (では) ありませんでした.\n  Ví dụ: きのうの しけんは 簡単じゃ ありませんでした (Bài thi hôm qua không dễ chút nào).",
+      "note": "Chia giống hệt câu danh từ.",
+      "examples": [
+        {
+          "jp": "きのうは あめでした。",
+          "vi": "Hôm qua trời đã mưa."
+        },
+        {
+          "jp": "きのうの しけんは かんたんじゃ ありませんでした。",
+          "vi": "Bài thi ngày hôm qua đã không hề dễ dàng."
+        }
+      ]
+    },
+    {
+      "id": "l12_g02",
+      "pattern": "2. Thì quá khứ của câu Tính từ đuôi い",
+      "explanation": "• Khẳng định quá khứ: [Bỏ đuôi い] + かったです.\n  Ví dụ: あつい ➔ あつかったです (Đã nóng).\n• Phủ định quá khứ: [Bỏ đuôi い] + くなかったです.\n  Ví dụ: あつくなかったです (Đã không nóng).\n• Ngoại lệ đặc biệt: いいです ➔ よかったです (Đã tốt) | よくなかったです (Đã không tốt).",
+      "note": "Tuyệt đối không dùng でした cho tính từ đuôi い (không nói あついでした).",
+      "examples": [
+        {
+          "jp": "きのうは あつかったです。",
+          "vi": "Hôm qua trời đã rất nóng."
+        },
+        {
+          "jp": "きのうの パーティーは あまり たのしくなかったです。",
+          "vi": "Bữa tiệc hôm qua đã không vui lắm."
+        },
+        {
+          "jp": "りょこうは どうでしたか。……とても よかったです。",
+          "vi": "Chuyến du lịch thế nào? ……Rất tuyệt vời ạ."
+        }
+      ]
+    },
+    {
+      "id": "l12_g03",
+      "pattern": "3. Danh từ 1 は Danh từ 2 より Tính từ です (So sánh hơn)",
+      "explanation": "Lấy Danh từ 2 làm chuẩn để so sánh tính chất hoặc trạng thái của Danh từ 1. Có nghĩa là: \"N1 thì ... hơn N2\".",
+      "note": "より có nghĩa là \"so với\". Ví dụ: このくるまは あのくるまより おおきいです.",
+      "examples": [
+        {
+          "jp": "この くるまは あの くるまより おおきいです。",
+          "vi": "Chiếc xe ô-tô này lớn hơn chiếc xe ô-tô kia."
+        },
+        {
+          "jp": "ほっかいどうは きゅうしゅうより おおきいです。",
+          "vi": "Hokkaido lớn hơn Kyushu."
+        }
+      ]
+    },
+    {
+      "id": "l12_g04",
+      "pattern": "4. Danh từ 1 と Danh từ 2 と どちらが Tính từ ですか",
+      "explanation": "Mẫu câu so sánh lựa chọn giữa 2 đối tượng (đồ vật, người, địa điểm). Dù đối tượng là gì đều dùng nghi vấn từ どちら (cái nào/bên nào trong hai cái).\n• Trả lời: [Danh từ の ほうが Tính từ です] (N thì... hơn).\n• Nếu bằng nhau: どちらも Tính từ です (Cả hai đều...).",
+      "note": "の ほうが có nghĩa là \"phía bên này hơn\".",
+      "examples": [
+        {
+          "jp": "サッカーと やきゅうと どちらが おもしろいですか。……サッカーの ほうが おもしろいです。",
+          "vi": "Bóng đá và bóng chày môn nào thú vị hơn? ……Bóng đá thú vị hơn."
+        },
+        {
+          "jp": "うみと やまと どちらが すきですか。……どちらも すきです。",
+          "vi": "Biển và núi anh thích nơi nào hơn? ……Tôi thích cả hai."
+        }
+      ]
+    },
+    {
+      "id": "l12_g05",
+      "pattern": "5. Danh từ 1 [の 中] で 何 / どこ / だれ / いつ が いちばん Tính từ ですか (So sánh nhất)",
+      "explanation": "Biểu thị sự so sánh nhất trong một phạm vi (Danh từ 1).\n• Dùng で sau phạm vi so sánh.\n• Dùng từ để hỏi thích hợp: 何 (cái gì), どこ (ở đâu), だれ (ai), いつ (khi nào).\n• Câu trả lời: [Danh từ 2 が いちばん Tính từ です].",
+      "note": "Trợ từ が đứng sau nghi vấn từ và đứng sau đối tượng đạt mức nhất.",
+      "examples": [
+        {
+          "jp": "にほんりょうり[の なか]で 何が いちばん おいしいですか。……てんぷらが いちばん おいしいいです。",
+          "vi": "Trong các món ăn Nhật, món nào ngon nhất? ……Món Tempura là ngon nhất."
+        },
+        {
+          "jp": "かぞくで だれが いちばん せが たかいですか。……おとうとが いちばん せが たかいです。",
+          "vi": "Trong gia đình ai là người cao nhất? ……Em trai tôi cao nhất."
+        }
+      ]
+    },
+    {
+      "id": "l12_g06",
+      "pattern": "6. Tính từ の (Trợ từ の thay thế danh từ)",
+      "explanation": "Khi danh từ đã được nhắc đến ở câu trước, ta có thể dùng の thay thế cho danh từ đó phía sau tính từ để tránh lặp từ (nghĩa là \"cái...\").",
+      "note": "Ví dụ: あかいの (cái màu đỏ), おおきいの (cái to).",
+      "examples": [
+        {
+          "jp": "カリナさんの かばんは どれですか。……あの あかくて、おおきいのです。",
+          "vi": "Cặp của chị Karina là cái nào? ……Là cái to, màu đỏ đằng kia."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,712 @@
+{
+  "lessonNumber": 10,
+  "titleJp": "つくえの うえに ほんがあります",
+  "titleVi": "Bài 10: Sự tồn tại & Vị trí",
+  "vocabulary": [
+    {
+      "id": "l10_v01",
+      "kana": "あります",
+      "meaning": "Ở, có (tồn tại, dùng cho đồ vật, cây cối)",
+      "type": "Động từ"
+    },
+    {
+      "id": "l10_v02",
+      "kana": "います",
+      "meaning": "Ở, có (tồn tại, dùng cho người và động vật)",
+      "type": "Động từ"
+    },
+    {
+      "id": "l10_v03",
+      "kana": "いろいろ [な]",
+      "meaning": "Nhiều, đa dạng",
+      "type": "Tính từ đuôi な"
+    },
+    {
+      "id": "l10_v04",
+      "kana": "おとこの ひと",
+      "kanji": "男の 人",
+      "meaning": "Người đàn ông",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l10_v05",
+      "kana": "おんなの ひと",
+      "kanji": "女の 人",
+      "meaning": "Người phụ nữ, người đàn bà",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l10_v06",
+      "kana": "おとこの こ",
+      "kanji": "男の 子",
+      "meaning": "Cậu bé, cậu con trai",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l10_v07",
+      "kana": "おんなの こ",
+      "kanji": "女の 子",
+      "meaning": "Cô bé, cô con gái",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l10_v08",
+      "kana": "いぬ",
+      "kanji": "犬",
+      "meaning": "Chó, con chó",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l10_v09",
+      "kana": "ねこ",
+      "kanji": "猫",
+      "meaning": "Mèo, con mèo",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l10_v10",
+      "kana": "パンダ",
+      "meaning": "Gấu trúc",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l10_v11",
+      "kana": "ぞう",
+      "kanji": "象",
+      "meaning": "Voi, con voi",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l10_v12",
+      "kana": "き",
+      "kanji": "木",
+      "meaning": "Cây, gỗ",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l10_v13",
+      "kana": "もの",
+      "kanji": "物",
+      "meaning": "Đồ vật, vật",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l10_v14",
+      "kana": "でんち",
+      "kanji": "電池",
+      "meaning": "Pin",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l10_v15",
+      "kana": "はこ",
+      "kanji": "箱",
+      "meaning": "Hộp, cái hộp",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l10_v16",
+      "kana": "スイッチ",
+      "meaning": "Công tắc điện",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l10_v17",
+      "kana": "れいぞうこ",
+      "kanji": "冷蔵庫",
+      "meaning": "Tủ lạnh",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l10_v18",
+      "kana": "テーブル",
+      "meaning": "Bàn (bàn ăn, bàn trà)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l10_v19",
+      "kana": "ベッド",
+      "meaning": "Giường ngủ",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l10_v20",
+      "kana": "たな",
+      "kanji": "棚",
+      "meaning": "Giá sách, kệ để đồ",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l10_v21",
+      "kana": "ドア",
+      "meaning": "Cửa ra vào",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l10_v22",
+      "kana": "まど",
+      "kanji": "窓",
+      "meaning": "Cửa sổ",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l10_v23",
+      "kana": "ポスト",
+      "meaning": "Hộp thư, hòm thư bưu điện",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l10_v24",
+      "kana": "ビル",
+      "meaning": "Tòa nhà, cao ốc",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l10_v25",
+      "kana": "ATM",
+      "meaning": "Máy rút tiền tự động ATM",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l10_v26",
+      "kana": "コンビニ",
+      "meaning": "Cửa hàng tiện lợi (mở 24/24)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l10_v27",
+      "kana": "こうえん",
+      "kanji": "公園",
+      "meaning": "Công viên",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l10_v28",
+      "kana": "きっさてん",
+      "kanji": "喫茶店",
+      "meaning": "Quán giải khát, quán cà phê",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l10_v29",
+      "kana": "～や",
+      "kanji": "～屋",
+      "meaning": "Hiệu ～, cửa hàng ～",
+      "type": "Hậu tố"
+    },
+    {
+      "id": "l10_v30",
+      "kana": "のりば",
+      "kanji": "乗り場",
+      "meaning": "Bến xe, điểm đón tắc-xi, ga tàu",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l10_v31",
+      "kana": "けん",
+      "kanji": "県",
+      "meaning": "Tỉnh",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l10_v32",
+      "kana": "うえ",
+      "kanji": "上",
+      "meaning": "Trên",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l10_v33",
+      "kana": "した",
+      "kanji": "下",
+      "meaning": "Dưới",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l10_v34",
+      "kana": "まえ",
+      "kanji": "前",
+      "meaning": "Trước, phía trước",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l10_v35",
+      "kana": "うしろ",
+      "meaning": "Sau, phía sau",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l10_v36",
+      "kana": "みぎ",
+      "kanji": "右",
+      "meaning": "Bên phải",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l10_v37",
+      "kana": "ひだり",
+      "kanji": "左",
+      "meaning": "Bên trái",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l10_v38",
+      "kana": "なか",
+      "kanji": "中",
+      "meaning": "Trong, ở trong, giữa",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l10_v39",
+      "kana": "そと",
+      "kanji": "外",
+      "meaning": "Ngoài, bên ngoài",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l10_v40",
+      "kana": "となり",
+      "kanji": "隣",
+      "meaning": "Bên cạnh (cùng loại: nhà cạnh nhà, người cạnh người)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l10_v41",
+      "kana": "ちかく",
+      "kanji": "近く",
+      "meaning": "Gần, vùng lân cận",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l10_v42",
+      "kana": "あいだ",
+      "kanji": "間",
+      "meaning": "Ở giữa (khoảng giữa A và B)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l10_v43",
+      "kana": "～や～ [など]",
+      "meaning": "～ và ～, [v.v.] (liệt kê tiêu biểu)",
+      "type": "Trợ từ"
+    },
+    {
+      "id": "l10_v44",
+      "kana": "[どうも] すみません",
+      "meaning": "Cảm ơn (khi được giúp đỡ)",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l10_v45",
+      "kana": "ナンプラー",
+      "meaning": "Nước mắm Nampla Thái Lan",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l10_v46",
+      "kana": "コーナー",
+      "meaning": "Góc, quầy, khu vực bày bán",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l10_v47",
+      "kana": "いちばん した",
+      "kanji": "一番 下",
+      "meaning": "Ở dưới cùng",
+      "type": "Danh từ"
+    }
+  ],
+  "kanji": [
+    {
+      "id": "l10_k01",
+      "character": "米",
+      "hanViet": "MỄ",
+      "onyomi": [
+        "ベイ",
+        "マイ"
+      ],
+      "kunyomi": [
+        "こめ"
+      ],
+      "meaning": "Gạo, nước Mỹ",
+      "examples": [
+        {
+          "word": "米",
+          "reading": "こめ",
+          "meaning": "Gạo"
+        },
+        {
+          "word": "米国",
+          "reading": "べいこく",
+          "meaning": "Nước Mỹ, Hoa Kỳ"
+        },
+        {
+          "word": "白米",
+          "reading": "はくまい",
+          "meaning": "Gạo trắng"
+        },
+        {
+          "word": "新米",
+          "reading": "しんまい",
+          "meaning": "Gạo mới, người mới vào nghề"
+        }
+      ]
+    },
+    {
+      "id": "l10_k02",
+      "character": "茶",
+      "hanViet": "TRÀ",
+      "onyomi": [
+        "チャ",
+        "サ"
+      ],
+      "kunyomi": [],
+      "meaning": "Trà, chè",
+      "examples": [
+        {
+          "word": "お茶",
+          "reading": "おちゃ",
+          "meaning": "Trà, nước trà"
+        },
+        {
+          "word": "紅茶",
+          "reading": "こうちゃ",
+          "meaning": "Trà đen, hồng trà"
+        },
+        {
+          "word": "茶色",
+          "reading": "ちゃいろ",
+          "meaning": "Màu nâu trà"
+        },
+        {
+          "word": "喫茶店",
+          "reading": "きっさてん",
+          "meaning": "Quán giải khát, quán trà/cà phê"
+        }
+      ]
+    },
+    {
+      "id": "l10_k03",
+      "character": "牛",
+      "hanViet": "NGƯU",
+      "onyomi": [
+        "ギュウ"
+      ],
+      "kunyomi": [
+        "うし"
+      ],
+      "meaning": "Bò, con bò",
+      "examples": [
+        {
+          "word": "牛",
+          "reading": "うし",
+          "meaning": "Con bò"
+        },
+        {
+          "word": "牛肉",
+          "reading": "ぎゅうにく",
+          "meaning": "Thịt bò"
+        },
+        {
+          "word": "牛乳",
+          "reading": "ぎゅうにゅう",
+          "meaning": "Sữa bò tươi"
+        },
+        {
+          "word": "子牛",
+          "reading": "こうし",
+          "meaning": "Bê, bò con"
+        }
+      ]
+    },
+    {
+      "id": "l10_k04",
+      "character": "肉",
+      "hanViet": "NHỤC",
+      "onyomi": [
+        "ニク"
+      ],
+      "kunyomi": [],
+      "meaning": "Thịt",
+      "examples": [
+        {
+          "word": "肉",
+          "reading": "にく",
+          "meaning": "Thịt"
+        },
+        {
+          "word": "牛肉",
+          "reading": "ぎゅうにく",
+          "meaning": "Thịt bò"
+        },
+        {
+          "word": "鳥肉",
+          "reading": "とりにく",
+          "meaning": "Thịt gà, thịt gia cầm"
+        },
+        {
+          "word": "豚肉",
+          "reading": "ぶたにく",
+          "meaning": "Thịt lợn"
+        }
+      ]
+    },
+    {
+      "id": "l10_k05",
+      "character": "魚",
+      "hanViet": "NGƯ",
+      "onyomi": [
+        "ギョ"
+      ],
+      "kunyomi": [
+        "さかな",
+        "うお"
+      ],
+      "meaning": "Cá, con cá",
+      "examples": [
+        {
+          "word": "魚",
+          "reading": "さかな",
+          "meaning": "Con cá"
+        },
+        {
+          "word": "魚屋",
+          "reading": "さかなや",
+          "meaning": "Cửa hàng bán cá"
+        },
+        {
+          "word": "金魚",
+          "reading": "きんぎょ",
+          "meaning": "Cá vàng"
+        },
+        {
+          "word": "人魚",
+          "reading": "にんぎょ",
+          "meaning": "Nàng tiên cá"
+        }
+      ]
+    },
+    {
+      "id": "l10_k06",
+      "character": "貝",
+      "hanViet": "BỐI",
+      "onyomi": [
+        "バイ"
+      ],
+      "kunyomi": [
+        "かい"
+      ],
+      "meaning": "Sò, nghêu, hến, ốc",
+      "examples": [
+        {
+          "word": "貝",
+          "reading": "かい",
+          "meaning": "Con sò, con nghêu, ốc"
+        },
+        {
+          "word": "貝殻",
+          "reading": "かいがら",
+          "meaning": "Vỏ sò"
+        },
+        {
+          "word": "赤貝",
+          "reading": "あかがい",
+          "meaning": "Sò huyết"
+        },
+        {
+          "word": "巻き貝",
+          "reading": "まきがい",
+          "meaning": "Ốc (vỏ xoắn)"
+        }
+      ]
+    },
+    {
+      "id": "l10_k07",
+      "character": "好",
+      "hanViet": "HẢO",
+      "onyomi": [
+        "コウ"
+      ],
+      "kunyomi": [
+        "す(き)",
+        "この(む)"
+      ],
+      "meaning": "Thích, yêu thích, tốt",
+      "examples": [
+        {
+          "word": "好き",
+          "reading": "すき",
+          "meaning": "Thích"
+        },
+        {
+          "word": "大好き",
+          "reading": "だいすき",
+          "meaning": "Rất thích"
+        },
+        {
+          "word": "好物",
+          "reading": "こうぶつ",
+          "meaning": "Món ăn yêu thích"
+        },
+        {
+          "word": "好意",
+          "reading": "こうい",
+          "meaning": "Thiện chí, có cảm tình"
+        }
+      ]
+    },
+    {
+      "id": "l10_k08",
+      "character": "物",
+      "hanViet": "VẬT",
+      "onyomi": [
+        "ブツ",
+        "モツ"
+      ],
+      "kunyomi": [
+        "もの"
+      ],
+      "meaning": "Vật, đồ vật, sự vật",
+      "examples": [
+        {
+          "word": "食べ物",
+          "reading": "たべもの",
+          "meaning": "Thức ăn, đồ ăn"
+        },
+        {
+          "word": "飲み物",
+          "reading": "のみもの",
+          "meaning": "Đồ uống"
+        },
+        {
+          "word": "買い物",
+          "reading": "かいもの",
+          "meaning": "Mua sắm, đồ mua"
+        },
+        {
+          "word": "動物",
+          "reading": "どうぶつ",
+          "meaning": "Động vật"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "l10_g01",
+      "pattern": "1. Danh từ が あります / います (Sự tồn tại)",
+      "explanation": "Biểu thị sự tồn tại của đồ vật hoặc người/động vật:\n• あります: Dùng cho đồ vật vô tri vô giác, thực vật không tự chuyển động được (sách, bàn, cây, hoa, xe...).\n• います: Dùng cho người và động vật có thể tự chuyển động được (người, chó, mèo...).",
+      "note": "Trợ từ が đứng sau danh từ tồn tại.",
+      "examples": [
+        {
+          "jp": "コンピューターが あります。",
+          "vi": "Có máy vi tính."
+        },
+        {
+          "jp": "さくらが あります。",
+          "vi": "Có cây hoa anh đào."
+        },
+        {
+          "jp": "おとこの ひとが います。",
+          "vi": "Có người đàn ông."
+        },
+        {
+          "jp": "いぬが います。",
+          "vi": "Có con chó."
+        }
+      ]
+    },
+    {
+      "id": "l10_g02",
+      "pattern": "2. Địa điểm に Danh từ が あります / います (Ở đâu có cái gì/ai)",
+      "explanation": "Trợ từ に đặt sau danh từ chỉ nơi chốn để biểu thị địa điểm nơi sự vật/con người tồn tại.\n• Mẫu câu: [Địa điểm に N が あります/います].\n• Hỏi đồ vật: なにが ありますか (Có cái gì?).\n• Hỏi người/động vật: だれが いますか (Có ai?) / なにが いますか (Có con gì?).",
+      "note": "Lưu ý sau nghi vấn từ (なに, だれ) luôn dùng trợ từ が.",
+      "examples": [
+        {
+          "jp": "わたしの へやに つくえが あります。",
+          "vi": "Ở trong phòng tôi có một cái bàn."
+        },
+        {
+          "jp": "じむしょに ミラーさんが います。",
+          "vi": "Ở văn phòng có anh Miller."
+        },
+        {
+          "jp": "ちかに なにが ありますか。……レストランが あります。",
+          "vi": "Ở dưới tầng hầm có cái gì? ……Có nhà hàng."
+        },
+        {
+          "jp": "うけつけに だれが いますか。……きむらさんが います。",
+          "vi": "Ở quầy lễ tân có ai? ……Có chị Kimura."
+        }
+      ]
+    },
+    {
+      "id": "l10_g03",
+      "pattern": "3. Danh từ は Địa điểm に あります / います (Cái gì/Ai ở đâu)",
+      "explanation": "Đưa danh từ (vật hoặc người) lên làm chủ đề câu với trợ từ は để diễn đạt vị trí nơi tồn tại của danh từ đó.\n• Mẫu câu: [N は Địa điểm に あります/います].\n• Hỏi vị trí: [N は どこに ありますか/いますか] hoặc ngắn gọn [N は どこですか].",
+      "note": "Phân biệt với mục 2: Mẫu này nhấn mạnh vào vị trí của đối tượng đã biết trước.",
+      "examples": [
+        {
+          "jp": "とうきょうディズニーランドは ちばけんに あります。",
+          "vi": "Công viên Tokyo Disneyland ở tỉnh Chiba."
+        },
+        {
+          "jp": "ミラーさんは じむしょに います。",
+          "vi": "Anh Miller ở văn phòng."
+        },
+        {
+          "jp": "とうきょうディズニーランドは どこに ありますか。……ちばけんです。",
+          "vi": "Công viên Tokyo Disneyland ở đâu? ……Ở tỉnh Chiba."
+        }
+      ]
+    },
+    {
+      "id": "l10_g04",
+      "pattern": "4. Danh từ 1 (vật/người/địa điểm) の Danh từ 2 (vị trí)",
+      "explanation": "Các từ chỉ vị trí phương hướng (うえ, した, まえ, うしろ, みぎ, ひだり, なか, そと, となり, ちかく, あいだ) kết hợp với danh từ qua trợ từ の để tạo thành cụm chỉ vị trí cụ thể.\n• Cụm vị trí này hoạt động như một danh từ chỉ địa điểm: [N1 の N2 に N が あります/います].",
+      "note": "Ví dụ: つくえの うえに (ở trên bàn), ほんやと スーパーの あいだに (ở giữa hiệu sách và siêu thị).",
+      "examples": [
+        {
+          "jp": "つくえの うえに しゃしんが あります。",
+          "vi": "Ở trên bàn có bức ảnh."
+        },
+        {
+          "jp": "ゆうびんきょくは ぎんこうの となりに あります。",
+          "vi": "Bưu điện ở bên cạnh ngân hàng."
+        },
+        {
+          "jp": "ほんやは はなやと スーパーの あいだに あります。",
+          "vi": "Hiệu sách ở giữa cửa hàng hoa và siêu thị."
+        }
+      ]
+    },
+    {
+      "id": "l10_g05",
+      "pattern": "5. Danh từ 1 や Danh từ 2 [など] (Liệt kê tiêu biểu)",
+      "explanation": "Khác với と (liệt kê toàn bộ), trợ từ や dùng để liệt kê một vài đối tượng tiêu biểu (từ 2 trở lên). Thường đi kèm など ở cuối danh từ cuối cùng với nghĩa là \"v.v.\".",
+      "note": "と = liệt kê hết; や...など = liệt kê tượng trưng, còn những vật khác nữa.",
+      "examples": [
+        {
+          "jp": "はこの なかに てがみや しゃしんが あります。",
+          "vi": "Trong hộp có thư và ảnh."
+        },
+        {
+          "jp": "はこの なかに てがみや しゃしんなどが あります。",
+          "vi": "Trong hộp có những thứ như thư, ảnh, v.v.."
+        }
+      ]
+    },
+    {
+      "id": "l10_g06",
+      "pattern": "6. 〜ですか (Xác nhận lại câu hỏi)",
+      "explanation": "Trong hội thoại thực tế, khi người nghe được hỏi, thường lặp lại nội dung câu hỏi kết hợp ですか với giọng trầm nhẹ để xác nhận lại thông tin trước khi đưa ra câu trả lời.",
+      "note": "Ví dụ: アジアストアですか。あそこの ビルの なかですよ。",
+      "examples": [
+        {
+          "jp": "すみません。アジアストアは どこですか。……アジアストアですか。あの ビルの なかです。",
+          "vi": "Xin lỗi, siêu thị Asia ở đâu ạ? ……Siêu thị Asia ấy à? Ở trong tòa nhà kia."
+        }
+      ]
+    }
+  ]
+}

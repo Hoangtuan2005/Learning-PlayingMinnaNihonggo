@@ -1,0 +1,451 @@
+{
+  "lessonNumber": 16,
+  "titleJp": "あさ おきて、ごはんを たべます",
+  "titleVi": "Bài 16: Nối chuỗi hành động & Sau khi",
+  "vocabulary": [
+    {
+      "id": "l16_v01",
+      "kana": "のります",
+      "kanji": "乗ります",
+      "meaning": "Đi, lên [tàu xe: でんしゃに～]",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l16_v02",
+      "kana": "おります",
+      "kanji": "降ります",
+      "meaning": "Xuống [tàu xe: でんしゃを～]",
+      "type": "Động từ nhóm 2"
+    },
+    {
+      "id": "l16_v03",
+      "kana": "のりかえます",
+      "kanji": "乗り換えます",
+      "meaning": "Chuyển, đổi [tàu xe]",
+      "type": "Động từ nhóm 2"
+    },
+    {
+      "id": "l16_v04",
+      "kana": "あびます",
+      "kanji": "浴びます",
+      "meaning": "Tắm [vòi hoa sen: シャワーを～]",
+      "type": "Động từ nhóm 2"
+    },
+    {
+      "id": "l16_v05",
+      "kana": "いれます",
+      "kanji": "入れます",
+      "meaning": "Cho vào, bỏ vào",
+      "type": "Động từ nhóm 2"
+    },
+    {
+      "id": "l16_v06",
+      "kana": "だします",
+      "kanji": "出します",
+      "meaning": "Lấy ra, đưa ra, nộp [báo cáo]",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l16_v07",
+      "kana": "おろします",
+      "kanji": "下ろします",
+      "meaning": "Rút [tiền: おかねを～]",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l16_v08",
+      "kana": "はいります",
+      "kanji": "入ります",
+      "meaning": "Vào, nhập học [đại học: だいがくに～]",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l16_v09",
+      "kana": "でます",
+      "kanji": "出ます",
+      "meaning": "Ra, tốt nghiệp [đại học: だいがくを～]",
+      "type": "Động từ nhóm 2"
+    },
+    {
+      "id": "l16_v10",
+      "kana": "おします",
+      "kanji": "押します",
+      "meaning": "Bấm, ấn (nút)",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l16_v11",
+      "kana": "のみます",
+      "kanji": "飲みます",
+      "meaning": "Uống (bia, rượu)",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l16_v12",
+      "kana": "はじめます",
+      "kanji": "始めます",
+      "meaning": "Bắt đầu",
+      "type": "Động từ nhóm 2"
+    },
+    {
+      "id": "l16_v13",
+      "kana": "けんがくします",
+      "kanji": "見学します",
+      "meaning": "Tham quan kiến tập",
+      "type": "Động từ nhóm 3"
+    },
+    {
+      "id": "l16_v14",
+      "kana": "でんわします",
+      "kanji": "電話します",
+      "meaning": "Gọi điện thoại",
+      "type": "Động từ nhóm 3"
+    },
+    {
+      "id": "l16_v15",
+      "kana": "わかい",
+      "kanji": "若い",
+      "meaning": "Trẻ, trẻ trung",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l16_v16",
+      "kana": "ながい",
+      "kanji": "長い",
+      "meaning": "Dài",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l16_v17",
+      "kana": "みじかい",
+      "kanji": "短い",
+      "meaning": "Ngắn",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l16_v18",
+      "kana": "あかるい",
+      "kanji": "明るい",
+      "meaning": "Sáng, sáng sủa",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l16_v19",
+      "kana": "くらい",
+      "kanji": "暗い",
+      "meaning": "Tối, u ám",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l16_v20",
+      "kana": "からだ",
+      "kanji": "体",
+      "meaning": "Cơ thể, người",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l16_v21",
+      "kana": "あたま",
+      "kanji": "頭",
+      "meaning": "Đầu",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l16_v22",
+      "kana": "かみ",
+      "kanji": "髪",
+      "meaning": "Tóc",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l16_v23",
+      "kana": "かお",
+      "kanji": "顔",
+      "meaning": "Khuôn mặt",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l16_v24",
+      "kana": "め",
+      "kanji": "目",
+      "meaning": "Mắt",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l16_v25",
+      "kana": "みみ",
+      "kanji": "耳",
+      "meaning": "Tai",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l16_v26",
+      "kana": "はな",
+      "kanji": "鼻",
+      "meaning": "Mũi",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l16_v27",
+      "kana": "くち",
+      "kanji": "口",
+      "meaning": "Miệng",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l16_v28",
+      "kana": "は",
+      "kanji": "歯",
+      "meaning": "Răng",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l16_v29",
+      "kana": "おなか",
+      "meaning": "Bụng",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l16_v30",
+      "kana": "あし",
+      "kanji": "足",
+      "meaning": "Chân",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l16_v31",
+      "kana": "せ",
+      "kanji": "背",
+      "meaning": "Chiều cao (cơ thể)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l16_v32",
+      "kana": "サービス",
+      "meaning": "Dịch vụ (service)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l16_v33",
+      "kana": "ジョギング",
+      "meaning": "Việc chạy bộ (~を します: chạy bộ)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l16_v34",
+      "kana": "シャワー",
+      "meaning": "Vòi hoa sen",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l16_v35",
+      "kana": "みどり",
+      "kanji": "緑",
+      "meaning": "Màu xanh lá cây, cây xanh",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l16_v36",
+      "kana": "[お]てら",
+      "kanji": "[お]寺",
+      "meaning": "Chùa (Phật giáo)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l16_v37",
+      "kana": "じんじゃ",
+      "kanji": "神社",
+      "meaning": "Đền thờ đạo Thần Shinto",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l16_v38",
+      "kana": "～ばん",
+      "kanji": "～番",
+      "meaning": "Số ～",
+      "type": "Hậu tố"
+    },
+    {
+      "id": "l16_v39",
+      "kana": "どうやって",
+      "meaning": "Làm thế nào, bằng cách nào",
+      "type": "Từ để hỏi"
+    },
+    {
+      "id": "l16_v40",
+      "kana": "どの～",
+      "meaning": "～ nào (chọn từ 3 đối tượng trở lên)",
+      "type": "Từ để hỏi"
+    },
+    {
+      "id": "l16_v41",
+      "kana": "どれ",
+      "meaning": "Cái nào (trong 3 cái trở lên)",
+      "type": "Từ để hỏi"
+    },
+    {
+      "id": "l16_v42",
+      "kana": "すごいですね",
+      "meaning": "Thật là tuyệt vời! / Giỏi quá nhỉ!",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l16_v43",
+      "kana": "[いいえ、] まだまだです",
+      "meaning": "(Không), tôi còn phải cố gắng nhiều lắm.",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l16_v44",
+      "kana": "おひきだしですか",
+      "kanji": "お引き出しですか",
+      "meaning": "Anh/Chị rút tiền ạ?",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l16_v45",
+      "kana": "まず",
+      "meaning": "Trước hết, đầu tiên",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l16_v46",
+      "kana": "つぎに",
+      "kanji": "次に",
+      "meaning": "Tiếp theo, sau đó",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l16_v47",
+      "kana": "キャッシュカード",
+      "meaning": "Thẻ rút tiền mặt, thẻ ATM",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l16_v48",
+      "kana": "あんしょうばんごう",
+      "kanji": "暗証番号",
+      "meaning": "Mã số bí mật, mật mã PIN",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l16_v49",
+      "kana": "きんがく",
+      "kanji": "金額",
+      "meaning": "Khoản tiền, số tiền",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l16_v50",
+      "kana": "かくにん",
+      "kanji": "確認",
+      "meaning": "Sự xác nhận, kiểm tra lại",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l16_v51",
+      "kana": "ボタン",
+      "meaning": "Nút bấm, phím bấm",
+      "type": "Danh từ"
+    }
+  ],
+  "kanji": [],
+  "grammar": [
+    {
+      "id": "l16_g01",
+      "pattern": "1. Cách nối 2 câu trở lên (Nối mệnh đề bằng thể て / で)",
+      "explanation": "Để liên kết các hành động hoặc tính chất liên tiếp nhau:\n• Động từ: [V1 て、V2 て、V3 ます/ました] (Làm V1, rồi làm V2, rồi làm V3). Thì của câu do động từ cuối quyết định.\n• Tính từ đuôi い: [Bỏ い] + くて (わかくて、げんきです - Vừa trẻ vừa khỏe mạnh).\n• Tính từ đuôi な: [Bỏ な] + で (しずかで、きれいな まち - Thành phố yên tĩnh và đẹp).\n• Danh từ: N + で (カリナさんは インドネシア人で、りゅうがくせいです).",
+      "note": "Lưu ý không dùng て để nối 2 tính chất có ý đánh giá trái ngược nhau (trường hợp đối lập phải dùng trợ từ が).",
+      "examples": [
+        {
+          "jp": "あさ ジョギングを して、シャワーを あびて、かいしゃへ いきます。",
+          "vi": "Buổi sáng tôi chạy bộ, tắm vòi sen, rồi đến công ty."
+        },
+        {
+          "jp": "ミラーさんは わかくて、げんきです。",
+          "vi": "Anh Miller vừa trẻ trung vừa khỏe mạnh."
+        },
+        {
+          "jp": "ならは しずかで、きれいな まちです。",
+          "vi": "Nara là thành phố yên tĩnh và đẹp."
+        }
+      ]
+    },
+    {
+      "id": "l16_g02",
+      "pattern": "2. Động từ 1 thể て から、Động từ 2 (Sau khi làm V1 thì làm V2)",
+      "explanation": "Mẫu câu biểu thị hành động V2 được thực hiện sau khi hành động V1 đã hoàn thành xong. Hành động V1 là tiền đề để tiến hành V2. Thời của toàn câu do động từ cuối quyết định.",
+      "note": "Chủ ngữ của mệnh đề V1 てから được biểu thị bằng trợ từ が.",
+      "examples": [
+        {
+          "jp": "おかねを いれてから、ボタンを おして ください。",
+          "vi": "Sau khi cho tiền vào, hãy ấn nút."
+        },
+        {
+          "jp": "この しごとが おわってから、ひるごはんを たべます。",
+          "vi": "Sau khi công việc này xong, tôi sẽ ăn cơm trưa."
+        }
+      ]
+    },
+    {
+      "id": "l16_g03",
+      "pattern": "3. Danh từ 1 は Danh từ 2 が Tính từ (Miêu tả đặc điểm bộ phận)",
+      "explanation": "Dùng để biểu thị chủ đề (Danh từ 1) có thuộc tính, bộ phận (Danh từ 2) mang đặc điểm tính chất như thế nào. Danh từ 1 là chỉnh thể, Danh từ 2 là bộ phận.",
+      "note": "Ví dụ: マリアさんは かみが ながいです (Chị Maria có mái tóc dài).",
+      "examples": [
+        {
+          "jp": "おおさかは たべものが おいしいです。",
+          "vi": "Thức ăn ở Osaka rất ngon."
+        },
+        {
+          "jp": "マリアさんは かみが ながいです。",
+          "vi": "Chị Maria tóc dài."
+        }
+      ]
+    },
+    {
+      "id": "l16_g04",
+      "pattern": "4. Danh từ を Động từ (Rời khỏi điểm xuất phát)",
+      "explanation": "Trợ từ を dùng sau danh từ chỉ địa điểm để biểu thị nơi chốn mà người/vật rời khỏi (điểm xuất phát), đi kèm các động từ như でます (ra khỏi), おります (xuống xe/tàu).",
+      "note": "Phân biệt: 電車に乗ります (Lên tàu: に) vs 電車を降ります (Xuống tàu: を).",
+      "examples": [
+        {
+          "jp": "7じに うちを でます。",
+          "vi": "Tôi ra khỏi nhà lúc 7 giờ."
+        },
+        {
+          "jp": "うめだで でんしゃを おりました。",
+          "vi": "Tôi đã xuống tàu điện ở ga Umeda."
+        }
+      ]
+    },
+    {
+      "id": "l16_g05",
+      "pattern": "5. どうやって (Làm thế nào, bằng cách nào)",
+      "explanation": "Nghi vấn từ どうやって dùng để hỏi về lộ trình, cách đi hoặc cách thức thực hiện một công việc nào đó.",
+      "note": "Trả lời bằng chuỗi hành động dùng thể て.",
+      "examples": [
+        {
+          "jp": "だいがくまで どうやって いきますか。……きょうとえきから 16ばんの バスに のって、だいがくまえで おります。",
+          "vi": "Đến trường đại học bằng cách nào? ……Từ ga Kyoto lên xe buýt số 16 rồi xuống ở điểm Daigaku-mae."
+        }
+      ]
+    },
+    {
+      "id": "l16_g06",
+      "pattern": "6. どれ / どの Danh từ (Cái nào / Đối tượng nào trong nhóm từ 3 trở lên)",
+      "explanation": "Khi muốn xác định một đối tượng trong một nhóm từ 3 đối tượng cụ thể trở lên:\n• どれ: Đứng độc lập làm đại từ nghi vấn.\n• どの + Danh từ: Đi kèm trực tiếp trước danh từ.",
+      "note": "So sánh: 2 đối tượng dùng どちら; 3 đối tượng trở lên dùng どれ / どの.",
+      "examples": [
+        {
+          "jp": "ミラーさんの かさは どれですか。……あの あおい かさです。",
+          "vi": "Cái ô của anh Miller là cái nào? ……Là cái ô màu xanh da trời đằng kia."
+        },
+        {
+          "jp": "サントスさんは どの ひとですか。……あの せが たかくて、かみが くろい ひとです。",
+          "vi": "Anh Santos là người nào? ……Là người cao và tóc đen đằng kia."
+        }
+      ]
+    }
+  ]
+}

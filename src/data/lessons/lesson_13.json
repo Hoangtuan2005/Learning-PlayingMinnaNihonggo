@@ -1,0 +1,580 @@
+{
+  "lessonNumber": 13,
+  "titleJp": "くるまが ほしいです",
+  "titleVi": "Bài 13: Mong muốn & Mục đích di chuyển",
+  "vocabulary": [
+    {
+      "id": "l13_v01",
+      "kana": "あそびます",
+      "kanji": "遊びます",
+      "meaning": "Chơi, vui chơi",
+      "type": "Động từ"
+    },
+    {
+      "id": "l13_v02",
+      "kana": "およぎます",
+      "kanji": "泳ぎます",
+      "meaning": "Bơi, bơi lội",
+      "type": "Động từ"
+    },
+    {
+      "id": "l13_v03",
+      "kana": "むかえます",
+      "kanji": "迎えます",
+      "meaning": "Đón, tiếp đón",
+      "type": "Động từ"
+    },
+    {
+      "id": "l13_v04",
+      "kana": "つかれます",
+      "kanji": "疲れます",
+      "meaning": "Mệt mỏi (trạng thái: つかれました)",
+      "type": "Động từ"
+    },
+    {
+      "id": "l13_v05",
+      "kana": "けっこんします",
+      "kanji": "結婚します",
+      "meaning": "Kết hôn, cưới",
+      "type": "Động từ"
+    },
+    {
+      "id": "l13_v06",
+      "kana": "かいものします",
+      "kanji": "買い物します",
+      "meaning": "Mua sắm, mua hàng",
+      "type": "Động từ"
+    },
+    {
+      "id": "l13_v07",
+      "kana": "しょくじします",
+      "kanji": "食事します",
+      "meaning": "Ăn cơm, dùng bữa",
+      "type": "Động từ"
+    },
+    {
+      "id": "l13_v08",
+      "kana": "さんぽします",
+      "kanji": "散歩します",
+      "meaning": "Đi dạo [ở công viên: こうえんを～]",
+      "type": "Động từ"
+    },
+    {
+      "id": "l13_v09",
+      "kana": "たいへん [な]",
+      "kanji": "大変 [な]",
+      "meaning": "Vất vả, khó khăn, khổ sở",
+      "type": "Tính từ đuôi な"
+    },
+    {
+      "id": "l13_v10",
+      "kana": "ほしい",
+      "kanji": "欲しい",
+      "meaning": "Muốn có (vật/người)",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l13_v11",
+      "kana": "ひろい",
+      "kanji": "広い",
+      "meaning": "Rộng, rộng rãi",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l13_v12",
+      "kana": "せまい",
+      "kanji": "狭い",
+      "meaning": "Chật, hẹp",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l13_v13",
+      "kana": "プール",
+      "meaning": "Hồ bơi, bể bơi",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l13_v14",
+      "kana": "かわ",
+      "kanji": "川",
+      "meaning": "Sông, dòng sông",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l13_v15",
+      "kana": "びじゅつ",
+      "kanji": "美術",
+      "meaning": "Mỹ thuật, hội họa",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l13_v16",
+      "kana": "つり",
+      "kanji": "釣り",
+      "meaning": "Việc câu cá (~を します: câu cá)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l13_v17",
+      "kana": "スキー",
+      "meaning": "Việc trượt tuyết (~を します: trượt tuyết)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l13_v18",
+      "kana": "しゅうまつ",
+      "kanji": "週末",
+      "meaning": "Cuối tuần",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l13_v19",
+      "kana": "[お]しょうがつ",
+      "kanji": "[お]正月",
+      "meaning": "Tết, ngày đầu năm mới",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l13_v20",
+      "kana": "～ごろ",
+      "meaning": "Khoảng chừng ～ (dùng cho mốc thời gian)",
+      "type": "Hậu tố"
+    },
+    {
+      "id": "l13_v21",
+      "kana": "なにか",
+      "kanji": "何か",
+      "meaning": "Cái gì đó",
+      "type": "Đại từ"
+    },
+    {
+      "id": "l13_v22",
+      "kana": "どこか",
+      "meaning": "Đâu đó, chỗ nào đó",
+      "type": "Đại từ"
+    },
+    {
+      "id": "l13_v23",
+      "kana": "のどが かわきます",
+      "meaning": "Khát nước (trạng thái: のどが かわきました)",
+      "type": "Cụm từ"
+    },
+    {
+      "id": "l13_v24",
+      "kana": "おなかが すきます",
+      "meaning": "Đói bụng (trạng thái: おなかが すきました)",
+      "type": "Cụm từ"
+    },
+    {
+      "id": "l13_v25",
+      "kana": "そう しましょう",
+      "meaning": "Nhất trí! / Hãy làm như thế đi!",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l13_v26",
+      "kana": "ごちゅうもんは",
+      "kanji": "ご注文は",
+      "meaning": "Anh/Chị dùng món gì ạ? (nhân viên hỏi)",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l13_v27",
+      "kana": "ていしょく",
+      "kanji": "定食",
+      "meaning": "Cơm suất, cơm phần",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l13_v28",
+      "kana": "ぎゅうどん",
+      "kanji": "牛どん",
+      "meaning": "Món cơm thịt bò",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l13_v29",
+      "kana": "[しょうしょう] おまち ください",
+      "kanji": "[少々] お待ち ください",
+      "meaning": "Xin vui lòng đợi [một chút]",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l13_v30",
+      "kana": "～で ございます",
+      "meaning": "(Cách nói lịch sự trang trọng của です)",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l13_v31",
+      "kana": "べつべつに",
+      "kanji": "別々に",
+      "meaning": "Riêng, tính riêng từng người",
+      "type": "Phó từ"
+    }
+  ],
+  "kanji": [
+    {
+      "id": "l13_k01",
+      "character": "町",
+      "hanViet": "ĐINH",
+      "onyomi": [
+        "チョウ"
+      ],
+      "kunyomi": [
+        "まち"
+      ],
+      "meaning": "Thị trấn, khu phố, phố xá",
+      "examples": [
+        {
+          "word": "町",
+          "reading": "まち",
+          "meaning": "Thị trấn, con phố"
+        },
+        {
+          "word": "下町",
+          "reading": "したまち",
+          "meaning": "Khu phố cổ"
+        },
+        {
+          "word": "町長",
+          "reading": "ちょうちょう",
+          "meaning": "Thị trưởng thị trấn"
+        },
+        {
+          "word": "町中",
+          "reading": "まちなか",
+          "meaning": "Khắp phố, trong phố"
+        }
+      ]
+    },
+    {
+      "id": "l13_k02",
+      "character": "寺",
+      "hanViet": "TỰ",
+      "onyomi": [
+        "ジ"
+      ],
+      "kunyomi": [
+        "てら"
+      ],
+      "meaning": "Chùa, ngôi chùa",
+      "examples": [
+        {
+          "word": "お寺",
+          "reading": "おてら",
+          "meaning": "Ngôi chùa, chùa"
+        },
+        {
+          "word": "東寺",
+          "reading": "とうじ",
+          "meaning": "Chùa Toji (Kyoto)"
+        },
+        {
+          "word": "金閣寺",
+          "reading": "きんかくじ",
+          "meaning": "Chùa Vàng Kinkaku-ji"
+        },
+        {
+          "word": "寺院",
+          "reading": "じいん",
+          "meaning": "Chùa chiền, tu viện"
+        }
+      ]
+    },
+    {
+      "id": "l13_k03",
+      "character": "電",
+      "hanViet": "ĐIỆN",
+      "onyomi": [
+        "デン"
+      ],
+      "kunyomi": [],
+      "meaning": "Điện, luồng điện",
+      "examples": [
+        {
+          "word": "電気",
+          "reading": "でんき",
+          "meaning": "Điện khí, đèn điện"
+        },
+        {
+          "word": "電車",
+          "reading": "でんしゃ",
+          "meaning": "Tàu điện"
+        },
+        {
+          "word": "電話",
+          "reading": "でんわ",
+          "meaning": "Điện thoại"
+        },
+        {
+          "word": "電力",
+          "reading": "でんりょく",
+          "meaning": "Điện lực"
+        }
+      ]
+    },
+    {
+      "id": "l13_k04",
+      "character": "車",
+      "hanViet": "XA",
+      "onyomi": [
+        "シャ"
+      ],
+      "kunyomi": [
+        "くるま"
+      ],
+      "meaning": "Xe cộ, ô tô, bánh xe",
+      "examples": [
+        {
+          "word": "車",
+          "reading": "くるま",
+          "meaning": "Xe hơi, xe ô tô"
+        },
+        {
+          "word": "電車",
+          "reading": "でんしゃ",
+          "meaning": "Tàu điện"
+        },
+        {
+          "word": "自転車",
+          "reading": "じてんしゃ",
+          "meaning": "Xe đạp"
+        },
+        {
+          "word": "自動車",
+          "reading": "じどうしゃ",
+          "meaning": "Xe ô tô, xe hơi"
+        }
+      ]
+    },
+    {
+      "id": "l13_k05",
+      "character": "北",
+      "hanViet": "BẮC",
+      "onyomi": [
+        "ホク"
+      ],
+      "kunyomi": [
+        "きた"
+      ],
+      "meaning": "Phía bắc, hướng bắc",
+      "examples": [
+        {
+          "word": "北",
+          "reading": "きた",
+          "meaning": "Phía bắc"
+        },
+        {
+          "word": "北口",
+          "reading": "きたぐち",
+          "meaning": "Cửa phía bắc"
+        },
+        {
+          "word": "北海道",
+          "reading": "ほっかいどう",
+          "meaning": "Hokkaido"
+        },
+        {
+          "word": "東北",
+          "reading": "とうほく",
+          "meaning": "Đông Bắc"
+        }
+      ]
+    },
+    {
+      "id": "l13_k06",
+      "character": "西",
+      "hanViet": "TÂY",
+      "onyomi": [
+        "セイ",
+        "サイ"
+      ],
+      "kunyomi": [
+        "にし"
+      ],
+      "meaning": "Phía tây, hướng tây",
+      "examples": [
+        {
+          "word": "西",
+          "reading": "にし",
+          "meaning": "Phía tây"
+        },
+        {
+          "word": "西口",
+          "reading": "にしぐち",
+          "meaning": "Cửa phía tây"
+        },
+        {
+          "word": "東西",
+          "reading": "とうざい",
+          "meaning": "Đông Tây"
+        },
+        {
+          "word": "西洋",
+          "reading": "せいよう",
+          "meaning": "Phương Tây"
+        }
+      ]
+    },
+    {
+      "id": "l13_k07",
+      "character": "東",
+      "hanViet": "ĐÔNG",
+      "onyomi": [
+        "トウ"
+      ],
+      "kunyomi": [
+        "ひがし"
+      ],
+      "meaning": "Phía đông, hướng đông",
+      "examples": [
+        {
+          "word": "東",
+          "reading": "ひがし",
+          "meaning": "Phía đông"
+        },
+        {
+          "word": "東口",
+          "reading": "ひがしぐち",
+          "meaning": "Cửa phía đông"
+        },
+        {
+          "word": "東京",
+          "reading": "とうきょう",
+          "meaning": "Tokyo"
+        },
+        {
+          "word": "中東",
+          "reading": "ちゅうとう",
+          "meaning": "Trung Đông"
+        }
+      ]
+    },
+    {
+      "id": "l13_k08",
+      "character": "南",
+      "hanViet": "NAM",
+      "onyomi": [
+        "ナン",
+        "ナ"
+      ],
+      "kunyomi": [
+        "みなみ"
+      ],
+      "meaning": "Phía nam, hướng nam",
+      "examples": [
+        {
+          "word": "南",
+          "reading": "みなみ",
+          "meaning": "Phía nam"
+        },
+        {
+          "word": "南口",
+          "reading": "みなみぐち",
+          "meaning": "Cửa phía nam"
+        },
+        {
+          "word": "東南アジア",
+          "reading": "とうなんアジア",
+          "meaning": "Đông Nam Á"
+        },
+        {
+          "word": "南極",
+          "reading": "なんきょく",
+          "meaning": "Nam Cực"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "l13_g01",
+      "pattern": "1. Danh từ が ほしいです (Muốn có cái gì)",
+      "explanation": "ほしい là tính từ đuôi い biểu thị mong muốn sở hữu một đồ vật hoặc một đối tượng nào đó. Đối tượng mong muốn đi với trợ từ が.\n• Phủ định: ほしくないです (Không muốn có).\n• Quá khứ: ほしかったです | ほしくなかったです.",
+      "note": "Chỉ dùng để diễn đạt ý muốn của bản thân người nói (hoặc người nghe trong câu hỏi), KHÔNG dùng cho ngôi thứ ba.",
+      "examples": [
+        {
+          "jp": "わたしは ともだちが ほしいです。",
+          "vi": "Tôi muốn có bạn bè."
+        },
+        {
+          "jp": "いま 何が いちばん ほしいですか。……くるまが ほしいです。",
+          "vi": "Bây giờ anh muốn có cái gì nhất? ……Tôi muốn có một chiếc ô tô."
+        },
+        {
+          "jp": "こどもが ほしいですか。……いいえ、ほしくないです。",
+          "vi": "Anh/Chị có muốn có con không? ……Không, tôi không muốn."
+        }
+      ]
+    },
+    {
+      "id": "l13_g02",
+      "pattern": "2. Động từ (thể ます bỏ ます) + たいです (Muốn làm gì)",
+      "explanation": "Mẫu câu biểu thị ý muốn thực hiện một hành vi, hành động nào đó:\n• Cách tạo: Động từ bỏ đuôi ます + たいです.\n• Tân ngữ của hành động có thể dùng trợ từ を hoặc trợ từ が.\n• Biến đổi như tính từ đuôi い: たべたい ➔ たべたくないです ➔ たべたかったです.",
+      "note": "Không dùng để nói về mong muốn của người ngôi thứ ba; Không dùng để mời mọc trực tiếp đối phương (mời ăn dùng いかがですか).",
+      "examples": [
+        {
+          "jp": "わたしは おきなわへ いきたいです。",
+          "vi": "Tôi muốn đi Okinawa."
+        },
+        {
+          "jp": "わたしは てんぷらを（が） たべたいです。",
+          "vi": "Tôi muốn ăn món tôm chiên Tempura."
+        },
+        {
+          "jp": "おなかが いたいですから、何も たべたくないです。",
+          "vi": "Vì đau bụng nên tôi chẳng muốn ăn gì cả."
+        }
+      ]
+    },
+    {
+      "id": "l13_g03",
+      "pattern": "3. Danh từ (địa điểm) へ [Động từ (bỏ ます) / Danh từ] に 行きます / 来ます / 帰ります",
+      "explanation": "Dùng trợ từ に để biểu thị mục đích của hành động di chuyển (đi, đến, về đâu để làm gì):\n• V(bỏ ます) + に: たべに いきます (đi để ăn), かいに いきます (đi để mua).\n• Danh từ hành vi + に: かいものに いきます (đi mua sắm), べんきょうに きました (đến để học).",
+      "note": "Khi đứng trước các danh từ chỉ sự kiện như lễ hội, hòa nhạc... mục đích được hiểu là xem/tham gia sự kiện đó.",
+      "examples": [
+        {
+          "jp": "こうべへ インドりょうりを たべに いきます。",
+          "vi": "Tôi đi Kobe để ăn món ăn Ấn Độ."
+        },
+        {
+          "jp": "こうべへ かいものに いきます。",
+          "vi": "Tôi đi Kobe để mua sắm."
+        },
+        {
+          "jp": "にほんへ びじゅつの べんきょうに きました。",
+          "vi": "Tôi đã đến Nhật Bản để học mỹ thuật."
+        }
+      ]
+    },
+    {
+      "id": "l13_g04",
+      "pattern": "4. どこか / 何か (Đâu đó / Cái gì đó)",
+      "explanation": "Nghi vấn từ kết hợp với trợ từ か biến thành đại từ bất định:\n• どこか: Đâu đó, một nơi nào đó.\n• 何か: Cái gì đó, một thứ gì đó.\n• Các trợ từ へ, を khi đi cùng có thể được lược bớt (どこか[へ] いきます, 何か[を] のみます).",
+      "note": "Phân biệt: 何かを 食べます (ăn cái gì đó) vs 何を 食べますか (ăn cái gì?).",
+      "examples": [
+        {
+          "jp": "ふゆやすみは どこか[へ] いきましたか。……はい、ほっかいどうへ スキーに いきました。",
+          "vi": "Kỳ nghỉ đông anh có đi đâu đó không? ……Có, tôi đã đi Hokkaido để trượt tuyết."
+        },
+        {
+          "jp": "のどが かわきましたから、何か[を] のみたいです。",
+          "vi": "Vì khát nước nên tôi muốn uống cái gì đó."
+        }
+      ]
+    },
+    {
+      "id": "l13_g05",
+      "pattern": "5. ご〜 (Tiền tố lịch sự kính trọng)",
+      "explanation": "Tiền tố ご được thêm vào trước các từ Hán-Nhật (từ ghép 2 chữ Hán) để biểu thị sự lịch sự và tôn kính đối với người nghe (tương tự như お dùng cho từ thuần Nhật).",
+      "note": "Ví dụ: ごちゅうもん (sự gọi món của quý khách), ごかぞく (gia đình của bạn).",
+      "examples": [
+        {
+          "jp": "ごちゅうもんは？",
+          "vi": "Quý khách dùng món gì ạ?"
+        }
+      ]
+    }
+  ]
+}

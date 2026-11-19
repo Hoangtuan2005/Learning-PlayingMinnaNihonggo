@@ -1,0 +1,274 @@
+{
+  "lessonNumber": 22,
+  "titleJp": "わたしが つくった ケーキ",
+  "titleVi": "Bài 22: Mệnh đề định ngữ (Bổ nghĩa danh từ)",
+  "vocabulary": [
+    {
+      "id": "l22_v01",
+      "kana": "きます",
+      "kanji": "着ます",
+      "meaning": "Mặc (áo sơ mi, áo khoác... từ vai xuống)",
+      "type": "Động từ nhóm 2"
+    },
+    {
+      "id": "l22_v02",
+      "kana": "はきます",
+      "meaning": "Đi, mặc (giày, dép, quần, váy... từ hông xuống)",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l22_v03",
+      "kana": "かぶります",
+      "meaning": "Đội (mũ, nón)",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l22_v04",
+      "kana": "かけます",
+      "meaning": "Đeo [kính mắt: めがねを～]",
+      "type": "Động từ nhóm 2"
+    },
+    {
+      "id": "l22_v05",
+      "kana": "します",
+      "meaning": "Đeo, thắt [cà vạt: ネクタイを～]",
+      "type": "Động từ nhóm 3"
+    },
+    {
+      "id": "l22_v06",
+      "kana": "うまれます",
+      "kanji": "生まれます",
+      "meaning": "Sinh ra, chào đời",
+      "type": "Động từ nhóm 2"
+    },
+    {
+      "id": "l22_v07",
+      "kana": "わたしたち",
+      "meaning": "Chúng tôi, chúng ta",
+      "type": "Đại từ"
+    },
+    {
+      "id": "l22_v08",
+      "kana": "コート",
+      "meaning": "Áo khoác dài, áo choàng (coat)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l22_v09",
+      "kana": "セーター",
+      "meaning": "Áo len (sweater)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l22_v10",
+      "kana": "スーツ",
+      "meaning": "Bộ com-lê, bộ vét (suit)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l22_v11",
+      "kana": "ぼうし",
+      "kanji": "帽子",
+      "meaning": "Mũ, nón",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l22_v12",
+      "kana": "めがね",
+      "kanji": "眼鏡",
+      "meaning": "Kính mắt",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l22_v13",
+      "kana": "ケーキ",
+      "meaning": "Bánh ngọt, bánh gato (cake)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l22_v14",
+      "kana": "[お]べんとう",
+      "kanji": "[お]弁当",
+      "meaning": "Cơm hộp bento",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l22_v15",
+      "kana": "ロボット",
+      "meaning": "Người máy, rô-bốt",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l22_v16",
+      "kana": "ユーモア",
+      "meaning": "Sự hài hước, óc khôi hài (humor)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l22_v17",
+      "kana": "つごう",
+      "kanji": "都合",
+      "meaning": "Sự thuận tiện, sắp xếp thời gian",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l22_v18",
+      "kana": "よく",
+      "meaning": "Thường, hay (tần suất)",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l22_v19",
+      "kana": "えーと",
+      "meaning": "Ừ, à... (khi ngập ngừng suy nghĩ)",
+      "type": "Thán từ"
+    },
+    {
+      "id": "l22_v20",
+      "kana": "おめでとう [ございます]",
+      "meaning": "Chúc mừng! (sinh nhật, lễ tết, kết hôn...)",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l22_v21",
+      "kana": "おさがしですか",
+      "kanji": "お探しですか",
+      "meaning": "Anh/Chị đang tìm ~ đấy à?",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l22_v22",
+      "kana": "では",
+      "meaning": "Thế thì / Vậy thì (nhé)",
+      "type": "Liên từ"
+    },
+    {
+      "id": "l22_v23",
+      "kana": "こちら",
+      "meaning": "Đây, cái này (lịch sự)",
+      "type": "Đại từ"
+    },
+    {
+      "id": "l22_v24",
+      "kana": "やちん",
+      "kanji": "家賃",
+      "meaning": "Tiền thuê nhà",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l22_v25",
+      "kana": "ダイニングキッチン",
+      "meaning": "Bếp kèm phòng ăn (dining kitchen)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l22_v26",
+      "kana": "わしつ",
+      "kanji": "和室",
+      "meaning": "Phòng kiểu Nhật",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l22_v27",
+      "kana": "おしいれ",
+      "kanji": "押し入れ",
+      "meaning": "Tủ tường cất chăn đệm kiểu Nhật",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l22_v28",
+      "kana": "ふとん",
+      "kanji": "布団",
+      "meaning": "Chăn, nệm kiểu Nhật",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l22_v29",
+      "kana": "パリ",
+      "meaning": "Paris (Pháp)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l22_v30",
+      "kana": "ばんりのちょうじょう",
+      "kanji": "万理の長城",
+      "meaning": "Vạn Lý Trường Thành",
+      "type": "Danh từ"
+    }
+  ],
+  "kanji": [],
+  "grammar": [
+    {
+      "id": "l22_g01",
+      "pattern": "1. Mệnh đề bổ nghĩa cho danh từ (Mệnh đề định ngữ)",
+      "explanation": "Trong tiếng Nhật, mệnh đề bổ nghĩa LUÔN đứng TRƯỚC danh từ được bổ nghĩa:\n• Động từ trong mệnh đề bổ nghĩa được chia ở Thể thông thường (普通形).\n  - Người đi Kyoto: きょうとへ 行く ひと\n  - Người không đi Kyoto: きょうとへ 行かない ひと\n  - Người đã đi Kyoto: きょうとへ 行った ひと\n  - Người đã không đi Kyoto: きょうとへ 行かなかった ひと\n• Tính từ đuôi な giữ nguyên な: 親切で、きれいな 人.\n• Danh từ dùng の: 65さいの 人.",
+      "note": "Mệnh đề định ngữ không bao giờ kết thúc bằng です hoặc ます.",
+      "examples": [
+        {
+          "jp": "これは ミラーさんが つくった ケーキです。",
+          "vi": "Đây là chiếc bánh ngọt mà anh Miller đã làm."
+        },
+        {
+          "jp": "あそこに いる ひとは ミラーさんです。",
+          "vi": "Người đang ở đằng kia là anh Miller."
+        },
+        {
+          "jp": "きのう ならった ことばを わすれました。",
+          "vi": "Tôi đã quên những từ vựng học ngày hôm qua."
+        }
+      ]
+    },
+    {
+      "id": "l22_g02",
+      "pattern": "2. Trợ từ が chỉ chủ ngữ trong mệnh đề định ngữ",
+      "explanation": "Khi mệnh đề bổ nghĩa cho danh từ có chủ ngữ riêng thì chủ ngữ đó phải đi với trợ từ が, KHÔNG dùng trợ từ は.",
+      "note": "Ví dụ: [わたしが つくった] ケーキ (Chiếc bánh tôi làm); [カリナさんが かいた] え (Bức tranh chị Karina vẽ).",
+      "examples": [
+        {
+          "jp": "これは ミラーさんが すんでいた うちです。",
+          "vi": "Đây là ngôi nhà mà anh Miller từng sống."
+        },
+        {
+          "jp": "わたしは カリナさんが かいた えが すきです。",
+          "vi": "Tôi thích bức tranh mà chị Karina đã vẽ."
+        },
+        {
+          "jp": "かれが うまれた ところを しって いますか。",
+          "vi": "Anh có biết nơi anh ấy sinh ra không?"
+        }
+      ]
+    },
+    {
+      "id": "l22_g03",
+      "pattern": "3. Động từ thể từ điển + 時間 / 約束 / 用事",
+      "explanation": "Dùng động từ thể từ điển đứng trước các danh từ như 時間 (じかん - thời gian), 約束 (やくそく - cuộc hẹn), 用事 (ようじ - việc bận) để diễn tả nội dung của thời gian hoặc công việc đó.",
+      "note": "Ví dụ: ごはんを たべる じかん (thời gian để ăn cơm).",
+      "examples": [
+        {
+          "jp": "わたしは あさごはんを たべる じかんが ありません。",
+          "vi": "Tôi không có thời gian để ăn sáng."
+        },
+        {
+          "jp": "ともだちと えいがを みる やくそくが あります。",
+          "vi": "Tôi có hẹn đi xem phim với bạn."
+        },
+        {
+          "jp": "きょうは しやくしょへ 行く ようじが あります。",
+          "vi": "Hôm nay tôi có việc bận phải đến tòa thị chính."
+        }
+      ]
+    },
+    {
+      "id": "l22_g04",
+      "pattern": "4. Động từ (thể ます bỏ ます) + ましょうか (Cùng làm nhé)",
+      "explanation": "Trong hội thoại thực tế, mẫu câu này còn được dùng với ý nghĩa mời người nghe cùng nhau tiến hành một việc ngay thời điểm đó.",
+      "note": "Ví dụ: いまから 行きましょうか (Chúng ta cùng đi ngay bây giờ nhé?).",
+      "examples": [
+        {
+          "jp": "この へや、きょう みることが できますか。……ええ。いまから いきましょうか。",
+          "vi": "Căn phòng này hôm nay tôi có thể xem được không? ……Được chứ. Chúng ta cùng đi xem ngay bây giờ nhé?"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "lessonNumber": 17,
+  "titleJp": "しゃしんを とらないで ください",
+  "titleVi": "Bài 17: Thể Nai & Nghĩa vụ bắt buộc",
+  "vocabulary": [
+    {
+      "id": "l17_v01",
+      "kana": "おぼえます",
+      "kanji": "覚えます",
+      "meaning": "Nhớ, ghi nhớ, thuộc",
+      "type": "Động từ nhóm 2"
+    },
+    {
+      "id": "l17_v02",
+      "kana": "わすれます",
+      "kanji": "忘れます",
+      "meaning": "Quên",
+      "type": "Động từ nhóm 2"
+    },
+    {
+      "id": "l17_v03",
+      "kana": "なくします",
+      "meaning": "Làm mất, đánh mất",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l17_v04",
+      "kana": "はらいます",
+      "kanji": "払います",
+      "meaning": "Trả tiền, thanh toán",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l17_v05",
+      "kana": "かえします",
+      "kanji": "返します",
+      "meaning": "Trả lại",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l17_v06",
+      "kana": "でかけます",
+      "kanji": "出かけます",
+      "meaning": "Ra ngoài",
+      "type": "Động từ nhóm 2"
+    },
+    {
+      "id": "l17_v07",
+      "kana": "ぬぎます",
+      "kanji": "脱ぎます",
+      "meaning": "Cởi (quần áo, giày dép...)",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l17_v08",
+      "kana": "もっていきます",
+      "kanji": "持って行きます",
+      "meaning": "Mang đi, mang theo",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l17_v09",
+      "kana": "もってきます",
+      "kanji": "持って来ます",
+      "meaning": "Mang đến",
+      "type": "Động từ nhóm 3"
+    },
+    {
+      "id": "l17_v10",
+      "kana": "しんぱいします",
+      "kanji": "心配します",
+      "meaning": "Lo lắng",
+      "type": "Động từ nhóm 3"
+    },
+    {
+      "id": "l17_v11",
+      "kana": "ざんぎょうします",
+      "kanji": "残業します",
+      "meaning": "Làm thêm giờ, tăng ca",
+      "type": "Động từ nhóm 3"
+    },
+    {
+      "id": "l17_v12",
+      "kana": "しゅっちょうします",
+      "kanji": "出張します",
+      "meaning": "Đi công tác",
+      "type": "Động từ nhóm 3"
+    },
+    {
+      "id": "l17_v13",
+      "kana": "のみます",
+      "kanji": "飲みます",
+      "meaning": "Uống [thuốc: くすりを～]",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l17_v14",
+      "kana": "はいります",
+      "kanji": "入ります",
+      "meaning": "Tắm bồn [おふろに～]",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l17_v15",
+      "kana": "たいせつ [な]",
+      "kanji": "大切 [な]",
+      "meaning": "Quan trọng, quý giá",
+      "type": "Tính từ đuôi な"
+    },
+    {
+      "id": "l17_v16",
+      "kana": "だいじょうぶ [な]",
+      "kanji": "大丈夫 [な]",
+      "meaning": "Không sao, ổn thỏa",
+      "type": "Tính từ đuôi な"
+    },
+    {
+      "id": "l17_v17",
+      "kana": "あぶない",
+      "kanji": "危ない",
+      "meaning": "Nguy hiểm",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l17_v18",
+      "kana": "きんえん",
+      "kanji": "禁煙",
+      "meaning": "Cấm hút thuốc",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l17_v19",
+      "kana": "[けんこう] ほけんしょう",
+      "kanji": "[健康] 保険証",
+      "meaning": "Thẻ bảo hiểm [y tế]",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l17_v20",
+      "kana": "ねつ",
+      "kanji": "熱",
+      "meaning": "Sốt (bị sốt: ねつが あります)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l17_v21",
+      "kana": "びょうき",
+      "kanji": "病気",
+      "meaning": "Ốm, bệnh tật",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l17_v22",
+      "kana": "くすり",
+      "kanji": "薬",
+      "meaning": "Thuốc",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l17_v23",
+      "kana": "[お]ふろ",
+      "meaning": "Bồn tắm, việc tắm bồn",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l17_v24",
+      "kana": "うわぎ",
+      "kanji": "上着",
+      "meaning": "Áo khoác",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l17_v25",
+      "kana": "したぎ",
+      "kanji": "下着",
+      "meaning": "Quần áo lót",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l17_v26",
+      "kana": "2、3にち",
+      "kanji": "2、3日",
+      "meaning": "Hai ba ngày, vài ngày",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l17_v27",
+      "kana": "～までに",
+      "meaning": "Trước ～ (chỉ giới hạn thời gian kết thúc)",
+      "type": "Trợ từ"
+    },
+    {
+      "id": "l17_v28",
+      "kana": "ですから",
+      "meaning": "Vì thế, vì vậy, do đó",
+      "type": "Liên từ"
+    },
+    {
+      "id": "l17_v29",
+      "kana": "どう しましたか",
+      "meaning": "Anh/Chị bị làm sao? (bác sĩ hỏi bệnh)",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l17_v30",
+      "kana": "のど",
+      "meaning": "Họng, cổ họng",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l17_v31",
+      "kana": "[～が] いたいです",
+      "kanji": "[～が] 痛いです",
+      "meaning": "Tôi bị đau [～]",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l17_v32",
+      "kana": "かぜ",
+      "meaning": "Cảm cúm",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l17_v33",
+      "kana": "おだいじに",
+      "kanji": "お大事に",
+      "meaning": "Chúc anh/chị chóng khỏe (nói với người ốm)",
+      "type": "Cụm từ giao tiếp"
+    }
+  ],
+  "kanji": [],
+  "grammar": [
+    {
+      "id": "l17_g01",
+      "pattern": "1. Thể ない (Nai-form) của động từ",
+      "explanation": "Quy tắc chia thể ない từ thể ます:\n• Nhóm I: Đổi âm [い] đứng trước ます thành âm [あ] tương ứng rồi thêm ない.\n  Ví dụ: かきます ➔ かかない, のみます ➔ のまない, よみます ➔ よまない.\n  Lưu ý: Nếu âm trước ます là nguyên âm い thì đổi thành わ (かいます ➔ かわない, あいます ➔ あわない).\n• Nhóm II: Bỏ ます thêm ない (たべます ➔ たべない, みます ➔ みない).\n• Nhóm III: します ➔ しない, 来ます (きます) ➔ こない (đổi cách đọc chữ 来 thành こ).",
+      "note": "Động từ あります dạng phủ định thể ngắn là ない (không phải あらない).",
+      "examples": [
+        {
+          "jp": "かかない、のまない、かわない、たべない、こない、しない",
+          "vi": "không viết, không uống, không mua, không ăn, không đến, không làm"
+        }
+      ]
+    },
+    {
+      "id": "l17_g02",
+      "pattern": "2. Động từ (thể ない) ないで ください (Xin đừng ~)",
+      "explanation": "Mẫu câu dùng để yêu cầu, khuyên bảo hoặc chỉ thị ai đó không được làm một việc gì đó.",
+      "note": "Cũng dùng để trấn an đối phương: しんぱいしないで ください (Xin đừng lo lắng).",
+      "examples": [
+        {
+          "jp": "ここで しゃしんを とらないで ください。",
+          "vi": "Xin đừng chụp ảnh ở đây."
+        },
+        {
+          "jp": "わたしは げんきですから、しんぱいしないで ください。",
+          "vi": "Tôi khỏe lắm nên xin anh đừng lo lắng."
+        }
+      ]
+    },
+    {
+      "id": "l17_g03",
+      "pattern": "3. Động từ (thể ない bỏ い) + なければ なりません (Phải làm gì)",
+      "explanation": "Mẫu câu biểu thị một hành động bắt buộc phải thực hiện do quy định, phép tắc, hoặc do hoàn cảnh bắt buộc. Mang ý nghĩa khẳng định (bắt buộc) chứ không phải phủ định.",
+      "note": "Cách tạo: V(ない bỏ い) + なければ なりません. Ví dụ: のまなければ なりません (phải uống).",
+      "examples": [
+        {
+          "jp": "くすりを のまなければ なりません。",
+          "vi": "Tôi phải uống thuốc."
+        },
+        {
+          "jp": "パスポートを みせなければ なりません。",
+          "vi": "Anh/Chị phải trình hộ chiếu ra."
+        }
+      ]
+    },
+    {
+      "id": "l17_g04",
+      "pattern": "4. Động từ (thể ない bỏ い) + なくても いいです (Không cần phải làm gì)",
+      "explanation": "Mẫu câu biểu thị rằng một hành động không bắt buộc phải thực hiện, làm cũng được mà không làm cũng không sao.",
+      "note": "Cách tạo: V(ない bỏ い) + なくても いいです. Ví dụ: こなくても いいです (không cần đến).",
+      "examples": [
+        {
+          "jp": "あした こなくても いいです。",
+          "vi": "Ngày mai anh/chị không cần phải đến đâu."
+        },
+        {
+          "jp": "おかねを はらわなくても いいです。",
+          "vi": "Không cần phải trả tiền đâu."
+        }
+      ]
+    },
+    {
+      "id": "l17_g05",
+      "pattern": "5. Chủ đề hóa tân ngữ",
+      "explanation": "Khi muốn nhấn mạnh tân ngữ trực tiếp (đang đi với trợ từ を), ta thay を bằng trợ từ は và đưa tân ngữ đó ra đầu câu làm chủ đề thảo luận.",
+      "note": "Ví dụ: にもつを おかないで ください ➔ にもつは ここに おかないで ください.",
+      "examples": [
+        {
+          "jp": "荷物は ここに 置かないで ください。",
+          "vi": "Hành lý thì xin đừng để ở đây."
+        },
+        {
+          "jp": "昼ごはんは かいしゃの しょくどうで たべます。",
+          "vi": "Cơm trưa thì tôi ăn ở nhà ăn của công ty."
+        }
+      ]
+    },
+    {
+      "id": "l17_g06",
+      "pattern": "6. Danh từ (thời gian) までに Động từ (Hạn chót hoàn tất)",
+      "explanation": "Trợ từ までに biểu thị thời hạn chót mà hành động phải được hoàn thành trước thời điểm đó.\n• Phân biệt まで và までに:\n  - まで: Hành động diễn ra liên tục cho đến thời điểm đó (5じまで はたらきます - làm việc liên tục đến 5 giờ).\n  - までに: Hành động kết thúc tại một thời điểm trước hạn chót đó (5じまでに かえします - nộp/trả trước 5 giờ).",
+      "note": "までに chỉ thời hạn cuối cùng.",
+      "examples": [
+        {
+          "jp": "かいぎは 5じまでに おわります。",
+          "vi": "Cuộc họp sẽ kết thúc trước 5 giờ."
+        },
+        {
+          "jp": "どようびまでに ほんを かえさなければ なりません。",
+          "vi": "Anh phải trả sách trước ngày thứ bảy."
+        }
+      ]
+    }
+  ]
+}

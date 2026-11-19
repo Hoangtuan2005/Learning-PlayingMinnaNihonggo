@@ -1,0 +1,784 @@
+{
+  "lessonNumber": 5,
+  "titleJp": "どこへ いきますか",
+  "titleVi": "Bài 5: Đi lại & Phương tiện",
+  "vocabulary": [
+    {
+      "id": "l05_v01",
+      "kana": "いきます",
+      "kanji": "行きます",
+      "meaning": "Đi",
+      "type": "Động từ"
+    },
+    {
+      "id": "l05_v02",
+      "kana": "きます",
+      "kanji": "来ます",
+      "meaning": "Đến",
+      "type": "Động từ"
+    },
+    {
+      "id": "l05_v03",
+      "kana": "かえります",
+      "kanji": "帰ります",
+      "meaning": "Về, trở về",
+      "type": "Động từ"
+    },
+    {
+      "id": "l05_v04",
+      "kana": "がっこう",
+      "kanji": "学校",
+      "meaning": "Trường học",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l05_v05",
+      "kana": "スーパー",
+      "meaning": "Siêu thị",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l05_v06",
+      "kana": "えき",
+      "kanji": "駅",
+      "meaning": "Ga, nhà ga",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l05_v07",
+      "kana": "ひこうき",
+      "kanji": "飛行機",
+      "meaning": "Máy bay",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l05_v08",
+      "kana": "ふね",
+      "kanji": "船",
+      "meaning": "Tàu thủy, thuyền",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l05_v09",
+      "kana": "でんしゃ",
+      "kanji": "電車",
+      "meaning": "Tàu điện",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l05_v10",
+      "kana": "ちかてつ",
+      "kanji": "地下鉄",
+      "meaning": "Tàu điện ngầm",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l05_v11",
+      "kana": "しんかんせん",
+      "kanji": "新幹線",
+      "meaning": "Tàu siêu tốc Shinkansen",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l05_v12",
+      "kana": "バス",
+      "meaning": "Xe buýt",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l05_v13",
+      "kana": "タクシー",
+      "meaning": "Tắc-xi",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l05_v14",
+      "kana": "じてんしゃ",
+      "kanji": "自転車",
+      "meaning": "Xe đạp",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l05_v15",
+      "kana": "あるいて",
+      "kanji": "歩いて",
+      "meaning": "Đi bộ",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l05_v16",
+      "kana": "ひと",
+      "kanji": "人",
+      "meaning": "Người",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l05_v17",
+      "kana": "ともだち",
+      "kanji": "友達",
+      "meaning": "Bạn, bạn bè",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l05_v18",
+      "kana": "かれ",
+      "kanji": "彼",
+      "meaning": "Anh ấy, bạn trai",
+      "type": "Đại từ"
+    },
+    {
+      "id": "l05_v19",
+      "kana": "かのじょ",
+      "kanji": "彼女",
+      "meaning": "Chị ấy, bạn gái",
+      "type": "Đại từ"
+    },
+    {
+      "id": "l05_v20",
+      "kana": "かぞく",
+      "kanji": "家族",
+      "meaning": "Gia đình",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l05_v21",
+      "kana": "ひとりで",
+      "kanji": "一人で",
+      "meaning": "Một mình",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l05_v22",
+      "kana": "せんしゅう",
+      "kanji": "先週",
+      "meaning": "Tuần trước",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l05_v23",
+      "kana": "こんしゅう",
+      "kanji": "今週",
+      "meaning": "Tuần này",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l05_v24",
+      "kana": "らいしゅう",
+      "kanji": "来週",
+      "meaning": "Tuần sau",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l05_v25",
+      "kana": "せんげつ",
+      "kanji": "先月",
+      "meaning": "Tháng trước",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l05_v26",
+      "kana": "こんげつ",
+      "kanji": "今月",
+      "meaning": "Tháng này",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l05_v27",
+      "kana": "らいげつ",
+      "kanji": "来月",
+      "meaning": "Tháng sau",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l05_v28",
+      "kana": "きょねん",
+      "kanji": "去年",
+      "meaning": "Năm ngoái",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l05_v29",
+      "kana": "ことし",
+      "meaning": "Năm nay",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l05_v30",
+      "kana": "らいねん",
+      "kanji": "来年",
+      "meaning": "Sang năm, năm sau",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l05_v31",
+      "kana": "～ねん",
+      "kanji": "～年",
+      "meaning": "Năm ～",
+      "type": "Hậu tố"
+    },
+    {
+      "id": "l05_v32",
+      "kana": "なんねん",
+      "kanji": "何年",
+      "meaning": "Năm mấy, mấy năm",
+      "type": "Từ để hỏi"
+    },
+    {
+      "id": "l05_v33",
+      "kana": "～がつ",
+      "kanji": "～月",
+      "meaning": "Tháng ～",
+      "type": "Hậu tố"
+    },
+    {
+      "id": "l05_v34",
+      "kana": "なんがつ",
+      "kanji": "何月",
+      "meaning": "Tháng mấy",
+      "type": "Từ để hỏi"
+    },
+    {
+      "id": "l05_v35",
+      "kana": "ついたち",
+      "kanji": "１日",
+      "meaning": "Ngày mồng 1",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l05_v36",
+      "kana": "ふつか",
+      "kanji": "２日",
+      "meaning": "Ngày mồng 2, 2 ngày",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l05_v37",
+      "kana": "みっか",
+      "kanji": "３日",
+      "meaning": "Ngày mồng 3, 3 ngày",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l05_v38",
+      "kana": "よっか",
+      "kanji": "４日",
+      "meaning": "Ngày mồng 4, 4 ngày",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l05_v39",
+      "kana": "いつか",
+      "kanji": "５日",
+      "meaning": "Ngày mồng 5, 5 ngày",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l05_v40",
+      "kana": "むいか",
+      "kanji": "６日",
+      "meaning": "Ngày mồng 6, 6 ngày",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l05_v41",
+      "kana": "なのか",
+      "kanji": "７日",
+      "meaning": "Ngày mồng 7, 7 ngày",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l05_v42",
+      "kana": "ようか",
+      "kanji": "８日",
+      "meaning": "Ngày mồng 8, 8 ngày",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l05_v43",
+      "kana": "ここのか",
+      "kanji": "９日",
+      "meaning": "Ngày mồng 9, 9 ngày",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l05_v44",
+      "kana": "とおか",
+      "kanji": "１０日",
+      "meaning": "Ngày mồng 10, 10 ngày",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l05_v45",
+      "kana": "じゅうよっか",
+      "kanji": "１４日",
+      "meaning": "Ngày 14, 14 ngày",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l05_v46",
+      "kana": "はつか",
+      "kanji": "２０日",
+      "meaning": "Ngày 20, 20 ngày",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l05_v47",
+      "kana": "にじゅうよっか",
+      "kanji": "２４日",
+      "meaning": "Ngày 24, 24 ngày",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l05_v48",
+      "kana": "～にち",
+      "kanji": "～日",
+      "meaning": "Ngày ～, ～ ngày",
+      "type": "Hậu tố"
+    },
+    {
+      "id": "l05_v49",
+      "kana": "なんにち",
+      "kanji": "何日",
+      "meaning": "Ngày mấy, mấy ngày",
+      "type": "Từ để hỏi"
+    },
+    {
+      "id": "l05_v50",
+      "kana": "いつ",
+      "meaning": "Bao giờ, khi nào",
+      "type": "Từ để hỏi"
+    },
+    {
+      "id": "l05_v51",
+      "kana": "たんじょうび",
+      "kanji": "誕生日",
+      "meaning": "Sinh nhật",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l05_v52",
+      "kana": "そうですね",
+      "meaning": "Ừ, nhỉ (thể hiện sự đồng tình)",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l05_v53",
+      "kana": "どうも ありがとう ございました",
+      "meaning": "Xin cảm ơn anh/chị rất nhiều.",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l05_v54",
+      "kana": "どういたしまして",
+      "meaning": "Không có gì đâu (đáp lại lời cảm ơn)",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l05_v55",
+      "kana": "～ばんせん",
+      "kanji": "～番線",
+      "meaning": "Sân ga số ～",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l05_v56",
+      "kana": "つぎの",
+      "kanji": "次の",
+      "meaning": "Tiếp theo",
+      "type": "Tính từ"
+    },
+    {
+      "id": "l05_v57",
+      "kana": "ふつう",
+      "kanji": "普通",
+      "meaning": "Tàu thường (dừng ở các ga lẻ)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l05_v58",
+      "kana": "きゅうこう",
+      "kanji": "急行",
+      "meaning": "Tàu tốc hành",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l05_v59",
+      "kana": "とっきゅう",
+      "kanji": "特急",
+      "meaning": "Tàu tốc hành đặc biệt",
+      "type": "Danh từ"
+    }
+  ],
+  "kanji": [
+    {
+      "id": "l05_k01",
+      "character": "上",
+      "hanViet": "THƯỢNG",
+      "onyomi": [
+        "ジョウ",
+        "ショウ"
+      ],
+      "kunyomi": [
+        "うえ",
+        "あ(がる)",
+        "あ(げる)",
+        "のぼ(る)"
+      ],
+      "meaning": "Trên, phía trên, đi lên",
+      "examples": [
+        {
+          "word": "上",
+          "reading": "うえ",
+          "meaning": "Bên trên, phía trên"
+        },
+        {
+          "word": "上手",
+          "reading": "じょうず",
+          "meaning": "Giỏi, khéo léo"
+        },
+        {
+          "word": "上がる",
+          "reading": "あがる",
+          "meaning": "Đi lên, tăng lên"
+        },
+        {
+          "word": "屋上",
+          "reading": "おくじょう",
+          "meaning": "Sân thượng"
+        }
+      ]
+    },
+    {
+      "id": "l05_k02",
+      "character": "下",
+      "hanViet": "HẠ",
+      "onyomi": [
+        "カ",
+        "ゲ"
+      ],
+      "kunyomi": [
+        "した",
+        "さ(がる)",
+        "さ(げる)",
+        "くだ(る)"
+      ],
+      "meaning": "Dưới, phía dưới, đi xuống",
+      "examples": [
+        {
+          "word": "下",
+          "reading": "した",
+          "meaning": "Phía dưới, bên dưới"
+        },
+        {
+          "word": "下手",
+          "reading": "へた",
+          "meaning": "Kém, vụng về"
+        },
+        {
+          "word": "地下鉄",
+          "reading": "ちかてつ",
+          "meaning": "Tàu điện ngầm"
+        },
+        {
+          "word": "下がる",
+          "reading": "さがる",
+          "meaning": "Hạ xuống, giảm bớt"
+        }
+      ]
+    },
+    {
+      "id": "l05_k03",
+      "character": "左",
+      "hanViet": "TẢ",
+      "onyomi": [
+        "サ"
+      ],
+      "kunyomi": [
+        "ひだり"
+      ],
+      "meaning": "Bên trái, phía trái",
+      "examples": [
+        {
+          "word": "左",
+          "reading": "ひだり",
+          "meaning": "Bên trái"
+        },
+        {
+          "word": "左手",
+          "reading": "ひだりて",
+          "meaning": "Tay trái"
+        },
+        {
+          "word": "左側",
+          "reading": "ひだりがわ",
+          "meaning": "Phía bên trái"
+        },
+        {
+          "word": "左右",
+          "reading": "さゆう",
+          "meaning": "Trái phải, chi phối"
+        }
+      ]
+    },
+    {
+      "id": "l05_k04",
+      "character": "右",
+      "hanViet": "HỮU",
+      "onyomi": [
+        "ウ",
+        "ユウ"
+      ],
+      "kunyomi": [
+        "みぎ"
+      ],
+      "meaning": "Bên phải, phía phải",
+      "examples": [
+        {
+          "word": "右",
+          "reading": "みぎ",
+          "meaning": "Bên phải"
+        },
+        {
+          "word": "右手",
+          "reading": "みぎて",
+          "meaning": "Tay phải"
+        },
+        {
+          "word": "右側",
+          "reading": "みぎがわ",
+          "meaning": "Phía bên phải"
+        },
+        {
+          "word": "右折",
+          "reading": "うせつ",
+          "meaning": "Rẽ phải"
+        }
+      ]
+    },
+    {
+      "id": "l05_k05",
+      "character": "外",
+      "hanViet": "NGOẠI",
+      "onyomi": [
+        "ガイ",
+        "ゲ"
+      ],
+      "kunyomi": [
+        "そと",
+        "ほか",
+        "はず(す)"
+      ],
+      "meaning": "Ngoài, bên ngoài",
+      "examples": [
+        {
+          "word": "外",
+          "reading": "そと",
+          "meaning": "Bên ngoài"
+        },
+        {
+          "word": "外国",
+          "reading": "がいこく",
+          "meaning": "Nước ngoài"
+        },
+        {
+          "word": "外国人",
+          "reading": "がいこくじん",
+          "meaning": "Người nước ngoài"
+        },
+        {
+          "word": "外出",
+          "reading": "がいしゅつ",
+          "meaning": "Đi ra ngoài"
+        }
+      ]
+    },
+    {
+      "id": "l05_k06",
+      "character": "内",
+      "hanViet": "NỘI",
+      "onyomi": [
+        "ナイ",
+        "ダイ"
+      ],
+      "kunyomi": [
+        "うち"
+      ],
+      "meaning": "Trong, bên trong, nội bộ",
+      "examples": [
+        {
+          "word": "内",
+          "reading": "うち",
+          "meaning": "Bên trong, trong nhà"
+        },
+        {
+          "word": "家内",
+          "reading": "かない",
+          "meaning": "Vợ mình (cách gọi khiêm tốn)"
+        },
+        {
+          "word": "国内",
+          "reading": "こくない",
+          "meaning": "Trong nước, nội địa"
+        },
+        {
+          "word": "案内",
+          "reading": "あんない",
+          "meaning": "Hướng dẫn, chỉ đường"
+        }
+      ]
+    },
+    {
+      "id": "l05_k07",
+      "character": "中",
+      "hanViet": "TRUNG",
+      "onyomi": [
+        "チュウ",
+        "ジュウ"
+      ],
+      "kunyomi": [
+        "なか"
+      ],
+      "meaning": "Trong, giữa, trung tâm",
+      "examples": [
+        {
+          "word": "中",
+          "reading": "なか",
+          "meaning": "Bên trong, ở giữa"
+        },
+        {
+          "word": "中国",
+          "reading": "ちゅうごく",
+          "meaning": "Trung Quốc"
+        },
+        {
+          "word": "一日中",
+          "reading": "いちにちじゅう",
+          "meaning": "Suốt cả ngày"
+        },
+        {
+          "word": "中学校",
+          "reading": "ちゅうがっこう",
+          "meaning": "Trường cấp 2 (THCS)"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "l05_g01",
+      "pattern": "1. Danh từ (địa điểm) へ 行きます / 来ます / 帰ります",
+      "explanation": "Khi sử dụng động từ chỉ sự di chuyển (行きます: đi, 来ます: đến, 帰ります: về), ta dùng trợ từ へ (phát âm là e) đặt sau danh từ chỉ địa điểm để chỉ phương hướng di chuyển tới địa điểm đó.",
+      "note": "Trợ từ へ được viết bằng chữ cái へ (he) nhưng luôn phát âm là え (e).",
+      "examples": [
+        {
+          "jp": "きょうとへ いきます。",
+          "vi": "Tôi đi Kyoto."
+        },
+        {
+          "jp": "にほんへ きました。",
+          "vi": "Tôi đã đến Nhật Bản."
+        },
+        {
+          "jp": "うちへ かえります。",
+          "vi": "Tôi trở về nhà."
+        }
+      ]
+    },
+    {
+      "id": "l05_g02",
+      "pattern": "2. どこ [へ] も 行きません / 行きませんでした (Phủ định hoàn toàn)",
+      "explanation": "Khi muốn phủ định hoàn toàn đối tượng trong phạm vi được hỏi bởi nghi vấn từ (như どこ: ở đâu, なに: cái gì, だれ: ai), ta thêm trợ từ も vào sau nghi vấn từ và chuyển động từ sang thể phủ định.\n• どこ [へ] も いきません: Không đi đâu cả.\n• なにも たべません: Không ăn gì cả.\n• だれも きませんでした: Đã không có ai đến cả.",
+      "note": "Trong trường hợp どこへも, trợ từ へ có thể lược bỏ thành どこも.",
+      "examples": [
+        {
+          "jp": "どこ[へ]も いきません。",
+          "vi": "Tôi không đi đâu cả."
+        },
+        {
+          "jp": "きのう どこへ いきましたか。……どこ[へ]も いきませんでした。",
+          "vi": "Hôm qua anh đã đi đâu? ……Tôi đã không đi đâu cả."
+        }
+      ]
+    },
+    {
+      "id": "l05_g03",
+      "pattern": "3. Danh từ (phương tiện) で 行きます / 来ます / 帰ります",
+      "explanation": "Trợ từ で biểu thị phương tiện, cách thức tiến hành hành động. Khi đi với động từ di chuyển, で đứng sau danh từ chỉ phương tiện giao thông (tàu, xe, máy bay...).\n• Lưu ý: Trường hợp đi bộ thì dùng あるいて (歩いて), KHÔNG dùng trợ từ で.",
+      "note": "Đi bộ: あるいて いきます (Đi bộ đi), không nói あるいてで.",
+      "examples": [
+        {
+          "jp": "でんしゃで いきます。",
+          "vi": "Tôi đi bằng tàu điện."
+        },
+        {
+          "jp": "タクシーで きました。",
+          "vi": "Tôi đã đến bằng tắc-xi."
+        },
+        {
+          "jp": "えきから あるいて かえりました。",
+          "vi": "Tôi đã đi bộ từ ga về nhà."
+        }
+      ]
+    },
+    {
+      "id": "l05_g04",
+      "pattern": "4. Danh từ (người / động vật) と Động từ",
+      "explanation": "Trợ từ と dùng sau danh từ chỉ người hoặc động vật để biểu thị người/đối tượng cùng thực hiện hành động với mình.\n• Khi thực hiện hành động một mình, ta dùng phó từ ひとりで (一人で) và không dùng trợ từ と.",
+      "note": "Đi cùng ai: だれと いきますか (Anh đi cùng ai?); Một mình: ひとりで いきます.",
+      "examples": [
+        {
+          "jp": "かぞくと にほんへ きました。",
+          "vi": "Tôi đã đến Nhật Bản cùng với gia đình."
+        },
+        {
+          "jp": "ひとりで とうきょうへ いきます。",
+          "vi": "Tôi đi Tokyo một mình."
+        }
+      ]
+    },
+    {
+      "id": "l05_g05",
+      "pattern": "5. いつ (Bao giờ, khi nào)",
+      "explanation": "Nghi vấn từ いつ dùng để hỏi về thời điểm diễn ra sự việc. Khi dùng いつ, tuyệt đối KHÔNG đặt trợ từ に ở sau.",
+      "note": "Không nói いつに, chỉ nói いつ 行きますか.",
+      "examples": [
+        {
+          "jp": "いつ にほんへ きましたか。……3がつ 25にちに きました。",
+          "vi": "Bạn đến Nhật bao giờ? ……Tôi đến vào ngày 25 tháng 3."
+        },
+        {
+          "jp": "いつ ひろしまへ いきますか。……らいしゅう いきます。",
+          "vi": "Khi nào bạn sẽ đi Hiroshima? ……Tuần sau tôi sẽ đi."
+        }
+      ]
+    },
+    {
+      "id": "l05_g06",
+      "pattern": "6. 〜よ (Trợ từ cuối câu nhấn mạnh)",
+      "explanation": "Trợ từ よ đặt ở cuối câu để nhấn mạnh thông tin mà người nói muốn truyền đạt cho người nghe chưa biết, hoặc để khẳng định ý kiến, phán đoán của mình.",
+      "note": "Tương đương tiếng Việt: \"...đấy\", \"...đấy nhé\", \"...cơ\".",
+      "examples": [
+        {
+          "jp": "この でんしゃは こうしえんへ いきますか。……いいえ、いきません。つぎの「ふつう」ですよ。",
+          "vi": "Tàu điện này có đi Koshien không? ……Không, không đi. Chuyến tàu thường tiếp theo mới đi cơ."
+        },
+        {
+          "jp": "ほっかいどうに うまが たくさん いますよ。",
+          "vi": "Ở Hokkaido có nhiều ngựa lắm đấy."
+        }
+      ]
+    },
+    {
+      "id": "l05_g07",
+      "pattern": "7. そうですね (Đồng ý, đồng cảm)",
+      "explanation": "Mẫu câu dùng để bày tỏ sự đồng ý, đồng cảm với điều người đối thoại vừa nói (khác với そうですか dùng khi nhận thông tin mới).",
+      "note": "Phát âm hạ giọng ở cuối câu: そうですね ↘",
+      "examples": [
+        {
+          "jp": "あしたは にちようびですね。……あ、そうですね。",
+          "vi": "Ngày mai là chủ nhật nhỉ? ……A, ừ nhỉ."
+        }
+      ]
+    }
+  ]
+}

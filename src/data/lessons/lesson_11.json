@@ -1,0 +1,683 @@
+{
+  "lessonNumber": 11,
+  "titleJp": "りんごを いくつ かいましたか",
+  "titleVi": "Bài 11: Số lượng & Lượng từ",
+  "vocabulary": [
+    {
+      "id": "l11_v01",
+      "kana": "います",
+      "meaning": "Có [con: こどもが～]",
+      "type": "Động từ"
+    },
+    {
+      "id": "l11_v02",
+      "kana": "います",
+      "meaning": "Ở [Nhật: にほんに～]",
+      "type": "Động từ"
+    },
+    {
+      "id": "l11_v03",
+      "kana": "かかります",
+      "meaning": "Mất, tốn (thời gian, tiền bạc)",
+      "type": "Động từ"
+    },
+    {
+      "id": "l11_v04",
+      "kana": "やすみます",
+      "kanji": "休みます",
+      "meaning": "Nghỉ [làm việc: かいしゃを～]",
+      "type": "Động từ"
+    },
+    {
+      "id": "l11_v05",
+      "kana": "ひとつ",
+      "kanji": "１つ",
+      "meaning": "1 cái (đếm đồ vật)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l11_v06",
+      "kana": "ふたつ",
+      "kanji": "２つ",
+      "meaning": "2 cái",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l11_v07",
+      "kana": "みっつ",
+      "kanji": "３つ",
+      "meaning": "3 cái",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l11_v08",
+      "kana": "よっつ",
+      "kanji": "４つ",
+      "meaning": "4 cái",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l11_v09",
+      "kana": "いつつ",
+      "kanji": "５つ",
+      "meaning": "5 cái",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l11_v10",
+      "kana": "むっつ",
+      "kanji": "６つ",
+      "meaning": "6 cái",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l11_v11",
+      "kana": "ななつ",
+      "kanji": "７つ",
+      "meaning": "7 cái",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l11_v12",
+      "kana": "やっつ",
+      "kanji": "８つ",
+      "meaning": "8 cái",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l11_v13",
+      "kana": "ここのつ",
+      "kanji": "９つ",
+      "meaning": "9 cái",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l11_v14",
+      "kana": "とお",
+      "kanji": "１０",
+      "meaning": "10 cái",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l11_v15",
+      "kana": "いくつ",
+      "meaning": "Mấy cái, bao nhiêu cái (đồ vật)",
+      "type": "Từ để hỏi"
+    },
+    {
+      "id": "l11_v16",
+      "kana": "ひとり",
+      "kanji": "１人",
+      "meaning": "1 người",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l11_v17",
+      "kana": "ふたり",
+      "kanji": "２人",
+      "meaning": "2 người",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l11_v18",
+      "kana": "～にん",
+      "kanji": "～人",
+      "meaning": "～ người (trợ số từ đếm người)",
+      "type": "Hậu tố"
+    },
+    {
+      "id": "l11_v19",
+      "kana": "～だい",
+      "kanji": "～台",
+      "meaning": "～ cái, chiếc (đếm máy móc, xe cộ)",
+      "type": "Hậu tố"
+    },
+    {
+      "id": "l11_v20",
+      "kana": "～まい",
+      "kanji": "～枚",
+      "meaning": "～ tờ, tấm (đếm vật mỏng dẹt: giấy, vé, áo...)",
+      "type": "Hậu tố"
+    },
+    {
+      "id": "l11_v21",
+      "kana": "～かい",
+      "kanji": "～回",
+      "meaning": "～ lần (số lần thực hiện)",
+      "type": "Hậu tố"
+    },
+    {
+      "id": "l11_v22",
+      "kana": "りんご",
+      "meaning": "Táo, quả táo",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l11_v23",
+      "kana": "みかん",
+      "meaning": "Quýt, quả quýt",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l11_v24",
+      "kana": "サンドイッチ",
+      "meaning": "Bánh kẹp sandwich",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l11_v25",
+      "kana": "カレー [ライス]",
+      "meaning": "Món [cơm] cà-ri",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l11_v26",
+      "kana": "アイスクリーム",
+      "meaning": "Kem",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l11_v27",
+      "kana": "きって",
+      "kanji": "切手",
+      "meaning": "Con tem thư",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l11_v28",
+      "kana": "はがき",
+      "meaning": "Bưu thiếp",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l11_v29",
+      "kana": "ふうとう",
+      "kanji": "封筒",
+      "meaning": "Phong bì",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l11_v30",
+      "kana": "りょうしん",
+      "kanji": "両親",
+      "meaning": "Bố mẹ, phụ huynh",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l11_v31",
+      "kana": "きょうだい",
+      "kanji": "兄弟",
+      "meaning": "Anh chị em",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l11_v32",
+      "kana": "あに",
+      "kanji": "兄",
+      "meaning": "Anh trai (của mình)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l11_v33",
+      "kana": "おにいさん",
+      "kanji": "お兄さん",
+      "meaning": "Anh trai (của người khác)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l11_v34",
+      "kana": "あね",
+      "kanji": "姉",
+      "meaning": "Chị gái (của mình)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l11_v35",
+      "kana": "おねえさん",
+      "kanji": "お姉さん",
+      "meaning": "Chị gái (của người khác)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l11_v36",
+      "kana": "おとうと",
+      "kanji": "弟",
+      "meaning": "Em trai (của mình)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l11_v37",
+      "kana": "おとうとさん",
+      "kanji": "弟さん",
+      "meaning": "Em trai (của người khác)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l11_v38",
+      "kana": "いもうと",
+      "kanji": "妹",
+      "meaning": "Em gái (của mình)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l11_v39",
+      "kana": "いもうとさん",
+      "kanji": "妹さん",
+      "meaning": "Em gái (của người khác)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l11_v40",
+      "kana": "がいこく",
+      "kanji": "外国",
+      "meaning": "Nước ngoài",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l11_v41",
+      "kana": "りゅうがくせい",
+      "kanji": "留学生",
+      "meaning": "Lưu học sinh, du học sinh",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l11_v42",
+      "kana": "クラス",
+      "meaning": "Lớp học (class)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l11_v43",
+      "kana": "～じかん",
+      "kanji": "～時間",
+      "meaning": "～ tiếng, ～ giờ đồng hồ",
+      "type": "Hậu tố"
+    },
+    {
+      "id": "l11_v44",
+      "kana": "～しゅうかん",
+      "kanji": "～週間",
+      "meaning": "～ tuần lễ",
+      "type": "Hậu tố"
+    },
+    {
+      "id": "l11_v45",
+      "kana": "～かげつ",
+      "kanji": "～か月",
+      "meaning": "～ tháng",
+      "type": "Hậu tố"
+    },
+    {
+      "id": "l11_v46",
+      "kana": "～ねん",
+      "kanji": "～年",
+      "meaning": "～ năm",
+      "type": "Hậu tố"
+    },
+    {
+      "id": "l11_v47",
+      "kana": "～ぐらい",
+      "meaning": "Khoảng ～ (chừng)",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l11_v48",
+      "kana": "どのくらい",
+      "meaning": "Bao lâu, khoảng bao nhiêu",
+      "type": "Từ để hỏi"
+    },
+    {
+      "id": "l11_v49",
+      "kana": "ぜんぶで",
+      "kanji": "全部で",
+      "meaning": "Tổng cộng",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l11_v50",
+      "kana": "みんな",
+      "meaning": "Tất cả, mọi người",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l11_v51",
+      "kana": "～だけ",
+      "meaning": "Chỉ ～ (chỉ có duy nhất)",
+      "type": "Trợ từ"
+    },
+    {
+      "id": "l11_v52",
+      "kana": "かしこまりました",
+      "meaning": "Tôi đã hiểu rõ rồi ạ (thưa quý khách)",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l11_v53",
+      "kana": "ふなびん",
+      "kanji": "船便",
+      "meaning": "Gửi bằng đường biển",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l11_v54",
+      "kana": "こうくうびん",
+      "kanji": "航空便",
+      "meaning": "Gửi bằng đường hàng không",
+      "type": "Danh từ"
+    }
+  ],
+  "kanji": [
+    {
+      "id": "l11_k01",
+      "character": "林",
+      "hanViet": "LÂM",
+      "onyomi": [
+        "リン"
+      ],
+      "kunyomi": [
+        "はやし"
+      ],
+      "meaning": "Rừng thưa, lùm cây",
+      "examples": [
+        {
+          "word": "林",
+          "reading": "はやし",
+          "meaning": "Rừng thưa, rừng cây nhỏ"
+        },
+        {
+          "word": "小林",
+          "reading": "こばやし",
+          "meaning": "Kobayashi (họ người)"
+        },
+        {
+          "word": "林道",
+          "reading": "りんどう",
+          "meaning": "Đường xuyên rừng"
+        },
+        {
+          "word": "森林",
+          "reading": "しんりん",
+          "meaning": "Rừng rậm, rừng cây"
+        }
+      ]
+    },
+    {
+      "id": "l11_k02",
+      "character": "森",
+      "hanViet": "SÂM",
+      "onyomi": [
+        "シン"
+      ],
+      "kunyomi": [
+        "もり"
+      ],
+      "meaning": "Rừng rậm, rừng sâu",
+      "examples": [
+        {
+          "word": "森",
+          "reading": "もり",
+          "meaning": "Rừng rậm, cánh rừng lớn"
+        },
+        {
+          "word": "森田",
+          "reading": "もりた",
+          "meaning": "Morita (họ người)"
+        },
+        {
+          "word": "青森",
+          "reading": "あおもり",
+          "meaning": "Tỉnh Aomori"
+        },
+        {
+          "word": "森林",
+          "reading": "しんりん",
+          "meaning": "Rừng rậm"
+        }
+      ]
+    },
+    {
+      "id": "l11_k03",
+      "character": "畑",
+      "hanViet": "HOÀN",
+      "onyomi": [],
+      "kunyomi": [
+        "はたけ",
+        "はた"
+      ],
+      "meaning": "Ruộng cạn, nương rẫy, cánh đồng hoa màu",
+      "examples": [
+        {
+          "word": "畑",
+          "reading": "はたけ",
+          "meaning": "Cánh đồng hoa màu, ruộng cạn"
+        },
+        {
+          "word": "花畑",
+          "reading": "はなばたけ",
+          "meaning": "Cánh đồng hoa"
+        },
+        {
+          "word": "田畑",
+          "reading": "たはた",
+          "meaning": "Đồng ruộng (cả lúa nước và hoa màu)"
+        },
+        {
+          "word": "麦畑",
+          "reading": "むぎばたけ",
+          "meaning": "Cánh đồng lúa mạch"
+        }
+      ]
+    },
+    {
+      "id": "l11_k04",
+      "character": "岩",
+      "hanViet": "NHAM",
+      "onyomi": [
+        "ガン"
+      ],
+      "kunyomi": [
+        "いわ"
+      ],
+      "meaning": "Tảng đá lớn, mỏm đá, đất đá",
+      "examples": [
+        {
+          "word": "岩",
+          "reading": "いわ",
+          "meaning": "Tảng đá lớn, tảng đá"
+        },
+        {
+          "word": "岩石",
+          "reading": "がんせき",
+          "meaning": "Nham thạch, đất đá"
+        },
+        {
+          "word": "岩田",
+          "reading": "いわた",
+          "meaning": "Iwata (họ người)"
+        },
+        {
+          "word": "溶岩",
+          "reading": "ようがん",
+          "meaning": "Dung nham núi lửa"
+        }
+      ]
+    },
+    {
+      "id": "l11_k05",
+      "character": "音",
+      "hanViet": "ÂM",
+      "onyomi": [
+        "オン",
+        "イン"
+      ],
+      "kunyomi": [
+        "おと",
+        "ね"
+      ],
+      "meaning": "Âm thanh, tiếng",
+      "examples": [
+        {
+          "word": "音",
+          "reading": "おと",
+          "meaning": "Âm thanh, tiếng động"
+        },
+        {
+          "word": "音楽",
+          "reading": "おんがく",
+          "meaning": "Âm nhạc"
+        },
+        {
+          "word": "本音",
+          "reading": "ほんね",
+          "meaning": "Thực tâm, ý thật từ đáy lòng"
+        },
+        {
+          "word": "発音",
+          "reading": "はつおん",
+          "meaning": "Phát âm"
+        }
+      ]
+    },
+    {
+      "id": "l11_k06",
+      "character": "明",
+      "hanViet": "MINH",
+      "onyomi": [
+        "メイ",
+        "ミョウ"
+      ],
+      "kunyomi": [
+        "あか(るい)",
+        "あ(ける)",
+        "あき(らか)"
+      ],
+      "meaning": "Sáng sủa, rõ ràng, sáng suốt",
+      "examples": [
+        {
+          "word": "明るい",
+          "reading": "あかるい",
+          "meaning": "Sáng sủa, tươi vui, hoạt bát"
+        },
+        {
+          "word": "明日",
+          "reading": "あした",
+          "meaning": "Ngày mai"
+        },
+        {
+          "word": "説明",
+          "reading": "せつめい",
+          "meaning": "Giải thích, thuyết minh"
+        },
+        {
+          "word": "明白",
+          "reading": "めいはく",
+          "meaning": "Rõ ràng, minh bạch"
+        }
+      ]
+    },
+    {
+      "id": "l11_k07",
+      "character": "暗",
+      "hanViet": "ÁM",
+      "onyomi": [
+        "アン"
+      ],
+      "kunyomi": [
+        "くら(い)"
+      ],
+      "meaning": "Tối, u ám",
+      "examples": [
+        {
+          "word": "暗い",
+          "reading": "くらい",
+          "meaning": "Tối, tối tăm, u ám"
+        },
+        {
+          "word": "暗記",
+          "reading": "あんき",
+          "meaning": "Học thuộc lòng"
+        },
+        {
+          "word": "暗号",
+          "reading": "あんごう",
+          "meaning": "Mật mã"
+        },
+        {
+          "word": "真っ暗",
+          "reading": "まっくら",
+          "meaning": "Tối đen như mực"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "l11_g01",
+      "pattern": "1. Cách đếm số lượng trong tiếng Nhật",
+      "explanation": "Trong tiếng Nhật, cách đếm phụ thuộc vào bản chất của đồ vật/đối tượng:\n• Đồ vật nói chung (từ 1 đến 10): ひとつ, ふたつ, みっつ, よっつ, いつつ, むっつ, ななつ, やっつ, ここのつ, とお. Từ 11 trở lên dùng số đếm thường.\n• Người: ひとり (1 người), ふたり (2 người), 3人 (さんにん), 4人 (よにん - không nói よんにん)...\n• Máy móc, xe cộ: 〜台 (だい).\n• Vật mỏng, phẳng (giấy, áo, đĩa CD): 〜枚 (まい).\n• Số lần: 〜回 (かい).\n• Khoảng thời gian: 〜時間 (じかん - tiếng), 〜日 (にち - ngày), 〜週間 (しゅうかん - tuần), 〜か月 (かげつ - tháng), 〜年 (ねん - năm).",
+      "note": "Hỏi số lượng chung: いくつ; Hỏi với trợ số từ: なん + trợ số từ (なんにん, なんだい, なんまい).",
+      "examples": [
+        {
+          "jp": "かいぎしつに つくえが 7つ あります。",
+          "vi": "Trong phòng họp có 7 cái bàn."
+        },
+        {
+          "jp": "80えんの きってを 5まいと はがきを 2まい ください。",
+          "vi": "Cho tôi 5 con tem 80 yên và 2 tấm bưu thiếp."
+        }
+      ]
+    },
+    {
+      "id": "l11_g02",
+      "pattern": "2. Cách dùng số lượng từ trong câu",
+      "explanation": "Về nguyên tắc, số lượng từ đứng NGAY SAU trợ từ và TRƯỚC động từ:\n• Cấu trúc: [Danh từ + Trợ từ + Số lượng từ + Động từ].\n• Riêng số lượng từ chỉ khoảng thời gian thì vị trí khá linh hoạt.",
+      "note": "Ví dụ: りんごを 4つ かいました (Tôi đã mua 4 quả táo) - không đặt 4つ trước trợ từ を.",
+      "examples": [
+        {
+          "jp": "りんごを 4つ かいました。",
+          "vi": "Tôi đã mua 4 quả táo."
+        },
+        {
+          "jp": "がいこくじんの がくせいが 2人 います。",
+          "vi": "Có 2 sinh viên người nước ngoài."
+        },
+        {
+          "jp": "くにで 2か月 にほんごを べんきょうしました。",
+          "vi": "Tôi đã học tiếng Nhật ở trong nước 2 tháng."
+        }
+      ]
+    },
+    {
+      "id": "l11_g03",
+      "pattern": "3. Số lượng từ (chỉ thời gian) に 〜回 Động từ (Tần suất)",
+      "explanation": "Mẫu câu dùng để biểu thị tần suất thực hiện một hành động trong một khoảng thời gian nhất định.",
+      "note": "Trợ từ に đặt sau mốc khoảng thời gian: 1か月に 2かい (1 tháng 2 lần), 1しゅうかんに 1かい (1 tuần 1 lần).",
+      "examples": [
+        {
+          "jp": "1か月に 2かい えいがを みます。",
+          "vi": "Một tháng tôi đi xem phim 2 lần."
+        },
+        {
+          "jp": "1しゅうかんに 2かい テニスを します。",
+          "vi": "Một tuần tôi chơi tennis 2 lần."
+        }
+      ]
+    },
+    {
+      "id": "l11_g04",
+      "pattern": "4. Số lượng từ だけ / Danh từ だけ (Chỉ ~)",
+      "explanation": "Trợ từ だけ đặt sau số lượng từ hoặc danh từ để biểu thị ý nghĩa \"chỉ chừng đó, không nhiều hơn thế\" hoặc \"ngoài ra không còn đối tượng nào khác\".",
+      "note": "Tương đương tiếng Việt: \"chỉ...\".",
+      "examples": [
+        {
+          "jp": "パワーでんきに がいこくじんの しゃいんが 1人だけ います。",
+          "vi": "Ở công ty điện lực Power chỉ có 1 nhân viên người nước ngoài."
+        },
+        {
+          "jp": "やすみは にちようびだけです。",
+          "vi": "Ngày nghỉ của tôi chỉ có chủ nhật thôi."
+        }
+      ]
+    }
+  ]
+}

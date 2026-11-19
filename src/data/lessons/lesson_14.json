@@ -1,0 +1,709 @@
+{
+  "lessonNumber": 14,
+  "titleJp": "ちょっと まってください",
+  "titleVi": "Bài 14: Thể Te & Yêu cầu lịch sự",
+  "vocabulary": [
+    {
+      "id": "l14_v01",
+      "kana": "つけます",
+      "meaning": "Bật (đèn, máy điều hòa...)",
+      "type": "Động từ nhóm 2"
+    },
+    {
+      "id": "l14_v02",
+      "kana": "けします",
+      "kanji": "消します",
+      "meaning": "Tắt (đèn, thiết bị)",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l14_v03",
+      "kana": "あけます",
+      "kanji": "開けます",
+      "meaning": "Mở (cửa, cửa sổ)",
+      "type": "Động từ nhóm 2"
+    },
+    {
+      "id": "l14_v04",
+      "kana": "しめます",
+      "kanji": "閉めます",
+      "meaning": "Đóng (cửa, cửa sổ)",
+      "type": "Động từ nhóm 2"
+    },
+    {
+      "id": "l14_v05",
+      "kana": "いそぎます",
+      "kanji": "急ぎます",
+      "meaning": "Vội, gấp gáp",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l14_v06",
+      "kana": "まちます",
+      "kanji": "待ちます",
+      "meaning": "Đợi, chờ",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l14_v07",
+      "kana": "もちます",
+      "kanji": "持ちます",
+      "meaning": "Mang, cầm, nắm",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l14_v08",
+      "kana": "とります",
+      "kanji": "取ります",
+      "meaning": "Lấy, chuyển giúp",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l14_v09",
+      "kana": "てつだいます",
+      "kanji": "手伝います",
+      "meaning": "Giúp đỡ (làm việc)",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l14_v10",
+      "kana": "よびます",
+      "kanji": "呼びます",
+      "meaning": "Gọi (tắc-xi, người...)",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l14_v11",
+      "kana": "はなします",
+      "kanji": "話します",
+      "meaning": "Nói, nói chuyện",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l14_v12",
+      "kana": "つかいます",
+      "kanji": "使います",
+      "meaning": "Dùng, sử dụng",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l14_v13",
+      "kana": "とめます",
+      "kanji": "止めます",
+      "meaning": "Dừng, đỗ (xe)",
+      "type": "Động từ nhóm 2"
+    },
+    {
+      "id": "l14_v14",
+      "kana": "みせます",
+      "kanji": "見せます",
+      "meaning": "Cho xem, trình ra",
+      "type": "Động từ nhóm 2"
+    },
+    {
+      "id": "l14_v15",
+      "kana": "おしえます",
+      "kanji": "教えます",
+      "meaning": "Nói, cho biết [địa chỉ: じゅうしょを～]",
+      "type": "Động từ nhóm 2"
+    },
+    {
+      "id": "l14_v16",
+      "kana": "すわります",
+      "kanji": "座ります",
+      "meaning": "Ngồi",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l14_v17",
+      "kana": "たちます",
+      "kanji": "立ちます",
+      "meaning": "Đứng",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l14_v18",
+      "kana": "はいります",
+      "kanji": "入ります",
+      "meaning": "Vào [quán cà phê: きっさてんに～]",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l14_v19",
+      "kana": "でます",
+      "kanji": "出ます",
+      "meaning": "Ra, ra khỏi [quán: きっさてんを～]",
+      "type": "Động từ nhóm 2"
+    },
+    {
+      "id": "l14_v20",
+      "kana": "ふります",
+      "kanji": "降ります",
+      "meaning": "Rơi [mưa: あめが～]",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l14_v21",
+      "kana": "コピーします",
+      "meaning": "Copy, phô-tô",
+      "type": "Động từ nhóm 3"
+    },
+    {
+      "id": "l14_v22",
+      "kana": "でんき",
+      "kanji": "電気",
+      "meaning": "Điện, đèn điện",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l14_v23",
+      "kana": "エアコン",
+      "meaning": "Máy điều hòa không khí",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l14_v24",
+      "kana": "パスポート",
+      "meaning": "Hộ chiếu",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l14_v25",
+      "kana": "なまえ",
+      "kanji": "名前",
+      "meaning": "Tên",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l14_v26",
+      "kana": "じゅうしょ",
+      "kanji": "住所",
+      "meaning": "Địa chỉ",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l14_v27",
+      "kana": "ちず",
+      "kanji": "地図",
+      "meaning": "Bản đồ",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l14_v28",
+      "kana": "しお",
+      "kanji": "塩",
+      "meaning": "Muối",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l14_v29",
+      "kana": "さとう",
+      "kanji": "砂糖",
+      "meaning": "Đường (ăn)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l14_v30",
+      "kana": "もんだい",
+      "kanji": "問題",
+      "meaning": "Câu hỏi, vấn đề",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l14_v31",
+      "kana": "こたえ",
+      "kanji": "答え",
+      "meaning": "Câu trả lời",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l14_v32",
+      "kana": "よみかた",
+      "kanji": "読み方",
+      "meaning": "Cách đọc",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l14_v33",
+      "kana": "～かた",
+      "kanji": "～方",
+      "meaning": "Cách ～ (cách làm gì)",
+      "type": "Hậu tố"
+    },
+    {
+      "id": "l14_v34",
+      "kana": "まっすぐ",
+      "meaning": "Thẳng, đi thẳng",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l14_v35",
+      "kana": "ゆっくり",
+      "meaning": "Chậm, thông thả, thoải mái",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l14_v36",
+      "kana": "すぐ",
+      "meaning": "Ngay lập tức",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l14_v37",
+      "kana": "また",
+      "meaning": "Lại, một lần nữa",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l14_v38",
+      "kana": "あとで",
+      "meaning": "Sau, lát nữa",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l14_v39",
+      "kana": "もう すこし",
+      "kanji": "もう 少し",
+      "meaning": "Thêm một chút nữa",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l14_v40",
+      "kana": "もう ～",
+      "meaning": "Thêm ～",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l14_v41",
+      "kana": "さあ",
+      "meaning": "Thôi nào, nào (thúc giục/khuyến khích)",
+      "type": "Thán từ"
+    },
+    {
+      "id": "l14_v42",
+      "kana": "あれ？",
+      "meaning": "Ô! (câu cảm thán khi bất ngờ)",
+      "type": "Thán từ"
+    },
+    {
+      "id": "l14_v43",
+      "kana": "しんごうを みぎへ まがって ください",
+      "meaning": "Anh/Chị hãy rẽ phải ở chỗ đèn tín hiệu.",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l14_v44",
+      "kana": "これで おねがいします",
+      "meaning": "Gửi anh tiền này.",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l14_v45",
+      "kana": "おつり",
+      "kanji": "お釣り",
+      "meaning": "Tiền thừa, tiền thối lại",
+      "type": "Danh từ"
+    }
+  ],
+  "kanji": [
+    {
+      "id": "l14_k01",
+      "character": "何",
+      "hanViet": "HÀ",
+      "onyomi": [
+        "カ"
+      ],
+      "kunyomi": [
+        "なに",
+        "なん"
+      ],
+      "meaning": "Cái gì, gì, mấy",
+      "examples": [
+        {
+          "word": "何",
+          "reading": "なに",
+          "meaning": "Cái gì, gì"
+        },
+        {
+          "word": "何時",
+          "reading": "なんじ",
+          "meaning": "Mấy giờ"
+        },
+        {
+          "word": "何人",
+          "reading": "なんにん",
+          "meaning": "Mấy người"
+        },
+        {
+          "word": "何曜日",
+          "reading": "なんようび",
+          "meaning": "Thứ mấy"
+        }
+      ]
+    },
+    {
+      "id": "l14_k02",
+      "character": "半",
+      "hanViet": "BÁN",
+      "onyomi": [
+        "ハン"
+      ],
+      "kunyomi": [
+        "なか(ば)"
+      ],
+      "meaning": "Nửa, rưỡi, một nửa",
+      "examples": [
+        {
+          "word": "半",
+          "reading": "はん",
+          "meaning": "Rưỡi (giờ rưỡi), nửa"
+        },
+        {
+          "word": "半分",
+          "reading": "はんぶん",
+          "meaning": "Một nửa"
+        },
+        {
+          "word": "半年",
+          "reading": "はんとし",
+          "meaning": "Nửa năm"
+        },
+        {
+          "word": "半日",
+          "reading": "はんにち",
+          "meaning": "Nửa ngày"
+        }
+      ]
+    },
+    {
+      "id": "l14_k03",
+      "character": "分",
+      "hanViet": "PHÂN",
+      "onyomi": [
+        "ブン",
+        "フン",
+        "ブ"
+      ],
+      "kunyomi": [
+        "わ(ける)",
+        "わ(かれる)",
+        "わ(かる)"
+      ],
+      "meaning": "Phút, chia ra, hiểu",
+      "examples": [
+        {
+          "word": "分",
+          "reading": "ふん",
+          "meaning": "Phút (trợ số từ chỉ phút)"
+        },
+        {
+          "word": "分かる",
+          "reading": "わかる",
+          "meaning": "Hiểu, nắm rõ"
+        },
+        {
+          "word": "分ける",
+          "reading": "わける",
+          "meaning": "Chia ra, phân chia"
+        },
+        {
+          "word": "十分",
+          "reading": "じゅうぶん",
+          "meaning": "Đầy đủ / 10 phút"
+        }
+      ]
+    },
+    {
+      "id": "l14_k04",
+      "character": "夕",
+      "hanViet": "TỊCH",
+      "onyomi": [
+        "セキ"
+      ],
+      "kunyomi": [
+        "ゆう"
+      ],
+      "meaning": "Chiều tối, hoàng hôn",
+      "examples": [
+        {
+          "word": "夕方",
+          "reading": "ゆうがた",
+          "meaning": "Chiều tối, lúc hoàng hôn"
+        },
+        {
+          "word": "夕食",
+          "reading": "ゆうしょく",
+          "meaning": "Bữa tối, cơm tối"
+        },
+        {
+          "word": "夕日",
+          "reading": "ゆうひ",
+          "meaning": "Ánh hoàng hôn, mặt trời chiều"
+        },
+        {
+          "word": "七夕",
+          "reading": "たなばた",
+          "meaning": "Lễ Thất Tịch"
+        }
+      ]
+    },
+    {
+      "id": "l14_k05",
+      "character": "方",
+      "hanViet": "PHƯƠNG",
+      "onyomi": [
+        "ホウ"
+      ],
+      "kunyomi": [
+        "かた",
+        "がた"
+      ],
+      "meaning": "Phương hướng, người/vị (lịch sự), cách thức",
+      "examples": [
+        {
+          "word": "方",
+          "reading": "かた",
+          "meaning": "Vị, ngài (cách gọi lịch sự của người)"
+        },
+        {
+          "word": "夕方",
+          "reading": "ゆうがた",
+          "meaning": "Chiều tối"
+        },
+        {
+          "word": "読み方",
+          "reading": "よみかた",
+          "meaning": "Cách đọc"
+        },
+        {
+          "word": "方法",
+          "reading": "ほうほう",
+          "meaning": "Phương pháp, cách thức"
+        }
+      ]
+    },
+    {
+      "id": "l14_k06",
+      "character": "今",
+      "hanViet": "KIM",
+      "onyomi": [
+        "コン",
+        "キン"
+      ],
+      "kunyomi": [
+        "いま"
+      ],
+      "meaning": "Bây giờ, hiện tại",
+      "examples": [
+        {
+          "word": "今",
+          "reading": "いま",
+          "meaning": "Bây giờ, hiện nay"
+        },
+        {
+          "word": "今日",
+          "reading": "きょう",
+          "meaning": "Hôm nay"
+        },
+        {
+          "word": "今月",
+          "reading": "こんげつ",
+          "meaning": "Tháng này"
+        },
+        {
+          "word": "今年",
+          "reading": "ことし",
+          "meaning": "Năm nay"
+        }
+      ]
+    },
+    {
+      "id": "l14_k07",
+      "character": "時",
+      "hanViet": "THỜI",
+      "onyomi": [
+        "ジ"
+      ],
+      "kunyomi": [
+        "とき"
+      ],
+      "meaning": "Thời gian, giờ, khi",
+      "examples": [
+        {
+          "word": "時",
+          "reading": "とき",
+          "meaning": "Khi, lúc"
+        },
+        {
+          "word": "一時",
+          "reading": "いちじ",
+          "meaning": "1 giờ"
+        },
+        {
+          "word": "時間",
+          "reading": "じかん",
+          "meaning": "Thời gian, tiếng đồng hồ"
+        },
+        {
+          "word": "時計",
+          "reading": "とけい",
+          "meaning": "Đồng hồ"
+        }
+      ]
+    },
+    {
+      "id": "l14_k08",
+      "character": "間",
+      "hanViet": "GIAN",
+      "onyomi": [
+        "カン",
+        "ケン"
+      ],
+      "kunyomi": [
+        "あいだ",
+        "ま"
+      ],
+      "meaning": "Khoảng thời gian, ở giữa, khoảng cách",
+      "examples": [
+        {
+          "word": "間",
+          "reading": "あいだ",
+          "meaning": "Ở giữa, khoảng giữa"
+        },
+        {
+          "word": "時間",
+          "reading": "じかん",
+          "meaning": "Thời gian, khoảng thời gian"
+        },
+        {
+          "word": "一週間",
+          "reading": "いっしゅうかん",
+          "meaning": "Một tuần lễ"
+        },
+        {
+          "word": "間に合う",
+          "reading": "まにあう",
+          "meaning": "Kịp giờ"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "l14_g01",
+      "pattern": "1. Các nhóm động từ trong tiếng Nhật (Nhóm I, II, III)",
+      "explanation": "Động từ tiếng Nhật được phân loại thành 3 nhóm căn cứ vào âm đứng trước ます:\n• Nhóm I: Âm trước ます thuộc hàng い (như かきます, のみます, まちます).\n• Nhóm II: Đa số âm trước ます thuộc hàng え (たべます, あけます, みせます), cộng thêm một số động từ đặc biệt âm hàng い (みます, おきます, おります, かります).\n• Nhóm III: Bao gồm します, [Danh từ hành vi + します], và 来ます (きます).",
+      "note": "Cần nắm vững nhóm để chia thể て, ない, た chính xác.",
+      "examples": [
+        {
+          "jp": "かきます（Nhóm I）／ たべます（Nhóm II）／ べんきょうします（Nhóm III）",
+          "vi": "Viết (Nhóm I) / Ăn (Nhóm II) / Học (Nhóm III)"
+        }
+      ]
+    },
+    {
+      "id": "l14_g02",
+      "pattern": "2. Thể て (Te-form) của động từ",
+      "explanation": "Quy tắc chuyển từ thể ます sang thể て:\n• Nhóm I:\n  - Âm い, ち, り ➔ って (かいます ➔ かって, まちます ➔ まって, かえります ➔ かえって)\n  - Âm み, び, に ➔ んで (のみます ➔ のんで, よびます ➔ よんで, しにます ➔ しんで)\n  - Âm き ➔ いて (かきます ➔ かいて); [Ngoại lệ: いきます ➔ いって]\n  - Âm ぎ ➔ いで (いそぎます ➔ いそいで)\n  - Âm し ➔ して (かします ➔ かして)\n• Nhóm II: [Bỏ ます] + て (たべます ➔ たべて, みます ➔ みて)\n• Nhóm III: します ➔ して, きます ➔ きて",
+      "note": "Ngoại lệ quan trọng: 行きます (いきます) chuyển thành 行って (いって), không phải いいて.",
+      "examples": [
+        {
+          "jp": "かいて、のんで、いって、たべて、きて、して",
+          "vi": "viết, uống, đi, ăn, đến, làm"
+        }
+      ]
+    },
+    {
+      "id": "l14_g03",
+      "pattern": "3. Động từ thể て ください (Hãy ~ / Xin vui lòng ~)",
+      "explanation": "Mẫu câu dùng khi muốn nhờ vả, yêu cầu, chỉ thị hoặc khuyến khích đối phương làm một việc gì đó một cách lịch sự.\n• Khi nhờ vả lịch sự hơn, người ta thêm すみませんが ở đầu câu.",
+      "note": "Không dùng mẫu này khi yêu cầu cấp trên làm gì cho mình.",
+      "examples": [
+        {
+          "jp": "すみませんが、この かんじの よみかたを おしえて ください。",
+          "vi": "Xin lỗi, hãy chỉ cho tôi cách đọc chữ Hán này."
+        },
+        {
+          "jp": "ボールペンで なまえを かいて ください。",
+          "vi": "Anh/Chị hãy viết tên bằng bút bi."
+        },
+        {
+          "jp": "どうぞ たくさん たべて ください。",
+          "vi": "Xin mời anh/chị hãy ăn nhiều vào nhé."
+        }
+      ]
+    },
+    {
+      "id": "l14_g04",
+      "pattern": "4. Động từ thể て います (Hành động đang diễn ra)",
+      "explanation": "Mẫu câu biểu thị một hành động đang thực sự diễn ra tại thời điểm nói. Tương đương \"đang...\" trong tiếng Việt.",
+      "note": "Phủ định: [V て いません] (Đang không...).",
+      "examples": [
+        {
+          "jp": "ミラーさんは いま でんわを かけて います。",
+          "vi": "Anh Miller bây giờ đang gọi điện thoại."
+        },
+        {
+          "jp": "いま あめが ふって いますか。……はい、ふって います。",
+          "vi": "Bây giờ trời có đang mưa không? ……Vâng, trời đang mưa."
+        },
+        {
+          "jp": "いま あめが ふって いますか。……いいえ、ふって いません。",
+          "vi": "Bây giờ trời có đang mưa không? ……Không, trời không mưa."
+        }
+      ]
+    },
+    {
+      "id": "l14_g05",
+      "pattern": "5. Động từ (thể ます bỏ ます) + ましょうか (Để tôi làm giúp ~ nhé?)",
+      "explanation": "Mẫu câu dùng khi người nói chủ động đề nghị giúp đỡ hoặc làm một việc gì đó cho người nghe.",
+      "note": "Đáp lại: Đồng ý dùng 「ええ、おねがいします」; Từ chối khéo dùng 「いいえ、けっこうです」.",
+      "examples": [
+        {
+          "jp": "あしたも きましょうか。……ええ、10じに きて ください。",
+          "vi": "Ngày mai tôi lại đến nhé? ……Vâng, ngày mai anh hãy đến lúc 10 giờ."
+        },
+        {
+          "jp": "かさを かしましょうか。……すみません。おねがいします。",
+          "vi": "Tôi cho anh mượn ô nhé? ……Cảm ơn anh, xin nhờ anh ạ."
+        },
+        {
+          "jp": "にもつを もちましょうか。……いいえ、けっこうです。じぶんで もちます。",
+          "vi": "Tôi xách hành lý giúp anh nhé? ……Không cần đâu ạ, tôi tự mang được."
+        }
+      ]
+    },
+    {
+      "id": "l14_g06",
+      "pattern": "6. Danh từ が Động từ (Hiện tượng tự nhiên khách quan)",
+      "explanation": "Khi miêu tả hiện tượng tự nhiên cảm nhận trực tiếp bằng giác quan (mưa rơi, tuyết rơi...) hoặc truyền đạt khách quan một sự việc, ta dùng trợ từ が sau chủ ngữ.",
+      "note": "Ví dụ: あめが ふって います (Trời đang mưa).",
+      "examples": [
+        {
+          "jp": "あめが ふって います。",
+          "vi": "Trời đang mưa."
+        },
+        {
+          "jp": "ミラーさんが いませんね。",
+          "vi": "Anh Miller không có ở đây nhỉ!"
+        }
+      ]
+    },
+    {
+      "id": "l14_g07",
+      "pattern": "7. すみませんが (Lời mở đầu nhẹ nhàng)",
+      "explanation": "Từ すみませんが (hoặc 失礼ですが - しつれいですが) dùng ở đầu câu để mở lời trước khi hỏi hoặc nhờ vả ai đó điều gì. Từ が ở đây mang sắc thái đệm nhẹ nhàng chứ không mang nghĩa tương phản đối lập.",
+      "note": "Tương đương tiếng Việt: \"Xin lỗi nhưng cho tôi hỏi... / Xin lỗi nhưng giúp tôi...\".",
+      "examples": [
+        {
+          "jp": "すみませんが、しおを とって ください。",
+          "vi": "Xin lỗi, anh/chị lấy giúp tôi lọ muối với."
+        },
+        {
+          "jp": "しつれいですが、おなまえは？",
+          "vi": "Xin lỗi, anh/chị tên là gì ạ?"
+        }
+      ]
+    }
+  ]
+}

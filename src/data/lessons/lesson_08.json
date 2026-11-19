@@ -1,0 +1,712 @@
+{
+  "lessonNumber": 8,
+  "titleJp": "ふじさんは たかいやまです",
+  "titleVi": "Bài 8: Tính từ (い & な)",
+  "vocabulary": [
+    {
+      "id": "l08_v01",
+      "kana": "ハンサム [な]",
+      "meaning": "Đẹp trai (handsome)",
+      "type": "Tính từ đuôi な"
+    },
+    {
+      "id": "l08_v02",
+      "kana": "きれい [な]",
+      "meaning": "Đẹp, sạch sẽ",
+      "type": "Tính từ đuôi な"
+    },
+    {
+      "id": "l08_v03",
+      "kana": "しずか [な]",
+      "kanji": "静か [な]",
+      "meaning": "Yên tĩnh, thanh bình",
+      "type": "Tính từ đuôi な"
+    },
+    {
+      "id": "l08_v04",
+      "kana": "にぎやか [な]",
+      "meaning": "Náo nhiệt, nhộn nhịp",
+      "type": "Tính từ đuôi な"
+    },
+    {
+      "id": "l08_v05",
+      "kana": "ゆうめい [な]",
+      "kanji": "有名 [な]",
+      "meaning": "Nổi tiếng",
+      "type": "Tính từ đuôi な"
+    },
+    {
+      "id": "l08_v06",
+      "kana": "しんせつ [な]",
+      "kanji": "親切 [な]",
+      "meaning": "Tốt bụng, thân thiện (không dùng cho người thân của mình)",
+      "type": "Tính từ đuôi な"
+    },
+    {
+      "id": "l08_v07",
+      "kana": "げんき [な]",
+      "kanji": "元気 [な]",
+      "meaning": "Khỏe mạnh, tràn đầy sức sống",
+      "type": "Tính từ đuôi な"
+    },
+    {
+      "id": "l08_v08",
+      "kana": "ひま [な]",
+      "kanji": "暇 [な]",
+      "meaning": "Rảnh rỗi",
+      "type": "Tính từ đuôi な"
+    },
+    {
+      "id": "l08_v09",
+      "kana": "べんり [な]",
+      "kanji": "便利 [な]",
+      "meaning": "Tiện lợi, thuận tiện",
+      "type": "Tính từ đuôi な"
+    },
+    {
+      "id": "l08_v10",
+      "kana": "すてき [な]",
+      "meaning": "Đẹp, tuyệt vời, hay",
+      "type": "Tính từ đuôi な"
+    },
+    {
+      "id": "l08_v11",
+      "kana": "おおきい",
+      "kanji": "大きい",
+      "meaning": "To, lớn",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l08_v12",
+      "kana": "ちいさい",
+      "kanji": "小さい",
+      "meaning": "Nhỏ, bé",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l08_v13",
+      "kana": "あたらしい",
+      "kanji": "新しい",
+      "meaning": "Mới",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l08_v14",
+      "kana": "ふるい",
+      "kanji": "古い",
+      "meaning": "Cũ (không dùng nói tuổi tác người)",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l08_v15",
+      "kana": "いい (よい)",
+      "meaning": "Tốt, hay",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l08_v16",
+      "kana": "わるい",
+      "kanji": "悪い",
+      "meaning": "Xấu, tồi",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l08_v17",
+      "kana": "あつい",
+      "kanji": "暑い / 熱い",
+      "meaning": "Nóng (thời tiết: 暑い / đồ vật: 熱い)",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l08_v18",
+      "kana": "さむい",
+      "kanji": "寒い",
+      "meaning": "Lạnh, rét (dùng cho thời tiết)",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l08_v19",
+      "kana": "つめたい",
+      "kanji": "冷たい",
+      "meaning": "Lạnh, buốt (cảm giác đồ vật/nước)",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l08_v20",
+      "kana": "むずかしい",
+      "kanji": "難しい",
+      "meaning": "Khó",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l08_v21",
+      "kana": "やさしい",
+      "kanji": "易しい",
+      "meaning": "Dễ",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l08_v22",
+      "kana": "たかい",
+      "kanji": "高い",
+      "meaning": "Đắt, cao",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l08_v23",
+      "kana": "やすい",
+      "kanji": "安い",
+      "meaning": "Rẻ",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l08_v24",
+      "kana": "ひくい",
+      "kanji": "低い",
+      "meaning": "Thấp",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l08_v25",
+      "kana": "おもしろい",
+      "meaning": "Thú vị, hay",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l08_v26",
+      "kana": "おいしい",
+      "meaning": "Ngon",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l08_v27",
+      "kana": "いそがしい",
+      "kanji": "忙しい",
+      "meaning": "Bận rộn",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l08_v28",
+      "kana": "たのしい",
+      "kanji": "楽しい",
+      "meaning": "Vui vẻ",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l08_v29",
+      "kana": "しろい",
+      "kanji": "白い",
+      "meaning": "Trắng",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l08_v30",
+      "kana": "くろい",
+      "kanji": "黒い",
+      "meaning": "Đen",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l08_v31",
+      "kana": "あかい",
+      "kanji": "赤い",
+      "meaning": "Đỏ",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l08_v32",
+      "kana": "あおい",
+      "kanji": "青い",
+      "meaning": "Xanh da trời, xanh lam",
+      "type": "Tính từ đuôi い"
+    },
+    {
+      "id": "l08_v33",
+      "kana": "さくら",
+      "kanji": "桜",
+      "meaning": "Hoa anh đào",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l08_v34",
+      "kana": "やま",
+      "kanji": "山",
+      "meaning": "Núi",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l08_v35",
+      "kana": "まち",
+      "kanji": "町",
+      "meaning": "Thị trấn, thành phố",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l08_v36",
+      "kana": "たべもの",
+      "kanji": "食べ物",
+      "meaning": "Thức ăn, đồ ăn",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l08_v37",
+      "kana": "ところ",
+      "kanji": "所",
+      "meaning": "Nơi, chỗ, địa điểm",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l08_v38",
+      "kana": "りょう",
+      "kanji": "寮",
+      "meaning": "Ký túc xá",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l08_v39",
+      "kana": "レストラン",
+      "meaning": "Nhà hàng",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l08_v40",
+      "kana": "せいかつ",
+      "kanji": "生活",
+      "meaning": "Cuộc sống, sinh hoạt",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l08_v41",
+      "kana": "[お]しごと",
+      "kanji": "[お]仕事",
+      "meaning": "Công việc (~を します: làm việc)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l08_v42",
+      "kana": "どう",
+      "meaning": "Thế nào (dùng để hỏi cảm nhận)",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l08_v43",
+      "kana": "どんな～",
+      "meaning": "Như thế nào (bổ nghĩa danh từ)",
+      "type": "Từ để hỏi"
+    },
+    {
+      "id": "l08_v44",
+      "kana": "とても",
+      "meaning": "Rất, lắm (câu khẳng định)",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l08_v45",
+      "kana": "あまり",
+      "meaning": "Không ~ lắm (câu phủ định)",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l08_v46",
+      "kana": "そして",
+      "meaning": "Và, thêm nữa (nối hai câu thuận chiều)",
+      "type": "Liên từ"
+    },
+    {
+      "id": "l08_v47",
+      "kana": "～が、～",
+      "meaning": "～, nhưng mà ～ (nối hai vế đối lập)",
+      "type": "Liên từ"
+    },
+    {
+      "id": "l08_v48",
+      "kana": "おげんきですか",
+      "kanji": "お元気ですか",
+      "meaning": "Anh/Chị có khỏe không?",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l08_v49",
+      "kana": "そうですね",
+      "meaning": "Để tôi xem / Ừ nhỉ (khi suy nghĩ câu trả lời)",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l08_v50",
+      "kana": "そろそろ しつれいします",
+      "meaning": "Đã đến lúc tôi phải xin phép về rồi.",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l08_v51",
+      "kana": "また いらっしゃって ください",
+      "meaning": "Lần sau anh/chị lại đến chơi nhé.",
+      "type": "Cụm từ giao tiếp"
+    }
+  ],
+  "kanji": [
+    {
+      "id": "l08_k01",
+      "character": "父",
+      "hanViet": "PHỤ",
+      "onyomi": [
+        "フ"
+      ],
+      "kunyomi": [
+        "ちち",
+        "とう"
+      ],
+      "meaning": "Cha, bố",
+      "examples": [
+        {
+          "word": "父",
+          "reading": "ちち",
+          "meaning": "Bố (của mình)"
+        },
+        {
+          "word": "お父さん",
+          "reading": "おとうさん",
+          "meaning": "Bố (của người khác / xưng hô gọi bố)"
+        },
+        {
+          "word": "祖父",
+          "reading": "そふ",
+          "meaning": "Ông (của mình)"
+        },
+        {
+          "word": "父母",
+          "reading": "ふぼ",
+          "meaning": "Bố mẹ, phụ mẫu"
+        }
+      ]
+    },
+    {
+      "id": "l08_k02",
+      "character": "母",
+      "hanViet": "MẪU",
+      "onyomi": [
+        "ボ"
+      ],
+      "kunyomi": [
+        "はは",
+        "かあ"
+      ],
+      "meaning": "Mẹ",
+      "examples": [
+        {
+          "word": "母",
+          "reading": "はは",
+          "meaning": "Mẹ (của mình)"
+        },
+        {
+          "word": "お母さん",
+          "reading": "おかあさん",
+          "meaning": "Mẹ (của người khác / xưng hô gọi mẹ)"
+        },
+        {
+          "word": "祖母",
+          "reading": "そぼ",
+          "meaning": "Bà (của mình)"
+        },
+        {
+          "word": "母国語",
+          "reading": "ぼこくご",
+          "meaning": "Tiếng mẹ đẻ"
+        }
+      ]
+    },
+    {
+      "id": "l08_k03",
+      "character": "子",
+      "hanViet": "TỬ",
+      "onyomi": [
+        "シ",
+        "ス"
+      ],
+      "kunyomi": [
+        "こ"
+      ],
+      "meaning": "Con cái, đứa trẻ",
+      "examples": [
+        {
+          "word": "子ども",
+          "reading": "こども",
+          "meaning": "Đứa trẻ, trẻ con"
+        },
+        {
+          "word": "女の子",
+          "reading": "おんなのこ",
+          "meaning": "Bé gái"
+        },
+        {
+          "word": "男の子",
+          "reading": "おとこのこ",
+          "meaning": "Bé trai"
+        },
+        {
+          "word": "電子",
+          "reading": "でんし",
+          "meaning": "Điện tử"
+        }
+      ]
+    },
+    {
+      "id": "l08_k04",
+      "character": "男",
+      "hanViet": "NAM",
+      "onyomi": [
+        "ダン",
+        "ナン"
+      ],
+      "kunyomi": [
+        "おとこ"
+      ],
+      "meaning": "Đàn ông, con trai, nam giới",
+      "examples": [
+        {
+          "word": "男",
+          "reading": "おとこ",
+          "meaning": "Đàn ông, người nam"
+        },
+        {
+          "word": "男の人",
+          "reading": "おとこのひと",
+          "meaning": "Người đàn ông"
+        },
+        {
+          "word": "男の子",
+          "reading": "おとこのこ",
+          "meaning": "Cậu bé, bé trai"
+        },
+        {
+          "word": "男性",
+          "reading": "だんせい",
+          "meaning": "Nam giới, phái nam"
+        }
+      ]
+    },
+    {
+      "id": "l08_k05",
+      "character": "女",
+      "hanViet": "NỮ",
+      "onyomi": [
+        "ジョ",
+        "ニョ",
+        "ニョウ"
+      ],
+      "kunyomi": [
+        "おんな",
+        "め"
+      ],
+      "meaning": "Phụ nữ, con gái, nữ giới",
+      "examples": [
+        {
+          "word": "女",
+          "reading": "おんな",
+          "meaning": "Phụ nữ, người nữ"
+        },
+        {
+          "word": "女の人",
+          "reading": "おんなのひと",
+          "meaning": "Người phụ nữ"
+        },
+        {
+          "word": "女の子",
+          "reading": "おんなのこ",
+          "meaning": "Cô bé, bé gái"
+        },
+        {
+          "word": "女性",
+          "reading": "じょせい",
+          "meaning": "Nữ giới, phái nữ"
+        }
+      ]
+    },
+    {
+      "id": "l08_k06",
+      "character": "犬",
+      "hanViet": "KHUYỂN",
+      "onyomi": [
+        "ケン"
+      ],
+      "kunyomi": [
+        "いぬ"
+      ],
+      "meaning": "Con chó",
+      "examples": [
+        {
+          "word": "犬",
+          "reading": "いぬ",
+          "meaning": "Con chó"
+        },
+        {
+          "word": "子犬",
+          "reading": "こいぬ",
+          "meaning": "Cún con, chó con"
+        },
+        {
+          "word": "番犬",
+          "reading": "ばんけん",
+          "meaning": "Chó canh nhà, chó giữ nhà"
+        },
+        {
+          "word": "盲導犬",
+          "reading": "もうどうけん",
+          "meaning": "Chó dẫn đường"
+        }
+      ]
+    },
+    {
+      "id": "l08_k07",
+      "character": "鳥",
+      "hanViet": "ĐIỂU",
+      "onyomi": [
+        "チョウ"
+      ],
+      "kunyomi": [
+        "とり"
+      ],
+      "meaning": "Con chim, loài chim",
+      "examples": [
+        {
+          "word": "鳥",
+          "reading": "とり",
+          "meaning": "Con chim"
+        },
+        {
+          "word": "小鳥",
+          "reading": "ことり",
+          "meaning": "Chim non, chim nhỏ"
+        },
+        {
+          "word": "焼き鳥",
+          "reading": "やきとり",
+          "meaning": "Gà xiên nướng Yakitori"
+        },
+        {
+          "word": "野鳥",
+          "reading": "やちょう",
+          "meaning": "Chim hoang dã"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "l08_g01",
+      "pattern": "1. Tính từ trong tiếng Nhật (Tính từ đuôi い & đuôi な)",
+      "explanation": "Trong tiếng Nhật tính từ được chia làm hai loại lớn:\n• Tính từ đuôi い: Kết thúc bằng đuôi い (như たかい, さむい, あたらしい). Lưu ý: きれい và ゆうめい kết thúc bằng âm i nhưng là tính từ đuôi な.\n• Tính từ đuôi な: Khi đứng trước danh từ cần thêm な (như しずかな, べんりな).",
+      "note": "きれい và ゆうめい là 2 tính từ đuôi な đặc biệt kết thúc bằng chữ い.",
+      "examples": [
+        {
+          "jp": "ふじさんは たかいです。",
+          "vi": "Núi Phú Sĩ thì cao."
+        },
+        {
+          "jp": "ワットせんせいは しんせつです。",
+          "vi": "Thầy giáo Watt rất tốt bụng."
+        }
+      ]
+    },
+    {
+      "id": "l08_g02",
+      "pattern": "2. Thể phủ định của tính từ (Hiện tại / Tương lai)",
+      "explanation": "• Tính từ đuôi な: [Bỏ な] + じゃ (では) ありません.\n  Ví dụ: しずかじゃ ありません (Không yên tĩnh).\n• Tính từ đuôi い: [Bỏ い] + くないです.\n  Ví dụ: たかくないです (Không đắt).\n• Ngoại lệ: いい (tốt) ➔ よくないです (Không tốt).",
+      "note": "Ngoại lệ: いいです ➔ よくないです (Không nói い块ないです).",
+      "examples": [
+        {
+          "jp": "あそこは しずかじゃ ありません。",
+          "vi": "Chỗ kia không yên tĩnh."
+        },
+        {
+          "jp": "この ほんは おもしろくないです。",
+          "vi": "Cuốn sách này không hay."
+        },
+        {
+          "jp": "きょうは てんきが よくないです。",
+          "vi": "Hôm nay thời tiết không tốt."
+        }
+      ]
+    },
+    {
+      "id": "l08_g03",
+      "pattern": "3. Tính từ bổ nghĩa cho danh từ",
+      "explanation": "Tính từ luôn đứng trước danh từ để bổ nghĩa:\n• Tính từ đuôi な: [Tính từ な] + Danh từ (Ví dụ: しんせつな せんせい - Người thầy tốt bụng).\n• Tính từ đuôi い: [Tính từ い] + Danh từ (Ví dụ: たかい やま - Ngọn núi cao).",
+      "note": "Không bỏ な khi tính từ đuôi な đứng trước danh từ.",
+      "examples": [
+        {
+          "jp": "ワットせんせいは しんせつな せんせいです。",
+          "vi": "Thầy Watt là một người thầy giáo tốt bụng."
+        },
+        {
+          "jp": "ふじさんは たかい やまです。",
+          "vi": "Núi Phú Sĩ là một ngọn núi cao."
+        }
+      ]
+    },
+    {
+      "id": "l08_g04",
+      "pattern": "4. Mệnh đề 1 が、Mệnh đề 2 (Nhưng mà)",
+      "explanation": "Liên từ が đặt giữa hai mệnh đề để biểu thị mối quan hệ tương phản, đối lập.",
+      "note": "Ví dụ: にほんの たべものは おいしいですが、たかいです (Món ăn Nhật ngon nhưng đắt).",
+      "examples": [
+        {
+          "jp": "にほんの たべものは おいしいですが、たかいです。",
+          "vi": "Món ăn Nhật Bản ngon nhưng mà đắt."
+        }
+      ]
+    },
+    {
+      "id": "l08_g05",
+      "pattern": "5. とても / あまり (Phó từ chỉ mức độ)",
+      "explanation": "• とても: Rất, lắm (luôn đi cùng câu khẳng định).\n• あまり: Không ~ lắm (luôn đi cùng câu phủ định).",
+      "note": "Cả hai phó từ đều đứng trước tính từ.",
+      "examples": [
+        {
+          "jp": "ペキンは とても さむいです。",
+          "vi": "Bắc Kinh rất là lạnh."
+        },
+        {
+          "jp": "シャンハイは あまり さむくないです。",
+          "vi": "Thượng Hải không lạnh lắm."
+        }
+      ]
+    },
+    {
+      "id": "l08_g06",
+      "pattern": "6. Danh từ は どうですか (Hỏi cảm nhận, ấn tượng)",
+      "explanation": "Mẫu câu dùng để hỏi về ý kiến, ấn tượng hoặc cảm tưởng của người nghe về một việc đã trải nghiệm hoặc một nơi đã đến thăm.",
+      "note": "Trả lời: [Tính từ です].",
+      "examples": [
+        {
+          "jp": "にほんの せいかつは どうですか。……たのしいです。",
+          "vi": "Cuộc sống ở Nhật thế nào? ……Vui lắm ạ."
+        }
+      ]
+    },
+    {
+      "id": "l08_g07",
+      "pattern": "7. Danh từ 1 は どんな Danh từ 2 ですか (Hỏi đặc điểm, tính chất)",
+      "explanation": "どんな (như thế nào) là nghi vấn từ dùng để hỏi về tính chất, trạng thái của người hoặc vật. Luôn đứng trước danh từ loại hình.",
+      "note": "Trả lời bằng cụm: [Tính từ + Danh từ 2 です].",
+      "examples": [
+        {
+          "jp": "ならは どんな まちですか。……ふるい まちです。",
+          "vi": "Nara là thành phố như thế nào? ……Là thành phố cổ kính."
+        }
+      ]
+    },
+    {
+      "id": "l08_g08",
+      "pattern": "8. そうですね (Ngập ngừng suy nghĩ)",
+      "explanation": "Khác với そうですね (hạ giọng: đồng ý) ở Bài 5, trong bài này そうですね được dùng khi người nói đang ngập ngừng suy nghĩ câu trả lời khi được hỏi.",
+      "note": "Dịch là: \"À, để tôi xem nào...\", \"Ừm...\".",
+      "examples": [
+        {
+          "jp": "おしごとは どうですか。……そうですね。いそがしいですが、おもしろいです。",
+          "vi": "Công việc của anh thế nào? ……À, ừm. Bận rộn nhưng mà rất thú vị."
+        }
+      ]
+    }
+  ]
+}

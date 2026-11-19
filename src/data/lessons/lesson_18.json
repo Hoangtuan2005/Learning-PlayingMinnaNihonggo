@@ -1,0 +1,290 @@
+{
+  "lessonNumber": 18,
+  "titleJp": "ピアノを ひくことが できます",
+  "titleVi": "Bài 18: Thể Từ điển & Khả năng",
+  "vocabulary": [
+    {
+      "id": "l18_v01",
+      "kana": "できます",
+      "meaning": "Có thể, làm được",
+      "type": "Động từ nhóm 2"
+    },
+    {
+      "id": "l18_v02",
+      "kana": "あらいます",
+      "kanji": "洗います",
+      "meaning": "Rửa, giặt",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l18_v03",
+      "kana": "ひきます",
+      "kanji": "弾きます",
+      "meaning": "Chơi (nhạc cụ: piano, ghita...)",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l18_v04",
+      "kana": "うたいます",
+      "kanji": "歌います",
+      "meaning": "Hát",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l18_v05",
+      "kana": "あつめます",
+      "kanji": "集めます",
+      "meaning": "Sưu tầm, thu thập, gom lại",
+      "type": "Động từ nhóm 2"
+    },
+    {
+      "id": "l18_v06",
+      "kana": "すてます",
+      "kanji": "捨てます",
+      "meaning": "Vứt, bỏ, ném đi",
+      "type": "Động từ nhóm 2"
+    },
+    {
+      "id": "l18_v07",
+      "kana": "かえます",
+      "kanji": "換えます",
+      "meaning": "Đổi, trao đổi",
+      "type": "Động từ nhóm 2"
+    },
+    {
+      "id": "l18_v08",
+      "kana": "うんてんします",
+      "kanji": "運転します",
+      "meaning": "Lái xe",
+      "type": "Động từ nhóm 3"
+    },
+    {
+      "id": "l18_v09",
+      "kana": "よやくします",
+      "kanji": "予約します",
+      "meaning": "Đặt chỗ, đặt trước",
+      "type": "Động từ nhóm 3"
+    },
+    {
+      "id": "l18_v10",
+      "kana": "ピアノ",
+      "meaning": "Đàn pianô",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l18_v11",
+      "kana": "～メートル",
+      "meaning": "～ mét",
+      "type": "Hậu tố"
+    },
+    {
+      "id": "l18_v12",
+      "kana": "げんきん",
+      "kanji": "現金",
+      "meaning": "Tiền mặt",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l18_v13",
+      "kana": "しゅみ",
+      "kanji": "趣味",
+      "meaning": "Sở thích, thú vui",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l18_v14",
+      "kana": "にっき",
+      "kanji": "日記",
+      "meaning": "Nhật ký",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l18_v15",
+      "kana": "おいのり",
+      "kanji": "お祈り",
+      "meaning": "Việc cầu nguyện (~を します: cầu nguyện)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l18_v16",
+      "kana": "かちょう",
+      "kanji": "課長",
+      "meaning": "Tổ trưởng, trưởng nhóm",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l18_v17",
+      "kana": "ぶちょう",
+      "kanji": "部長",
+      "meaning": "Trưởng phòng",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l18_v18",
+      "kana": "しゃちょう",
+      "kanji": "社長",
+      "meaning": "Giám đốc công ty",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l18_v19",
+      "kana": "どうぶつ",
+      "kanji": "動物",
+      "meaning": "Động vật",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l18_v20",
+      "kana": "うま",
+      "kanji": "馬",
+      "meaning": "Ngựa, con ngựa",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l18_v21",
+      "kana": "インターネット",
+      "meaning": "Mạng Internet",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l18_v22",
+      "kana": "とくに",
+      "kanji": "特に",
+      "meaning": "Đặc biệt là",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l18_v23",
+      "kana": "へえ",
+      "meaning": "Thế á! (thán từ biểu thị sự ngạc nhiên)",
+      "type": "Thán từ"
+    },
+    {
+      "id": "l18_v24",
+      "kana": "それは おもしろいですね",
+      "meaning": "Điều đó thú vị thật nhỉ!",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l18_v25",
+      "kana": "なかなか",
+      "meaning": "Khó mà, mãi mà (dùng với thể phủ định)",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l18_v26",
+      "kana": "ほんとうですか",
+      "meaning": "Có thật thế không ạ?",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l18_v27",
+      "kana": "ぜひ",
+      "meaning": "Nhất định (thể hiện mong muốn tha thiết)",
+      "type": "Phó từ"
+    }
+  ],
+  "kanji": [],
+  "grammar": [
+    {
+      "id": "l18_g01",
+      "pattern": "1. Thể nguyên dạng (Thể từ điển - 辞書形 Jishokei)",
+      "explanation": "Thể nguyên dạng là dạng cơ bản nhất của động từ, xuất hiện trong từ điển tiếng Nhật:\n• Nhóm I: Đổi âm [い] đứng trước ます thành âm [う] tương ứng (かきます ➔ かく, のみます ➔ のむ, まちます ➔ まつ, かいます ➔ かう).\n• Nhóm II: Bỏ ます thêm る (たべます ➔ たべる, みます ➔ みる).\n• Nhóm III: します ➔ する, 来ます (きます) ➔ くる.",
+      "note": "Cần ghi nhớ thể từ điển vì là nền tảng để học các cấu trúc N5 nâng cao.",
+      "examples": [
+        {
+          "jp": "かく、のむ、まつ、かう、たべる、みる、する、くる",
+          "vi": "viết, uống, đợi, mua, ăn, nhìn, làm, đến"
+        }
+      ]
+    },
+    {
+      "id": "l18_g02",
+      "pattern": "2. Danh từ / Động từ thể từ điển + ことが できます (Có thể ~)",
+      "explanation": "Mẫu câu biểu thị khả năng (năng lực của bản thân) hoặc điều kiện (hoàn cảnh cho phép làm một việc):\n1) Đi với Danh từ có tính hành động: [N が できます] (にほんごが できます: biết tiếng Nhật, スキーが できます: trượt tuyết được).\n2) Đi với Động từ: Thêm こと vào sau động từ thể từ điển để danh từ hóa cụm hành động, rồi kết hợp với が できます.",
+      "note": "Ví dụ: ピアノを ひく ことが できます (Có thể chơi đàn piano).",
+      "examples": [
+        {
+          "jp": "ミラーさんは にほんごが できます。",
+          "vi": "Anh Miller có thể nói tiếng Nhật."
+        },
+        {
+          "jp": "ミラーさんは かんじを よむ ことが できます。",
+          "vi": "Anh Miller có thể đọc được chữ Hán."
+        },
+        {
+          "jp": "カードで はらう ことが できます。",
+          "vi": "Có thể thanh toán bằng thẻ."
+        }
+      ]
+    },
+    {
+      "id": "l18_g03",
+      "pattern": "3. わたしの 趣味は [Danh từ / Động từ thể từ điển + こと] です (Sở thích của tôi là ~)",
+      "explanation": "Mẫu câu dùng để giới thiệu chi tiết nội dung sở thích của bản thân. Khi sở thích là một hành động cụ thể, ta dùng dạng danh từ hóa: [V thể từ điển + ことです].",
+      "note": "Ví dụ: わたしの しゅみは おんがくを きくことです (Sở thích của tôi là nghe nhạc).",
+      "examples": [
+        {
+          "jp": "わたしの しゅみは おんがくです。",
+          "vi": "Sở thích của tôi là âm nhạc."
+        },
+        {
+          "jp": "わたしの しゅみは おんがくを きくことです。",
+          "vi": "Sở thích của tôi là nghe nhạc."
+        }
+      ]
+    },
+    {
+      "id": "l18_g04",
+      "pattern": "4. Động từ 1 (thể từ điển) / Danh từ の / Lượng từ (thời gian) + まえに、Động từ 2 (Trước khi)",
+      "explanation": "Biểu thị hành động 2 diễn ra trước hành động 1:\n• Đi với Động từ: [V1 thể từ điển + まえに、V2] (Luôn ở thể từ điển, dù V2 ở thì quá khứ).\n• Đi với Danh từ: [Danh từ + の + まえに、V2].\n• Đi với Lượng từ thời gian: [Lượng từ + まえに、V2] (KHÔNG có trợ từ の).",
+      "note": "1じかん まえに (cách đây 1 tiếng) - không dùng の.",
+      "examples": [
+        {
+          "jp": "にほんへ くる まえに、にほんごを べんきょうしました。",
+          "vi": "Trước khi đến Nhật, tôi đã học tiếng Nhật."
+        },
+        {
+          "jp": "ねる まえに、ほんを よみます。",
+          "vi": "Trước khi đi ngủ, tôi đọc sách."
+        },
+        {
+          "jp": "しょくじの まえに、てを あらいます。",
+          "vi": "Trước bữa ăn, tôi rửa tay."
+        },
+        {
+          "jp": "たなかさんは 1じかんまえに、でかけました。",
+          "vi": "Anh Tanaka đã đi ra ngoài cách đây 1 tiếng."
+        }
+      ]
+    },
+    {
+      "id": "l18_g05",
+      "pattern": "5. なかなか (Mãi mà không ~)",
+      "explanation": "Phó từ なかなか đi kèm với động từ thể phủ định để biểu thị ý nghĩa \"khó mà thực hiện được\", \"mãi mà không thể như kỳ vọng\".",
+      "note": "Ví dụ: にほんでは なかなか うまを みることが できません.",
+      "examples": [
+        {
+          "jp": "にほんでは なかなか うまを みることが できません。",
+          "vi": "Ở Nhật khó mà có cơ hội để nhìn thấy ngựa."
+        }
+      ]
+    },
+    {
+      "id": "l18_g06",
+      "pattern": "6. ぜひ (Nhất định)",
+      "explanation": "Phó từ ぜひ dùng kèm với các biểu hiện mong muốn (~たいです) hoặc nhờ vả, mời mọc (~てください) để nhấn mạnh sự tha thiết, nhiệt tình của người nói.",
+      "note": "Tương đương tiếng Việt: \"Nhất định...\".",
+      "examples": [
+        {
+          "jp": "ぜひ ほっかいどうへ いきたいです。",
+          "vi": "Tôi rất muốn nhất định phải đi Hokkaido một chuyến."
+        },
+        {
+          "jp": "ぜひ あそびに きて ください。",
+          "vi": "Nhất định anh/chị phải đến nhà tôi chơi nhé."
+        }
+      ]
+    }
+  ]
+}

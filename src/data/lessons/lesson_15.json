@@ -1,0 +1,532 @@
+{
+  "lessonNumber": 15,
+  "titleJp": "しゃしんを とっても いいですか",
+  "titleVi": "Bài 15: Xin phép & Cấm đoán",
+  "vocabulary": [
+    {
+      "id": "l15_v01",
+      "kana": "おきます",
+      "kanji": "置きます",
+      "meaning": "Đặt, để",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l15_v02",
+      "kana": "つくります",
+      "kanji": "作ります / 造ります",
+      "meaning": "Làm, chế tạo, sản xuất",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l15_v03",
+      "kana": "うります",
+      "kanji": "売ります",
+      "meaning": "Bán",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l15_v04",
+      "kana": "しります",
+      "kanji": "知ります",
+      "meaning": "Biết (trạng thái: しっています)",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l15_v05",
+      "kana": "すみます",
+      "kanji": "住みます",
+      "meaning": "Sống, cư trú [ở đâu: ~に]",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l15_v06",
+      "kana": "けんきゅうします",
+      "kanji": "研究します",
+      "meaning": "Nghiên cứu",
+      "type": "Động từ nhóm 3"
+    },
+    {
+      "id": "l15_v07",
+      "kana": "しりょう",
+      "kanji": "資料",
+      "meaning": "Tài liệu, tư liệu",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l15_v08",
+      "kana": "カタログ",
+      "meaning": "Ca-ta-lô, catalog",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l15_v09",
+      "kana": "じこくひょう",
+      "kanji": "時刻表",
+      "meaning": "Bảng giờ tàu xe chạy",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l15_v10",
+      "kana": "ふく",
+      "kanji": "服",
+      "meaning": "Quần áo",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l15_v11",
+      "kana": "せいひん",
+      "kanji": "製品",
+      "meaning": "Sản phẩm",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l15_v12",
+      "kana": "ソフト",
+      "meaning": "Phần mềm (software)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l15_v13",
+      "kana": "でんしじしょ",
+      "kanji": "電子辞書",
+      "meaning": "Từ điển điện tử, kim từ điển",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l15_v14",
+      "kana": "けいざい",
+      "kanji": "経済",
+      "meaning": "Kinh tế",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l15_v15",
+      "kana": "しやくしょ",
+      "kanji": "市役所",
+      "meaning": "Tòa thị chính thành phố",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l15_v16",
+      "kana": "こうこう",
+      "kanji": "高校",
+      "meaning": "Trường cấp 3, trung học phổ thông",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l15_v17",
+      "kana": "はいしゃ",
+      "kanji": "歯医者",
+      "meaning": "Nha sĩ",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l15_v18",
+      "kana": "どくしん",
+      "kanji": "独身",
+      "meaning": "Độc thân",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l15_v19",
+      "kana": "すみません",
+      "meaning": "Xin lỗi",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l15_v20",
+      "kana": "みなさん",
+      "kanji": "皆さん",
+      "meaning": "Các anh chị, quý vị, mọi người",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l15_v21",
+      "kana": "おもいだします",
+      "kanji": "思い出します",
+      "meaning": "Nhớ lại, hồi tưởng lại",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l15_v22",
+      "kana": "いらっしゃいます",
+      "meaning": "Ở, có (kính ngữ tôn kính của います)",
+      "type": "Động từ nhóm 1"
+    },
+    {
+      "id": "l15_v23",
+      "kana": "にっぽんばし",
+      "kanji": "日本橋",
+      "meaning": "Nipponbashi (khu phố mua sắm nổi tiếng ở Osaka)",
+      "type": "Danh từ"
+    }
+  ],
+  "kanji": [
+    {
+      "id": "l15_k01",
+      "character": "新",
+      "hanViet": "TÂN",
+      "onyomi": [
+        "シン"
+      ],
+      "kunyomi": [
+        "あたら(しい)",
+        "あら(た)",
+        "にい"
+      ],
+      "meaning": "Mới",
+      "examples": [
+        {
+          "word": "新しい",
+          "reading": "あたらしい",
+          "meaning": "Mới"
+        },
+        {
+          "word": "新聞",
+          "reading": "しんぶん",
+          "meaning": "Tờ báo"
+        },
+        {
+          "word": "新年",
+          "reading": "しんねん",
+          "meaning": "Năm mới"
+        },
+        {
+          "word": "新車",
+          "reading": "しんしゃ",
+          "meaning": "Xe ô tô mới"
+        }
+      ]
+    },
+    {
+      "id": "l15_k02",
+      "character": "古",
+      "hanViet": "CỔ",
+      "onyomi": [
+        "コ"
+      ],
+      "kunyomi": [
+        "ふる(い)",
+        "ふる(す)"
+      ],
+      "meaning": "Cũ, cổ xưa",
+      "examples": [
+        {
+          "word": "古い",
+          "reading": "ふるい",
+          "meaning": "Cũ, cổ"
+        },
+        {
+          "word": "古本",
+          "reading": "ふるほん",
+          "meaning": "Sách cũ"
+        },
+        {
+          "word": "古代",
+          "reading": "こだい",
+          "meaning": "Cổ đại"
+        },
+        {
+          "word": "中古",
+          "reading": "ちゅうこ",
+          "meaning": "Đồ cũ, đồ đã qua sử dụng"
+        }
+      ]
+    },
+    {
+      "id": "l15_k03",
+      "character": "長",
+      "hanViet": "TRƯỜNG",
+      "onyomi": [
+        "チョウ"
+      ],
+      "kunyomi": [
+        "なが(い)"
+      ],
+      "meaning": "Dài, đứng đầu, trưởng",
+      "examples": [
+        {
+          "word": "長い",
+          "reading": "ながい",
+          "meaning": "Dài"
+        },
+        {
+          "word": "校長",
+          "reading": "こうちょう",
+          "meaning": "Hiệu trưởng"
+        },
+        {
+          "word": "社長",
+          "reading": "しゃちょう",
+          "meaning": "Giám đốc"
+        },
+        {
+          "word": "長男",
+          "reading": "ちょうなん",
+          "meaning": "Con trai trưởng"
+        }
+      ]
+    },
+    {
+      "id": "l15_k04",
+      "character": "安",
+      "hanViet": "AN",
+      "onyomi": [
+        "アン"
+      ],
+      "kunyomi": [
+        "やす(い)"
+      ],
+      "meaning": "Rẻ, an tâm, yên bình",
+      "examples": [
+        {
+          "word": "安い",
+          "reading": "やすい",
+          "meaning": "Rẻ"
+        },
+        {
+          "word": "安心",
+          "reading": "あんしん",
+          "meaning": "Yên tâm, an tâm"
+        },
+        {
+          "word": "安全",
+          "reading": "あんぜん",
+          "meaning": "An toàn"
+        },
+        {
+          "word": "目安",
+          "reading": "めやす",
+          "meaning": "Mục tiêu, ước chừng"
+        }
+      ]
+    },
+    {
+      "id": "l15_k05",
+      "character": "元",
+      "hanViet": "NGUYÊN",
+      "onyomi": [
+        "ゲン",
+        "ガン"
+      ],
+      "kunyomi": [
+        "もと"
+      ],
+      "meaning": "Gốc, nguồn gốc, nguyên khí",
+      "examples": [
+        {
+          "word": "元気",
+          "reading": "げんき",
+          "meaning": "Khỏe mạnh, tràn đầy sức sống"
+        },
+        {
+          "word": "元日",
+          "reading": "がんじつ",
+          "meaning": "Ngày đầu năm mới (Mùng 1 Tết)"
+        },
+        {
+          "word": "足元",
+          "reading": "あしもと",
+          "meaning": "Dưới chân"
+        },
+        {
+          "word": "地元",
+          "reading": "じもと",
+          "meaning": "Địa phương, bản xứ"
+        }
+      ]
+    },
+    {
+      "id": "l15_k06",
+      "character": "気",
+      "hanViet": "KHÍ",
+      "onyomi": [
+        "キ",
+        "ケ"
+      ],
+      "kunyomi": [],
+      "meaning": "Khí, tinh thần, tâm trạng, thời tiết",
+      "examples": [
+        {
+          "word": "元気",
+          "reading": "げんき",
+          "meaning": "Khỏe mạnh"
+        },
+        {
+          "word": "天気",
+          "reading": "てんき",
+          "meaning": "Thời tiết"
+        },
+        {
+          "word": "気をつける",
+          "reading": "きをつける",
+          "meaning": "Cẩn thận, chú ý"
+        },
+        {
+          "word": "気持ち",
+          "reading": "きもち",
+          "meaning": "Tâm trạng, cảm giác"
+        }
+      ]
+    },
+    {
+      "id": "l15_k07",
+      "character": "多",
+      "hanViet": "ĐA",
+      "onyomi": [
+        "タ"
+      ],
+      "kunyomi": [
+        "おお(い)"
+      ],
+      "meaning": "Nhiều",
+      "examples": [
+        {
+          "word": "多い",
+          "reading": "おおい",
+          "meaning": "Nhiều"
+        },
+        {
+          "word": "多分",
+          "reading": "たぶん",
+          "meaning": "Có lẽ, có thể"
+        },
+        {
+          "word": "多数",
+          "reading": "たすう",
+          "meaning": "Đa số, số lượng nhiều"
+        },
+        {
+          "word": "多少",
+          "reading": "たしょう",
+          "meaning": "Ít nhiều, phần nào"
+        }
+      ]
+    },
+    {
+      "id": "l15_k08",
+      "character": "少",
+      "hanViet": "THIỂU",
+      "onyomi": [
+        "ショウ"
+      ],
+      "kunyomi": [
+        "すく(ない)",
+        "すこ(し)"
+      ],
+      "meaning": "Ít, một chút",
+      "examples": [
+        {
+          "word": "少ない",
+          "reading": "すくない",
+          "meaning": "Ít"
+        },
+        {
+          "word": "少し",
+          "reading": "すこし",
+          "meaning": "Một chút, một ít"
+        },
+        {
+          "word": "少年",
+          "reading": "しょうねん",
+          "meaning": "Thiếu niên"
+        },
+        {
+          "word": "少女",
+          "reading": "しょうじょ",
+          "meaning": "Thiếu nữ"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "l15_g01",
+      "pattern": "1. Động từ thể て も いいですか (Xin phép: Làm ~ có được không?)",
+      "explanation": "Mẫu câu dùng để xin phép người khác thực hiện một việc gì đó.\n• Đồng ý cho phép: 「ええ、[V ても] いいですよ」 (Vâng, được chứ ạ).\n• Từ chối tế nhị: Nêu lý do từ chối (ví dụ: すみません、ちょっと…… - Xin lỗi, có chút phiền...).",
+      "note": "Nếu là nơi cấm tuyệt đối, người ta có thể trả lời bằng thể cấm đoán 「いいえ、V てはいけません」.",
+      "examples": [
+        {
+          "jp": "しゃしんを とっても いいですか。……ええ、いいですよ。",
+          "vi": "Tôi chụp ảnh có được không? ……Vâng, được chứ ạ."
+        },
+        {
+          "jp": "ここで たばこを すっても いいですか。……すみません、ここは きんえんですから、すわないで ください。",
+          "vi": "Tôi hút thuốc ở đây có được không? ……Xin lỗi, vì ở đây cấm hút thuốc nên xin anh đừng hút."
+        }
+      ]
+    },
+    {
+      "id": "l15_g02",
+      "pattern": "2. Động từ thể て は いけません (Cấm đoán: Không được làm ~)",
+      "explanation": "Mẫu câu dùng để biểu thị sự cấm đoán tuyệt đối, không cho phép làm một việc gì đó. Thường dùng trong các quy định, biển báo, hoặc người có thẩm quyền nhắc nhở.",
+      "note": "Không dùng mẫu câu này với người trên hoặc người lớn tuổi hơn mình.",
+      "examples": [
+        {
+          "jp": "ここで たばこを すっては いけません。きんえんですから。",
+          "vi": "Không được hút thuốc ở đây. Vì ở đây cấm hút thuốc."
+        },
+        {
+          "jp": "あぶないですから、ここへ はいっては いけません。",
+          "vi": "Vì nguy hiểm nên không được vào đây."
+        }
+      ]
+    },
+    {
+      "id": "l15_g03",
+      "pattern": "3. Động từ thể て います (Biểu thị trạng thái kết quả kéo dài)",
+      "explanation": "Ngoài việc biểu thị hành động đang diễn ra (Bài 14), mẫu [V て います] còn diễn tả trạng thái là kết quả của một hành động đã xảy ra trong quá khứ và kết quả đó vẫn đang tồn tại ở hiện tại:\n• Kết hôn: けっこんして います (Đã kết hôn/Có gia đình).\n• Nhận biết: しって います (Biết).\n• Sở hữu: もって います (Có, sở hữu đồ vật).\n• Nơi ở: すんで います (Đang sinh sống ở đâu đó).\n• Lưu ý đặc biệt: Phủ định của しって います LUÔN LÀ 「しりません」 (Không nói しっていません).",
+      "note": "Phủ định của 知っています là 知りません.",
+      "examples": [
+        {
+          "jp": "わたしは けっこんして います。",
+          "vi": "Tôi đã lập gia đình."
+        },
+        {
+          "jp": "たなかさんを しって いますか。……はい、しって います。",
+          "vi": "Anh có biết anh Tanaka không? ……Vâng, tôi biết."
+        },
+        {
+          "jp": "たなかさんを しって いますか。……いいえ、しりません。",
+          "vi": "Anh có biết anh Tanaka không? ……Không, tôi không biết."
+        },
+        {
+          "jp": "わたしは おおさかに すんで います。",
+          "vi": "Tôi đang sống ở Osaka."
+        }
+      ]
+    },
+    {
+      "id": "l15_g04",
+      "pattern": "4. Danh từ に Động từ (Điểm đến của kết quả hành động)",
+      "explanation": "Trợ từ に dùng sau danh từ địa điểm để biểu thị nơi lưu lại kết quả của các động từ như はいります (vào), すわります (ngồi), のります (lên tàu xe), おきます (đặt để).",
+      "note": "Ví dụ: ここに すわって ください (Hãy ngồi vào đây); ここに はいっては いけません (Không được vào đây).",
+      "examples": [
+        {
+          "jp": "ここに はいっては いけません。",
+          "vi": "Không được vào đây."
+        },
+        {
+          "jp": "ここに すわっても いいですか。",
+          "vi": "Tôi ngồi ở đây có được không?"
+        }
+      ]
+    },
+    {
+      "id": "l15_g05",
+      "pattern": "5. Danh từ 1 に Danh từ 2 を Động từ (Vị trí đặt/đỗ đồ vật)",
+      "explanation": "Trợ từ に chỉ nơi đối tượng (Danh từ 2) được đặt hoặc lưu lại sau khi thực hiện hành động.",
+      "note": "Ví dụ: ここに くるまを とめて ください (Anh/chị hãy đỗ xe ở đây).",
+      "examples": [
+        {
+          "jp": "ここに くるまを とめて ください。",
+          "vi": "Anh/Chị hãy đỗ xe ở chỗ này."
+        },
+        {
+          "jp": "ここに じゅうしょを かいて ください。",
+          "vi": "Anh/Chị hãy ghi địa chỉ vào đây."
+        }
+      ]
+    }
+  ]
+}

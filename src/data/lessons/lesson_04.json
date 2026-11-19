@@ -1,0 +1,716 @@
+{
+  "lessonNumber": 4,
+  "titleJp": "いま なんじですか",
+  "titleVi": "Bài 4: Thời gian & Lịch trình",
+  "vocabulary": [
+    {
+      "id": "l04_v01",
+      "kana": "おきます",
+      "kanji": "起きます",
+      "meaning": "Dậy, thức dậy",
+      "type": "Động từ"
+    },
+    {
+      "id": "l04_v02",
+      "kana": "ねます",
+      "kanji": "寝ます",
+      "meaning": "Ngủ, đi ngủ",
+      "type": "Động từ"
+    },
+    {
+      "id": "l04_v03",
+      "kana": "はたらきます",
+      "kanji": "働きます",
+      "meaning": "Làm việc",
+      "type": "Động từ"
+    },
+    {
+      "id": "l04_v04",
+      "kana": "やすみます",
+      "kanji": "休みます",
+      "meaning": "Nghỉ, nghỉ ngơi",
+      "type": "Động từ"
+    },
+    {
+      "id": "l04_v05",
+      "kana": "べんきょうします",
+      "kanji": "勉強します",
+      "meaning": "Học, học tập",
+      "type": "Động từ"
+    },
+    {
+      "id": "l04_v06",
+      "kana": "おわります",
+      "kanji": "終わります",
+      "meaning": "Hết, kết thúc, xong",
+      "type": "Động từ"
+    },
+    {
+      "id": "l04_v07",
+      "kana": "デパート",
+      "meaning": "Bách hóa, trung tâm thương mại",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l04_v08",
+      "kana": "ぎんこう",
+      "kanji": "銀行",
+      "meaning": "Ngân hàng",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l04_v09",
+      "kana": "ゆうびんきょく",
+      "kanji": "郵便局",
+      "meaning": "Bưu điện",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l04_v10",
+      "kana": "としょかん",
+      "kanji": "図書館",
+      "meaning": "Thư viện",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l04_v11",
+      "kana": "びじゅつかん",
+      "kanji": "美術館",
+      "meaning": "Bảo tàng mỹ thuật",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l04_v12",
+      "kana": "いま",
+      "kanji": "今",
+      "meaning": "Bây giờ",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l04_v13",
+      "kana": "～じ",
+      "kanji": "～時",
+      "meaning": "～ giờ",
+      "type": "Hậu tố"
+    },
+    {
+      "id": "l04_v14",
+      "kana": "～ふん / ～ぷん",
+      "kanji": "～分",
+      "meaning": "～ phút",
+      "type": "Hậu tố"
+    },
+    {
+      "id": "l04_v15",
+      "kana": "はん",
+      "kanji": "半",
+      "meaning": "Rưỡi, nửa (ví dụ: 6 giờ rưỡi)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l04_v16",
+      "kana": "なんじ",
+      "kanji": "何時",
+      "meaning": "Mấy giờ",
+      "type": "Từ để hỏi"
+    },
+    {
+      "id": "l04_v17",
+      "kana": "なんぷん",
+      "kanji": "何分",
+      "meaning": "Mấy phút",
+      "type": "Từ để hỏi"
+    },
+    {
+      "id": "l04_v18",
+      "kana": "ごぜん",
+      "kanji": "午前",
+      "meaning": "Sáng, trước 12 giờ trưa (AM)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l04_v19",
+      "kana": "ごご",
+      "kanji": "午後",
+      "meaning": "Chiều, sau 12 giờ trưa (PM)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l04_v20",
+      "kana": "あさ",
+      "kanji": "朝",
+      "meaning": "Buổi sáng, sáng",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l04_v21",
+      "kana": "ひる",
+      "kanji": "昼",
+      "meaning": "Buổi trưa, trưa",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l04_v22",
+      "kana": "ばん / よる",
+      "kanji": "晩 / 夜",
+      "meaning": "Buổi tối, tối / đêm",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l04_v23",
+      "kana": "おととい",
+      "meaning": "Hôm kia",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l04_v24",
+      "kana": "きのう",
+      "meaning": "Hôm qua",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l04_v25",
+      "kana": "きょう",
+      "meaning": "Hôm nay",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l04_v26",
+      "kana": "あした",
+      "meaning": "Ngày mai",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l04_v27",
+      "kana": "あさって",
+      "meaning": "Ngày kia",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l04_v28",
+      "kana": "けさ",
+      "meaning": "Sáng nay",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l04_v29",
+      "kana": "こんばん",
+      "kanji": "今晩",
+      "meaning": "Tối nay",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l04_v30",
+      "kana": "やすみ",
+      "kanji": "休み",
+      "meaning": "Nghỉ, nghỉ phép, ngày nghỉ",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l04_v31",
+      "kana": "ひるやすみ",
+      "kanji": "昼休み",
+      "meaning": "Nghỉ trưa",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l04_v32",
+      "kana": "しけん",
+      "kanji": "試験",
+      "meaning": "Kỳ thi, thi cử, kiểm tra",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l04_v33",
+      "kana": "かいぎ",
+      "kanji": "会議",
+      "meaning": "Cuộc họp, hội nghị (~を します: họp)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l04_v34",
+      "kana": "えいが",
+      "kanji": "映画",
+      "meaning": "Phim, điện ảnh",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l04_v35",
+      "kana": "まいあさ",
+      "kanji": "毎朝",
+      "meaning": "Hàng sáng, mỗi sáng",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l04_v36",
+      "kana": "まいばん",
+      "kanji": "毎晩",
+      "meaning": "Hàng tối, mỗi tối",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l04_v37",
+      "kana": "まいにち",
+      "kanji": "毎日",
+      "meaning": "Hàng ngày, mỗi ngày",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l04_v38",
+      "kana": "げつようび",
+      "kanji": "月曜日",
+      "meaning": "Thứ hai",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l04_v39",
+      "kana": "かようび",
+      "kanji": "火曜日",
+      "meaning": "Thứ ba",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l04_v40",
+      "kana": "すいようび",
+      "kanji": "水曜日",
+      "meaning": "Thứ tư",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l04_v41",
+      "kana": "もくようび",
+      "kanji": "木曜日",
+      "meaning": "Thứ năm",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l04_v42",
+      "kana": "きんようび",
+      "kanji": "金曜日",
+      "meaning": "Thứ sáu",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l04_v43",
+      "kana": "どようび",
+      "kanji": "土曜日",
+      "meaning": "Thứ bảy",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l04_v44",
+      "kana": "にちようび",
+      "kanji": "日曜日",
+      "meaning": "Chủ nhật",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l04_v45",
+      "kana": "なんようび",
+      "kanji": "何曜日",
+      "meaning": "Thứ mấy",
+      "type": "Từ để hỏi"
+    },
+    {
+      "id": "l04_v46",
+      "kana": "～から",
+      "meaning": "Từ ～ (chỉ mốc thời gian / điểm xuất phát)",
+      "type": "Trợ từ"
+    },
+    {
+      "id": "l04_v47",
+      "kana": "～まで",
+      "meaning": "Đến ～ (chỉ thời điểm kết thúc / đích đến)",
+      "type": "Trợ từ"
+    },
+    {
+      "id": "l04_v48",
+      "kana": "～と～",
+      "meaning": "Và, với (nối hai danh từ)",
+      "type": "Trợ từ"
+    },
+    {
+      "id": "l04_v49",
+      "kana": "たいへんですね",
+      "kanji": "大変ですね",
+      "meaning": "Anh/Chị vất vả quá nhỉ (bày tỏ sự thông cảm)",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l04_v50",
+      "kana": "ばんごう",
+      "kanji": "番号",
+      "meaning": "Số (số điện thoại, số nhà...)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l04_v51",
+      "kana": "なんばん",
+      "kanji": "何番",
+      "meaning": "Số bao nhiêu, số mấy",
+      "type": "Từ để hỏi"
+    },
+    {
+      "id": "l04_v52",
+      "kana": "そちら",
+      "meaning": "Ông/bà, phía ông/phía bà",
+      "type": "Đại từ"
+    }
+  ],
+  "kanji": [
+    {
+      "id": "l04_k01",
+      "character": "山",
+      "hanViet": "SƠN",
+      "onyomi": [
+        "サン",
+        "セン"
+      ],
+      "kunyomi": [
+        "やま"
+      ],
+      "meaning": "Núi, ngọn núi",
+      "examples": [
+        {
+          "word": "山",
+          "reading": "やま",
+          "meaning": "Núi, ngọn núi"
+        },
+        {
+          "word": "富士山",
+          "reading": "ふじさん",
+          "meaning": "Núi Phú Sĩ"
+        },
+        {
+          "word": "山下",
+          "reading": "やました",
+          "meaning": "Yamashita (họ người)"
+        },
+        {
+          "word": "火山",
+          "reading": "かざん",
+          "meaning": "Núi lửa"
+        }
+      ]
+    },
+    {
+      "id": "l04_k02",
+      "character": "川",
+      "hanViet": "XUYÊN",
+      "onyomi": [
+        "セン"
+      ],
+      "kunyomi": [
+        "かわ",
+        "がわ"
+      ],
+      "meaning": "Sông, dòng sông",
+      "examples": [
+        {
+          "word": "川",
+          "reading": "かわ",
+          "meaning": "Dòng sông, con sông"
+        },
+        {
+          "word": "ナイル川",
+          "reading": "ナイルがわ",
+          "meaning": "Sông Nin"
+        },
+        {
+          "word": "小川",
+          "reading": "おがわ",
+          "meaning": "Suối nhỏ, dòng suối nhỏ"
+        },
+        {
+          "word": "河川",
+          "reading": "かせん",
+          "meaning": "Sông ngòi"
+        }
+      ]
+    },
+    {
+      "id": "l04_k03",
+      "character": "田",
+      "hanViet": "ĐIỀN",
+      "onyomi": [
+        "デン"
+      ],
+      "kunyomi": [
+        "た",
+        "だ"
+      ],
+      "meaning": "Ruộng, cánh đồng",
+      "examples": [
+        {
+          "word": "田んぼ",
+          "reading": "たんぼ",
+          "meaning": "Đồng ruộng, ruộng lúa"
+        },
+        {
+          "word": "山田",
+          "reading": "やまだ",
+          "meaning": "Yamada (họ người)"
+        },
+        {
+          "word": "水田",
+          "reading": "すいでん",
+          "meaning": "Ruộng lúa nước"
+        },
+        {
+          "word": "油田",
+          "reading": "ゆでん",
+          "meaning": "Mỏ dầu"
+        }
+      ]
+    },
+    {
+      "id": "l04_k04",
+      "character": "石",
+      "hanViet": "THẠCH",
+      "onyomi": [
+        "セキ",
+        "シャク"
+      ],
+      "kunyomi": [
+        "いし"
+      ],
+      "meaning": "Đá, hòn đá",
+      "examples": [
+        {
+          "word": "石",
+          "reading": "いし",
+          "meaning": "Hòn đá, đá"
+        },
+        {
+          "word": "石川",
+          "reading": "いしかわ",
+          "meaning": "Ishikawa (tỉnh / họ người)"
+        },
+        {
+          "word": "石油",
+          "reading": "せきゆ",
+          "meaning": "Dầu mỏ"
+        },
+        {
+          "word": "化石",
+          "reading": "かせき",
+          "meaning": "Hóa thạch"
+        }
+      ]
+    },
+    {
+      "id": "l04_k05",
+      "character": "花",
+      "hanViet": "HOA",
+      "onyomi": [
+        "カ",
+        "ケ"
+      ],
+      "kunyomi": [
+        "はな"
+      ],
+      "meaning": "Hoa, bông hoa",
+      "examples": [
+        {
+          "word": "花",
+          "reading": "はな",
+          "meaning": "Bông hoa, hoa"
+        },
+        {
+          "word": "花火",
+          "reading": "はなび",
+          "meaning": "Pháo hoa"
+        },
+        {
+          "word": "花見",
+          "reading": "はなみ",
+          "meaning": "Ngắm hoa hoa anh đào"
+        },
+        {
+          "word": "花屋",
+          "reading": "はなや",
+          "meaning": "Cửa hàng bán hoa"
+        }
+      ]
+    },
+    {
+      "id": "l04_k06",
+      "character": "竹",
+      "hanViet": "TRÚC",
+      "onyomi": [
+        "チク"
+      ],
+      "kunyomi": [
+        "たけ"
+      ],
+      "meaning": "Tre, trúc",
+      "examples": [
+        {
+          "word": "竹",
+          "reading": "たけ",
+          "meaning": "Cây tre, cây trúc"
+        },
+        {
+          "word": "竹の子",
+          "reading": "たけのこ",
+          "meaning": "Măng tre"
+        },
+        {
+          "word": "竹田",
+          "reading": "たけだ",
+          "meaning": "Takeda (họ người)"
+        },
+        {
+          "word": "竹林",
+          "reading": "ちくりん",
+          "meaning": "Rừng trúc"
+        }
+      ]
+    },
+    {
+      "id": "l04_k07",
+      "character": "雨",
+      "hanViet": "VŨ",
+      "onyomi": [
+        "ウ"
+      ],
+      "kunyomi": [
+        "あめ",
+        "あま"
+      ],
+      "meaning": "Mưa, cơn mưa",
+      "examples": [
+        {
+          "word": "雨",
+          "reading": "あめ",
+          "meaning": "Mưa, cơn mưa"
+        },
+        {
+          "word": "大雨",
+          "reading": "おおあめ",
+          "meaning": "Mưa to, mưa lớn"
+        },
+        {
+          "word": "雨期",
+          "reading": "うき",
+          "meaning": "Mùa mưa"
+        },
+        {
+          "word": "雨天",
+          "reading": "うてん",
+          "meaning": "Trời mưa"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "l04_g01",
+      "pattern": "1. 今 〜時 〜分です (Bây giờ là mấy giờ mấy phút)",
+      "explanation": "Để biểu thị thời gian trong tiếng Nhật, ta dùng chữ số kết hợp với trợ số từ 時 (じ - giờ) và 分 (ふん/ぷん - phút).\n• Quy tắc đọc phút: Đọc là ぷん (pun) sau 1, 3, 4, 6, 8, 10; đọc là ふん (fun) sau 2, 5, 7, 9.\n• Từ để hỏi: 何時 (なんじ - mấy giờ), 何分 (なんぷん - mấy phút).\n• Thêm 午前 (ごぜん - sáng/AM) hoặc 午後 (ごご - chiều/PM) phía trước số giờ khi cần làm rõ thời gian.",
+      "note": "30 phút có thể nói là 半 (はん - rưỡi). Ví dụ: 6時半 (6 giờ rưỡi).",
+      "examples": [
+        {
+          "jp": "いま なんじですか。……7じ 10ぷんです。",
+          "vi": "Bây giờ là mấy giờ? ……7 giờ 10 phút."
+        },
+        {
+          "jp": "ニューヨークは いま なんじですか。……ごぜん 0じ 10ぷんです。",
+          "vi": "Ở New York bây giờ là mấy giờ? ……0 giờ 10 phút sáng."
+        }
+      ]
+    },
+    {
+      "id": "l04_g02",
+      "pattern": "2. Động từ ます / ません / ました / ませんでした",
+      "explanation": "Động từ tiếng Nhật tận cùng bằng ます (thể lịch sự). Thể hiện 4 trạng thái thời gian và khẳng định/phủ định:\n• Khẳng định hiện tại / tương lai: V ます (Làm / Sẽ làm)\n• Phủ định hiện tại / tương lai: V ません (Không làm)\n• Khẳng định quá khứ: V ました (Đã làm)\n• Phủ định quá khứ: V ませんでした (Đã không làm)",
+      "note": "Khi trả lời câu hỏi nghi vấn động từ, nhắc lại trực tiếp động từ (không dùng そうです / ちがいます).",
+      "examples": [
+        {
+          "jp": "わたしは まいにち べんきょうします。",
+          "vi": "Tôi học bài mỗi ngày."
+        },
+        {
+          "jp": "まいあさ 6じに おきます。",
+          "vi": "Mỗi sáng tôi thức dậy lúc 6 giờ."
+        },
+        {
+          "jp": "きのう べんきょうしましたか。……はい、べんきょうしました。",
+          "vi": "Hôm qua anh có học không? ……Vâng, tôi có học."
+        },
+        {
+          "jp": "きのう べんきょうしましたか。……いいえ、べんきょうしませんでした。",
+          "vi": "Hôm qua anh có học không? ……Không, tôi đã không học."
+        }
+      ]
+    },
+    {
+      "id": "l04_g03",
+      "pattern": "3. Danh từ (thời gian) に Động từ",
+      "explanation": "Trợ từ に đứng sau danh từ chỉ thời gian cụ thể (có con số rõ ràng như giờ, ngày, tháng, năm) để biểu thị thời điểm mà hành động diễn ra.\n• CÓ dùng に: 6じに (lúc 6 giờ), 7がつ 2にちに (vào ngày 2 tháng 7).\n• KHÔNG dùng に: các từ chỉ thời gian tương đối như きょう (hôm nay), あした (ngày mai), きのう (hôm qua), まいにち (hàng ngày), こんしゅう (tuần này)...",
+      "note": "Các thứ trong tuần (~ようび) có thể thêm hoặc không thêm に.",
+      "examples": [
+        {
+          "jp": "6じはんに おきます。",
+          "vi": "Tôi thức dậy vào lúc 6 giờ rưỡi."
+        },
+        {
+          "jp": "7がつ 2にちに にほんへ きました。",
+          "vi": "Tôi đã đến Nhật Bản vào ngày 2 tháng 7."
+        },
+        {
+          "jp": "にちようび[に] ならへ いきます。",
+          "vi": "Chủ nhật tôi sẽ đi Nara."
+        }
+      ]
+    },
+    {
+      "id": "l04_g04",
+      "pattern": "4. Danh từ 1 から Danh từ 2 まで (Từ ~ đến ~)",
+      "explanation": "• から: Biểu thị điểm bắt đầu (thời gian hoặc địa điểm).\n• まで: Biểu thị điểm kết thúc (thời gian hoặc địa điểm).\n• Cặp trợ từ này có thể đi cùng nhau trong cụm [N1 から N2 まで], hoặc đứng độc lập riêng rẽ.",
+      "note": "Có thể kết hợp với です làm vị ngữ: [N は ~から ~までです].",
+      "examples": [
+        {
+          "jp": "9じから 5じまで べんきょうします。",
+          "vi": "Tôi học từ 9 giờ đến 5 giờ."
+        },
+        {
+          "jp": "おおさかから とうきょうまで 3じかん かかります。",
+          "vi": "Từ Osaka đến Tokyo mất 3 tiếng."
+        },
+        {
+          "jp": "ぎんこうは 9じから 3じまでです。",
+          "vi": "Ngân hàng mở cửa từ 9 giờ đến 3 giờ."
+        }
+      ]
+    },
+    {
+      "id": "l04_g05",
+      "pattern": "5. Danh từ 1 と Danh từ 2 (Và, cùng với)",
+      "explanation": "Trợ từ と dùng để nối hai danh từ đồng cấp với nghĩa là \"và\". Liệt kê toàn bộ các đối tượng.",
+      "note": "Ví dụ: ぎんこうの やすみは どようびと にちようびです (Ngày nghỉ của ngân hàng là thứ bảy và chủ nhật).",
+      "examples": [
+        {
+          "jp": "ぎんこうの やすみは どようびと にちようびです。",
+          "vi": "Ngày nghỉ của ngân hàng là thứ bảy và chủ nhật."
+        }
+      ]
+    },
+    {
+      "id": "l04_g06",
+      "pattern": "6. 〜ね (Trợ từ cuối câu biểu cảm)",
+      "explanation": "Trợ từ ね đặt ở cuối câu nhằm biểu thị sự kỳ vọng của người nói vào sự đồng ý, đồng cảm của người nghe, hoặc dùng để xác nhận, nhắc nhở nhẹ nhàng.",
+      "note": "Thường dịch là: \"nhỉ\", \"nhé\", \"đúng không ạ\".",
+      "examples": [
+        {
+          "jp": "まいにち 10じまで べんきょうします。……たいへんですね。",
+          "vi": "Hàng ngày tôi học đến 10 giờ. ……Vất vả quá nhỉ!"
+        },
+        {
+          "jp": "やまださんの でんわばんごうは 871の 6813です。……871の 6813ですね。",
+          "vi": "Số điện thoại của ông Yamada là 871-6813. ……871-6813 đúng không ạ."
+        }
+      ]
+    }
+  ]
+}

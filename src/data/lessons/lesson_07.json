@@ -1,0 +1,658 @@
+{
+  "lessonNumber": 7,
+  "titleJp": "スプーンで たべます",
+  "titleVi": "Bài 7: Công cụ & Cho nhận",
+  "vocabulary": [
+    {
+      "id": "l07_v01",
+      "kana": "きります",
+      "kanji": "切ります",
+      "meaning": "Cắt, gọt",
+      "type": "Động từ"
+    },
+    {
+      "id": "l07_v02",
+      "kana": "おくります",
+      "kanji": "送ります",
+      "meaning": "Gửi (hàng, bưu phẩm)",
+      "type": "Động từ"
+    },
+    {
+      "id": "l07_v03",
+      "kana": "あげます",
+      "meaning": "Cho, tặng",
+      "type": "Động từ"
+    },
+    {
+      "id": "l07_v04",
+      "kana": "もらいます",
+      "meaning": "Nhận",
+      "type": "Động từ"
+    },
+    {
+      "id": "l07_v05",
+      "kana": "かします",
+      "kanji": "貸します",
+      "meaning": "Cho mượn, cho vay",
+      "type": "Động từ"
+    },
+    {
+      "id": "l07_v06",
+      "kana": "かります",
+      "kanji": "借ります",
+      "meaning": "Mượn, vay",
+      "type": "Động từ"
+    },
+    {
+      "id": "l07_v07",
+      "kana": "おしえます",
+      "kanji": "教えます",
+      "meaning": "Dạy, chỉ bảo",
+      "type": "Động từ"
+    },
+    {
+      "id": "l07_v08",
+      "kana": "ならいます",
+      "kanji": "習います",
+      "meaning": "Học, tập (từ ai đó)",
+      "type": "Động từ"
+    },
+    {
+      "id": "l07_v09",
+      "kana": "かけます",
+      "meaning": "Gọi [điện thoại: でんわを～]",
+      "type": "Động từ"
+    },
+    {
+      "id": "l07_v10",
+      "kana": "て",
+      "kanji": "手",
+      "meaning": "Tay, bàn tay",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l07_v11",
+      "kana": "はし",
+      "meaning": "Đũa",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l07_v12",
+      "kana": "スプーン",
+      "meaning": "Thìa, muỗng",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l07_v13",
+      "kana": "ナイフ",
+      "meaning": "Dao",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l07_v14",
+      "kana": "フォーク",
+      "meaning": "Dĩa, nĩa",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l07_v15",
+      "kana": "はさみ",
+      "meaning": "Kéo",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l07_v16",
+      "kana": "パソコン",
+      "meaning": "Máy vi tính cá nhân (PC)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l07_v17",
+      "kana": "ケータイ",
+      "meaning": "Điện thoại di động",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l07_v18",
+      "kana": "メール",
+      "meaning": "Thư điện tử, email",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l07_v19",
+      "kana": "ねんがじょう",
+      "kanji": "年賀状",
+      "meaning": "Thiệp mừng năm mới",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l07_v20",
+      "kana": "パンチ",
+      "meaning": "Cái đục lỗ",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l07_v21",
+      "kana": "ホッチキス",
+      "meaning": "Cái dập ghim",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l07_v22",
+      "kana": "セロテープ",
+      "meaning": "Băng dính, băng keo",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l07_v23",
+      "kana": "けしゴム",
+      "kanji": "消しゴム",
+      "meaning": "Cục tẩy, gôm tẩy",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l07_v24",
+      "kana": "かみ",
+      "kanji": "紙",
+      "meaning": "Giấy",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l07_v25",
+      "kana": "はな",
+      "kanji": "花",
+      "meaning": "Hoa",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l07_v26",
+      "kana": "シャツ",
+      "meaning": "Áo sơ mi",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l07_v27",
+      "kana": "プレゼント",
+      "meaning": "Quà tặng, tặng phẩm",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l07_v28",
+      "kana": "にもつ",
+      "kanji": "荷物",
+      "meaning": "Đồ đạc, hành lý",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l07_v29",
+      "kana": "おかね",
+      "kanji": "お金",
+      "meaning": "Tiền",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l07_v30",
+      "kana": "きっぷ",
+      "kanji": "切符",
+      "meaning": "Vé (tàu, xe)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l07_v31",
+      "kana": "クリスマス",
+      "meaning": "Giáng sinh (Noel)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l07_v32",
+      "kana": "ちち",
+      "kanji": "父",
+      "meaning": "Bố (dùng khi nói về bố mình)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l07_v33",
+      "kana": "はは",
+      "kanji": "母",
+      "meaning": "Mẹ (dùng khi nói về mẹ mình)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l07_v34",
+      "kana": "おとうさん",
+      "kanji": "お父さん",
+      "meaning": "Bố (nói về bố người khác / gọi bố mình)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l07_v35",
+      "kana": "おかあさん",
+      "kanji": "お母さん",
+      "meaning": "Mẹ (nói về mẹ người khác / gọi mẹ mình)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l07_v36",
+      "kana": "もう",
+      "meaning": "Đã, rồi",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l07_v37",
+      "kana": "まだ",
+      "meaning": "Chưa",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l07_v38",
+      "kana": "これから",
+      "meaning": "Từ bây giờ, sau đây",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l07_v39",
+      "kana": "すてきですね",
+      "meaning": "Hay nhỉ / Đẹp nhỉ!",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l07_v40",
+      "kana": "いらっしゃい",
+      "meaning": "Rất hoan nghênh anh/chị đến chơi!",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l07_v41",
+      "kana": "どうぞ おあがり ください",
+      "meaning": "Mời anh/chị vào nhà.",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l07_v42",
+      "kana": "しつれいします",
+      "kanji": "失礼します",
+      "meaning": "Xin phép (dùng khi bước vào nhà người khác)",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l07_v43",
+      "kana": "[～は] いかがですか",
+      "meaning": "Anh/Chị dùng [～] nhé? (mời ăn uống)",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l07_v44",
+      "kana": "いただきます",
+      "meaning": "Xin mời dùng (nói trước khi ăn uống)",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l07_v45",
+      "kana": "ごちそうさま [でした]",
+      "meaning": "Xin cảm ơn đã chiêu đãi (nói sau khi ăn)",
+      "type": "Cụm từ giao tiếp"
+    },
+    {
+      "id": "l07_v46",
+      "kana": "スペイン",
+      "meaning": "Tây Ban Nha",
+      "type": "Danh từ"
+    }
+  ],
+  "kanji": [
+    {
+      "id": "l07_k01",
+      "character": "大",
+      "hanViet": "ĐẠI",
+      "onyomi": [
+        "ダイ",
+        "タイ"
+      ],
+      "kunyomi": [
+        "おお(きい)",
+        "おお(いに)"
+      ],
+      "meaning": "To, lớn",
+      "examples": [
+        {
+          "word": "大きい",
+          "reading": "おおきい",
+          "meaning": "To, lớn"
+        },
+        {
+          "word": "大学",
+          "reading": "だいがく",
+          "meaning": "Trường đại học"
+        },
+        {
+          "word": "大人",
+          "reading": "おとな",
+          "meaning": "Người lớn, người trưởng thành"
+        },
+        {
+          "word": "大変",
+          "reading": "たいへん",
+          "meaning": "Vất vả, rất nhiều"
+        }
+      ]
+    },
+    {
+      "id": "l07_k02",
+      "character": "小",
+      "hanViet": "TIỂU",
+      "onyomi": [
+        "ショウ"
+      ],
+      "kunyomi": [
+        "ちい(さい)",
+        "こ",
+        "お"
+      ],
+      "meaning": "Nhỏ, bé",
+      "examples": [
+        {
+          "word": "小さい",
+          "reading": "ちいさい",
+          "meaning": "Nhỏ, bé"
+        },
+        {
+          "word": "小学校",
+          "reading": "しょうがっこう",
+          "meaning": "Trường tiểu học"
+        },
+        {
+          "word": "小川",
+          "reading": "おがわ",
+          "meaning": "Suối nhỏ, dòng suối nhỏ"
+        },
+        {
+          "word": "小犬",
+          "reading": "こいぬ",
+          "meaning": "Chó con, cún con"
+        }
+      ]
+    },
+    {
+      "id": "l07_k03",
+      "character": "高",
+      "hanViet": "CAO",
+      "onyomi": [
+        "コウ"
+      ],
+      "kunyomi": [
+        "たか(い)",
+        "たか",
+        "たか(まる)"
+      ],
+      "meaning": "Cao, đắt",
+      "examples": [
+        {
+          "word": "高い",
+          "reading": "たかい",
+          "meaning": "Cao, đắt tiền"
+        },
+        {
+          "word": "高校",
+          "reading": "こうこう",
+          "meaning": "Trường cấp 3 (THPT)"
+        },
+        {
+          "word": "高校生",
+          "reading": "こうこうせい",
+          "meaning": "Học sinh cấp 3"
+        },
+        {
+          "word": "高級",
+          "reading": "こうきゅう",
+          "meaning": "Cao cấp"
+        }
+      ]
+    },
+    {
+      "id": "l07_k04",
+      "character": "友",
+      "hanViet": "HỮU",
+      "onyomi": [
+        "ユウ"
+      ],
+      "kunyomi": [
+        "とも"
+      ],
+      "meaning": "Bạn bè, bằng hữu",
+      "examples": [
+        {
+          "word": "友達",
+          "reading": "ともだち",
+          "meaning": "Bạn bè"
+        },
+        {
+          "word": "友人",
+          "reading": "ゆうじん",
+          "meaning": "Bạn thân, bạn bè"
+        },
+        {
+          "word": "親友",
+          "reading": "しんゆう",
+          "meaning": "Bạn thân thiết, bạn tri kỷ"
+        },
+        {
+          "word": "友情",
+          "reading": "ゆうじょう",
+          "meaning": "Tình bạn"
+        }
+      ]
+    },
+    {
+      "id": "l07_k05",
+      "character": "入",
+      "hanViet": "NHẬP",
+      "onyomi": [
+        "ニュウ"
+      ],
+      "kunyomi": [
+        "はい(る)",
+        "い(れる)",
+        "い(る)"
+      ],
+      "meaning": "Vào, đi vào, cho vào",
+      "examples": [
+        {
+          "word": "入る",
+          "reading": "はいる",
+          "meaning": "Đi vào, bước vào"
+        },
+        {
+          "word": "入れる",
+          "reading": "いれる",
+          "meaning": "Cho vào, bỏ vào"
+        },
+        {
+          "word": "入口",
+          "reading": "いりぐち",
+          "meaning": "Cửa vào, lối vào"
+        },
+        {
+          "word": "入学",
+          "reading": "にゅうがく",
+          "meaning": "Nhập học"
+        }
+      ]
+    },
+    {
+      "id": "l07_k06",
+      "character": "出",
+      "hanViet": "XUẤT",
+      "onyomi": [
+        "シュツ",
+        "スイ"
+      ],
+      "kunyomi": [
+        "で(る)",
+        "だ(す)"
+      ],
+      "meaning": "Ra, đi ra, gửi đi, đưa ra",
+      "examples": [
+        {
+          "word": "出る",
+          "reading": "でる",
+          "meaning": "Đi ra, rời khỏi"
+        },
+        {
+          "word": "出す",
+          "reading": "だす",
+          "meaning": "Lấy ra, nộp, gửi đi"
+        },
+        {
+          "word": "出口",
+          "reading": "でぐち",
+          "meaning": "Cửa ra, lối ra"
+        },
+        {
+          "word": "出発",
+          "reading": "しゅっぱつ",
+          "meaning": "Xuất phát, khởi hành"
+        }
+      ]
+    },
+    {
+      "id": "l07_k07",
+      "character": "門",
+      "hanViet": "MÔN",
+      "onyomi": [
+        "モン"
+      ],
+      "kunyomi": [
+        "かど"
+      ],
+      "meaning": "Cổng, cửa lớn, chuyên môn",
+      "examples": [
+        {
+          "word": "門",
+          "reading": "もん",
+          "meaning": "Cổng, cửa cổng"
+        },
+        {
+          "word": "正門",
+          "reading": "せいもん",
+          "meaning": "Cổng chính"
+        },
+        {
+          "word": "専門",
+          "reading": "せんもん",
+          "meaning": "Chuyên môn"
+        },
+        {
+          "word": "校門",
+          "reading": "こうもん",
+          "meaning": "Cổng trường"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "l07_g01",
+      "pattern": "1. Danh từ (công cụ / phương tiện) で Động từ",
+      "explanation": "Trợ từ で biểu thị công cụ, dụng cụ hoặc phương tiện được dùng để thực hiện hành động (như ăn bằng đũa, viết bằng bút, nói bằng tiếng Nhật).",
+      "note": "Ví dụ: はしで たべます (Ăn bằng đũa), にほんごで レポートを かきます (Viết báo cáo bằng tiếng Nhật).",
+      "examples": [
+        {
+          "jp": "はしで たべます。",
+          "vi": "Tôi ăn cơm bằng đũa."
+        },
+        {
+          "jp": "にほんごで レポートを かきます。",
+          "vi": "Tôi viết báo cáo bằng tiếng Nhật."
+        }
+      ]
+    },
+    {
+      "id": "l07_g02",
+      "pattern": "2. \"Từ/Câu\" は 〜語で 何ですか",
+      "explanation": "Mẫu câu dùng để hỏi nghĩa của một từ, một câu được nói như thế nào bằng một ngôn ngữ khác.",
+      "note": "Ví dụ: 「ありがとう」は えいごで 何ですか。➔ 「Thank you」です。",
+      "examples": [
+        {
+          "jp": "「ありがとう」は えいごで 何ですか。……「Thank you」です。",
+          "vi": "\"Arigato\" tiếng Anh nói thế nào? ……Tiếng Anh nói là \"Thank you\"."
+        },
+        {
+          "jp": "「Thank you」は にほんごで 何ですか。……「ありがとう」です。",
+          "vi": "\"Thank you\" tiếng Nhật nói thế nào? ……Tiếng Nhật nói là \"Arigato\"."
+        }
+      ]
+    },
+    {
+      "id": "l07_g03",
+      "pattern": "3. Danh từ 1 (người) に Danh từ 2 を あげます / かします / おしえます",
+      "explanation": "Các động từ chỉ hành động hướng ra ngoài như あげます (cho, tặng), かします (cho mượn), おしえます (dạy). Trợ từ に đặt sau người tiếp nhận hành vi.",
+      "note": "KHÔNG dùng あげます khi người khác cho người nói (tôi).",
+      "examples": [
+        {
+          "jp": "わたしは きむらさんに はなを あげました。",
+          "vi": "Tôi đã tặng hoa cho chị Kimura."
+        },
+        {
+          "jp": "わたしは イーさんに ほんを かしました。",
+          "vi": "Tôi cho chị Lee mượn sách."
+        },
+        {
+          "jp": "わたしは やまださんに えいごを おしえます。",
+          "vi": "Tôi dạy tiếng Anh cho ông Yamada."
+        }
+      ]
+    },
+    {
+      "id": "l07_g04",
+      "pattern": "4. Danh từ 1 (người/tổ chức) に (から) Danh từ 2 を もらいます / かります / ならいます",
+      "explanation": "Các động từ chỉ hành động nhận vào như もらいます (nhận), かります (mượn, vay), ならいます (học). Trợ từ に (hoặc から) đặt sau người/tổ chức cung cấp.",
+      "note": "Khi đối tượng cung cấp là một tổ chức (công ty, trường học, ngân hàng) thì dùng から mà KHÔNG dùng に.",
+      "examples": [
+        {
+          "jp": "わたしは やまださんに はなを もらいました。",
+          "vi": "Tôi đã nhận hoa từ ông Yamada."
+        },
+        {
+          "jp": "カリナさんに CDを かりました。",
+          "vi": "Tôi đã mượn đĩa CD từ chị Karina."
+        },
+        {
+          "jp": "ぎんこうから おかねを かりました。",
+          "vi": "Tôi đã vay tiền từ ngân hàng."
+        }
+      ]
+    },
+    {
+      "id": "l07_g05",
+      "pattern": "5. もう Động từ ました (Đã ... rồi)",
+      "explanation": "もう có nghĩa là \"đã/rồi\", đi với động từ thể quá khứ ました để biểu thị một hành động đã hoàn tất ở thời điểm hiện tại.\n• Khẳng định: はい、もう [V ました] (Vâng, đã làm rồi).\n• Phủ định: いいえ、まだです (Chưa, tôi chưa làm).",
+      "note": "Tránh dùng 「いいえ、V ませんでした」 vì có nghĩa là \"đã không làm\", chứ không mang nghĩa là tương lai sẽ làm.",
+      "examples": [
+        {
+          "jp": "もう にもつを おくりましたか。……はい、[もう] おくりました。",
+          "vi": "Anh/Chị đã gửi đồ chưa? ……Vâng, tôi đã gửi rồi."
+        },
+        {
+          "jp": "もう にもつを おくりましたか。……いいえ、まだです。",
+          "vi": "Anh/Chị đã gửi đồ chưa? ……Chưa, tôi chưa gửi."
+        }
+      ]
+    },
+    {
+      "id": "l07_g06",
+      "pattern": "6. Tỉnh lược trợ từ trong hội thoại",
+      "explanation": "Trong giao tiếp thân mật hằng ngày, khi ngữ cảnh đã rõ ràng thì các trợ từ như は, を có thể được lược bớt để lời nói tự nhiên hơn.",
+      "note": "Ví dụ: このスプーン[は]、すてきですね (Cái thìa này đẹp nhỉ).",
+      "examples": [
+        {
+          "jp": "この スプーン[は]、すてきですね。",
+          "vi": "Cái thìa này đẹp quá nhỉ!"
+        },
+        {
+          "jp": "コーヒー[を]、もう いっぱい いかがですか。",
+          "vi": "Anh/chị dùng thêm một cốc cà phê nhé?"
+        }
+      ]
+    }
+  ]
+}

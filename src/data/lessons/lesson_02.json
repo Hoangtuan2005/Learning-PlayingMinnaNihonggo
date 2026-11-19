@@ -1,0 +1,540 @@
+{
+  "lessonNumber": 2,
+  "titleJp": "これは なんですか",
+  "titleVi": "Bài 2: Đồ vật & Sở hữu",
+  "vocabulary": [
+    {
+      "id": "l02_v01",
+      "kana": "これ",
+      "meaning": "Cái này, đây (vật ở gần người nói)",
+      "type": "Chỉ thị từ"
+    },
+    {
+      "id": "l02_v02",
+      "kana": "それ",
+      "meaning": "Cái đó, đó (vật ở gần người nghe)",
+      "type": "Chỉ thị từ"
+    },
+    {
+      "id": "l02_v03",
+      "kana": "あれ",
+      "meaning": "Cái kia, kia (vật ở xa cả người nói và người nghe)",
+      "type": "Chỉ thị từ"
+    },
+    {
+      "id": "l02_v04",
+      "kana": "この 〜",
+      "meaning": "〜 này (đi liền trước danh từ, gần người nói)",
+      "type": "Chỉ thị từ"
+    },
+    {
+      "id": "l02_v05",
+      "kana": "その 〜",
+      "meaning": "〜 đó (đi liền trước danh từ, gần người nghe)",
+      "type": "Chỉ thị từ"
+    },
+    {
+      "id": "l02_v06",
+      "kana": "あの 〜",
+      "meaning": "〜 kia (đi liền trước danh từ, xa cả người nói và người nghe)",
+      "type": "Chỉ thị từ"
+    },
+    {
+      "id": "l02_v07",
+      "kana": "ほん",
+      "kanji": "本",
+      "meaning": "Sách",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l02_v08",
+      "kana": "じしょ",
+      "kanji": "辞書",
+      "meaning": "Từ điển",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l02_v09",
+      "kana": "ざっし",
+      "kanji": "雑誌",
+      "meaning": "Tạp chí",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l02_v10",
+      "kana": "しんぶん",
+      "kanji": "新聞",
+      "meaning": "Báo, tờ báo",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l02_v11",
+      "kana": "ノート",
+      "meaning": "Vở, sổ ghi chép",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l02_v12",
+      "kana": "てちょう",
+      "kanji": "手帳",
+      "meaning": "Sổ tay",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l02_v13",
+      "kana": "めいし",
+      "kanji": "名刺",
+      "meaning": "Danh thiếp",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l02_v14",
+      "kana": "カード",
+      "meaning": "Thẻ (tín dụng, thẻ ngân hàng), cạc",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l02_v15",
+      "kana": "えんぴつ",
+      "kanji": "鉛筆",
+      "meaning": "Bút chì",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l02_v16",
+      "kana": "ボールペン",
+      "meaning": "Bút bi",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l02_v17",
+      "kana": "シャープペンシル",
+      "meaning": "Bút chì kim, bút chì bấm",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l02_v18",
+      "kana": "かぎ",
+      "meaning": "Chìa khóa",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l02_v19",
+      "kana": "とけい",
+      "kanji": "時計",
+      "meaning": "Đồng hồ",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l02_v20",
+      "kana": "かさ",
+      "kanji": "傘",
+      "meaning": "Ô, dù",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l02_v21",
+      "kana": "かばん",
+      "meaning": "Cặp sách, túi sách",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l02_v22",
+      "kana": "CD",
+      "meaning": "Đĩa CD",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l02_v23",
+      "kana": "テレビ",
+      "meaning": "Tivi",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l02_v24",
+      "kana": "ラジオ",
+      "meaning": "Đài radio",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l02_v25",
+      "kana": "カメラ",
+      "meaning": "Máy ảnh",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l02_v26",
+      "kana": "コンピューター",
+      "meaning": "Máy vi tính",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l02_v27",
+      "kana": "くるま",
+      "kanji": "車",
+      "meaning": "Ô tô, xe hơi",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l02_v28",
+      "kana": "つくえ",
+      "kanji": "机",
+      "meaning": "Bàn",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l02_v29",
+      "kana": "いす",
+      "meaning": "Ghế",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l02_v30",
+      "kana": "チョコレート",
+      "meaning": "Sô-cô-la (chocolate)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l02_v31",
+      "kana": "コーヒー",
+      "meaning": "Cà phê",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l02_v32",
+      "kana": "[お]みやげ",
+      "kanji": "[お]土産",
+      "meaning": "Quà (mua khi đi xa về hoặc mang đi thăm nhà)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l02_v33",
+      "kana": "えいご",
+      "kanji": "英語",
+      "meaning": "Tiếng Anh",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l02_v34",
+      "kana": "にほんご",
+      "kanji": "日本語",
+      "meaning": "Tiếng Nhật",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l02_v35",
+      "kana": "〜ご",
+      "kanji": "〜語",
+      "meaning": "Tiếng 〜 (hậu tố chỉ ngôn ngữ)",
+      "type": "Hậu tố"
+    },
+    {
+      "id": "l02_v36",
+      "kana": "なん",
+      "kanji": "何",
+      "meaning": "Gì, cái gì",
+      "type": "Từ nghi vấn"
+    },
+    {
+      "id": "l02_v37",
+      "kana": "そう",
+      "meaning": "Đúng vậy, như thế",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l02_v38",
+      "kana": "あのう",
+      "meaning": "À, ờ... (dùng để biểu thị sự ngại ngùng, do dự)",
+      "type": "Thán từ"
+    },
+    {
+      "id": "l02_v39",
+      "kana": "えっ",
+      "meaning": "Hả? (thốt lên khi bất ngờ hoặc nghe điều không mong muốn)",
+      "type": "Thán từ"
+    },
+    {
+      "id": "l02_v40",
+      "kana": "どうぞ",
+      "meaning": "Xin mời (dùng khi mời ai cái gì hoặc nhường lời)",
+      "type": "Phó từ"
+    },
+    {
+      "id": "l02_v41",
+      "kana": "[どうも] ありがとう [ございます]",
+      "meaning": "Xin chân thành cảm ơn, xin cảm ơn rất nhiều",
+      "type": "Câu giao tiếp"
+    },
+    {
+      "id": "l02_v42",
+      "kana": "そうですか",
+      "meaning": "Thế à, ra vậy",
+      "type": "Câu giao tiếp"
+    },
+    {
+      "id": "l02_v43",
+      "kana": "ちがいます",
+      "kanji": "違います",
+      "meaning": "Không phải, không đúng, sai rồi",
+      "type": "Động từ"
+    },
+    {
+      "id": "l02_v44",
+      "kana": "あ",
+      "meaning": "Ôi! (dùng khi nhận ra điều gì)",
+      "type": "Thán từ"
+    },
+    {
+      "id": "l02_v45",
+      "kana": "これから お世話になります",
+      "meaning": "Từ nay tôi rất mong được sự giúp đỡ của anh/chị",
+      "type": "Câu giao tiếp"
+    },
+    {
+      "id": "l02_v46",
+      "kana": "こちらこそ [どうぞ] よろしく [お願いします]",
+      "meaning": "Chính tôi mới là người mong được sự giúp đỡ của anh/chị",
+      "type": "Câu giao tiếp"
+    }
+  ],
+  "kanji": [
+    {
+      "id": "l02_k01",
+      "character": "月",
+      "hanViet": "NGUYỆT",
+      "onyomi": ["ゲツ", "ガツ"],
+      "kunyomi": ["つき"],
+      "meaning": "Mặt trăng, tháng, thứ hai",
+      "examples": [
+        { "word": "月曜日", "reading": "げつようび", "meaning": "Thứ hai" },
+        { "word": "一月", "reading": "いちがつ", "meaning": "Tháng một" },
+        { "word": "今月", "reading": "こんげつ", "meaning": "Tháng này" },
+        { "word": "月", "reading": "つき", "meaning": "Mặt trăng" }
+      ]
+    },
+    {
+      "id": "l02_k02",
+      "character": "火",
+      "hanViet": "HỎA",
+      "onyomi": ["カ"],
+      "kunyomi": ["ひ", "ほ"],
+      "meaning": "Lửa, ngọn lửa, thứ ba",
+      "examples": [
+        { "word": "火曜日", "reading": "かようび", "meaning": "Thứ ba" },
+        { "word": "火", "reading": "ひ", "meaning": "Ngọn lửa" },
+        { "word": "火山", "reading": "かざん", "meaning": "Núi lửa" },
+        { "word": "花火", "reading": "はなび", "meaning": "Pháo hoa" }
+      ]
+    },
+    {
+      "id": "l02_k03",
+      "character": "水",
+      "hanViet": "THỦY",
+      "onyomi": ["スイ"],
+      "kunyomi": ["みず"],
+      "meaning": "Nước, thứ tư",
+      "examples": [
+        { "word": "水曜日", "reading": "すいようび", "meaning": "Thứ tư" },
+        { "word": "水", "reading": "みず", "meaning": "Nước uống, nước" },
+        { "word": "水泳", "reading": "すいえい", "meaning": "Môn bơi lội" },
+        { "word": "水道", "reading": "すいどう", "meaning": "Đường nước, nước máy" }
+      ]
+    },
+    {
+      "id": "l02_k04",
+      "character": "木",
+      "hanViet": "MỘC",
+      "onyomi": ["モク", "ボク"],
+      "kunyomi": ["き", "こ"],
+      "meaning": "Cây cối, gỗ, thứ năm",
+      "examples": [
+        { "word": "木曜日", "reading": "もくようび", "meaning": "Thứ năm" },
+        { "word": "木", "reading": "き", "meaning": "Cây cối, gỗ" },
+        { "word": "木材", "reading": "もくざい", "meaning": "Gỗ, vật liệu gỗ" },
+        { "word": "大木", "reading": "たいぼく", "meaning": "Cây cổ thụ lớn" }
+      ]
+    },
+    {
+      "id": "l02_k05",
+      "character": "金",
+      "hanViet": "KIM",
+      "onyomi": ["キン", "コン"],
+      "kunyomi": ["かね", "かな"],
+      "meaning": "Vàng, tiền bạc, thứ sáu",
+      "examples": [
+        { "word": "金曜日", "reading": "きんようび", "meaning": "Thứ sáu" },
+        { "word": "お金", "reading": "おかね", "meaning": "Tiền bạc" },
+        { "word": "金", "reading": "きん", "meaning": "Vàng (kim loại)" },
+        { "word": "料金", "reading": "りょうきん", "meaning": "Tiền phí, cước phí" }
+      ]
+    },
+    {
+      "id": "l02_k06",
+      "character": "土",
+      "hanViet": "THỔ",
+      "onyomi": ["ド", "ト"],
+      "kunyomi": ["つち"],
+      "meaning": "Đất, bùn đất, thứ bảy",
+      "examples": [
+        { "word": "土曜日", "reading": "どようび", "meaning": "Thứ bảy" },
+        { "word": "土", "reading": "つち", "meaning": "Đất cát, đất đai" },
+        { "word": "土地", "reading": "とち", "meaning": "Khu đất, mảnh đất" },
+        { "word": "お土産", "reading": "おみやげ", "meaning": "Quà lưu niệm" }
+      ]
+    },
+    {
+      "id": "l02_k07",
+      "character": "日",
+      "hanViet": "NHẬT",
+      "onyomi": ["ニチ", "ジツ"],
+      "kunyomi": ["ひ", "び", "か"],
+      "meaning": "Mặt trời, ngày, Chủ nhật, Nhật Bản",
+      "examples": [
+        { "word": "日曜日", "reading": "にちようび", "meaning": "Chủ nhật" },
+        { "word": "日本", "reading": "にほん", "meaning": "Nước Nhật" },
+        { "word": "毎日", "reading": "まいにち", "meaning": "Mỗi ngày" },
+        { "word": "誕生日", "reading": "たんじょうび", "meaning": "Ngày sinh nhật" }
+      ]
+    },
+    {
+      "id": "l02_k08",
+      "character": "年",
+      "hanViet": "NIÊN",
+      "onyomi": ["ネン"],
+      "kunyomi": ["とし"],
+      "meaning": "Năm, thời gian, tuổi tác",
+      "examples": [
+        { "word": "今年", "reading": "ことし", "meaning": "Năm nay" },
+        { "word": "去年", "reading": "きょねん", "meaning": "Năm ngoái" },
+        { "word": "来年", "reading": "らいねん", "meaning": "Năm sau" },
+        { "word": "一年", "reading": "いちねん", "meaning": "Một năm" }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "l02_g01",
+      "pattern": "1. これ / それ / あれ",
+      "explanation": "これ, それ, あれ là những đại từ chỉ thị đồ vật và hoạt động độc lập như những danh từ:\n• 「これ」dùng để chỉ vật ở gần người nói.\n• 「それ」dùng để chỉ vật ở gần người nghe.\n• 「あれ」dùng để chỉ vật ở xa cả người nói và người nghe.",
+      "note": "Cấu trúc cơ bản: [これ / それ / あれ] は [Danh từ] です / ですか。",
+      "examples": [
+        {
+          "jp": "それは じしょですか。",
+          "vi": "Đó có phải là quyển từ điển không?"
+        },
+        {
+          "jp": "これは だれの かさですか。",
+          "vi": "Đây là cái ô của ai?"
+        }
+      ]
+    },
+    {
+      "id": "l02_g02",
+      "pattern": "2. この Danh từ / その Danh từ / あの Danh từ",
+      "explanation": "この, その, あの là những từ chỉ thị luôn đứng trước và bổ nghĩa trực tiếp cho danh từ đi liền sau:\n• 「この + Danh từ」: chỉ vật/người ở gần người nói.\n• 「その + Danh từ」: chỉ vật/người ở gần người nghe.\n• 「あの + Danh từ」: chỉ vật/người ở xa cả người nói và người nghe.",
+      "note": "Phân biệt: これ/それ/あれ đứng một mình làm chủ ngữ. Còn この/その/あの bắt buộc phải có Danh từ đi kèm (Ví dụ: この かばん, その ほん).",
+      "examples": [
+        {
+          "jp": "この ほんは わたしのです。",
+          "vi": "Quyển sách này là của tôi."
+        },
+        {
+          "jp": "あの かたは どなたですか。",
+          "vi": "Vị kia là ai?"
+        }
+      ]
+    },
+    {
+      "id": "l02_g03",
+      "pattern": "3. そうです / ちがいます (Trả lời câu hỏi Danh từ)",
+      "explanation": "Trong câu danh từ, để trả lời khẳng định cho câu hỏi nghi vấn đúng hay sai, người ta dùng:\n• Khẳng định: 「はい、そうです。」 (Vâng, đúng vậy/phải rồi).\n• Phủ định: Không dùng 「いいえ、そうじゃ ありません」 (ít thông dụng), mà thay vào đó sử dụng 「いいえ、ちがいます。」 (Không phải/sai rồi) hoặc đưa ra thông tin đúng.",
+      "note": "ちがいます (Chigaimasu) là thể lịch sự của động từ ちがう (sai, khác, không phải).",
+      "examples": [
+        {
+          "jp": "それは じしょですか。……はい、そうです。",
+          "vi": "Đó có phải là quyển từ điển không? ……Vâng, phải."
+        },
+        {
+          "jp": "それは ミラーさんのですか。……いいえ、ちがいます。",
+          "vi": "Cái đó có phải của anh Miller không? ……Không, không phải."
+        },
+        {
+          "jp": "それは シャープペンシルですか。……いいえ、ボールペンです。",
+          "vi": "Đó có phải là bút chì kim không? ……Không, là bút bi."
+        }
+      ]
+    },
+    {
+      "id": "l02_g04",
+      "pattern": "4. Câu 1 か、Câu 2 か (Câu hỏi lựa chọn)",
+      "explanation": "Đây là mẫu câu nghi vấn ghép từ 2 (hoặc nhiều hơn) câu hỏi với nhau, yêu cầu người nghe chọn một trong các phương án đúng.\nQuy tắc trả lời: Tuyệt đối KHÔNG trả lời bằng はい hay いいえ, mà phải nhắc lại trực tiếp phương án được lựa chọn.",
+      "note": "Ví dụ khi được hỏi là cái này hay cái kia, ta trả lời thẳng: 「[Lựa chọn] です。」",
+      "examples": [
+        {
+          "jp": "これは 「９」ですか、「７」ですか。……「９」です。",
+          "vi": "Đây là số '9' hay số '7'? ……Là số '9'."
+        }
+      ]
+    },
+    {
+      "id": "l02_g05",
+      "pattern": "5. Danh từ 1 の Danh từ 2 (Nội dung & Sở hữu)",
+      "explanation": "Ở Bài 1 chúng ta đã học trợ từ の dùng để nối hai danh từ. Ở Bài 2, の có thêm hai ý nghĩa quan trọng:\n1) Danh từ 1 giải thích nội dung cho Danh từ 2 (nói về cái gì, lĩnh vực nào).\n2) Danh từ 1 biểu thị chủ sở hữu của Danh từ 2 (thuộc về ai).",
+      "note": "Công thức: [Nội dung / Sở hữu] + の + [Đồ vật / Danh từ chính].",
+      "examples": [
+        {
+          "jp": "これは コンピューターの ほんです。",
+          "vi": "Đây là quyển sách về máy vi tính (Nội dung)."
+        },
+        {
+          "jp": "これは わたしの ほんです。",
+          "vi": "Đây là quyển sách của tôi (Chủ sở hữu)."
+        }
+      ]
+    },
+    {
+      "id": "l02_g06",
+      "pattern": "6. の với vai trò thay thế cho Danh từ đã nói",
+      "explanation": "Trợ từ 「の」 được sử dụng thay thế cho danh từ chỉ vật đã xuất hiện ở phía trước nhằm tránh lặp từ (tương đương cấu trúc lược bỏ Danh từ 2).\nVí dụ: 「さとうさんの かばん」 rút gọn thành 「さとうさんの」 (Của anh/chị Sato).\n• Chú ý quan trọng: 「の」 CHỈ ĐƯỢC THAY THẾ CHO DANH TỪ CHỈ VẬT, TUYỆT ĐỐI KHÔNG THAY THẾ CHO DANH TỪ CHỈ NGƯỜI.",
+      "note": "Ví dụ: 'Anh Miller là nhân viên IMC phải không?' ➔ Trả lời: 'はい、IMCの 社員です' (ĐÚNG), không được nói 'はい、IMCのです' (SAI vì 社員 là người).",
+      "examples": [
+        {
+          "jp": "あれは だれの かばんですか。……さとうさんのです。",
+          "vi": "Kia là cái cặp sách của ai? ……Của anh/chị Sato."
+        },
+        {
+          "jp": "この かばんは あなたのですか。……いいえ、わたしのでは ありません。",
+          "vi": "Cái cặp này có phải của bạn không? ……Không, không phải của tôi."
+        },
+        {
+          "jp": "ミラーさんは IMCの しゃいんですか。……はい、IMCの しゃいんです。",
+          "vi": "Anh Miller có phải nhân viên IMC không? ……Vâng, là nhân viên IMC (không lược thành IMCのです)."
+        }
+      ]
+    },
+    {
+      "id": "l02_g07",
+      "pattern": "7. お〜 (Tiền tố lịch sự)",
+      "explanation": "Tiền tố 「お」 được thêm vào trước danh từ để biểu thị tính lịch sự, trang trọng và nhã nhặn của người nói.\nThường đi cùng các từ thuần Nhật (Wago):\n• [お]みやげ (Quà lưu niệm)\n• [お]さけ (Rượu)\n• [お]かね (Tiền bạc)\n• [お]てあらい (Nhà vệ sinh)",
+      "note": "Khi nói chuyện hàng ngày hoặc giao tiếp lịch thiệp, người Nhật thường gắn tiền tố お để thể hiện sự tôn trọng đồ vật và đối phương.",
+      "examples": [
+        {
+          "jp": "これは おみやげです。どうぞ。",
+          "vi": "Đây là quà lưu niệm. Xin mời bạn nhận."
+        }
+      ]
+    },
+    {
+      "id": "l02_g08",
+      "pattern": "8. そうですか (Biểu thị tiếp nhận thông tin)",
+      "explanation": "Khi người nói tiếp nhận được một thông tin mới mẻ từ người đối thoại và để bày tỏ thái độ là mình đã hiểu/đã nắm rõ vấn đề, ta sử dụng 「そうですか。」.\nLưu ý: Mẫu câu này thường phát âm với ngữ điệu đi xuống ở cuối câu (khác với câu hỏi そうですか? lên giọng).",
+      "note": "Dịch nghĩa: 'Thế à.', 'Ra là vậy.', 'Tôi hiểu rồi.'",
+      "examples": [
+        {
+          "jp": "この かさは あなたのですか。……いいえ、ちがいます。シュミットさんのです。……そうですか。",
+          "vi": "Cái ô này có phải của anh không? ……Không, không phải. Của anh Schmidt. ……Thế à."
+        }
+      ]
+    }
+  ]
+}

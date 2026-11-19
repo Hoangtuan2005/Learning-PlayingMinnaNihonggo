@@ -1,0 +1,585 @@
+{
+  "lessonNumber": 1,
+  "titleJp": "わたしは マイク・ミラーです",
+  "titleVi": "Bài 1: Giới thiệu bản thân & Nghề nghiệp",
+  "vocabulary": [
+    {
+      "id": "l01_v01",
+      "kana": "わたし",
+      "kanji": "私",
+      "meaning": "Tôi (ngôi thứ I số ít)",
+      "type": "Đại từ"
+    },
+    {
+      "id": "l01_v02",
+      "kana": "あなた",
+      "meaning": "Anh/chị, ông/bà, bạn (ngôi thứ II số ít)",
+      "type": "Đại từ"
+    },
+    {
+      "id": "l01_v03",
+      "kana": "あのひと",
+      "kanji": "あの人",
+      "meaning": "Người kia, người đó, anh kia, chị kia",
+      "type": "Đại từ"
+    },
+    {
+      "id": "l01_v04",
+      "kana": "あのかた",
+      "kanji": "あの方",
+      "meaning": "Vị kia (cách nói lịch sự của あのひと)",
+      "type": "Đại từ"
+    },
+    {
+      "id": "l01_v05",
+      "kana": "～さん",
+      "meaning": "Anh, chị, ông, bà (hậu tố thêm vào sau tên người khác để lịch sự)",
+      "type": "Hậu tố"
+    },
+    {
+      "id": "l01_v06",
+      "kana": "～ちゃん",
+      "meaning": "Bé, em (hậu tố thân mật thêm vào sau tên trẻ em thay cho ～さん)",
+      "type": "Hậu tố"
+    },
+    {
+      "id": "l01_v07",
+      "kana": "～じん",
+      "kanji": "～人",
+      "meaning": "Người ~ (hậu tố quốc tịch, ví dụ: アメリカじん : người Mỹ)",
+      "type": "Hậu tố"
+    },
+    {
+      "id": "l01_v08",
+      "kana": "せんせい",
+      "kanji": "先生",
+      "meaning": "Thầy/cô (gọi người khác, không dùng tự xưng nghề nghiệp)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l01_v09",
+      "kana": "きょうし",
+      "kanji": "教師",
+      "meaning": "Giáo viên (nghề nghiệp, dùng khi tự giới thiệu)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l01_v10",
+      "kana": "がくせい",
+      "kanji": "学生",
+      "meaning": "Học sinh, sinh viên",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l01_v11",
+      "kana": "かいしゃいん",
+      "kanji": "会社員",
+      "meaning": "Nhân viên công ty",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l01_v12",
+      "kana": "しゃいん",
+      "kanji": "社員",
+      "meaning": "Nhân viên Công ty ~ (dùng kèm tên công ty, ví dụ: IMCの しゃいん)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l01_v13",
+      "kana": "ぎんこういん",
+      "kanji": "銀行員",
+      "meaning": "Nhân viên ngân hàng",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l01_v14",
+      "kana": "いしゃ",
+      "kanji": "医者",
+      "meaning": "Bác sĩ",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l01_v15",
+      "kana": "けんきゅうしゃ",
+      "kanji": "研究者",
+      "meaning": "Nhà nghiên cứu",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l01_v16",
+      "kana": "だいがく",
+      "kanji": "大学",
+      "meaning": "Đại học, trường đại học",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l01_v17",
+      "kana": "びょういん",
+      "kanji": "病院",
+      "meaning": "Bệnh viện",
+      "type": "Danh từ"
+    },
+    {
+      "id": "l01_v18",
+      "kana": "だれ",
+      "meaning": "Ai (từ để hỏi)",
+      "type": "Nghi vấn từ"
+    },
+    {
+      "id": "l01_v19",
+      "kana": "どなた",
+      "meaning": "Vị nào, ai (cách nói lịch sự của だれ)",
+      "type": "Nghi vấn từ"
+    },
+    {
+      "id": "l01_v20",
+      "kana": "～さい",
+      "kanji": "～歳",
+      "meaning": "~ tuổi",
+      "type": "Lượng từ"
+    },
+    {
+      "id": "l01_v21",
+      "kana": "なんさい",
+      "kanji": "何歳",
+      "meaning": "Mấy tuổi, bao nhiêu tuổi",
+      "type": "Nghi vấn từ"
+    },
+    {
+      "id": "l01_v22",
+      "kana": "おいくつ",
+      "meaning": "Bao nhiêu tuổi (cách nói lịch sự của なんさい)",
+      "type": "Nghi vấn từ"
+    },
+    {
+      "id": "l01_v23",
+      "kana": "はい",
+      "meaning": "Vâng, dạ, đúng",
+      "type": "Thán từ"
+    },
+    {
+      "id": "l01_v24",
+      "kana": "いいえ",
+      "meaning": "Không, không phải",
+      "type": "Thán từ"
+    },
+    {
+      "id": "l01_v25",
+      "kana": "はじめまして",
+      "kanji": "初めまして",
+      "meaning": "Rất hân hạnh được gặp anh/chị (lời chào khi lần đầu gặp mặt)",
+      "type": "Chào hỏi"
+    },
+    {
+      "id": "l01_v26",
+      "kana": "～から きました",
+      "kanji": "～から 来ました",
+      "meaning": "Tôi đến từ ~",
+      "type": "Mẫu câu"
+    },
+    {
+      "id": "l01_v27",
+      "kana": "よろしく おねがいします",
+      "kanji": "どうぞ よろしく お願いします",
+      "meaning": "Rất vui được làm quen / Rất mong được sự giúp đỡ của anh/chị",
+      "type": "Chào hỏi"
+    },
+    {
+      "id": "l01_v28",
+      "kana": "しつれいですが",
+      "kanji": "失礼ですが",
+      "meaning": "Xin lỗi... (dùng khi hỏi thông tin cá nhân như tên hoặc địa chỉ)",
+      "type": "Cụm từ"
+    },
+    {
+      "id": "l01_v29",
+      "kana": "おなまえは？",
+      "kanji": "お名前は？",
+      "meaning": "Tên anh/chị là gì?",
+      "type": "Mẫu câu"
+    },
+    {
+      "id": "l01_v30",
+      "kana": "こちらは ～さんです",
+      "meaning": "Đây là anh/chị/ông/bà ~",
+      "type": "Mẫu câu"
+    },
+    {
+      "id": "l01_v31",
+      "kana": "アメリカ",
+      "meaning": "Mỹ, nước Mỹ",
+      "type": "Quốc gia"
+    },
+    {
+      "id": "l01_v32",
+      "kana": "イギリス",
+      "meaning": "Anh, nước Anh",
+      "type": "Quốc gia"
+    },
+    {
+      "id": "l01_v33",
+      "kana": "インド",
+      "meaning": "Ấn Độ",
+      "type": "Quốc gia"
+    },
+    {
+      "id": "l01_v34",
+      "kana": "インドネシア",
+      "meaning": "In-đô-nê-xi-a",
+      "type": "Quốc gia"
+    },
+    {
+      "id": "l01_v35",
+      "kana": "かんこく",
+      "kanji": "韓国",
+      "meaning": "Hàn Quốc",
+      "type": "Quốc gia"
+    },
+    {
+      "id": "l01_v36",
+      "kana": "タイ",
+      "meaning": "Thái Lan",
+      "type": "Quốc gia"
+    },
+    {
+      "id": "l01_v37",
+      "kana": "ちゅうごく",
+      "kanji": "中国",
+      "meaning": "Trung Quốc",
+      "type": "Quốc gia"
+    },
+    {
+      "id": "l01_v38",
+      "kana": "ドイツ",
+      "meaning": "Đức, nước Đức",
+      "type": "Quốc gia"
+    },
+    {
+      "id": "l01_v39",
+      "kana": "にほん",
+      "kanji": "日本",
+      "meaning": "Nhật Bản",
+      "type": "Quốc gia"
+    },
+    {
+      "id": "l01_v40",
+      "kana": "ブラジル",
+      "meaning": "Braxin",
+      "type": "Quốc gia"
+    },
+    {
+      "id": "l01_v41",
+      "kana": "こうべびょういん",
+      "kanji": "神戸病院",
+      "meaning": "Bệnh viện Kobe (tên bệnh viện giả định trong sách)",
+      "type": "Địa danh"
+    },
+    {
+      "id": "l01_v42",
+      "kana": "さくらだいがく",
+      "kanji": "さくら大学",
+      "meaning": "Trường Đại học Sakura (tên đại học giả định trong sách)",
+      "type": "Địa danh"
+    },
+    {
+      "id": "l01_v43",
+      "kana": "ふじだいがく",
+      "kanji": "富士大学",
+      "meaning": "Trường Đại học Fuji (tên đại học giả định trong sách)",
+      "type": "Địa danh"
+    },
+    {
+      "id": "l01_v44",
+      "kana": "パワーでんき",
+      "kanji": "パワー電気",
+      "meaning": "Công ty Điện lực Power (tên công ty giả định trong sách)",
+      "type": "Công ty"
+    }
+  ],
+  "kanji": [
+    {
+      "id": "l01_k01",
+      "character": "一",
+      "hanViet": "NHẤT",
+      "onyomi": ["イチ", "イツ"],
+      "kunyomi": ["ひと-", "ひと.つ"],
+      "meaning": "Số một",
+      "examples": [
+        { "word": "一つ", "reading": "ひとつ", "meaning": "Một cái" },
+        { "word": "一日", "reading": "ついたち", "meaning": "Ngày mùng 1" },
+        { "word": "一人", "reading": "ひとり", "meaning": "Một người" }
+      ]
+    },
+    {
+      "id": "l01_k02",
+      "character": "二",
+      "hanViet": "NHỊ",
+      "onyomi": ["ニ", "ジ"],
+      "kunyomi": ["ふた-", "ふた.つ"],
+      "meaning": "Số hai",
+      "examples": [
+        { "word": "二つ", "reading": "ふたつ", "meaning": "Hai cái" },
+        { "word": "二日", "reading": "ふつか", "meaning": "Ngày mùng 2" },
+        { "word": "二人", "reading": "ふたり", "meaning": "Hai người" }
+      ]
+    },
+    {
+      "id": "l01_k03",
+      "character": "三",
+      "hanViet": "TAM",
+      "onyomi": ["サン"],
+      "kunyomi": ["み-", "み.つ", "みっ.つ"],
+      "meaning": "Số ba",
+      "examples": [
+        { "word": "三つ", "reading": "みっつ", "meaning": "Ba cái" },
+        { "word": "三日", "reading": "みっか", "meaning": "Ngày mùng 3" },
+        { "word": "三人", "reading": "さんにん", "meaning": "Ba người" }
+      ]
+    },
+    {
+      "id": "l01_k04",
+      "character": "四",
+      "hanViet": "TỨ",
+      "onyomi": ["シ"],
+      "kunyomi": ["よ-", "よ.つ", "よっ.つ", "よん"],
+      "meaning": "Số bốn",
+      "examples": [
+        { "word": "四つ", "reading": "よっつ", "meaning": "Bốn cái" },
+        { "word": "四日", "reading": "よっか", "meaning": "Ngày mùng 4" },
+        { "word": "四月", "reading": "しがつ", "meaning": "Tháng tư" }
+      ]
+    },
+    {
+      "id": "l01_k05",
+      "character": "五",
+      "hanViet": "NGŨ",
+      "onyomi": ["ゴ"],
+      "kunyomi": ["いつ-", "いつ.つ"],
+      "meaning": "Số năm",
+      "examples": [
+        { "word": "五つ", "reading": "いつつ", "meaning": "Năm cái" },
+        { "word": "五日", "reading": "いつか", "meaning": "Ngày mùng 5" },
+        { "word": "五月", "reading": "ごがつ", "meaning": "Tháng năm" }
+      ]
+    },
+    {
+      "id": "l01_k06",
+      "character": "六",
+      "hanViet": "LỤC",
+      "onyomi": ["ロク", "ロッ-"],
+      "kunyomi": ["む-", "む.つ", "むっ.つ", "むい"],
+      "meaning": "Số sáu",
+      "examples": [
+        { "word": "六つ", "reading": "むっつ", "meaning": "Sáu cái" },
+        { "word": "六日", "reading": "むいか", "meaning": "Ngày mùng 6" },
+        { "word": "六月", "reading": "ろくがつ", "meaning": "Tháng sáu" }
+      ]
+    },
+    {
+      "id": "l01_k07",
+      "character": "七",
+      "hanViet": "THẤT",
+      "onyomi": ["シチ"],
+      "kunyomi": ["なな-", "なな.つ", "なの"],
+      "meaning": "Số bảy",
+      "examples": [
+        { "word": "七つ", "reading": "ななつ", "meaning": "Bảy cái" },
+        { "word": "七日", "reading": "なのか", "meaning": "Ngày mùng 7" },
+        { "word": "七月", "reading": "しちがつ", "meaning": "Tháng bảy" }
+      ]
+    },
+    {
+      "id": "l01_k08",
+      "character": "八",
+      "hanViet": "BÁT",
+      "onyomi": ["ハチ", "ハッ-"],
+      "kunyomi": ["や-", "や.つ", "やっ.つ", "よう"],
+      "meaning": "Số tám",
+      "examples": [
+        { "word": "八つ", "reading": "やっつ", "meaning": "Tám cái" },
+        { "word": "八日", "reading": "ようか", "meaning": "Ngày mùng 8" },
+        { "word": "八百屋", "reading": "やおや", "meaning": "Cửa hàng rau quả" }
+      ]
+    },
+    {
+      "id": "l01_k09",
+      "character": "九",
+      "hanViet": "CỬU",
+      "onyomi": ["キュウ", "ク"],
+      "kunyomi": ["ここの-", "ここの.つ"],
+      "meaning": "Số chín",
+      "examples": [
+        { "word": "九つ", "reading": "ここのつ", "meaning": "Chín cái" },
+        { "word": "九日", "reading": "ここのか", "meaning": "Ngày mùng 9" },
+        { "word": "九月", "reading": "くがつ", "meaning": "Tháng chín" }
+      ]
+    },
+    {
+      "id": "l01_k10",
+      "character": "十",
+      "hanViet": "THẬP",
+      "onyomi": ["ジュウ", "ジッ-"],
+      "kunyomi": ["とお", "と"],
+      "meaning": "Số mười",
+      "examples": [
+        { "word": "十", "reading": "とお", "meaning": "Mười cái" },
+        { "word": "十日", "reading": "とおか", "meaning": "Ngày mùng 10" },
+        { "word": "十分", "reading": "じゅっぷん", "meaning": "10 phút" }
+      ]
+    },
+    {
+      "id": "l01_k11",
+      "character": "百",
+      "hanViet": "BÁCH",
+      "onyomi": ["ヒャク", "ピャク", "ビャク"],
+      "kunyomi": [],
+      "meaning": "Trăm, một trăm",
+      "examples": [
+        { "word": "百", "reading": "ひゃく", "meaning": "Một trăm" },
+        { "word": "三百", "reading": "さんびゃく", "meaning": "Ba trăm" },
+        { "word": "六百", "reading": "ろっぴゃく", "meaning": "Sáu trăm" }
+      ]
+    },
+    {
+      "id": "l01_k12",
+      "character": "千",
+      "hanViet": "THIÊN",
+      "onyomi": ["セン", "ゼン"],
+      "kunyomi": ["ち"],
+      "meaning": "Nghìn, một nghìn",
+      "examples": [
+        { "word": "千", "reading": "せん", "meaning": "Một nghìn" },
+        { "word": "三千", "reading": "さんぜん", "meaning": "Ba nghìn" },
+        { "word": "千葉", "reading": "ちば", "meaning": "Tỉnh Chiba" }
+      ]
+    },
+    {
+      "id": "l01_k13",
+      "character": "万",
+      "hanViet": "VẠN",
+      "onyomi": ["マン", "バン"],
+      "kunyomi": [],
+      "meaning": "Mười nghìn, một vạn, tất cả",
+      "examples": [
+        { "word": "一万", "reading": "いちまん", "meaning": "Mười nghìn (1 vạn)" },
+        { "word": "万国", "reading": "ばんこく", "meaning": "Toàn thế giới / Mọi quốc gia" },
+        { "word": "万一", "reading": "まんいち", "meaning": "Vạn nhất, ngộ nhỡ" }
+      ]
+    },
+    {
+      "id": "l01_k14",
+      "character": "円",
+      "hanViet": "YÊN / VIÊN",
+      "onyomi": ["エン"],
+      "kunyomi": ["まる-", "まる.い"],
+      "meaning": "Đồng Yên Nhật, hình tròn",
+      "examples": [
+        { "word": "百円", "reading": "ひゃくえん", "meaning": "100 Yên" },
+        { "word": "一万円", "reading": "いちまんえん", "meaning": "10.000 Yên" },
+        { "word": "円い", "reading": "まるい", "meaning": "Tròn" }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "l01_g01",
+      "pattern": "1. Danh từ 1 は Danh từ 2 です",
+      "explanation": "N1 là N2.\n• Trợ từ「は」(đọc là [wa]) đứng sau Danh từ 1 để biểu thị rằng danh từ đó là chủ đề của câu văn. Người nói đặt「は」sau chủ đề mình muốn nói đến và xây dựng câu bằng cách thêm thông tin trần thuật vị ngữ phía sau.\n•「です」đi cùng Danh từ 2 để tạo thành vị ngữ, vừa biểu thị sự phán đoán/khẳng định, vừa thể hiện thái độ lịch sự đối với người nghe.",
+      "note": "Chú ý: Trợ từ viết bằng chữ は (ha) trong Hiragana nhưng bắt buộc phải phát âm là [wa].",
+      "examples": [
+        {
+          "jp": "わたしは マイク・ミラーです。",
+          "vi": "Tôi là Mike Miller."
+        },
+        {
+          "jp": "わたしは 会社員です。",
+          "vi": "Tôi là nhân viên công ty."
+        }
+      ]
+    },
+    {
+      "id": "l01_g02",
+      "pattern": "2. Danh từ 1 は Danh từ 2 じゃ (では) ありません",
+      "explanation": "N1 không phải là N2.「じゃ (では) ありません」là thể phủ định của「です」.\n•「じゃ ありません」thường được sử dụng trong hội thoại giao tiếp hàng ngày.\n•「では ありません」được sử dụng trong các bài phát biểu trang trọng hoặc trong văn viết.",
+      "note": "Chú ý: Trợ từ は trong cụm では phát âm là [wa].",
+      "examples": [
+        {
+          "jp": "サントスさんは 学生じゃ ありません。",
+          "vi": "Anh Santos không phải là sinh viên."
+        },
+        {
+          "jp": "サントスさんは 学生では ありません。",
+          "vi": "Anh Santos không phải là sinh viên (cách nói trang trọng / văn viết)."
+        }
+      ]
+    },
+    {
+      "id": "l01_g03",
+      "pattern": "3. Danh từ 1 は Danh từ 2 ですか (Câu nghi vấn)",
+      "explanation": "N1 có phải là N2 không?\n1) Trợ từ「か」: Được dùng để biểu thị sự không chắc chắn, sự nghi vấn của người nói. Câu nghi vấn tạo thành bằng cách thêm「か」vào cuối câu và lên giọng ở cuối câu.\n2) Câu hỏi xác nhận Đúng/Sai: Trật tự từ không đổi. Nếu đúng trả lời là「はい」、không đúng trả lời là「いいえ」.\n3) Câu hỏi có từ để hỏi (Nghi vấn từ): Thay nghi vấn từ (như だれ, どなた, なんさい...) vào vị trí muốn hỏi, thêm「か」ở cuối câu.",
+      "note": "Khi đọc câu hỏi có trợ từ か, phần cuối câu được đọc với ngữ điệu cao hơn (lên giọng).",
+      "examples": [
+        {
+          "jp": "ミラーさんは アメリカ人ですか。……はい、アメリカ人です。",
+          "vi": "Anh Miller có phải là người Mỹ không? ……Vâng, anh ấy là người Mỹ."
+        },
+        {
+          "jp": "ミラーさんは 先生ですか。……いいえ、先生じゃ ありません。",
+          "vi": "Anh Miller có phải là giáo viên không? ……Không, anh ấy không phải là giáo viên."
+        },
+        {
+          "jp": "あの方は どなたですか。……[あの方は] ミラーさんです。",
+          "vi": "Người kia là ai? ……Người đó là anh Miller."
+        }
+      ]
+    },
+    {
+      "id": "l01_g04",
+      "pattern": "4. Danh từ も (Cũng là...)",
+      "explanation": "Trợ từ「も」mang nghĩa là 'cũng'. Được dùng khi trình bày một đối tượng có nội dung, bản chất hoặc nghề nghiệp tương tự như câu văn đã nêu ở phía trước (thay thế hoàn toàn cho trợ từ「は」).",
+      "note": "Trợ từ も thay thế hoàn toàn cho は, không dùng cả は và も cùng lúc.",
+      "examples": [
+        {
+          "jp": "ミラーさんは 会社員です。グプタさんも 会社員です。",
+          "vi": "Anh Miller là nhân viên công ty. Anh Gupta cũng là nhân viên công ty."
+        },
+        {
+          "jp": "わたしは ベトナム人です。あの人も ベトナム人です。",
+          "vi": "Tôi là người Việt Nam. Người kia cũng là người Việt Nam."
+        }
+      ]
+    },
+    {
+      "id": "l01_g05",
+      "pattern": "5. Danh từ 1 の Danh từ 2 (Của / Thuộc về)",
+      "explanation": "Trong trường hợp Danh từ 1 ở trước bổ nghĩa cho Danh từ 2 ở sau thì hai danh từ được nối với nhau bằng trợ từ「の」. Ở Bài 1, Danh từ 1 biểu thị nơi sở thuộc (tổ chức, công ty, trường học) mà Danh từ 2 trực thuộc.",
+      "note": "Trật tự từ trong tiếng Nhật ngược với tiếng Việt: Tên cơ quan/công ty đứng trước (N1), sau đó đến trợ từ の, rồi mới đến chức danh/người (N2).",
+      "examples": [
+        {
+          "jp": "ミラーさんは IMCの 社員です。",
+          "vi": "Anh Miller là nhân viên của công ty IMC."
+        },
+        {
+          "jp": "ワンさんは 神戸病院の 医者です。",
+          "vi": "Anh Wang là bác sĩ của bệnh viện Kobe."
+        }
+      ]
+    },
+    {
+      "id": "l01_g06",
+      "pattern": "6. Cách dùng ～さん & Lưu ý xưng hô あなた",
+      "explanation": "• Hậu tố「～さん」: Được dùng sau họ hoặc tên của người nghe hoặc người ở ngôi thứ 3 để thể hiện tính lịch sự. Tuyệt đối KHÔNG dùng「～さん」sau tên của chính mình. Đối với trẻ em, dùng「～ちゃん」với sắc thái thân mật thay cho「～さん」.\n• Khi gọi người khác: Nếu đã biết họ hoặc tên của người nghe thì không dùng「あなた」(bạn/anh/chị) mà thêm「～さん」vào sau họ hoặc tên để gọi.",
+      "note": "Lưu ý quan trọng: Từ「あなた」chỉ được sử dụng trong quan hệ cực kỳ thân mật (như vợ chồng, người yêu). Tránh tùy tiện gọi người đối diện bằng「あなた」vì có thể gây cho đối phương ấn tượng không tốt hoặc xa cách.",
+      "examples": [
+        {
+          "jp": "あの方は ミラーさんです。",
+          "vi": "Người kia là anh Miller."
+        },
+        {
+          "jp": "鈴木：ミラーさんは 学生ですか。\nミラー：いいえ、会社員です。",
+          "vi": "Suzuki: Anh Miller có phải là sinh viên không?\nMiller: Không, tôi là nhân viên công ty."
+        }
+      ]
+    }
+  ]
+}
