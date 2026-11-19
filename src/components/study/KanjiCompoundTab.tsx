@@ -1,11 +1,9 @@
 import React, { useState, useMemo, useEffect, useCallback } from 'react';
 import { KANJI_COMPOUNDS } from '../../data/kanjiCompounds';
-import { UserProgress } from '../../types/lesson';
 import { playJapaneseAudio } from '../../utils/audio';
 import { soundFX } from '../../utils/soundEffects';
 import {
   Volume2,
-  Check,
   Search,
   RotateCw,
   Shuffle,
@@ -13,20 +11,15 @@ import {
   ChevronRight,
   Layers,
   BookOpen,
-  Filter,
-  Award
+  Filter
 } from 'lucide-react';
 
 interface KanjiCompoundTabProps {
   currentLesson: number;
-  progress: UserProgress;
-  onToggleMastered: (id: string) => void;
 }
 
 export const KanjiCompoundTab: React.FC<KanjiCompoundTabProps> = ({
   currentLesson,
-  progress,
-  onToggleMastered,
 }) => {
   // Mode: list vs flashcard
   const [viewMode, setViewMode] = useState<'list' | 'flashcard'>('list');
@@ -37,7 +30,6 @@ export const KanjiCompoundTab: React.FC<KanjiCompoundTabProps> = ({
   );
   const [selectedRootKanji, setSelectedRootKanji] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState<string>('');
-  const [masteryFilter, setMasteryFilter] = useState<'all' | 'unmastered' | 'mastered'>('all');
 
   // Sync selectedLesson when user switches lesson in sidebar
   useEffect(() => {
@@ -55,18 +47,13 @@ export const KanjiCompoundTab: React.FC<KanjiCompoundTabProps> = ({
   const [isShuffled, setIsShuffled] = useState<boolean>(false);
   const [shuffledSeed, setShuffledSeed] = useState<number>(0);
 
-  const masteredSet = useMemo(
-    () => new Set(progress.masteredCompoundIds || []),
-    [progress.masteredCompoundIds]
-  );
-
   // Available lessons in compound list (1 to 15)
   const availableLessons = useMemo(() => {
     const lessons = Array.from(new Set(KANJI_COMPOUNDS.map(c => c.lesson))).sort((a, b) => a - b);
     return lessons;
   }, []);
 
-  // Filter items by lesson, search, rootKanji, and mastery
+  // Filter items by lesson, search, and rootKanji
   const filteredItems = useMemo(() => {
     let items = KANJI_COMPOUNDS;
 
@@ -92,13 +79,6 @@ export const KanjiCompoundTab: React.FC<KanjiCompoundTabProps> = ({
       );
     }
 
-    // Filter by Mastery
-    if (masteryFilter === 'mastered') {
-      items = items.filter(c => masteredSet.has(c.id));
-    } else if (masteryFilter === 'unmastered') {
-      items = items.filter(c => !masteredSet.has(c.id));
-    }
-
     // Apply shuffle if toggled
     if (isShuffled) {
       const copy = [...items];
@@ -111,7 +91,7 @@ export const KanjiCompoundTab: React.FC<KanjiCompoundTabProps> = ({
     }
 
     return items;
-  }, [selectedLesson, selectedRootKanji, searchQuery, masteryFilter, masteredSet, isShuffled, shuffledSeed]);
+  }, [selectedLesson, selectedRootKanji, searchQuery, isShuffled, shuffledSeed]);
 
   // Root Kanji list for currently active lesson scope
   const availableRootKanji = useMemo(() => {
@@ -128,7 +108,7 @@ export const KanjiCompoundTab: React.FC<KanjiCompoundTabProps> = ({
   useEffect(() => {
     setCardIndex(0);
     setIsFlipped(false);
-  }, [selectedLesson, selectedRootKanji, searchQuery, masteryFilter, isShuffled]);
+  }, [selectedLesson, selectedRootKanji, searchQuery, isShuffled]);
 
   // Current flashcard item
   const currentCard = filteredItems[cardIndex] || null;
@@ -182,16 +162,10 @@ export const KanjiCompoundTab: React.FC<KanjiCompoundTabProps> = ({
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [viewMode, handleFlipCard, handleNextCard, handlePrevCard]);
 
-  // Progress stats
+  // Total items in current scope
   const totalInScope = selectedLesson === 'all'
     ? KANJI_COMPOUNDS.length
     : KANJI_COMPOUNDS.filter(c => c.lesson === selectedLesson).length;
-
-  const masteredInScope = selectedLesson === 'all'
-    ? KANJI_COMPOUNDS.filter(c => masteredSet.has(c.id)).length
-    : KANJI_COMPOUNDS.filter(c => c.lesson === selectedLesson && masteredSet.has(c.id)).length;
-
-  const percentMastered = totalInScope > 0 ? Math.round((masteredInScope / totalInScope) * 100) : 0;
 
   return (
     <div className="space-y-4">
@@ -258,10 +232,9 @@ export const KanjiCompoundTab: React.FC<KanjiCompoundTabProps> = ({
               ))}
             </select>
 
-            {/* Scope progress badge */}
-            <div className="text-[11px] font-vi font-bold px-2.5 py-1 bg-amber-100 border border-amber-400 text-amber-900 flex items-center gap-1">
-              <Award className="w-3.5 h-3.5 text-coin" />
-              <span>Thuộc: {masteredInScope}/{totalInScope} ({percentMastered}%)</span>
+            {/* Scope count badge */}
+            <div className="text-[11px] font-vi font-bold px-2.5 py-1 bg-amber-100 border border-amber-400 text-amber-900">
+              <span>Tổng: {totalInScope} từ ghép</span>
             </div>
           </div>
         </div>
@@ -314,7 +287,7 @@ export const KanjiCompoundTab: React.FC<KanjiCompoundTabProps> = ({
           </div>
         )}
 
-        {/* 3. SEARCH & MASTERY FILTER ROW */}
+        {/* 3. SEARCH ROW */}
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 border-t border-dashed border-slate-300 pt-2.5">
           {/* Search Box */}
           <div className="relative flex-1 max-w-md">
@@ -336,50 +309,9 @@ export const KanjiCompoundTab: React.FC<KanjiCompoundTabProps> = ({
             )}
           </div>
 
-          {/* Mastery filter buttons */}
-          <div className="flex items-center gap-1.5 shrink-0">
-            <button
-              onClick={() => {
-                soundFX.playClick();
-                setMasteryFilter('all');
-              }}
-              className={`px-2.5 py-1 text-[11px] font-vi font-bold border ${
-                masteryFilter === 'all'
-                  ? 'bg-slate-800 text-white border-slate-800'
-                  : 'bg-white text-slate-700 border-slate-300 hover:bg-parchment'
-              }`}
-            >
-              Tất cả ({filteredItems.length})
-            </button>
-
-            <button
-              onClick={() => {
-                soundFX.playClick();
-                setMasteryFilter('unmastered');
-              }}
-              className={`px-2.5 py-1 text-[11px] font-vi font-bold border ${
-                masteryFilter === 'unmastered'
-                  ? 'bg-rose-600 text-white border-rose-600'
-                  : 'bg-white text-rose-700 border-rose-200 hover:bg-rose-50'
-              }`}
-            >
-              Chưa thuộc
-            </button>
-
-            <button
-              onClick={() => {
-                soundFX.playClick();
-                setMasteryFilter('mastered');
-              }}
-              className={`px-2.5 py-1 text-[11px] font-vi font-bold border ${
-                masteryFilter === 'mastered'
-                  ? 'bg-emerald-600 text-white border-emerald-600'
-                  : 'bg-white text-emerald-700 border-emerald-200 hover:bg-emerald-50'
-              }`}
-            >
-              Đã thuộc
-            </button>
-          </div>
+          <span className="text-xs font-retro text-slate-600 shrink-0">
+            Hiển thị {filteredItems.length} từ ghép
+          </span>
         </div>
 
       </div>
@@ -399,49 +331,29 @@ export const KanjiCompoundTab: React.FC<KanjiCompoundTabProps> = ({
             </div>
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3">
-              {filteredItems.map((item) => {
-                const isMastered = masteredSet.has(item.id);
+              {filteredItems.map((item) => (
+                <div
+                  key={item.id}
+                  className="pixel-box p-3.5 bg-[#FFFDF7] border-2 border-retro-charcoal flex flex-col justify-between transition-all hover:-translate-y-0.5 hover:shadow-pixel-sm relative"
+                >
+                  {/* Top Row: Lesson Badge + Audio */}
+                  <div className="flex items-center justify-between gap-2 mb-2">
+                    <span className="text-[10px] font-vi font-bold bg-amber-100 text-amber-900 border border-amber-300 px-1.5 py-0.5">
+                      Bài {item.lesson}
+                    </span>
 
-                return (
-                  <div
-                    key={item.id}
-                    className={`pixel-box p-3.5 bg-[#FFFDF7] border-2 border-retro-charcoal flex flex-col justify-between transition-all hover:-translate-y-0.5 hover:shadow-pixel-sm relative ${
-                      isMastered ? 'border-emerald-700 bg-emerald-50/20' : ''
-                    }`}
-                  >
-                    {/* Top Row: Lesson Badge + Audio + Mastery Button */}
-                    <div className="flex items-center justify-between gap-2 mb-2">
-                      <span className="text-[10px] font-vi font-bold bg-amber-100 text-amber-900 border border-amber-300 px-1.5 py-0.5">
-                        Bài {item.lesson}
-                      </span>
-
-                      <div className="flex items-center gap-1.5">
-                        {/* Audio Button */}
-                        <button
-                          onClick={() => {
-                            soundFX.playClick();
-                            playJapaneseAudio(item.word);
-                          }}
-                          className="p-1.5 bg-amber-50 hover:bg-amber-100 border border-retro-charcoal text-retro-charcoal transition-transform hover:scale-110 active:scale-95"
-                          title="Nghe phát âm"
-                        >
-                          <Volume2 className="w-3.5 h-3.5" />
-                        </button>
-
-                        {/* Mastered Button */}
-                        <button
-                          onClick={() => onToggleMastered(item.id)}
-                          className={`p-1.5 border border-retro-charcoal transition-all ${
-                            isMastered
-                              ? 'bg-emerald-500 text-white shadow-pixel-sm'
-                              : 'bg-white hover:bg-emerald-50 text-slate-400'
-                          }`}
-                          title={isMastered ? 'Đã thuộc (Nhấn để bỏ)' : 'Đánh dấu đã thuộc (+15 XP)'}
-                        >
-                          <Check className="w-3.5 h-3.5" />
-                        </button>
-                      </div>
-                    </div>
+                    {/* Audio Button */}
+                    <button
+                      onClick={() => {
+                        soundFX.playClick();
+                        playJapaneseAudio(item.word);
+                      }}
+                      className="p-1.5 bg-amber-50 hover:bg-amber-100 border border-retro-charcoal text-retro-charcoal transition-transform hover:scale-110 active:scale-95"
+                      title="Nghe phát âm"
+                    >
+                      <Volume2 className="w-3.5 h-3.5" />
+                    </button>
+                  </div>
 
                     {/* Word Center */}
                     <div className="space-y-1 mb-2">
@@ -482,8 +394,7 @@ export const KanjiCompoundTab: React.FC<KanjiCompoundTabProps> = ({
                       </div>
                     )}
                   </div>
-                );
-              })}
+              ))}
             </div>
           )}
         </div>
@@ -622,8 +533,8 @@ export const KanjiCompoundTab: React.FC<KanjiCompoundTabProps> = ({
                 </div>
               </div>
 
-              {/* Navigation & Mastery Action Buttons */}
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 pt-1">
+              {/* Navigation Action Buttons */}
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5 pt-1">
                 {/* Prev Button */}
                 <button
                   onClick={handlePrevCard}
@@ -640,19 +551,6 @@ export const KanjiCompoundTab: React.FC<KanjiCompoundTabProps> = ({
                 >
                   <RotateCw className="w-4 h-4" />
                   <span>{isFlipped ? 'Xem lại chữ' : 'Xem nghĩa'}</span>
-                </button>
-
-                {/* Mastery Toggle */}
-                <button
-                  onClick={() => onToggleMastered(currentCard.id)}
-                  className={`pixel-btn px-3 py-2.5 text-xs font-vi font-black flex items-center justify-center gap-1.5 transition-colors ${
-                    masteredSet.has(currentCard.id)
-                      ? 'bg-emerald-600 text-white'
-                      : 'bg-[#FFFDF7] text-retro-charcoal hover:bg-emerald-50'
-                  }`}
-                >
-                  <Check className="w-4 h-4" />
-                  <span>{masteredSet.has(currentCard.id) ? 'Đã thuộc ✔️' : 'Đánh dấu thuộc'}</span>
                 </button>
 
                 {/* Next Button */}

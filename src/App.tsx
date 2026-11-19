@@ -3,7 +3,6 @@ import { TopHudHeader } from './components/layout/TopHudHeader';
 import { LessonSidebar } from './components/layout/LessonSidebar';
 import { VocabTab } from './components/study/VocabTab';
 import { KanjiTab } from './components/study/KanjiTab';
-import { KanjiCompoundTab } from './components/study/KanjiCompoundTab';
 import { GrammarTab } from './components/study/GrammarTab';
 import { KanaTab } from './components/study/KanaTab';
 import { FlashcardModal } from './components/study/FlashcardModal';
@@ -14,16 +13,15 @@ import { ZenGarden3D } from './components/garden/ZenGarden3D';
 import { RpgRightPanel } from './components/layout/RpgRightPanel';
 import { getLessonData, getLessonCompletion } from './data/lessons';
 import { LESSONS_INDEX } from './data/lessonsIndex';
-import { getCompoundsByLesson } from './data/kanjiCompounds';
-import { getInitialProgress, toggleItemMastery } from './utils/storage';
+import { getInitialProgress } from './utils/storage';
 import { soundFX } from './utils/soundEffects';
 import { UserProgress, VocabItem } from './types/lesson';
-import { BookOpen, Sparkles, ScrollText, ChevronLeft, ChevronRight, Star, Languages, Layers } from 'lucide-react';
+import { BookOpen, Sparkles, ScrollText, ChevronLeft, ChevronRight, Star, Languages } from 'lucide-react';
 
 export function App() {
   const [progress, setProgress] = useState<UserProgress>(getInitialProgress);
   const [currentLesson, setCurrentLesson] = useState<number>(1);
-  const [currentTab, setCurrentTab] = useState<'vocab' | 'kanji' | 'grammar' | 'kana' | 'compound'>('vocab');
+  const [currentTab, setCurrentTab] = useState<'vocab' | 'kanji' | 'grammar' | 'kana'>('vocab');
   const [isSidebarOpen, setIsSidebarOpen] = useState<boolean>(false);
   const [isGamesHubOpen, setIsGamesHubOpen] = useState<boolean>(false);
   const [isGameOpen, setIsGameOpen] = useState<boolean>(false);
@@ -36,7 +34,6 @@ export function App() {
   // Current lesson data and completion stats
   const lessonData = getLessonData(currentLesson);
   const lessonMeta = LESSONS_INDEX.find(l => l.lessonNumber === currentLesson);
-  const currentLessonCompounds = getCompoundsByLesson(currentLesson);
   const { percentage, stars } = getLessonCompletion(lessonData, progress);
 
   // Toggle Mute
@@ -44,27 +41,6 @@ export function App() {
     const next = !isMuted;
     setIsMuted(next);
     soundFX.setMuted(next);
-  };
-
-  // Toggle Mastery for items
-  const handleToggleVocab = (id: string) => {
-    const { updatedProgress } = toggleItemMastery(progress, 'vocab', id);
-    setProgress(updatedProgress);
-  };
-
-  const handleToggleKanji = (id: string) => {
-    const { updatedProgress } = toggleItemMastery(progress, 'kanji', id);
-    setProgress(updatedProgress);
-  };
-
-  const handleToggleGrammar = (id: string) => {
-    const { updatedProgress } = toggleItemMastery(progress, 'grammar', id);
-    setProgress(updatedProgress);
-  };
-
-  const handleToggleCompound = (id: string) => {
-    const { updatedProgress } = toggleItemMastery(progress, 'compound', id);
-    setProgress(updatedProgress);
   };
 
   // Flashcard handler
@@ -94,13 +70,6 @@ export function App() {
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [isGameOpen, isFlashcardOpen]);
-
-  // If on compound tab and current lesson has no compounds, fallback to vocab
-  useEffect(() => {
-    if (currentTab === 'compound' && currentLessonCompounds.length === 0) {
-      setCurrentTab('vocab');
-    }
-  }, [currentLesson, currentLessonCompounds.length, currentTab]);
 
   return (
     <div className="min-h-screen bg-[#FAF3E0] flex flex-col font-vi text-retro-charcoal selection:bg-sakura selection:text-white">
@@ -291,28 +260,10 @@ export function App() {
                   }`}
                 >
                   <Sparkles className="w-4 h-4" />
-                  <span>KANJI ({lessonData.kanji.length})</span>
+                  <span>KANJI</span>
                 </button>
 
-                {/* Tab 3: Từ ghép Kanji & Flashcard (Chỉ hiển thị khi bài có Kanji) */}
-                {currentLessonCompounds.length > 0 && (
-                  <button
-                    onClick={() => {
-                      soundFX.playClick();
-                      setCurrentTab('compound');
-                    }}
-                    className={`pixel-btn px-3 py-2 text-xs flex items-center gap-1.5 font-vi font-black uppercase tracking-wider transition-transform ${
-                      currentTab === 'compound'
-                        ? 'bg-amber-600 text-white -translate-y-1'
-                        : 'bg-[#FFFDF7] text-retro-charcoal hover:bg-parchment'
-                    }`}
-                  >
-                    <Layers className="w-4 h-4" />
-                    <span>TỪ GHÉP & FLASHCARD ({currentLessonCompounds.length})</span>
-                  </button>
-                )}
-
-                {/* Tab 4: Ngữ pháp */}
+                {/* Tab 3: Ngữ pháp */}
                 <button
                   onClick={() => {
                     soundFX.playClick();
@@ -340,8 +291,6 @@ export function App() {
             {currentTab === 'vocab' && (
               <VocabTab
                 vocabulary={lessonData.vocabulary}
-                progress={progress}
-                onToggleMastered={handleToggleVocab}
                 onOpenFlashcard={handleOpenFlashcard}
               />
             )}
@@ -349,36 +298,24 @@ export function App() {
             {currentTab === 'kanji' && (
               <KanjiTab
                 kanji={lessonData.kanji}
-                progress={progress}
-                onToggleMastered={handleToggleKanji}
-              />
-            )}
-
-            {currentTab === 'compound' && (
-              <KanjiCompoundTab
                 currentLesson={currentLesson}
-                progress={progress}
-                onToggleMastered={handleToggleCompound}
               />
             )}
 
             {currentTab === 'grammar' && (
               <GrammarTab
                 grammar={lessonData.grammar}
-                progress={progress}
-                onToggleMastered={handleToggleGrammar}
               />
             )}
           </div>
 
         </main>
 
-        {/* 4. Right RPG Companion Panel (Character stats, Pro tips, Quick Launch) */}
+        {/* 4. Right RPG Companion Panel (Character stats, Pro tips) */}
         <RpgRightPanel
           progress={progress}
           lessonData={lessonData}
           currentLesson={currentLesson}
-          onOpenGame={() => setIsGamesHubOpen(true)}
         />
 
       </div>
@@ -387,8 +324,6 @@ export function App() {
       {isFlashcardOpen && (
         <FlashcardModal
           items={flashcardItems}
-          progress={progress}
-          onToggleMastered={handleToggleVocab}
           onClose={() => setIsFlashcardOpen(false)}
         />
       )}

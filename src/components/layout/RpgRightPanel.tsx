@@ -1,21 +1,18 @@
 import React from 'react';
 import { UserProgress, LessonData } from '../../types/lesson';
 import { calculateLevel, getLessonCompletion } from '../../utils/storage';
-import { soundFX } from '../../utils/soundEffects';
-import { Gamepad2, Trophy, Flame, Sparkles, BookOpen, ScrollText, Lightbulb, Shield, Award } from 'lucide-react';
+import { Trophy, Flame, Sparkles, BookOpen, ScrollText, Lightbulb, Shield, Award } from 'lucide-react';
 
 interface RpgRightPanelProps {
   progress: UserProgress;
   lessonData: LessonData;
   currentLesson: number;
-  onOpenGame: () => void;
 }
 
 export const RpgRightPanel: React.FC<RpgRightPanelProps> = ({
   progress,
   lessonData,
   currentLesson,
-  onOpenGame,
 }) => {
   const { level, currentLevelXp, nextLevelXp, progressPercent } = calculateLevel(progress.xp);
   const completion = getLessonCompletion(lessonData, progress);
@@ -203,36 +200,7 @@ export const RpgRightPanel: React.FC<RpgRightPanelProps> = ({
         )}
       </div>
 
-      {/* 3. Mini-Game Arcade Banner */}
-      <div className="pixel-box p-3.5 bg-gradient-to-br from-slate-900 to-indigo-950 text-white border-3 border-retro-charcoal space-y-2">
-        <div className="flex items-center gap-2">
-          <Gamepad2 className="w-5 h-5 text-sakura animate-pulse" />
-          <span className="font-vi text-xs font-black uppercase tracking-wider text-coin">
-            KHU TRÒ CHƠI MINI GAMES
-          </span>
-        </div>
-        <p className="text-[11px] font-vi text-slate-300 leading-relaxed font-medium">
-          Rèn luyện phản xạ với Chém Chữ Ninja & Bắt Cá Koi qua 25 bài Minna no Nihongo!
-        </p>
-
-        <div className="flex items-center justify-between pt-1 border-t border-slate-700 text-xs">
-          <span className="text-slate-400 text-[11px]">Kỷ lục cao nhất:</span>
-          <span className="font-pixel text-coin font-bold">{progress.highScore || 0} PTS</span>
-        </div>
-
-        <button
-          onClick={() => {
-            soundFX.playClick();
-            onOpenGame();
-          }}
-          className="w-full pixel-btn-sm py-2 bg-sakura hover:bg-sakura-light text-white font-vi text-xs font-black uppercase tracking-wider shadow-pixel-sm flex items-center justify-center gap-1.5 cursor-pointer"
-        >
-          <Gamepad2 className="w-4 h-4" />
-          <span>VÀO KHU TRÒ CHƠI</span>
-        </button>
-      </div>
-
-      {/* 4. Pro Tip Scroll */}
+      {/* 3. Pro Tip Scroll */}
       <div className="pixel-box-parchment p-3 bg-amber-50 border-2 border-retro-charcoal space-y-1">
         <div className="flex items-center gap-1.5 text-amber-900 font-vi text-xs font-black uppercase tracking-wide">
           <Lightbulb className="w-4 h-4 text-amber-600" />
