@@ -1,13 +1,11 @@
 import React, { useState, useMemo } from 'react';
-import { VocabItem, UserProgress } from '../../types/lesson';
+import { VocabItem } from '../../types/lesson';
 import { playJapaneseAudio } from '../../utils/audio';
 import { soundFX } from '../../utils/soundEffects';
-import { Volume2, Check, Sparkles, Search, Layers, BookOpen } from 'lucide-react';
+import { Volume2, Search, Layers, BookOpen } from 'lucide-react';
 
 interface VocabTabProps {
   vocabulary: VocabItem[];
-  progress: UserProgress;
-  onToggleMastered: (id: string) => void;
   onOpenFlashcard: (items: VocabItem[]) => void;
 }
 
@@ -44,21 +42,12 @@ function getJapanIcon(id: string, index: number) {
 
 export const VocabTab: React.FC<VocabTabProps> = ({
   vocabulary,
-  progress,
-  onToggleMastered,
   onOpenFlashcard,
 }) => {
-  const [filter, setFilter] = useState<'all' | 'unmastered' | 'mastered'>('all');
   const [searchTerm, setSearchTerm] = useState('');
-
-  const masteredSet = useMemo(() => new Set(progress.masteredVocabIds), [progress.masteredVocabIds]);
 
   const filteredItems = useMemo(() => {
     return vocabulary.filter((item) => {
-      const isMastered = masteredSet.has(item.id);
-      if (filter === 'unmastered' && isMastered) return false;
-      if (filter === 'mastered' && !isMastered) return false;
-
       if (!searchTerm) return true;
       const term = searchTerm.toLowerCase();
       return (
@@ -67,74 +56,41 @@ export const VocabTab: React.FC<VocabTabProps> = ({
         item.meaning.toLowerCase().includes(term)
       );
     });
-  }, [vocabulary, masteredSet, filter, searchTerm]);
-
-  const masteredCount = vocabulary.filter(v => masteredSet.has(v.id)).length;
+  }, [vocabulary, searchTerm]);
 
   return (
     <div className="space-y-4">
       
-      {/* Control bar: Filters, Search, Flashcard button */}
-      <div className="pixel-box p-3 bg-[#FFFDF7] flex flex-col md:flex-row items-stretch md:items-center justify-between gap-3">
+      {/* Control bar: Search & Flashcard button */}
+      <div className="pixel-box p-3 bg-[#FFFDF7] flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3">
         
-        {/* Filter buttons */}
-        <div className="flex items-center gap-1.5 flex-wrap">
-          <button
-            onClick={() => {
-              soundFX.playClick();
-              setFilter('all');
-            }}
-            className={`px-3 py-1.5 text-xs font-vi font-black uppercase tracking-wide border-2 border-retro-charcoal transition-all ${
-              filter === 'all'
-                ? 'bg-retro-charcoal text-white shadow-pixel-sm'
-                : 'bg-parchment hover:bg-parchment-dark text-retro-charcoal'
-            }`}
-          >
-            TẤT CẢ ({vocabulary.length})
-          </button>
-
-          <button
-            onClick={() => {
-              soundFX.playClick();
-              setFilter('unmastered');
-            }}
-            className={`px-3 py-1.5 text-xs font-vi font-black uppercase tracking-wide border-2 border-retro-charcoal transition-all ${
-              filter === 'unmastered'
-                ? 'bg-sakura text-white shadow-pixel-sm'
-                : 'bg-parchment hover:bg-parchment-dark text-retro-charcoal'
-            }`}
-          >
-            CHƯA THUỘC ({vocabulary.length - masteredCount})
-          </button>
-
-          <button
-            onClick={() => {
-              soundFX.playClick();
-              setFilter('mastered');
-            }}
-            className={`px-3 py-1.5 text-xs font-vi font-black uppercase tracking-wide border-2 border-retro-charcoal transition-all ${
-              filter === 'mastered'
-                ? 'bg-matcha text-white shadow-pixel-sm'
-                : 'bg-parchment hover:bg-parchment-dark text-retro-charcoal'
-            }`}
-          >
-            ĐÃ THUỘC ({masteredCount})
-          </button>
+        <div className="relative flex-1 max-w-md">
+          <Search className="w-4 h-4 absolute left-2.5 top-1/2 -translate-y-1/2 text-slate-400" />
+          <input
+            type="text"
+            placeholder="Tìm từ vựng, kanji, nghĩa..."
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+            className="w-full pl-8 pr-8 py-1.5 text-xs font-vi border-2 border-retro-charcoal bg-parchment focus:bg-white focus:outline-none"
+          />
+          {searchTerm && (
+            <button
+              onClick={() => setSearchTerm('')}
+              className="absolute right-2.5 top-1/2 -translate-y-1/2 text-xs text-slate-400 hover:text-slate-600 font-bold"
+              title="Xóa tìm kiếm"
+            >
+              ✕
+            </button>
+          )}
         </div>
 
-        {/* Right side: Search & Flashcard Toggle */}
-        <div className="flex items-center gap-2">
-          
-          <div className="relative flex-1 md:w-56">
-            <Search className="w-4 h-4 absolute left-2.5 top-1/2 -translate-y-1/2 text-slate-400" />
-            <input
-              type="text"
-              placeholder="Tìm từ vựng, kanji, nghĩa..."
-              value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full pl-8 pr-2 py-1.5 text-xs font-vi border-2 border-retro-charcoal bg-parchment focus:bg-white focus:outline-none"
-            />
-          </div>
+        {/* Right side: Count & Flashcard Toggle */}
+        <div className="flex items-center justify-between sm:justify-end gap-3">
+          <span className="text-xs font-retro text-slate-600">
+            {searchTerm
+              ? `Tìm thấy ${filteredItems.length} / ${vocabulary.length} từ`
+              : `${vocabulary.length} từ vựng trong bài`}
+          </span>
 
           <button
             onClick={() => {
@@ -147,7 +103,6 @@ export const VocabTab: React.FC<VocabTabProps> = ({
             <Layers className="w-3.5 h-3.5" />
             <span>FLASHCARD</span>
           </button>
-
         </div>
 
       </div>
@@ -155,67 +110,59 @@ export const VocabTab: React.FC<VocabTabProps> = ({
       {/* Grid of Vocabulary Pixel Cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3.5">
         {filteredItems.map((item, index) => {
-          const isMastered = masteredSet.has(item.id);
           const jpStamp = getJapanIcon(item.id, index);
 
           return (
             <div
               key={item.id}
-              className={`pixel-box p-4 transition-all relative group ${
-                isMastered
-                  ? 'bg-emerald-50/70 border-emerald-900/80'
-                  : 'bg-[#FFFDF7] hover:-translate-y-0.5'
-              }`}
+              className="pixel-box p-4 transition-all relative group bg-[#FFFDF7] hover:-translate-y-0.5 flex flex-col justify-between"
             >
-              {/* Type tag & Status */}
-              <div className="flex items-center justify-between mb-2">
-                <div className="flex items-center gap-1.5">
-                  {item.type && (
-                    <span className="font-vi font-bold text-[10px] px-2 py-0.5 bg-amber-100 border border-retro-charcoal text-retro-charcoal">
-                      {item.type}
-                    </span>
-                  )}
-                  {isMastered && (
-                    <span className="inline-flex items-center gap-1 font-vi font-black text-[10px] px-1.5 py-0.5 bg-matcha text-white border border-retro-charcoal">
-                      <Sparkles className="w-2.5 h-2.5" /> ĐÃ THUỘC
+              <div>
+                {/* Type tag & Audio */}
+                <div className="flex items-center justify-between mb-2">
+                  <div className="flex items-center gap-1.5">
+                    {item.type && (
+                      <span className="font-vi font-bold text-[10px] px-2 py-0.5 bg-amber-100 border border-retro-charcoal text-retro-charcoal">
+                        {item.type}
+                      </span>
+                    )}
+                  </div>
+
+                  {/* Audio button */}
+                  <button
+                    onClick={() => playJapaneseAudio(item.kanji || item.kana, item.audioUrl)}
+                    className="p-1.5 bg-parchment border-2 border-retro-charcoal hover:bg-coin hover:text-retro-charcoal active:translate-y-0.5 shadow-pixel-sm transition-colors"
+                    title="Nghe phát âm"
+                  >
+                    <Volume2 className="w-4 h-4 text-retro-charcoal" />
+                  </button>
+                </div>
+
+                {/* Japanese Kana & Kanji */}
+                <div className="flex items-baseline gap-2 mb-2">
+                  {item.kanji ? (
+                    <>
+                      <span className="font-jp text-2xl font-black text-retro-charcoal tracking-tight">
+                        {item.kanji}
+                      </span>
+                      <span className="font-jp text-sm text-slate-500 font-bold">
+                        【{item.kana}】
+                      </span>
+                    </>
+                  ) : (
+                    <span className="font-jp text-2xl font-black text-retro-charcoal">
+                      {item.kana}
                     </span>
                   )}
                 </div>
 
-                {/* Audio button */}
-                <button
-                  onClick={() => playJapaneseAudio(item.kanji || item.kana, item.audioUrl)}
-                  className="p-1.5 bg-parchment border-2 border-retro-charcoal hover:bg-coin hover:text-retro-charcoal active:translate-y-0.5 shadow-pixel-sm transition-colors"
-                  title="Nghe phát âm"
-                >
-                  <Volume2 className="w-4 h-4 text-retro-charcoal" />
-                </button>
+                {/* Vietnamese Meaning */}
+                <div className="text-sm font-vi text-slate-800 font-medium mb-3 leading-relaxed border-t border-dashed border-slate-200 pt-2">
+                  {item.meaning}
+                </div>
               </div>
 
-              {/* Japanese Kana & Kanji */}
-              <div className="flex items-baseline gap-2 mb-2">
-                {item.kanji ? (
-                  <>
-                    <span className="font-jp text-2xl font-black text-retro-charcoal tracking-tight">
-                      {item.kanji}
-                    </span>
-                    <span className="font-jp text-sm text-slate-500 font-bold">
-                      【{item.kana}】
-                    </span>
-                  </>
-                ) : (
-                  <span className="font-jp text-2xl font-black text-retro-charcoal">
-                    {item.kana}
-                  </span>
-                )}
-              </div>
-
-              {/* Vietnamese Meaning */}
-              <div className="text-sm font-vi text-slate-800 font-medium mb-4 leading-relaxed border-t border-dashed border-slate-200 pt-2">
-                {item.meaning}
-              </div>
-
-              {/* Card Footer: Japanese Cultural Stamp & Mastered toggle */}
+              {/* Card Footer: Japanese Cultural Stamp */}
               <div className="flex items-center justify-between pt-1">
                 <div 
                   className="flex items-center gap-1.5 text-xs text-slate-500 font-vi select-none group/stamp cursor-default"
@@ -228,18 +175,6 @@ export const VocabTab: React.FC<VocabTabProps> = ({
                     #{index + 1}
                   </span>
                 </div>
-
-                <button
-                  onClick={() => onToggleMastered(item.id)}
-                  className={`pixel-btn-sm px-3 py-1 text-[11px] font-vi font-bold flex items-center gap-1.5 transition-colors ${
-                    isMastered
-                      ? 'bg-matcha text-white border-retro-charcoal shadow-pixel-sm'
-                      : 'bg-parchment hover:bg-parchment-dark text-slate-700'
-                  }`}
-                >
-                  <Check className={`w-3.5 h-3.5 ${isMastered ? 'stroke-[3]' : ''}`} />
-                  <span>{isMastered ? 'Đã thuộc ✓' : 'Đánh dấu đã thuộc'}</span>
-                </button>
               </div>
             </div>
           );

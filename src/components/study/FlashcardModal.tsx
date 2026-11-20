@@ -1,20 +1,16 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { VocabItem, UserProgress } from '../../types/lesson';
+import { VocabItem } from '../../types/lesson';
 import { playJapaneseAudio } from '../../utils/audio';
 import { soundFX } from '../../utils/soundEffects';
-import { X, ChevronLeft, ChevronRight, Shuffle, RotateCw, Volume2, Check, Sparkles, Layers } from 'lucide-react';
+import { X, ChevronLeft, ChevronRight, Shuffle, RotateCw, Volume2, Layers } from 'lucide-react';
 
 interface FlashcardModalProps {
   items: VocabItem[];
-  progress: UserProgress;
-  onToggleMastered: (id: string) => void;
   onClose: () => void;
 }
 
 export const FlashcardModal: React.FC<FlashcardModalProps> = ({
   items,
-  progress,
-  onToggleMastered,
   onClose,
 }) => {
   const [deck, setDeck] = useState<VocabItem[]>(items);
@@ -28,7 +24,6 @@ export const FlashcardModal: React.FC<FlashcardModalProps> = ({
   }, [items]);
 
   const currentItem = deck[currentIndex];
-  const isMastered = currentItem ? progress.masteredVocabIds.includes(currentItem.id) : false;
 
   const handleFlip = useCallback(() => {
     soundFX.playClick();
@@ -72,8 +67,6 @@ export const FlashcardModal: React.FC<FlashcardModalProps> = ({
         handleFlip();
       } else if (e.key === 's' || e.key === 'S') {
         handlePlayAudio();
-      } else if (e.key === 'm' || e.key === 'M') {
-        if (currentItem) onToggleMastered(currentItem.id);
       } else if (e.key === 'Escape') {
         onClose();
       }
@@ -81,7 +74,7 @@ export const FlashcardModal: React.FC<FlashcardModalProps> = ({
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [handleNext, handlePrev, handleFlip, handlePlayAudio, currentItem, onToggleMastered, onClose]);
+  }, [handleNext, handlePrev, handleFlip, handlePlayAudio, onClose]);
 
   if (!currentItem) return null;
 
@@ -89,13 +82,13 @@ export const FlashcardModal: React.FC<FlashcardModalProps> = ({
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-2 sm:p-4 md:p-6 bg-retro-charcoal/85 backdrop-blur-md select-none overflow-y-auto">
-      
+
       {/* Expanded Modal Window (Almost width of main screen: max-w-5xl) */}
       <div className="w-full max-w-5xl bg-[#FAF3E0] border-4 border-retro-charcoal shadow-pixel-lg p-4 sm:p-6 md:p-8 flex flex-col relative my-auto">
-        
+
         {/* Header: Title, Progress count, and Quick Actions */}
         <div className="flex items-center justify-between border-b-3 border-retro-charcoal pb-3 sm:pb-4 mb-4 gap-3 flex-wrap">
-          
+
           <div className="flex items-center gap-3">
             <div className="w-8 h-8 sm:w-9 sm:h-9 bg-coin border-2 border-retro-charcoal flex items-center justify-center shadow-pixel-sm">
               <Layers className="w-4 h-4 sm:w-5 sm:h-5 text-retro-charcoal" />
@@ -152,11 +145,10 @@ export const FlashcardModal: React.FC<FlashcardModalProps> = ({
           className="w-full min-h-[380px] sm:min-h-[440px] md:min-h-[480px] cursor-pointer relative transition-transform duration-150 flex flex-col"
         >
           <div
-            className={`w-full flex-1 pixel-box p-6 sm:p-10 md:p-12 flex flex-col justify-between text-center transition-all ${
-              isFlipped
+            className={`w-full flex-1 pixel-box p-6 sm:p-10 md:p-12 flex flex-col justify-between text-center transition-all ${isFlipped
                 ? 'bg-amber-50/90 border-amber-950 shadow-pixel-lg'
                 : 'bg-[#FFFDF7] shadow-pixel-lg hover:-translate-y-0.5'
-            }`}
+              }`}
           >
             {/* Card Top Banner: Side Label + Audio Speaker */}
             <div className="w-full flex items-center justify-between border-b-2 border-dashed border-slate-300 pb-3">
@@ -237,25 +229,9 @@ export const FlashcardModal: React.FC<FlashcardModalProps> = ({
           </div>
         </div>
 
-        {/* Mastered toggle button */}
-        <div className="my-4 flex justify-center">
-          <button
-            onClick={() => onToggleMastered(currentItem.id)}
-            className={`pixel-btn px-6 py-2.5 text-xs sm:text-sm font-vi font-bold flex items-center gap-2 shadow-pixel transition-colors ${
-              isMastered
-                ? 'bg-matcha text-white border-retro-charcoal'
-                : 'bg-[#FFFDF7] hover:bg-parchment text-slate-800'
-            }`}
-            title="Đánh dấu đã thuộc từ này (Phím M)"
-          >
-            {isMastered ? <Sparkles className="w-4 h-4" /> : <Check className="w-4 h-4" />}
-            <span>{isMastered ? 'Đã thuộc từ này ✓' : 'Đánh dấu đã thuộc (Phím M)'}</span>
-          </button>
-        </div>
-
         {/* Footer Navigation Bar: Previous & Next Buttons */}
-        <div className="flex items-center justify-between gap-3 sm:gap-4 pt-3 border-t-3 border-retro-charcoal">
-          
+        <div className="flex items-center justify-between gap-3 sm:gap-4 mt-5 pt-3 border-t-3 border-retro-charcoal">
+
           <button
             onClick={handlePrev}
             className="pixel-btn bg-parchment hover:bg-parchment-dark text-retro-charcoal px-5 sm:px-8 py-3 text-xs sm:text-sm font-vi font-bold flex items-center justify-center gap-2 flex-1 shadow-pixel"

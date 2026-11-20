@@ -1,22 +1,15 @@
-import React, { useMemo } from 'react';
-import { GrammarItem, UserProgress } from '../../types/lesson';
+import React from 'react';
+import { GrammarItem } from '../../types/lesson';
 import { playJapaneseAudio } from '../../utils/audio';
-import { soundFX } from '../../utils/soundEffects';
-import { Volume2, Check, AlertTriangle, ScrollText, Sparkles, BookOpen } from 'lucide-react';
+import { Volume2, AlertTriangle, ScrollText, BookOpen } from 'lucide-react';
 
 interface GrammarTabProps {
   grammar: GrammarItem[];
-  progress: UserProgress;
-  onToggleMastered: (id: string) => void;
 }
 
 export const GrammarTab: React.FC<GrammarTabProps> = ({
   grammar,
-  progress,
-  onToggleMastered,
 }) => {
-  const masteredSet = useMemo(() => new Set(progress.masteredGrammarIds), [progress.masteredGrammarIds]);
-
   return (
     <div className="space-y-6">
       
@@ -35,49 +28,22 @@ export const GrammarTab: React.FC<GrammarTabProps> = ({
 
       {/* Stack of RPG Scroll / Dialogue blocks */}
       <div className="space-y-5">
-        {grammar.map((item, idx) => {
-          const isMastered = masteredSet.has(item.id);
-
-          return (
-            <div
-              key={item.id}
-              className={`pixel-dialogue p-4 md:p-6 transition-all ${
-                isMastered ? 'bg-emerald-50/70 border-emerald-900/80' : 'bg-[#FFFDF7]'
-              }`}
-            >
-              {/* Formula Banner Header */}
-              <div className="rpg-scroll-header -mx-4 -mt-4 md:-mx-6 md:-mt-6 p-3 md:p-4 mb-4 flex items-center justify-between border-b-3 border-retro-charcoal">
-                <div className="flex items-center gap-2 md:gap-3 flex-wrap">
-                  <span className="w-7 h-7 bg-retro-charcoal text-white font-pixel text-xs flex items-center justify-center border border-retro-charcoal shadow-pixel-sm shrink-0">
-                    {idx + 1}
-                  </span>
-                  <h4 className="font-jp font-bold text-base md:text-lg text-retro-charcoal tracking-wide">
-                    {item.pattern}
-                  </h4>
-                </div>
-
-                <div className="flex items-center gap-2">
-                  {isMastered && (
-                    <span className="hidden sm:inline-flex items-center gap-1 font-vi text-[11px] font-black px-2 py-0.5 bg-matcha text-white border border-retro-charcoal">
-                      <Sparkles className="w-3 h-3" /> ĐÃ THUỘC
-                    </span>
-                  )}
-                  <button
-                    onClick={() => {
-                      soundFX.playClick();
-                      onToggleMastered(item.id);
-                    }}
-                    className={`pixel-btn-sm px-3 py-1 text-xs font-vi font-bold flex items-center gap-1.5 transition-colors ${
-                      isMastered
-                        ? 'bg-matcha text-white'
-                        : 'bg-parchment hover:bg-parchment-dark text-slate-800'
-                    }`}
-                  >
-                    <Check className={`w-3.5 h-3.5 ${isMastered ? 'stroke-[3]' : ''}`} />
-                    <span className="hidden md:inline">{isMastered ? 'Đã hiểu ✓' : 'Đánh dấu đã hiểu'}</span>
-                  </button>
-                </div>
+        {grammar.map((item, idx) => (
+          <div
+            key={item.id}
+            className="pixel-dialogue p-4 md:p-6 transition-all bg-[#FFFDF7]"
+          >
+            {/* Formula Banner Header */}
+            <div className="rpg-scroll-header -mx-4 -mt-4 md:-mx-6 md:-mt-6 p-3 md:p-4 mb-4 flex items-center justify-between border-b-3 border-retro-charcoal">
+              <div className="flex items-center gap-2 md:gap-3 flex-wrap">
+                <span className="w-7 h-7 bg-retro-charcoal text-white font-pixel text-xs flex items-center justify-center border border-retro-charcoal shadow-pixel-sm shrink-0">
+                  {idx + 1}
+                </span>
+                <h4 className="font-jp font-bold text-base md:text-lg text-retro-charcoal tracking-wide">
+                  {item.pattern}
+                </h4>
               </div>
+            </div>
 
               {/* Explanation text */}
               <div className="mb-4">
@@ -144,9 +110,8 @@ export const GrammarTab: React.FC<GrammarTabProps> = ({
                 </div>
               )}
 
-            </div>
-          );
-        })}
+          </div>
+        ))}
       </div>
 
       {grammar.length === 0 && (
